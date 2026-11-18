@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="assets/icons/versions.png" width="84" alt="">
-
-# 🛰️ Roblox Datamining
-
-### Every Roblox build, API change, fast-flag flip, and chart shake-up — tracked automatically.
+<img src="assets/banner.png" alt="Roblox Datamining — every build, API change, flag flip & limited, tracked automatically" width="100%">
 
 <p>
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-7-3178C6?logo=typescript&logoColor=white">
@@ -17,6 +13,8 @@
 <em>No build step · snapshots commit to git · diffs post to Discord · proxy-ready</em>
 
 </div>
+
+# 🛰️ Roblox Datamining
 
 <!-- status:start -->
 <p align="center"><a href="https://github.com/Just3itx/Roblox-Datamining/actions/workflows/mine.yml"><img alt="Mine" src="https://github.com/Just3itx/Roblox-Datamining/actions/workflows/mine.yml/badge.svg"></a> <a href="https://github.com/Just3itx/Roblox-Datamining/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Just3itx/Roblox-Datamining/actions/workflows/ci.yml/badge.svg"></a> <a href="https://github.com/Just3itx/Roblox-Datamining/commits/main"><img alt="Last change" src="https://img.shields.io/github/last-commit/Just3itx/Roblox-Datamining?label=last%20change"></a></p>

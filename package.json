@@ -14,7 +14,8 @@
     "typecheck": "tsc",
     "test": "node --test \"src/**/*.test.ts\"",
     "check": "npm run typecheck && npm test",
-    "icons": "node scripts/generate-icons.mjs"
+    "icons": "node scripts/generate-icons.mjs",
+    "banner": "node scripts/generate-banner.mjs"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
