@@ -7,7 +7,7 @@ import { META_FILE } from './trackers/api-dump/index.ts';
 import { CATALOG_FILE, type TrackedItem } from './trackers/catalog.ts';
 import { FFLAG_APPS, flagFile, type Flags } from './trackers/fflags.ts';
 import type { Chart } from './trackers/games.ts';
-import { BINARIES, LIVE_FILE, type BinaryType, type LiveVersions } from './trackers/versions.ts';
+import { BINARIES, LIVE_FILE, prettyVersion, type BinaryType, type LiveVersions } from './trackers/versions.ts';
 
 const START = '<!-- status:start -->';
 const END = '<!-- status:end -->';
@@ -31,9 +31,9 @@ export async function buildStatus(store: Store, now: Date, repository = process.
   if (live) {
     const rows = (Object.keys(BINARIES) as BinaryType[]).flatMap((binary) => {
       const v = live[binary];
-      return v ? [[BINARIES[binary], mdCode(v.version), mdCode(v.clientVersionUpload)]] : [];
+      return v ? [[BINARIES[binary], mdCode(prettyVersion(v.version))]] : [];
     });
-    parts.push('### 🚀 Live builds', renderTable(['Binary', 'Version', 'Upload'], rows));
+    parts.push('### 🚀 Live builds', renderTable(['Binary', 'Version'], rows));
   }
 
   const highlights: string[][] = [];
