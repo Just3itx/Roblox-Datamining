@@ -13,5 +13,16 @@
     "catalog": "https://discord.com/api/webhooks/REPLACE/catalog-channel",
     "limiteds": "https://discord.com/api/webhooks/REPLACE/limiteds-channel",
     "watchlist": "https://discord.com/api/webhooks/REPLACE/watchlist-channel"
+  },
+  "emojis": {
+    "versions": "<:versions:000000000000000000>",
+    "deploy-history": "<:deploy_history:000000000000000000>",
+    "api-dump": "<:api_dump:000000000000000000>",
+    "luau": "<:luau:000000000000000000>",
+    "fflags": "<:fflags:000000000000000000>",
+    "games": "<:games:000000000000000000>",
+    "catalog": "<:catalog:000000000000000000>",
+    "limiteds": "<:limiteds:000000000000000000>",
+    "watchlist": "<:watchlist:000000000000000000>"
   }
 }

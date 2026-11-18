@@ -17,6 +17,13 @@ export interface DiscordConfig {
   avatarUrl?: string;
   /** Base URL for the per-tracker icons (…/<id>.png). Defaults to this repo's assets/icons on GitHub. */
   iconBaseUrl?: string;
+  /** Custom server emoji per tracker id, e.g. { "versions": "<:versions:123456789>" }. Used in the container header. */
+  emojis?: Record<string, string>;
+}
+
+/** The custom server emoji for a tracker if configured, else its default unicode icon. */
+function iconMarkup(config: DiscordConfig, section: { id: string; icon: string }): string {
+  return config.emojis?.[section.id] ?? section.icon;
 }
 
 /** Per-tracker avatar: the committed icon when we can build a URL, else the global avatar. */
@@ -117,8 +124,9 @@ function td(content: string): { type: number; content: string } {
 }
 
 /** Builds a Components V2 Container for one section, within the char budget. */
-export function sectionToContainer(section: Section, options: { now: Date; version?: string }): object {
-  const children: Array<object> = [td(`## ${section.icon} ${section.title}\n**${section.headline}**`)];
+export function sectionToContainer(section: Section, options: { now: Date; version?: string; icon?: string }): object {
+  const icon = options.icon ?? section.icon;
+  const children: Array<object> = [td(`## ${icon} ${section.title}\n**${section.headline}**`)];
   let budget = TOTAL_BUDGET - section.title.length - section.headline.length;
 
   for (const block of section.blocks) {
@@ -189,7 +197,7 @@ export async function postSections(
       username,
       ...(avatar ? { avatar_url: avatar } : {}),
       flags: V2_FLAG,
-      components: [sectionToContainer(section, options)],
+      components: [sectionToContainer(section, { ...options, icon: iconMarkup(config, section) })],
     });
     result.posted++;
   }
