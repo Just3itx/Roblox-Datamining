@@ -7,3 +7,6 @@ Thumbs.db
 # Discord webhook URLs are secrets — never commit them.
 discord.config.json
 .env
+
+# Proxy credentials for the Android tracker (stored as the APK_PROXIES secret instead).
+apk-proxies.txt

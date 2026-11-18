@@ -6,6 +6,8 @@ import { diffRecords } from '../core/diff.ts';
 import type { Block, Section } from '../core/report.ts';
 import { compareStrings, countLabel, errorMessage, escapeCell, formatNumber, plural } from '../core/text.ts';
 import { sortKeys } from '../core/store.ts';
+import { parseProxies } from './android.ts';
+import { decompile, LuacidBlocked } from './luacid.ts';
 import { extractScripts } from './rbxm.ts';
 import type { Tracker } from './types.ts';
 
@@ -13,6 +15,10 @@ import type { Tracker } from './types.ts';
 const RBXM_ROOT = 'android/apk';
 // path -> "L:<hash>" (plaintext) or "B:<hash>" (bytecode, pending decompile). Small + fully diffable.
 const MANIFEST_FILE = 'scripts/manifest.json';
+// path -> hash of the bytecode we've already decompiled to .lua (so unchanged scripts are never redone).
+const DECOMPILED_FILE = 'scripts/decompiled.json';
+const LUACID_MAX_BYTES = 512 * 1024; // keyless file cap
+const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
 /** Safe path segment: no "..", no leading slash, collapse odd chars. */
 const safe = (segment: string) => segment.replace(/[\\/]+/g, '_').replace(/\.\.+/g, '.').trim() || '_';
@@ -42,8 +48,12 @@ export const scriptsTracker: Tracker = {
 
     // Manifest keeps the repo small: raw bytecode (hundreds of MB) is NOT stored, only its hash.
     const manifest: Record<string, string> = {};
+    const decompiled = (await store.readJson<Record<string, string>>(DECOMPILED_FILE)) ?? {};
+    const budget = Math.max(0, Number(process.env.LUACID_BUDGET ?? '40') || 0);
+    const pending: Array<{ key: string; treePath: string; hash: string; content: Uint8Array }> = [];
     let plaintext = 0;
     let bytecode = 0;
+    let pendingTotal = 0;
 
     for (const rel of rbxmFiles) {
       let scripts: ReturnType<typeof extractScripts>;
@@ -57,15 +67,46 @@ export const scriptsTracker: Tracker = {
       for (const script of scripts) {
         const key = script.path.split('/').map(safe).join('/');
         if (key in manifest) continue; // duplicate tree path across models — keep first
+        const hash = hash12(script.content);
         if (script.kind === 'lua') {
           plaintext++;
-          manifest[key] = `L:${hash12(script.content)}`;
+          manifest[key] = `L:${hash}`;
           await store.writeText(luaPath(script.path), new TextDecoder().decode(script.content));
         } else {
           bytecode++;
-          manifest[key] = `B:${hash12(script.content)}`; // decompiled .lua filled in later by Luacid
+          manifest[key] = `B:${hash}`;
+          // Needs (re)decompiling if we haven't produced its current .lua yet.
+          // Strip the 8-byte header before the raw Luau bytecode that Luacid expects.
+          if (decompiled[key] !== hash && script.content.length > 8 && script.content.length <= LUACID_MAX_BYTES) {
+            pendingTotal++;
+            if (pending.length < budget) pending.push({ key, treePath: script.path, hash, content: script.content.subarray(8) });
+          }
         }
       }
+    }
+
+    // Decompile a bounded batch per run (Luacid keyless ~60/min), newest changes first.
+    let decompiledNow = 0;
+    if (budget > 0 && pending.length > 0) {
+      const key = process.env.LUACID_KEY;
+      const [proxy] = parseProxies(process.env.LUACID_PROXY); // default '' (direct); set to route past Cloudflare
+      log(`scripts: decompiling up to ${pending.length} script(s) via Luacid${key ? ' (keyed)' : ' (keyless)'}`);
+      for (const item of pending) {
+        try {
+          const source = await decompile(item.content, { ...(key ? { key } : {}), ...(proxy ? { proxy } : {}) });
+          await store.writeText(luaPath(item.treePath), source.endsWith('\n') ? source : `${source}\n`);
+          decompiled[item.key] = item.hash;
+          decompiledNow++;
+          await sleep(key ? 550 : 1100); // stay under the rate limit
+        } catch (error) {
+          if (error instanceof LuacidBlocked) {
+            warn(`scripts: Luacid unavailable, skipping decompile this run (${errorMessage(error)}). Set LUACID_KEY.`);
+            break;
+          }
+          warn(`scripts: decompile ${item.key}: ${errorMessage(error)}`);
+        }
+      }
+      if (decompiledNow > 0) await store.writeJson(DECOMPILED_FILE, sortKeys(decompiled));
     }
 
     const previous = (await store.readJson<Record<string, string>>(MANIFEST_FILE)) ?? {};
@@ -90,7 +131,17 @@ export const scriptsTracker: Tracker = {
     }
 
     const counts = { added: added.length, removed: removed.length, changed: changedContent.length };
-    if (!added.length && !removed.length && !changedContent.length) return null;
+    const decompileNote = pendingTotal
+      ? `\n\n🔓 Decompiled ${formatNumber(decompiledNow)} this run · ${formatNumber(Math.max(0, pendingTotal - decompiledNow))} still pending.`
+      : '';
+    if (!added.length && !removed.length && !changedContent.length) {
+      if (decompiledNow === 0) return null;
+      return {
+        id: 'scripts', icon: '📜', title: 'Client scripts', short: `📜 Decompiled ${formatNumber(decompiledNow)}`,
+        headline: `Decompiled ${formatNumber(decompiledNow)} script(s), ${formatNumber(Math.max(0, pendingTotal - decompiledNow))} pending`,
+        blocks: [{ type: 'text', text: 'Backfilling readable Luau via Luacid.' }],
+      } satisfies Section;
+    }
 
     const sample = (paths: string[], n = 25) =>
       paths.slice(0, n).map((p) => `- ${escapeCell(p.replace(/^scripts\//, ''))}`).join('\n') +
@@ -106,7 +157,7 @@ export const scriptsTracker: Tracker = {
       title: 'Client scripts',
       short: `📜 Scripts ${countLabel(counts)}`,
       headline: `${plural(added.length, 'script')} added, ${plural(changedContent.length, 'changed')}, ${plural(removed.length, 'removed')}`,
-      blocks,
+      blocks: decompileNote ? [...blocks, { type: 'text', text: decompileNote.trim() }] : blocks,
     } satisfies Section;
   },
 };

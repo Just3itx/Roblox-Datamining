@@ -26,28 +26,55 @@ interface AndroidMeta {
 }
 
 // APKPure fingerprints and 403s Node's fetch (TLS), but serves curl fine, so we shell out to curl.
+// APKPure also blocks datacenter IPs (incl. GitHub Actions), so an optional proxy list lets it run there.
 const run = promisify(execFile);
 
+/** Parses "host:port:user:pass" lines (env APK_PROXIES) into curl -x proxy URLs. "" = direct. */
+export function parseProxies(raw: string | undefined): string[] {
+  const list = (raw ?? '')
+    .split(/[\n,]+/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const [host, port, user, pass] = line.split(':');
+      if (!host || !port) return undefined;
+      return user && pass ? `http://${user}:${pass}@${host}:${port}` : `http://${host}:${port}`;
+    })
+    .filter((p): p is string => !!p);
+  return [...list, '']; // try each proxy, then direct
+}
+
+const proxyArgs = (proxy: string) => (proxy ? ['-x', proxy] : []);
+
 function parseVersion(text: string): string | undefined {
-  // The redirect target carries e.g. "filename=Roblox_2.747.1486_APKPure.apk".
+  // Only a real download redirect carries "filename=Roblox_2.747.1486…"; a bounce to the homepage doesn't.
+  if (!/winudf|filename=Roblox/i.test(text)) return undefined;
   return /Roblox[_ ]([0-9][0-9.]+)/.exec(text)?.[1];
 }
 
-/** Reads the APK version from the download redirect (no body) via curl's %{redirect_url}. */
-async function latestVersion(): Promise<string | undefined> {
-  const { stdout } = await run(
-    'curl',
-    ['-s', '-m', '40', '-A', UA, '-o', process.platform === 'win32' ? 'NUL' : '/dev/null', '-w', '%{redirect_url}', APK_URL],
-    { maxBuffer: 1 << 20 },
-  );
-  return parseVersion(decodeURIComponent(stdout));
+/** Finds a proxy (or direct) that APKPure serves, returning it with the current version. */
+async function resolveSource(proxies: string[]): Promise<{ proxy: string; version: string } | undefined> {
+  for (const proxy of proxies) {
+    try {
+      const { stdout } = await run(
+        'curl',
+        [...proxyArgs(proxy), '-s', '-m', '40', '-A', UA, '-o', process.platform === 'win32' ? 'NUL' : '/dev/null', '-w', '%{redirect_url}', APK_URL],
+        { maxBuffer: 1 << 20 },
+      );
+      const version = parseVersion(decodeURIComponent(stdout));
+      if (version) return { proxy, version };
+    } catch {
+      /* try the next proxy */
+    }
+  }
+  return undefined;
 }
 
-async function downloadApk(): Promise<Uint8Array> {
+async function downloadApk(proxy: string): Promise<Uint8Array> {
   const dir = await mkdtemp(join(tmpdir(), 'rbx-apk-'));
   const file = join(dir, 'roblox.apk');
   try {
-    await run('curl', ['-sL', '-m', '300', '-A', UA, '-o', file, APK_URL], { maxBuffer: 1 << 20 });
+    await run('curl', [...proxyArgs(proxy), '-sL', '-m', '600', '-A', UA, '-o', file, APK_URL], { maxBuffer: 1 << 20 });
     return new Uint8Array(await readFile(file));
   } finally {
     await rm(dir, { recursive: true, force: true }).catch(() => {});
@@ -61,25 +88,21 @@ export const androidTracker: Tracker = {
   description: 'Roblox Android app assets (configs, translations, .rbxm models, file manifest) from the APK.',
 
   async run({ store, now, log, warn }) {
-    let version: string | undefined;
-    try {
-      version = await latestVersion();
-    } catch (error) {
-      warn(`android: version check failed: ${errorMessage(error)}`);
+    const proxies = parseProxies(process.env.APK_PROXIES);
+    const source = await resolveSource(proxies).catch(() => undefined);
+    if (!source) {
+      warn('android: APKPure unreachable (datacenter IP blocked and no working proxy in APK_PROXIES)');
       return null;
     }
-    if (!version) {
-      warn('android: could not determine APK version');
-      return null;
-    }
+    const { proxy, version } = source;
 
     const meta = await store.readJson<AndroidMeta>(META_FILE);
     if (meta?.version === version) return null;
 
-    log(`android: new APK ${version} (was ${meta?.version ?? 'none'}) — downloading`);
+    log(`android: new APK ${version} (was ${meta?.version ?? 'none'}) — downloading${proxy ? ' via proxy' : ''}`);
     let apk: Uint8Array;
     try {
-      apk = await downloadApk();
+      apk = await downloadApk(proxy);
     } catch (error) {
       warn(`android: download failed: ${errorMessage(error)}`);
       return null;

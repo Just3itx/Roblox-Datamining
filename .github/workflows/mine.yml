@@ -48,7 +48,7 @@ jobs:
           case "$SCHEDULE" in
             "4,14,24,34,44,54 * * * *") TRACKERS="versions deploy-history api-dump luau fflags" ;;
             "")                         TRACKERS="$INPUT" ;;
-            *)                          TRACKERS="web games catalog limiteds watchlist" ;;
+            *)                          TRACKERS="android scripts web games catalog limiteds watchlist" ;;
           esac
           echo "trackers=$TRACKERS" >> "$GITHUB_OUTPUT"
 
@@ -62,6 +62,9 @@ jobs:
           # Optional repo variable, e.g. "roproxy.com,rotunnel.com", to route rate-limited
           # hosts through proxies (falls back to roblox.com). Leave unset to go direct.
           ROBLOX_PROXY: ${{ vars.ROBLOX_PROXY }}
+          # Proxy list (host:port:user:pass per line) so the Android APK download works from
+          # Actions' datacenter IPs, which APKPure otherwise blocks.
+          APK_PROXIES: ${{ secrets.APK_PROXIES }}
         # $TRACKERS is unquoted on purpose: one argument per tracker. The CLI rejects unknown names.
         run: |
           if [ -n "$DISCORD_CONFIG" ]; then
