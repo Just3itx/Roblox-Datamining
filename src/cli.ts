@@ -1,10 +1,12 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { parseArgs } from 'node:util';
+import { loadDiscordConfig, postProblems, postSections } from './core/discord.ts';
 import { createHttp } from './core/http.ts';
 import { renderCommitMessage, renderReport, type RunProblem, type Section } from './core/report.ts';
 import { Store } from './core/store.ts';
 import { errorMessage } from './core/text.ts';
+import { LIVE_FILE, type LiveVersions } from './trackers/versions.ts';
 import { updateReadme } from './readme.ts';
 import { TRACKERS } from './trackers/index.ts';
 import type { TrackerContext } from './trackers/types.ts';
@@ -21,6 +23,8 @@ Options:
   --data-dir <dir>  Snapshot directory (default: data)
   --out <dir>       Where report.md, commit-message.txt and result.json go (default: out)
   --readme <file>   README whose status block is refreshed on changes (default: README.md)
+  --discord         Post each change to its Discord webhook (reads --discord-config)
+  --discord-config  Path to the webhook config (default: discord.config.json)
   -h, --help        Show this help
 `;
 
@@ -40,6 +44,8 @@ async function main(): Promise<number> {
       'data-dir': { type: 'string', default: 'data' },
       out: { type: 'string', default: 'out' },
       readme: { type: 'string', default: 'README.md' },
+      discord: { type: 'boolean', default: false },
+      'discord-config': { type: 'string', default: 'discord.config.json' },
       help: { type: 'boolean', short: 'h', default: false },
     },
   });
@@ -107,6 +113,22 @@ async function main(): Promise<number> {
       2,
     )}\n`,
   );
+
+  if (values.discord && (sections.length || problems.length)) {
+    const config = await loadDiscordConfig(values['discord-config']);
+    if (!config) {
+      console.warn(`  ⚠️  --discord set but no config at ${values['discord-config']}`);
+    } else {
+      const version = (await context.store.readJson<LiveVersions>(LIVE_FILE))?.WindowsPlayer?.version;
+      try {
+        const result = await postSections(sections, config, { now: context.now, ...(version ? { version } : {}) });
+        await postProblems(problems, config, context.now);
+        console.log(`📣 Discord: posted ${result.posted}${result.skipped.length ? `, no webhook for ${result.skipped.join(', ')}` : ''}`);
+      } catch (error) {
+        console.warn(`  ⚠️  Discord posting failed: ${errorMessage(error)}`);
+      }
+    }
+  }
 
   console.log(
     `\n✨ ${sections.length ? `${sections.length} tracker(s) found changes` : 'Nothing new'} · ` +

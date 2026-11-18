@@ -1,0 +1,15 @@
+{
+  "username": "Roblox Datamining",
+  "avatarUrl": "",
+  "default": "",
+  "log": "https://discord.com/api/webhooks/REPLACE/with-your-log-webhook",
+  "trackers": {
+    "versions": "https://discord.com/api/webhooks/REPLACE/versions-channel",
+    "deploy-history": "https://discord.com/api/webhooks/REPLACE/versions-channel",
+    "api-dump": "https://discord.com/api/webhooks/REPLACE/api-dump-channel",
+    "luau": "https://discord.com/api/webhooks/REPLACE/lua-scripts-channel",
+    "fflags": "https://discord.com/api/webhooks/REPLACE/fast-flags-channel",
+    "games": "https://discord.com/api/webhooks/REPLACE/game-charts-channel",
+    "catalog": "https://discord.com/api/webhooks/REPLACE/catalog-channel"
+  }
+}

@@ -39,7 +39,9 @@ Written in TypeScript · runs on GitHub Actions · every change lands as a reada
 | | Tracker | What you get | Source | Cadence |
 | --- | --- | --- | --- | --- |
 | 🚀 | **Client versions** | Live Player and Studio builds for Windows and Mac, plus a history log | `clientsettings.roblox.com` | every 10 min |
+| 📦 | **Deploy history** | Full deploy log across the LIVE, zcanary and znext channels | `setup.rbxcdn.com` | every 10 min |
 | 🧩 | **API dump** | `Full-API-Dump.json` per Studio build, with a class-by-class diff of every member, enum and tag | `setup.rbxcdn.com` | every 10 min (downloads only on new builds) |
+| 📜 | **CoreScripts (Luau)** | Which client Luau/CoreScript files changed each build, with links to the diff | `MaximumADHD/Roblox-Client-Tracker` | every 10 min |
 | 🚩 | **Fast flags** | Every FFlag / FInt / FString / FLog for 9 apps, merged so one change across many apps is listed once | `clientsettingscdn.roblox.com` | every 10 min |
 | 🎮 | **Experience charts** | Top Trending, Up-and-Coming, Top Playing Now, …: who entered and who left | `apis.roblox.com/explore-api` | every 3 h |
 | 🛍️ | **Roblox catalog** | New items from the Roblox account, plus price and stock changes | `catalog.roblox.com` | every 3 h |
@@ -50,6 +52,7 @@ Each change produces:
 - 💬 a **commit comment** with the full report: tables, collapsible `diff` blocks and links
 - 🗂️ updated snapshots under [`data/`](data), so `git log -p` and GitHub's history view work as a changelog
 - 📝 an archived API changelog per build in [`data/api-dump/changes/`](data/api-dump/changes)
+- 🔔 an optional **Discord** post per tracker, to its own channel (see below)
 
 <details>
 <summary><b>Example: an API dump change</b></summary>
@@ -99,6 +102,31 @@ npm run check                # typecheck + tests
 
 Output goes to `data/` (snapshots) and `out/` (the report, the commit message and `result.json`). Use `--data-dir` and `--out` to point them somewhere else.
 
+## 🔔 Discord webhooks (runs on your computer)
+
+The miner can post each change to a Discord channel. Webhook URLs are **secrets**, so they live in a local, git-ignored config instead of on GitHub — which is why the Discord side runs on your own machine.
+
+1. In Discord, make a category with one channel per tracker group and a webhook in each (**Channel → Edit → Integrations → Webhooks**).
+2. Copy [`discord.config.example.json`](discord.config.example.json) to `discord.config.json` and paste each webhook URL in. A tracker with no URL (and no `default`) is simply skipped.
+3. Run with `--discord`:
+
+   ```bash
+   node src/cli.ts --discord            # mine everything, post changes
+   ```
+
+Each changed tracker posts one colour-coded embed to its channel; run problems go to the optional `log` webhook.
+
+### Scheduling it (Windows)
+
+[`scripts/run-local.ps1`](scripts/run-local.ps1) pulls, mines with `--discord`, commits and pushes. [`scripts/install-task.ps1`](scripts/install-task.ps1) registers two Task Scheduler jobs (fast + slow) that run it:
+
+```powershell
+pwsh scripts/install-task.ps1                 # install (fast every 15 min, slow every 3 h)
+pwsh scripts/install-task.ps1 -Uninstall      # remove
+```
+
+> Run the miner from **one** place to avoid double Discord posts: either the local tasks **or** the GitHub Actions cron. Disable the other (comment out the `schedule:` in [`mine.yml`](.github/workflows/mine.yml), or don't install the tasks).
+
 ## 🤖 Working with GitHub Copilot
 
 This repo is set up for the [Copilot coding agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent):
@@ -112,10 +140,11 @@ This repo is set up for the [Copilot coding agent](https://docs.github.com/en/co
 
 ```
 src/
-  cli.ts               entry point: runs trackers, writes out/
+  cli.ts               entry point: runs trackers, writes out/, posts to Discord
   readme.ts            rewrites the status block above
-  core/                http (retries, rate limits) · store · diff · report rendering
+  core/                http · store · diff · report rendering · discord
   trackers/            one file (or folder) per data source
+scripts/               run-local.ps1 + install-task.ps1 (local scheduling)
 data/                  mined snapshots (generated, never hand-edited)
 .github/               workflows, Copilot instructions, issue templates
 ```

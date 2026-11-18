@@ -26,9 +26,13 @@ src/core/http.ts        fetch with retries, 429 handling, and per-run de-duplica
 src/core/store.ts       read/write JSON under data/; skips writes when content is unchanged
 src/core/diff.ts        generic record diff (sorted, deterministic)
 src/core/report.ts      Section/Block model → markdown (keeps output under GitHub's 65,536-char comment limit)
+src/core/discord.ts     renders a Section into a Discord embed and posts it (opt-in via --discord)
 src/core/text.ts        formatting and markdown-escaping helpers
 src/trackers/*.ts       one tracker per data source, registered in src/trackers/index.ts
+scripts/*.ps1           local runner + Windows Task Scheduler install (for the Discord side)
 ```
+
+Trackers: `versions`, `deploy-history`, `api-dump`, `luau`, `fflags`, `games`, `catalog`. The `luau` tracker reads the `MaximumADHD/Roblox-Client-Tracker` mirror (desktop CoreScripts aren't on the CDN) and uses `GITHUB_TOKEN`/`GH_TOKEN` when present for a higher rate limit. Discord webhook URLs live only in a git-ignored `discord.config.json` — never commit them or read them into any other output.
 
 ### Adding a tracker
 

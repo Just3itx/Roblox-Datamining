@@ -1,8 +1,8 @@
 export interface Http {
-  /** GET a URL and parse it as JSON. Repeated calls for one URL share a single request per run. */
-  json<T>(url: string): Promise<T>;
-  /** GET a URL as text. Repeated calls for one URL share a single request per run. */
-  text(url: string): Promise<string>;
+  /** GET a URL and parse it as JSON. Repeated calls for one URL (and headers) share a single request per run. */
+  json<T>(url: string, headers?: Record<string, string>): Promise<T>;
+  /** GET a URL as text. Repeated calls for one URL (and headers) share a single request per run. */
+  text(url: string, headers?: Record<string, string>): Promise<string>;
 }
 
 export interface HttpOptions {
@@ -42,12 +42,12 @@ export function createHttp(options: HttpOptions = {}): Http {
   } = options;
   const inflight = new Map<string, Promise<string>>();
 
-  async function fetchText(url: string): Promise<string> {
+  async function fetchText(url: string, headers: Record<string, string>): Promise<string> {
     for (let attempt = 0; ; attempt++) {
       let response: Response;
       try {
         response = await fetch(url, {
-          headers: { 'user-agent': userAgent, accept: 'application/json, text/plain, */*' },
+          headers: { 'user-agent': userAgent, accept: 'application/json, text/plain, */*', ...headers },
           signal: AbortSignal.timeout(timeoutMs),
         });
       } catch (error) {
@@ -65,20 +65,21 @@ export function createHttp(options: HttpOptions = {}): Http {
     }
   }
 
-  function text(url: string): Promise<string> {
-    let pending = inflight.get(url);
+  function text(url: string, headers: Record<string, string> = {}): Promise<string> {
+    const key = `${url}\u0000${JSON.stringify(headers)}`;
+    let pending = inflight.get(key);
     if (!pending) {
-      pending = fetchText(url);
-      inflight.set(url, pending);
-      pending.catch(() => inflight.delete(url));
+      pending = fetchText(url, headers);
+      inflight.set(key, pending);
+      pending.catch(() => inflight.delete(key));
     }
     return pending;
   }
 
   return {
     text,
-    async json<T>(url: string): Promise<T> {
-      return JSON.parse(await text(url)) as T;
+    async json<T>(url: string, headers?: Record<string, string>): Promise<T> {
+      return JSON.parse(await text(url, headers)) as T;
     },
   };
 }

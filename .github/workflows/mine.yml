@@ -40,7 +40,7 @@ jobs:
           INPUT: ${{ inputs.trackers }}
         run: |
           case "$SCHEDULE" in
-            "*/10 * * * *") TRACKERS="versions api-dump fflags" ;;
+            "*/10 * * * *") TRACKERS="versions deploy-history api-dump luau fflags" ;;
             "")             TRACKERS="$INPUT" ;;
             *)              TRACKERS="games catalog" ;;
           esac
@@ -49,6 +49,8 @@ jobs:
       - name: Mine
         env:
           TRACKERS: ${{ steps.pick.outputs.trackers }}
+          # Lets the luau tracker call the GitHub API at the authenticated rate.
+          GITHUB_TOKEN: ${{ github.token }}
         # $TRACKERS is unquoted on purpose: one argument per tracker. The CLI rejects unknown names.
         run: node src/cli.ts $TRACKERS
 

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "mine": "node src/cli.ts",
-    "mine:fast": "node src/cli.ts versions api-dump fflags",
+    "mine:fast": "node src/cli.ts versions deploy-history api-dump luau fflags",
     "mine:slow": "node src/cli.ts games catalog",
     "typecheck": "tsc",
     "test": "node --test \"src/**/*.test.ts\"",
@@ -18,5 +18,8 @@
   "devDependencies": {
     "@types/node": "^24.19.2",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "fflate": "0.8.2"
   }
 }
