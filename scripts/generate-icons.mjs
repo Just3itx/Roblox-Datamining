@@ -4,7 +4,8 @@ import { dirname, join, resolve } from 'node:path';
 import { Resvg } from '@resvg/resvg-js';
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const outputDir = join(projectRoot, 'assets', 'icons');
+const iconDir = join(projectRoot, 'assets', 'icons');
+const emojiDir = join(projectRoot, 'assets', 'emoji');
 
 // All glyphs share a 128 px visual area and the same rounded 14 px stroke.
 const icons = [
@@ -42,8 +43,8 @@ const icons = [
     glyph: `
       <path d="M87 98h82c19 0 29 11 34 35l8 36c3 15-12 24-24 15l-24-20H93l-24 20c-12 9-27 0-24-15l8-36c5-24 15-35 34-35Z"/>
       <path d="M80 130h32m-16-16v32"/>
-      <circle cx="159" cy="124" r="4" fill="white" stroke="none"/>
-      <circle cx="179" cy="142" r="4" fill="white" stroke="none"/>`,
+      <circle cx="159" cy="124" r="4" fill="currentColor" stroke="none"/>
+      <circle cx="179" cy="142" r="4" fill="currentColor" stroke="none"/>`,
   },
   {
     id: 'catalog', color: '#ec4899',
@@ -68,15 +69,28 @@ const icons = [
 function svgFor({ color, glyph }) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
     <rect width="256" height="256" rx="56" fill="${color}"/>
-    <g fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">${glyph}</g>
+    <g color="#fff" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">${glyph}</g>
   </svg>`;
 }
 
-await mkdir(outputDir, { recursive: true });
+function emojiSvgFor({ color, glyph }) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 256 256">
+    <g transform="translate(128 128) scale(0.9) translate(-128 -128)"
+       color="${color}" fill="none" stroke="${color}" stroke-width="18"
+       stroke-linecap="round" stroke-linejoin="round">${glyph}</g>
+  </svg>`;
+}
+
+await Promise.all([mkdir(iconDir, { recursive: true }), mkdir(emojiDir, { recursive: true })]);
 for (const icon of icons) {
-  const png = new Resvg(svgFor(icon), { fitTo: { mode: 'width', value: 256 } }).render().asPng();
-  const path = join(outputDir, `${icon.id}.png`);
-  await writeFile(path, png);
-  const { size } = await stat(path);
-  console.log(`assets/icons/${icon.id}.png  ${size} bytes`);
+  for (const [dir, svg, size] of [
+    [iconDir, svgFor(icon), 256],
+    [emojiDir, emojiSvgFor(icon), 128],
+  ]) {
+    const png = new Resvg(svg, { fitTo: { mode: 'width', value: size } }).render().asPng();
+    const path = join(dir, `${icon.id}.png`);
+    await writeFile(path, png);
+    const { size: bytes } = await stat(path);
+    console.log(`${dir === iconDir ? 'assets/icons' : 'assets/emoji'}/${icon.id}.png  ${bytes} bytes`);
+  }
 }
