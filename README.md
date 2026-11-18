@@ -104,28 +104,19 @@ Output goes to `data/` (snapshots) and `out/` (the report, the commit message an
 
 ## 🔔 Discord webhooks (runs on your computer)
 
-The miner can post each change to a Discord channel. Webhook URLs are **secrets**, so they live in a local, git-ignored config instead of on GitHub — which is why the Discord side runs on your own machine.
+The miner posts each change to a Discord channel, one colour-coded embed per tracker. Webhook URLs are **secrets**, so they never live in the repo.
 
-1. In Discord, make a category with one channel per tracker group and a webhook in each (**Channel → Edit → Integrations → Webhooks**).
-2. Copy [`discord.config.example.json`](discord.config.example.json) to `discord.config.json` and paste each webhook URL in. A tracker with no URL (and no `default`) is simply skipped.
-3. Run with `--discord`:
+First, in Discord, make a category with one channel per tracker group and a webhook in each (**Channel → Edit → Integrations → Webhooks**), then fill a config from [`discord.config.example.json`](discord.config.example.json). A tracker with no URL (and no `default`) is simply skipped.
 
-   ```bash
-   node src/cli.ts --discord            # mine everything, post changes
-   ```
+**On GitHub Actions (default):** store the whole config as a repo secret named `DISCORD_CONFIG`, and the [Mine workflow](.github/workflows/mine.yml) writes it out and runs with `--discord` automatically:
 
-Each changed tracker posts one colour-coded embed to its channel; run problems go to the optional `log` webhook.
-
-### Scheduling it (Windows)
-
-[`scripts/run-local.ps1`](scripts/run-local.ps1) pulls, mines with `--discord`, commits and pushes. [`scripts/install-task.ps1`](scripts/install-task.ps1) registers two Task Scheduler jobs (fast + slow) that run it:
-
-```powershell
-pwsh scripts/install-task.ps1                 # install (fast every 15 min, slow every 3 h)
-pwsh scripts/install-task.ps1 -Uninstall      # remove
+```bash
+gh secret set DISCORD_CONFIG < discord.config.json
 ```
 
-> Run the miner from **one** place to avoid double Discord posts: either the local tasks **or** the GitHub Actions cron. Disable the other (comment out the `schedule:` in [`mine.yml`](.github/workflows/mine.yml), or don't install the tasks).
+**Locally:** save the config as `discord.config.json` (git-ignored) and run `node src/cli.ts --discord`. [`scripts/run-local.ps1`](scripts/run-local.ps1) + [`scripts/install-task.ps1`](scripts/install-task.ps1) can schedule it via Windows Task Scheduler if you ever want to mine from your own PC instead.
+
+> Run the miner from **one** place to avoid double posts — the Actions cron **or** local tasks, not both.
 
 ## 🤖 Working with GitHub Copilot
 

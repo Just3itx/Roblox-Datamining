@@ -51,8 +51,16 @@ jobs:
           TRACKERS: ${{ steps.pick.outputs.trackers }}
           # Lets the luau tracker call the GitHub API at the authenticated rate.
           GITHUB_TOKEN: ${{ github.token }}
+          # Optional: full discord.config.json contents, stored as a repo secret.
+          DISCORD_CONFIG: ${{ secrets.DISCORD_CONFIG }}
         # $TRACKERS is unquoted on purpose: one argument per tracker. The CLI rejects unknown names.
-        run: node src/cli.ts $TRACKERS
+        run: |
+          if [ -n "$DISCORD_CONFIG" ]; then
+            printf '%s' "$DISCORD_CONFIG" > discord.config.json   # git-ignored, never committed
+            node src/cli.ts $TRACKERS --discord
+          else
+            node src/cli.ts $TRACKERS
+          fi
 
       - name: Commit and push
         id: commit
