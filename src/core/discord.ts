@@ -15,6 +15,16 @@ export interface DiscordConfig {
   log?: string;
   username?: string;
   avatarUrl?: string;
+  /** Base URL for the per-tracker icons (…/<id>.png). Defaults to this repo's assets/icons on GitHub. */
+  iconBaseUrl?: string;
+}
+
+/** Per-tracker avatar: the committed icon when we can build a URL, else the global avatar. */
+function avatarFor(config: DiscordConfig, trackerId: string): string | undefined {
+  const base =
+    config.iconBaseUrl ??
+    (process.env.GITHUB_REPOSITORY ? `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/main/assets/icons` : undefined);
+  return base ? `${base.replace(/\/$/, '')}/${trackerId}.png` : config.avatarUrl;
 }
 
 /** Roblox-ish accent colors per tracker (Discord embed color is a decimal int). */
@@ -166,7 +176,7 @@ export async function postSections(
   options: { now: Date; version?: string },
 ): Promise<DiscordResult> {
   const result: DiscordResult = { posted: 0, skipped: [] };
-  const base = { username: config.username ?? 'Roblox Datamining', ...(config.avatarUrl ? { avatar_url: config.avatarUrl } : {}) };
+  const username = config.username ?? 'Roblox Datamining';
 
   for (const section of sections) {
     const url = webhookFor(config, section.id);
@@ -174,7 +184,13 @@ export async function postSections(
       result.skipped.push(section.id);
       continue;
     }
-    await post(withComponents(url), { ...base, flags: V2_FLAG, components: [sectionToContainer(section, options)] });
+    const avatar = avatarFor(config, section.id);
+    await post(withComponents(url), {
+      username,
+      ...(avatar ? { avatar_url: avatar } : {}),
+      flags: V2_FLAG,
+      components: [sectionToContainer(section, options)],
+    });
     result.posted++;
   }
   return result;
