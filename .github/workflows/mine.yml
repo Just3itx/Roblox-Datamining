@@ -48,7 +48,7 @@ jobs:
           case "$SCHEDULE" in
             "4,14,24,34,44,54 * * * *") TRACKERS="versions deploy-history api-dump luau fflags" ;;
             "")                         TRACKERS="$INPUT" ;;
-            *)                          TRACKERS="android web games catalog limiteds watchlist" ;;
+            *)                          TRACKERS="web games catalog limiteds watchlist" ;;
           esac
           echo "trackers=$TRACKERS" >> "$GITHUB_OUTPUT"
 

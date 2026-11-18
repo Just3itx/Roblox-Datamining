@@ -80,7 +80,7 @@
 | 📜 | **CoreScripts (Luau)** | `MaximumADHD/Roblox-Client-Tracker` | ~10 min |
 | 🚩 | **Fast flags** | `clientsettingscdn.roblox.com` | ~10 min |
 | 🌐 | **Website CSS/JS** | `css`/`js.rbxcdn.com` · `create.roblox.com` | every 3 h |
-| 🤖 | **Android APK** | APKPure (`com.roblox.client`) | every 3 h (downloads only on new APK) |
+| 🤖 | **Android APK** | APKPure (`com.roblox.client`) | **local only** — APKPure 403s datacenter IPs, so run `npm run mine:android` from a home IP / the local task, not GitHub Actions |
 | 🎮 | **Experience charts** | `apis.roblox.com/explore-api` | every 3 h |
 | 🛍️ | **Roblox catalog** | `catalog` + `economy.roblox.com` | every 3 h |
 | 🔴 | **Limited items** | `catalog.roblox.com` | every 3 h |
