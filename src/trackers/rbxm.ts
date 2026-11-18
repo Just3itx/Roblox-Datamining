@@ -13,9 +13,26 @@ const PROP_BYTECODE = 0x1d; // Roblox's protected/compiled source type
 export interface RbxmScript {
   className: string;
   name: string;
+  /** Full instance path, e.g. "UniversalApp/Packages/ApolloClient". */
+  path: string;
   /** 'lua' = plaintext source; 'bytecode' = compiled Luau (needs a decompiler). */
   kind: 'lua' | 'bytecode';
   content: Uint8Array;
+}
+
+/** Decodes an interleaved, accumulated int32 referent array (Roblox's binary encoding). */
+function readReferents(data: Buffer, offset: number, count: number): number[] {
+  const out = new Array<number>(count);
+  for (let i = 0; i < count; i++) {
+    const b0 = data[offset + i]!;
+    const b1 = data[offset + count + i]!;
+    const b2 = data[offset + 2 * count + i]!;
+    const b3 = data[offset + 3 * count + i]!;
+    const raw = ((b0 << 24) | (b1 << 16) | (b2 << 8) | b3) >>> 0;
+    out[i] = (raw >>> 1) ^ -(raw & 1); // un-zigzag
+  }
+  for (let i = 1; i < count; i++) out[i]! += out[i - 1]!; // accumulate deltas
+  return out;
 }
 
 /** LZ4 block decompression (older rbxm chunks). Newer ones use zstd, handled separately. */
@@ -51,9 +68,10 @@ export function extractScripts(file: Buffer): RbxmScript[] {
   if (file.toString('latin1', 0, 8) !== RBXM_MAGIC) throw new Error('not an rbxm (bad magic)');
 
   let p = 8 + 6 + 2 + 4 + 4 + 8; // magic + signature + version + classCount + instanceCount + reserved
-  const classes = new Map<number, { className: string; count: number }>();
-  const names = new Map<number, string[]>();
-  const sources = new Map<number, Array<{ kind: 'lua' | 'bytecode'; content: Uint8Array }>>();
+  const classes = new Map<number, { className: string; refs: number[] }>();
+  const nameByRef = new Map<number, string>();
+  const parentByRef = new Map<number, number>();
+  const sourceByRef = new Map<number, { kind: 'lua' | 'bytecode'; content: Uint8Array }>();
 
   while (p + 16 <= file.length) {
     const tag = file.toString('latin1', p, p + 4);
@@ -64,7 +82,7 @@ export function extractScripts(file: Buffer): RbxmScript[] {
     const raw = file.subarray(p, p + (comp || uncomp));
     p += comp || uncomp;
     if (tag === 'END\0') break;
-    if (tag !== 'INST' && tag !== 'PROP') continue; // skip META, SSTR, PRNT, etc.
+    if (tag !== 'INST' && tag !== 'PROP' && tag !== 'PRNT') continue; // skip META, SSTR
 
     const data = decompress(Buffer.from(raw), uncomp);
 
@@ -74,45 +92,61 @@ export function extractScripts(file: Buffer): RbxmScript[] {
       const nameLen = data.readUInt32LE(o); o += 4;
       const className = data.toString('latin1', o, o + nameLen); o += nameLen;
       o += 1; // objectFormat
-      const count = data.readUInt32LE(o);
-      classes.set(classId, { className, count });
+      const count = data.readUInt32LE(o); o += 4;
+      classes.set(classId, { className, refs: readReferents(data, o, count) });
       continue;
     }
 
-    // PROP
+    if (tag === 'PRNT') {
+      let o = 1; // version byte
+      const count = data.readUInt32LE(o); o += 4;
+      const children = readReferents(data, o, count);
+      const parents = readReferents(data, o + count * 4, count);
+      for (let i = 0; i < count; i++) parentByRef.set(children[i]!, parents[i]!);
+      continue;
+    }
+
+    // PROP — Name for every class (needed for path), Source for script classes.
     let o = 0;
     const classId = data.readUInt32LE(o); o += 4;
     const nameLen = data.readUInt32LE(o); o += 4;
     const propName = data.toString('latin1', o, o + nameLen); o += nameLen;
     const propType = data[o]; o += 1;
     const cls = classes.get(classId);
-    if (!cls || !SCRIPT_CLASSES.has(cls.className)) continue;
+    if (!cls) continue;
 
     if (propName === 'Name' && propType === PROP_STRING) {
-      const list: string[] = [];
-      for (let i = 0; i < cls.count; i++) {
+      for (let i = 0; i < cls.refs.length; i++) {
         const len = data.readUInt32LE(o); o += 4;
-        list.push(data.toString('utf8', o, o + len)); o += len;
+        nameByRef.set(cls.refs[i]!, data.toString('utf8', o, o + len)); o += len;
       }
-      names.set(classId, list);
-    } else if (propName === 'Source' && (propType === PROP_STRING || propType === PROP_BYTECODE)) {
-      const list: Array<{ kind: 'lua' | 'bytecode'; content: Uint8Array }> = [];
+    } else if (propName === 'Source' && SCRIPT_CLASSES.has(cls.className) && (propType === PROP_STRING || propType === PROP_BYTECODE)) {
       const kind = propType === PROP_STRING ? 'lua' : 'bytecode';
-      for (let i = 0; i < cls.count; i++) {
+      for (let i = 0; i < cls.refs.length; i++) {
         const len = data.readUInt32LE(o); o += 4;
-        list.push({ kind, content: data.subarray(o, o + len) }); o += len;
+        sourceByRef.set(cls.refs[i]!, { kind, content: data.subarray(o, o + len) }); o += len;
       }
-      sources.set(classId, list);
     }
   }
 
+  const pathOf = (ref: number): string => {
+    const parts: string[] = [];
+    for (let r = ref, guard = 0; r !== undefined && r >= 0 && guard < 100; guard++) {
+      parts.unshift(nameByRef.get(r) ?? String(r));
+      const parent = parentByRef.get(r);
+      if (parent === undefined || parent < 0) break;
+      r = parent;
+    }
+    return parts.join('/');
+  };
+
   const scripts: RbxmScript[] = [];
   for (const [classId, cls] of classes) {
-    const src = sources.get(classId);
-    if (!src) continue;
-    const nameList = names.get(classId) ?? [];
-    for (let i = 0; i < src.length; i++) {
-      scripts.push({ className: cls.className, name: nameList[i] ?? `${cls.className}_${i}`, kind: src[i]!.kind, content: src[i]!.content });
+    if (!SCRIPT_CLASSES.has(cls.className)) continue;
+    for (const ref of cls.refs) {
+      const src = sourceByRef.get(ref);
+      if (!src) continue;
+      scripts.push({ className: cls.className, name: nameByRef.get(ref) ?? String(ref), path: pathOf(ref), kind: src.kind, content: src.content });
     }
   }
   return scripts;
