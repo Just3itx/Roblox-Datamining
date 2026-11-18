@@ -1,0 +1,22 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-18T23:41:15Z
+-- Luau bytecode version: 9 | Luau type version: 3
+return {
+    UNKNOWN_ERROR = -1,
+    OK = 200,
+    NO_CONTENT = 204,
+    BAD_REQUEST = 400,
+    UNAUTHORIZED = 401,
+    FORBIDDEN = 403,
+    NOT_FOUND = 404,
+    REQUEST_TIMEOUT = 408,
+    CONFLICT = 409,
+    TOO_MANY_REQUESTS = 429,
+    INTERNAL_SERVER_ERROR = 500,
+    NOT_IMPLEMENTED = 501,
+    BAD_GATEWAY = 502,
+    SERVICE_UNAVAILABLE = 503,
+    GATEWAY_TIMEOUT = 504,
+    VARIANT_ALSO_NEGOTIATES = 506,
+    INSUFFICIENT_STORAGE = 507,
+    LOOP_DETECTED = 508
+}
