@@ -1,0 +1,22 @@
+{
+  "name": "roblox-datamining",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automated tracker for Roblox client builds, the engine API dump, fast flags, and public game/catalog data.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "mine": "node src/cli.ts",
+    "mine:fast": "node src/cli.ts versions api-dump fflags",
+    "mine:slow": "node src/cli.ts games catalog",
+    "typecheck": "tsc",
+    "test": "node --test \"src/**/*.test.ts\"",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  }
+}

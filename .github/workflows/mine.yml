@@ -1,0 +1,84 @@
+name: Mine
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # versions, api-dump, fflags
+    - cron: "23 */3 * * *" # games, catalog
+  workflow_dispatch:
+    inputs:
+      trackers:
+        description: "Trackers to run, space-separated (blank = all): versions api-dump fflags games catalog"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+# One miner at a time, so pushes never race each other.
+concurrency:
+  group: mine
+  cancel-in-progress: false
+
+jobs:
+  mine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Pick trackers
+        id: pick
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT: ${{ inputs.trackers }}
+        run: |
+          case "$SCHEDULE" in
+            "*/10 * * * *") TRACKERS="versions api-dump fflags" ;;
+            "")             TRACKERS="$INPUT" ;;
+            *)              TRACKERS="games catalog" ;;
+          esac
+          echo "trackers=$TRACKERS" >> "$GITHUB_OUTPUT"
+
+      - name: Mine
+        env:
+          TRACKERS: ${{ steps.pick.outputs.trackers }}
+        # $TRACKERS is unquoted on purpose: one argument per tracker. The CLI rejects unknown names.
+        run: node src/cli.ts $TRACKERS
+
+      - name: Commit and push
+        id: commit
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet -F out/commit-message.txt
+          for attempt in 1 2 3; do
+            git pull --rebase --quiet && git push --quiet && break
+            echo "Push attempt $attempt failed, retrying…"
+            sleep $((attempt * 5))
+          done
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Comment report on the commit
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ steps.commit.outputs.sha }}
+        run: gh api "repos/$GITHUB_REPOSITORY/commits/$SHA/comments" -F body=@out/report.md --silent
+
+      - name: Job summary
+        if: always()
+        run: if [ -f out/report.md ]; then cat out/report.md >> "$GITHUB_STEP_SUMMARY"; fi

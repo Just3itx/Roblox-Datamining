@@ -1,0 +1,39 @@
+name: New tracker
+description: Propose a new data source to mine. Written so the issue can be assigned straight to Copilot.
+title: "Tracker: "
+labels: [tracker]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill this in, then assign the issue to **Copilot** to have the coding agent build it.
+        It follows `.github/copilot-instructions.md` ("Adding a tracker").
+  - type: input
+    id: endpoint
+    attributes:
+      label: Endpoint(s)
+      description: Public, unauthenticated URL(s) to poll.
+      placeholder: https://example.roblox.com/v1/...
+    validations:
+      required: true
+  - type: textarea
+    id: track
+    attributes:
+      label: What to track
+      description: Which fields matter, and which volatile fields to leave out of the snapshot.
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: What the report should show
+      description: e.g. "table of new items with links; diff of price changes".
+  - type: dropdown
+    id: cadence
+    attributes:
+      label: Cadence
+      options:
+        - Every 10 minutes (fast schedule)
+        - Every 3 hours (slow schedule)
+    validations:
+      required: true

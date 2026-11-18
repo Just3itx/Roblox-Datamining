@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Mined snapshots: keep them out of language stats and collapse them in PR diffs.
+data/** linguist-generated=true
