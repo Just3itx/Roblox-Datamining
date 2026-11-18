@@ -37,7 +37,8 @@ function rateLimitDelay(response: Response, attempt: number): number {
 export function createHttp(options: HttpOptions = {}): Http {
   const {
     userAgent = 'roblox-datamining/0.1 (automated change tracker)',
-    retries = 4,
+    // Generous so a multi-page enumeration can ride out a rate-limit window reset (~60s) mid-run.
+    retries = 6,
     timeoutMs = 60_000,
   } = options;
   const inflight = new Map<string, Promise<string>>();

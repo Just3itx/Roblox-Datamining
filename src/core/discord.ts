@@ -26,6 +26,8 @@ const COLORS: Record<string, number> = {
   fflags: 0xef4444,
   games: 0xf59e0b,
   catalog: 0xec4899,
+  limiteds: 0xdc2626,
+  watchlist: 0x14b8a6,
 };
 
 const DISCORD_DESC_LIMIT = 4096;

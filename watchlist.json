@@ -1,0 +1,6 @@
+{
+  "_comment": "Items to watch for release / changes. The watchlist tracker reports the moment any of these goes on sale or changes. Add entries like the examples, then remove this comment or leave it. type is Asset or Bundle.",
+  "items": [
+    { "id": 21070012, "type": "Asset", "note": "example: Dominus Empyreus (remove me)" }
+  ]
+}

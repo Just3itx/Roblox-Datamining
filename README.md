@@ -44,7 +44,9 @@ Written in TypeScript · runs on GitHub Actions · every change lands as a reada
 | 📜 | **CoreScripts (Luau)** | Which client Luau/CoreScript files changed each build, with links to the diff | `MaximumADHD/Roblox-Client-Tracker` | every 10 min |
 | 🚩 | **Fast flags** | Every FFlag / FInt / FString / FLog for 9 apps, merged so one change across many apps is listed once | `clientsettingscdn.roblox.com` | every 10 min |
 | 🎮 | **Experience charts** | Top Trending, Up-and-Coming, Top Playing Now, …: who entered and who left | `apis.roblox.com/explore-api` | every 3 h |
-| 🛍️ | **Roblox catalog** | New items from the Roblox account, plus price and stock changes | `catalog.roblox.com` | every 3 h |
+| 🛍️ | **Roblox catalog** | New items from the Roblox account, price/stock changes, and a 🔜 flag for items created but not on sale yet | `catalog.roblox.com` + `economy.roblox.com` | every 3 h |
+| 🔴 | **Limited items** | Every Roblox limited/collectible: new drops, price & resale moves, stock, and sell-outs (~1,000 items) | `catalog.roblox.com` | every 3 h |
+| 👁️ | **Watchlist** | Item/bundle ids you list in [`watchlist.json`](watchlist.json); alerts when each appears, goes on sale, or changes | `economy.roblox.com` | every 3 h |
 
 Each change produces:
 
@@ -117,6 +119,16 @@ gh secret set DISCORD_CONFIG < discord.config.json
 **Locally:** save the config as `discord.config.json` (git-ignored) and run `node src/cli.ts --discord`. [`scripts/run-local.ps1`](scripts/run-local.ps1) + [`scripts/install-task.ps1`](scripts/install-task.ps1) can schedule it via Windows Task Scheduler if you ever want to mine from your own PC instead.
 
 > Run the miner from **one** place to avoid double posts — the Actions cron **or** local tasks, not both.
+
+## 👁️ Watching specific items
+
+To catch a specific upcoming item or bundle the moment it goes live, add its id to [`watchlist.json`](watchlist.json):
+
+```json
+{ "items": [ { "id": 123456789, "type": "Asset", "note": "leaked UGC limited" } ] }
+```
+
+The watchlist tracker checks each one every slow run and reports when it **appears**, **goes on sale**, or changes. (True "hidden" scanning isn't possible from public APIs — asset ids are globally sparse, so there's no range to sweep — but the watchlist plus the catalog 🔜 flag catch items as soon as they're created.)
 
 ## 🤖 Working with GitHub Copilot
 

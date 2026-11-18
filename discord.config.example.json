@@ -10,6 +10,8 @@
     "luau": "https://discord.com/api/webhooks/REPLACE/lua-scripts-channel",
     "fflags": "https://discord.com/api/webhooks/REPLACE/fast-flags-channel",
     "games": "https://discord.com/api/webhooks/REPLACE/game-charts-channel",
-    "catalog": "https://discord.com/api/webhooks/REPLACE/catalog-channel"
+    "catalog": "https://discord.com/api/webhooks/REPLACE/catalog-channel",
+    "limiteds": "https://discord.com/api/webhooks/REPLACE/limiteds-channel",
+    "watchlist": "https://discord.com/api/webhooks/REPLACE/watchlist-channel"
   }
 }

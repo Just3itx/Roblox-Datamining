@@ -1,5 +1,7 @@
 import type { Block, DiffLine, Section } from '../core/report.ts';
 import { compareStrings, escapeCell, formatNumber, mdLink, plural } from '../core/text.ts';
+import { assetTypeName, bundleTypeName } from './asset-types.ts';
+import { fetchAssetDetails, mapLimit } from './economy.ts';
 import type { Tracker } from './types.ts';
 
 interface CatalogItemDetails {
@@ -29,29 +31,15 @@ export interface TrackedItem {
   restrictions: string[];
   quantity?: number;
   created?: string;
+  /** Set when the item exists but isn't on sale yet (found via the economy endpoint). */
+  upcoming?: boolean;
 }
 
 export const CATALOG_FILE = 'catalog/roblox-items.json';
 const PAGES = 2;
 
-const ASSET_TYPES: Record<number, string> = {
-  2: 'T-Shirt', 8: 'Hat', 11: 'Shirt', 12: 'Pants', 17: 'Head', 18: 'Face', 19: 'Gear',
-  27: 'Torso', 28: 'Right Arm', 29: 'Left Arm', 30: 'Left Leg', 31: 'Right Leg',
-  41: 'Hair', 42: 'Face Accessory', 43: 'Neck', 44: 'Shoulder', 45: 'Front', 46: 'Back', 47: 'Waist',
-  48: 'Climb Animation', 50: 'Fall Animation', 51: 'Idle Animation', 52: 'Jump Animation',
-  53: 'Run Animation', 54: 'Swim Animation', 55: 'Walk Animation', 61: 'Emote',
-  64: 'T-Shirt Accessory', 65: 'Shirt Accessory', 66: 'Pants Accessory', 67: 'Jacket', 68: 'Sweater',
-  69: 'Shorts', 70: 'Left Shoe', 71: 'Right Shoe', 72: 'Dress Skirt', 76: 'Eyebrow', 77: 'Eyelash',
-  78: 'Mood', 79: 'Dynamic Head',
-};
-
-const BUNDLE_TYPES: Record<number, string> = {
-  1: 'Body Bundle', 2: 'Animation Pack', 3: 'Shoes', 4: 'Dynamic Head', 5: 'Avatar Bundle',
-};
-
 function typeName(item: CatalogItemDetails): string {
-  if (item.itemType === 'Bundle') return BUNDLE_TYPES[item.bundleType ?? -1] ?? `Bundle #${item.bundleType}`;
-  return ASSET_TYPES[item.assetType ?? -1] ?? `Asset #${item.assetType}`;
+  return item.itemType === 'Bundle' ? bundleTypeName(item.bundleType) : assetTypeName(item.assetType);
 }
 
 function priceLabel(item: CatalogItemDetails): string {
@@ -78,7 +66,7 @@ const itemUrl = (item: TrackedItem) =>
   item.itemType === 'Bundle' ? `https://www.roblox.com/bundles/${item.id}` : `https://www.roblox.com/catalog/${item.id}`;
 
 const describe = (item: TrackedItem) =>
-  `${item.name} — ${item.price}${item.restrictions.length ? ` [${item.restrictions.join(', ')}]` : ''}${item.quantity ? ` (${formatNumber(item.quantity)} stock)` : ''}`;
+  `${item.name} — ${item.price}${item.restrictions.length ? ` [${item.restrictions.join(', ')}]` : ''}${item.quantity ? ` (${formatNumber(item.quantity)} stock)` : ''}${item.upcoming ? ' 🔜 not on sale yet' : ''}`;
 
 /** Newest first, so the file reads like a feed. */
 function sortItems(items: TrackedItem[]): TrackedItem[] {
@@ -88,15 +76,29 @@ function sortItems(items: TrackedItem[]): TrackedItem[] {
 function itemTable(items: TrackedItem[]): Block {
   return {
     type: 'table',
-    columns: ['Item', 'Type', 'Price', 'Tags', 'Created'],
+    columns: ['Item', 'Type', 'Price', 'Tags', 'Created', 'Status'],
     rows: items.map((item) => [
       mdLink(item.name, itemUrl(item)),
       item.type,
       item.price,
       escapeCell(item.restrictions.join(', ')),
       item.created ? item.created.slice(0, 10) : '—',
+      item.upcoming ? '🔜 upcoming' : '🟢 on sale',
     ]),
   };
+}
+
+/** Marks newly-seen assets that exist but aren't on sale yet, via the economy endpoint. */
+async function flagUpcoming(http: Parameters<Tracker['run']>[0]['http'], items: TrackedItem[]): Promise<void> {
+  const assets = items.filter((i) => i.itemType === 'Asset').slice(0, 80);
+  await mapLimit(assets, 15, async (item) => {
+    try {
+      const details = await fetchAssetDetails(http, item.id);
+      if (details && details.IsForSale === false) item.upcoming = true;
+    } catch {
+      /* best-effort: a failed check just leaves the item unflagged */
+    }
+  });
 }
 
 export const catalogTracker: Tracker = {
@@ -130,6 +132,10 @@ export const catalogTracker: Tracker = {
       known.set(itemKey(item), item);
     }
 
+    // Flag new items that exist but aren't on sale yet ("coming soon"). Done before the
+    // snapshot is written so a later flip to on-sale shows up as a change next run.
+    if (previous && added.length) await flagUpcoming(http, added);
+
     const wrote = await store.writeJson(CATALOG_FILE, sortItems([...known.values()]));
     if (!wrote) return null;
 
@@ -155,12 +161,13 @@ export const catalogTracker: Tracker = {
       blocks.push({ type: 'diff', title: `Updated items (${changed.length})`, lines, open: lines.length <= 40 });
     }
 
+    const upcoming = added.filter((i) => i.upcoming).length;
     return {
       id: 'catalog',
       icon: '🛍️',
       title: 'Roblox catalog items',
-      short: `🛍️ Catalog +${added.length} ~${changed.length}`,
-      headline: `${plural(added.length, 'new item')}, ${plural(changed.length, 'updated item')}`,
+      short: `🛍️ Catalog +${added.length} ~${changed.length}${upcoming ? ` 🔜${upcoming}` : ''}`,
+      headline: `${plural(added.length, 'new item')}, ${plural(changed.length, 'updated item')}${upcoming ? ` · ${upcoming} not on sale yet 🔜` : ''}`,
       blocks,
     } satisfies Section;
   },
