@@ -62,10 +62,18 @@ async function main(): Promise<number> {
   }
   const selected = positionals.length ? TRACKERS.filter((t) => positionals.includes(t.id)) : TRACKERS;
 
+  // ROBLOX_PROXY: comma-separated proxy hosts (e.g. "roproxy.com,rotunnel.com"), or "1" for roproxy.com.
+  const proxies = (process.env.ROBLOX_PROXY ?? '')
+    .split(',')
+    .map((host) => host.trim())
+    .filter(Boolean)
+    .map((host) => (host === '1' || host === 'true' ? 'roproxy.com' : host));
+  if (proxies.length) console.log(`🛰️ Using proxy chain: ${proxies.join(' → ')} → direct`);
+
   const problems: RunProblem[] = [];
   let current = 'cli';
   const context: TrackerContext = {
-    http: createHttp(),
+    http: createHttp({ proxies }),
     store: new Store(values['data-dir']),
     now: new Date(),
     log: (message) => console.log(`  ${message}`),

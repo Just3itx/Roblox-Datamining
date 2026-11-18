@@ -53,6 +53,9 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           # Optional: full discord.config.json contents, stored as a repo secret.
           DISCORD_CONFIG: ${{ secrets.DISCORD_CONFIG }}
+          # Optional repo variable, e.g. "roproxy.com,rotunnel.com", to route rate-limited
+          # hosts through proxies (falls back to roblox.com). Leave unset to go direct.
+          ROBLOX_PROXY: ${{ vars.ROBLOX_PROXY }}
         # $TRACKERS is unquoted on purpose: one argument per tracker. The CLI rejects unknown names.
         run: |
           if [ -n "$DISCORD_CONFIG" ]; then

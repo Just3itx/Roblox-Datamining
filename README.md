@@ -152,6 +152,16 @@ data/                  mined snapshots (generated, never hand-edited)
 .github/               workflows, Copilot instructions, issue templates
 ```
 
+## 🛰️ Proxies (optional)
+
+The `catalog.roblox.com` host is limited to ~12 requests/min, and GitHub Actions IPs can get throttled. Set the `ROBLOX_PROXY` env var (or a repo **variable** of that name for Actions) to route the rate-limited hosts through community proxies, with automatic fallback to `roblox.com`:
+
+```bash
+ROBLOX_PROXY="roproxy.com,rotunnel.com" npm run mine
+```
+
+Each proxy is tried in order, then the direct host. Only `catalog`, `economy`, `apis` and `games` are proxied (`clientsettings` is already fast and `clientsettingscdn` isn't mirrored). No auth or cookies ever pass through a proxy — only public reads.
+
 ## ⚖️ Notes
 
 This project only reads public, unauthenticated endpoints, at a low rate. It is not affiliated with or endorsed by Roblox Corporation.
