@@ -9,7 +9,27 @@ Written in TypeScript · runs on GitHub Actions · every change lands as a reada
 </div>
 
 <!-- status:start -->
-_No data yet. The first run of the **Mine** workflow fills this in._
+<p align="center"><a href="https://github.com/Just3itx/Roblox-Datamining/actions/workflows/mine.yml"><img alt="Mine" src="https://github.com/Just3itx/Roblox-Datamining/actions/workflows/mine.yml/badge.svg"></a> <a href="https://github.com/Just3itx/Roblox-Datamining/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Just3itx/Roblox-Datamining/actions/workflows/ci.yml/badge.svg"></a> <a href="https://github.com/Just3itx/Roblox-Datamining/commits/main"><img alt="Last change" src="https://img.shields.io/github/last-commit/Just3itx/Roblox-Datamining?label=last%20change"></a></p>
+
+### 🚀 Live builds
+
+| Binary | Version | Upload |
+| --- | --- | --- |
+| 🪟 Windows Player | `0.748.0.7481526` | `version-2c6fd5e09aaf4cfa` |
+| 🪟 Windows Studio | `0.748.0.7481526` | `version-8d7a1009c17e4ff8` |
+| 🍎 Mac Player | `0.748.0.7481526` | `version-445548190fe44ee2` |
+| 🍎 Mac Studio | `0.748.0.7481526` | `version-c5c97d45b6614310` |
+
+### 📊 Tracked right now
+
+|  | Snapshot | Data |
+| --- | --- | --- |
+| 🧩 API dump | 960 classes · 8,927 members · 664 enums | [`data/api-dump`](data/api-dump) |
+| 🚩 Fast flags | 206,592 values across 9 apps | [`data/fflags`](data/fflags) |
+| 🎮 Top playing now | [Steal An Egg](https://www.roblox.com/games/107778070777162) · [Brookhaven 🏡RP](https://www.roblox.com/games/4924922222) · [Throw Food For Animals](https://www.roblox.com/games/120219252362013) | [`data/games`](data/games) |
+| 🛍️ Latest Roblox items | [Shedletsekkar](https://www.roblox.com/catalog/93762663362787) · [Courtside Golden Hour](https://www.roblox.com/catalog/81421947324360) · [Moonlight Meadow](https://www.roblox.com/catalog/95681420685521) | [`data/catalog`](data/catalog) |
+
+<sub>Last change detected 2026-11-18 16:19 UTC. This block is rewritten by the miner.</sub>
 <!-- status:end -->
 
 ---

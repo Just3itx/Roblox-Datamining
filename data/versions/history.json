@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-11-18T16:19:49.868Z",
+    "binary": "WindowsPlayer",
+    "version": "0.748.0.7481526",
+    "clientVersionUpload": "version-2c6fd5e09aaf4cfa"
+  },
+  {
+    "date": "2026-11-18T16:19:49.868Z",
+    "binary": "WindowsStudio64",
+    "version": "0.748.0.7481526",
+    "clientVersionUpload": "version-8d7a1009c17e4ff8"
+  },
+  {
+    "date": "2026-11-18T16:19:49.868Z",
+    "binary": "MacPlayer",
+    "version": "0.748.0.7481526",
+    "clientVersionUpload": "version-445548190fe44ee2"
+  },
+  {
+    "date": "2026-11-18T16:19:49.868Z",
+    "binary": "MacStudio",
+    "version": "0.748.0.7481526",
+    "clientVersionUpload": "version-c5c97d45b6614310"
+  }
+]

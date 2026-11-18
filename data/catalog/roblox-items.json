@@ -1,0 +1,2115 @@
+[
+  {
+    "id": 93762663362787,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Shedletsekkar",
+    "price": "R$ 2,000,000",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 20,
+    "created": "2026-09-24T19:51:04.042Z"
+  },
+  {
+    "id": 81421947324360,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Courtside Golden Hour",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:42:19.489Z"
+  },
+  {
+    "id": 95681420685521,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Moonlight Meadow",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:41:19.789Z"
+  },
+  {
+    "id": 87019331085561,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Midnight Carnival",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:40:23.978Z"
+  },
+  {
+    "id": 123317074418230,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Concrete Playground",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:40:02.237Z"
+  },
+  {
+    "id": 100685597163519,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Red Planet",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:39:45.05Z"
+  },
+  {
+    "id": 123081451937252,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "2099",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:39:21.71Z"
+  },
+  {
+    "id": 100086926160704,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Home Base",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:38:56.493Z"
+  },
+  {
+    "id": 132272208178794,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Magic Music Bus",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:38:33.267Z"
+  },
+  {
+    "id": 139249110472535,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Ancient Valley",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:38:09.582Z"
+  },
+  {
+    "id": 116956243809295,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Graffiti Wall",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:37:09.331Z"
+  },
+  {
+    "id": 107520667004358,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Noodle Shop",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:36:43.283Z"
+  },
+  {
+    "id": 139579276427743,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Cloud Nine",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2026-07-22T15:36:10.911Z"
+  },
+  {
+    "id": 121199209890990,
+    "itemType": "Asset",
+    "type": "Asset #92",
+    "name": "Prism Skies",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2026-07-20T16:58:25.192Z"
+  },
+  {
+    "id": 119934643965525,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Starwisp",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2026-06-03T20:09:34.008Z"
+  },
+  {
+    "id": 112857099110745,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Honeycomb Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:56:59.462Z"
+  },
+  {
+    "id": 110186870615643,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Honeycomb Face",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:56:38.85Z"
+  },
+  {
+    "id": 122021150352896,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Honeycomb Sparkles",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:56:16.93Z"
+  },
+  {
+    "id": 81461799066557,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Honeycomb Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:55:59.373Z"
+  },
+  {
+    "id": 108920301601866,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Supernova Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:55:28.471Z"
+  },
+  {
+    "id": 103126651884029,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Supernova Face",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:55:13.906Z"
+  },
+  {
+    "id": 123722585142559,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Supernova Sparkles",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:55:00.329Z"
+  },
+  {
+    "id": 76475054135932,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Supernova Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:54:28.599Z"
+  },
+  {
+    "id": 83371670374297,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Spiderweb Smokey Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:53:56.752Z"
+  },
+  {
+    "id": 111062821995186,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Dark Ombré Lip",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-27T19:52:46.594Z"
+  },
+  {
+    "id": 124727635686515,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Sand Stupa Cap",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2026-03-20T16:35:22.285Z"
+  },
+  {
+    "id": 87983592197138,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Lord of the Buxeration",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 107690,
+    "created": "2026-03-16T18:35:25.545Z"
+  },
+  {
+    "id": 112872125488872,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Activity Bag",
+    "price": "R$ 140",
+    "restrictions": [],
+    "created": "2026-03-06T17:06:39.517Z"
+  },
+  {
+    "id": 122560696705970,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Mermaid Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:25:08.771Z"
+  },
+  {
+    "id": 133324450574810,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Mermaid Scales",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:24:45.096Z"
+  },
+  {
+    "id": 139316261425013,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Mermaid Face",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:24:14.507Z"
+  },
+  {
+    "id": 121987723312005,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Mermaid Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:20:44.548Z"
+  },
+  {
+    "id": 132378309498462,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Burnt Bronze Smokey Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:11:13.33Z"
+  },
+  {
+    "id": 96683125823227,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Cloud Nine Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:10:36.75Z"
+  },
+  {
+    "id": 122168239216290,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Cloud Nine Clouds",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:10:14.402Z"
+  },
+  {
+    "id": 117962217954484,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Cloud Nine Sparkles",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:09:19.748Z"
+  },
+  {
+    "id": 104414537631915,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Cloud Nine Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2026-03-05T19:06:12.264Z"
+  },
+  {
+    "id": 259144677693420,
+    "itemType": "Bundle",
+    "type": "Dynamic Head",
+    "name": "Snowflake Eyes",
+    "price": "R$ 12,500",
+    "restrictions": [
+      "Limited",
+      "Live"
+    ],
+    "quantity": 10626,
+    "created": "2026-01-17T09:20:40.325Z"
+  },
+  {
+    "id": 130700043557379,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Y2K Dream Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:17:48.083Z"
+  },
+  {
+    "id": 87427894313112,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Main Character Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:17:25.323Z"
+  },
+  {
+    "id": 116602463707612,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Crystal Quest Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:16:56.78Z"
+  },
+  {
+    "id": 106860126788672,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Smoke & Velvet Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:16:33.547Z"
+  },
+  {
+    "id": 91215258040985,
+    "itemType": "Asset",
+    "type": "Asset #89",
+    "name": "Celestial Lips",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:16:10.297Z"
+  },
+  {
+    "id": 77679141505947,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Y2K Dream Blush",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:14:52.903Z"
+  },
+  {
+    "id": 102586991723042,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Y2K Dream Butterfly",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:14:29.237Z"
+  },
+  {
+    "id": 96752799518977,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Main Character Face",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:13:22.14Z"
+  },
+  {
+    "id": 125810748592920,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Crystal Quest Face",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:12:56.54Z"
+  },
+  {
+    "id": 102522092102710,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Crystal Quest Blush",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:12:29.357Z"
+  },
+  {
+    "id": 115110380254480,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Smoke & Velvet Contour",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:11:51.073Z"
+  },
+  {
+    "id": 131554744089786,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Smoke & Velvet Face",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:11:25.263Z"
+  },
+  {
+    "id": 83680514027582,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Celestial Contour",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:10:48.637Z"
+  },
+  {
+    "id": 124907916662625,
+    "itemType": "Asset",
+    "type": "Asset #88",
+    "name": "Celestial Face",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:10:15.77Z"
+  },
+  {
+    "id": 130365390192045,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Y2K Dream Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:08:50.18Z"
+  },
+  {
+    "id": 90010535482282,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Main Character Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:08:22.63Z"
+  },
+  {
+    "id": 115181363529368,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Crystal Quest Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:07:57.08Z"
+  },
+  {
+    "id": 124390911016506,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Smoke & Velvet Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:07:28.033Z"
+  },
+  {
+    "id": 128355658815589,
+    "itemType": "Asset",
+    "type": "Asset #90",
+    "name": "Celestial Eyes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-13T00:06:50.087Z"
+  },
+  {
+    "id": 111175479479447,
+    "itemType": "Asset",
+    "type": "Eyelash",
+    "name": "Y2K Dream Eyelashes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:39:18.117Z"
+  },
+  {
+    "id": 116154465905462,
+    "itemType": "Asset",
+    "type": "Eyelash",
+    "name": "Spiked Lashes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:38:34.333Z"
+  },
+  {
+    "id": 87627278462719,
+    "itemType": "Asset",
+    "type": "Eyelash",
+    "name": "Celestial Eyelashes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:37:54.157Z"
+  },
+  {
+    "id": 113182821313646,
+    "itemType": "Asset",
+    "type": "Eyelash",
+    "name": "Crystal Quest Eyelashes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:37:23.18Z"
+  },
+  {
+    "id": 89610303708933,
+    "itemType": "Asset",
+    "type": "Eyelash",
+    "name": "Main Character Eyelashes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:36:45.697Z"
+  },
+  {
+    "id": 99788116228594,
+    "itemType": "Asset",
+    "type": "Eyelash",
+    "name": "Smoke & Velvet Eyelashes",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:36:13.893Z"
+  },
+  {
+    "id": 130003039476849,
+    "itemType": "Asset",
+    "type": "Eyebrow",
+    "name": "Y2K Dream Eyebrows",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:35:26.407Z"
+  },
+  {
+    "id": 79754923827217,
+    "itemType": "Asset",
+    "type": "Eyebrow",
+    "name": "Bold Arch Brows",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:33:27.293Z"
+  },
+  {
+    "id": 90228244352161,
+    "itemType": "Asset",
+    "type": "Eyebrow",
+    "name": "Celestial Eyebrows",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:32:57.16Z"
+  },
+  {
+    "id": 93336361109642,
+    "itemType": "Asset",
+    "type": "Eyebrow",
+    "name": "Crystal Quest Eyebrows",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:32:27.483Z"
+  },
+  {
+    "id": 82477874967872,
+    "itemType": "Asset",
+    "type": "Eyebrow",
+    "name": "Main Character Eyebrows",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:31:31.917Z"
+  },
+  {
+    "id": 120397398547192,
+    "itemType": "Asset",
+    "type": "Eyebrow",
+    "name": "Smoke & Velvet Eyebrows",
+    "price": "R$ 30",
+    "restrictions": [],
+    "created": "2025-12-03T21:29:58.47Z"
+  },
+  {
+    "id": 132160833569771,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Potion-Maker’s Shelf",
+    "price": "R$ 140",
+    "restrictions": [],
+    "created": "2025-10-27T16:21:52.593Z"
+  },
+  {
+    "id": 107334338147739,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "The Requiem",
+    "price": "R$ 400",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 27110,
+    "created": "2025-10-21T17:59:54.113Z"
+  },
+  {
+    "id": 74029346462094,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Specter Time Fedora",
+    "price": "R$ 3,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 10078,
+    "created": "2025-10-21T17:58:21.427Z"
+  },
+  {
+    "id": 126892292563296,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Bandana From Beyond",
+    "price": "R$ 700",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 19981,
+    "created": "2025-10-21T17:56:19.29Z"
+  },
+  {
+    "id": 113598419875472,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Helsworn Valkyrie",
+    "price": "R$ 12,500",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 13811,
+    "created": "2025-10-21T17:55:00.817Z"
+  },
+  {
+    "id": 113052554269760,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Entombed Miner's Headlamp",
+    "price": "R$ 1,195",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 7252,
+    "created": "2025-10-21T17:53:06.273Z"
+  },
+  {
+    "id": 3727395,
+    "itemType": "Bundle",
+    "type": "Shoes",
+    "name": "Signature Kicks",
+    "price": "R$ 300",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 7904,
+    "created": "2025-09-08T22:15:00.057Z"
+  },
+  {
+    "id": 107587989163065,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Boombox Buddy",
+    "price": "R$ 500",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 8092,
+    "created": "2025-09-08T22:12:17.833Z"
+  },
+  {
+    "id": 83492849231658,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Sk14r",
+    "price": "R$ 200",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 27288,
+    "created": "2025-09-08T22:11:30.763Z"
+  },
+  {
+    "id": 103238843491175,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Tailflipped Hat",
+    "price": "R$ 1,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 17295,
+    "created": "2025-09-08T22:10:21.76Z"
+  },
+  {
+    "id": 90083765199052,
+    "itemType": "Asset",
+    "type": "Waist",
+    "name": "Ultra-Pup Sidekick",
+    "price": "R$ 65",
+    "restrictions": [],
+    "created": "2025-09-08T20:09:02.857Z"
+  },
+  {
+    "id": 102307731420515,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Amped Canvas Brushpack",
+    "price": "R$ 140",
+    "restrictions": [],
+    "created": "2025-09-08T20:04:58.047Z"
+  },
+  {
+    "id": 103851361938518,
+    "itemType": "Asset",
+    "type": "Waist",
+    "name": "Tereggcotta Flower Pot",
+    "price": "R$ 500",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 4683,
+    "created": "2025-06-30T17:58:18.443Z"
+  },
+  {
+    "id": 82601882965079,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Jeggyfish Friends",
+    "price": "R$ 777",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 4380,
+    "created": "2025-06-30T17:57:03.88Z"
+  },
+  {
+    "id": 77596436624061,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Eggsteroid Storm",
+    "price": "R$ 2,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 1381,
+    "created": "2025-06-30T17:55:18.417Z"
+  },
+  {
+    "id": 74352108338901,
+    "itemType": "Asset",
+    "type": "Neck",
+    "name": "Sparkle Time Heggphones",
+    "price": "R$ 5,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 2971,
+    "created": "2025-06-30T17:53:33.13Z"
+  },
+  {
+    "id": 99742784495587,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Tortegga",
+    "price": "R$ 1,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 6185,
+    "created": "2025-06-26T22:18:34.33Z"
+  },
+  {
+    "id": 135140990251255,
+    "itemType": "Asset",
+    "type": "T-Shirt Accessory",
+    "name": "Roblox Learn Jadore Tanktop",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-06-26T15:47:51.287Z"
+  },
+  {
+    "id": 107016726530712,
+    "itemType": "Asset",
+    "type": "Neck",
+    "name": "Roblox Learn Heart Necklace",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-06-26T15:46:31.933Z"
+  },
+  {
+    "id": 73806172412277,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Roblox Learn Plumera Crown",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-06-26T15:46:08.467Z"
+  },
+  {
+    "id": 71409823493730,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Silver Block",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-06-26T15:45:35.07Z"
+  },
+  {
+    "id": 106228206889859,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Yellow Block",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-06-26T15:45:11.063Z"
+  },
+  {
+    "id": 115223868209681,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Red Block",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-06-26T15:44:23.58Z"
+  },
+  {
+    "id": 117627132830661,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Green Block",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-06-26T15:43:52.073Z"
+  },
+  {
+    "id": 99390776933762,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Roblox Learn Ducky Head",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-06-26T15:39:40.88Z"
+  },
+  {
+    "id": 114857884519210,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Wingsuit M3GAN",
+    "price": "R$ 400",
+    "restrictions": [],
+    "created": "2025-06-06T20:21:48.606Z"
+  },
+  {
+    "id": 84177070791448,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Wing Chun M3GAN",
+    "price": "R$ 400",
+    "restrictions": [],
+    "created": "2025-06-06T07:00:31.872Z"
+  },
+  {
+    "id": 192095195177660,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Tactical M3GAN",
+    "price": "R$ 400",
+    "restrictions": [],
+    "created": "2025-06-06T05:33:11.135Z"
+  },
+  {
+    "id": 204863141460044,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Cyberpunk M3GAN",
+    "price": "R$ 400",
+    "restrictions": [],
+    "created": "2025-06-04T23:27:39.116Z"
+  },
+  {
+    "id": 256272541200510,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "M3GAN 2.0",
+    "price": "R$ 400",
+    "restrictions": [],
+    "created": "2025-06-04T20:39:17.836Z"
+  },
+  {
+    "id": 78397692868812,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Info-Shade Visor",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2025-05-22T13:35:34.647Z"
+  },
+  {
+    "id": 78037226675842,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Bass Blast Shoulder Pads",
+    "price": "R$ 55",
+    "restrictions": [],
+    "created": "2025-04-28T18:43:56.303Z"
+  },
+  {
+    "id": 108411675144643,
+    "itemType": "Asset",
+    "type": "Neck",
+    "name": "Yummy Watermelon Bowl",
+    "price": "R$ 55",
+    "restrictions": [],
+    "created": "2025-04-23T16:40:16.08Z"
+  },
+  {
+    "id": 100061531345826,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Roblox Knowledge Aura",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2025-04-08T17:27:00.007Z"
+  },
+  {
+    "id": 77477751048234,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Emerald Blade of the Blushing Grove",
+    "price": "R$ 140",
+    "restrictions": [],
+    "created": "2025-04-04T16:05:38.47Z"
+  },
+  {
+    "id": 134938511887235,
+    "itemType": "Asset",
+    "type": "Hair",
+    "name": "Anime Hair",
+    "price": "R$ 1,000",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 6016,
+    "created": "2025-03-07T23:47:57.61Z"
+  },
+  {
+    "id": 75323696152166,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Crystallized Power Mask",
+    "price": "R$ 750",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 10726,
+    "created": "2025-03-07T23:47:03.803Z"
+  },
+  {
+    "id": 83386772340225,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Petrolume Swordpack",
+    "price": "R$ 4,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 4453,
+    "created": "2025-03-07T21:33:51.55Z"
+  },
+  {
+    "id": 73544396125434,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Subspace Tripmine Wings",
+    "price": "R$ 2,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 7066,
+    "created": "2025-03-07T21:33:05.01Z"
+  },
+  {
+    "id": 127238392608990,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Void Spill",
+    "price": "R$ 1,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 6235,
+    "created": "2025-03-07T21:32:17.19Z"
+  },
+  {
+    "id": 112278583934553,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Holo Vestiges",
+    "price": "R$ 1,500",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 4882,
+    "created": "2025-03-07T21:31:23.533Z"
+  },
+  {
+    "id": 121676351718885,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Colorful Holi Noob",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2025-02-21T18:13:22.38Z"
+  },
+  {
+    "id": 1683799,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Chappell Roan Swan Lake",
+    "price": "R$ 425",
+    "restrictions": [],
+    "created": "2025-01-27T22:29:16.971Z"
+  },
+  {
+    "id": 1682197,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Chappell Roan Roan-Mania",
+    "price": "R$ 425",
+    "restrictions": [],
+    "created": "2025-01-23T21:25:16.334Z"
+  },
+  {
+    "id": 1675998,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Chappell Roan Pink Pony Club",
+    "price": "R$ 425",
+    "restrictions": [],
+    "created": "2025-01-18T08:39:25.063Z"
+  },
+  {
+    "id": 1645807,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Chappell Roan Lady Liberty",
+    "price": "R$ 425",
+    "restrictions": [],
+    "created": "2025-01-18T02:38:06.131Z"
+  },
+  {
+    "id": 98752422639730,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Dog Backpack",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2024-12-18T00:01:30.59Z"
+  },
+  {
+    "id": 114702108643191,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Hello Kitty Top Hat",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2024-12-18T00:00:31.317Z"
+  },
+  {
+    "id": 111971346951906,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Winter Lodge Snowglobe",
+    "price": "R$ 300",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 4059,
+    "created": "2024-12-16T23:09:45.797Z"
+  },
+  {
+    "id": 119040562647325,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Ember Guardia",
+    "price": "R$ 500",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 23799,
+    "created": "2024-12-16T23:05:56.803Z"
+  },
+  {
+    "id": 87967152274203,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Real Scorching Frost Stunnas",
+    "price": "R$ 5,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 1899,
+    "created": "2024-12-16T23:05:13.06Z"
+  },
+  {
+    "id": 85157065680913,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Winter Top Hat",
+    "price": "R$ 5,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 4079,
+    "created": "2024-12-16T23:04:04.507Z"
+  },
+  {
+    "id": 114706745345742,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Frosty Fedora",
+    "price": "R$ 2,500",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 12298,
+    "created": "2024-12-16T23:02:55.403Z"
+  },
+  {
+    "id": 134210943426188,
+    "itemType": "Asset",
+    "type": "Neck",
+    "name": "Snowflake Bowtie",
+    "price": "R$ 1,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 5084,
+    "created": "2024-12-16T23:01:26.92Z"
+  },
+  {
+    "id": 110673146052704,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Clockwork's Golden Shades",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 73124,
+    "created": "2024-10-30T15:51:44.403Z"
+  },
+  {
+    "id": 939596,
+    "itemType": "Bundle",
+    "type": "Dynamic Head",
+    "name": "The Jade Catseye",
+    "price": "R$ 14,999",
+    "restrictions": [
+      "LimitedUnique",
+      "Live"
+    ],
+    "quantity": 999,
+    "created": "2024-10-15T23:53:17.745Z"
+  },
+  {
+    "id": 92800147120500,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Halloween Knightmare",
+    "price": "R$ 9,999",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 1749,
+    "created": "2024-10-15T23:52:12.91Z"
+  },
+  {
+    "id": 87714679176829,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "A Darker Presence",
+    "price": "R$ 4,999",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 5356,
+    "created": "2024-10-15T23:49:13.603Z"
+  },
+  {
+    "id": 79312439851071,
+    "itemType": "Asset",
+    "type": "Emote",
+    "name": "Chappell Roan HOT TO GO!",
+    "price": "R$ 125",
+    "restrictions": [],
+    "created": "2024-10-04T17:43:41.923Z"
+  },
+  {
+    "id": 123375593579461,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Roblox Innovation Awards 24 Ribbon Wings",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 1116368,
+    "created": "2024-09-03T18:25:35.453Z"
+  },
+  {
+    "id": 136613436441070,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Roblox Innovation Awards 24 Sparkle Buddy",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 1129269,
+    "created": "2024-09-03T18:24:34.623Z"
+  },
+  {
+    "id": 130448026520738,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Disgruntled Sheet Ghost",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 186015,
+    "created": "2024-08-30T16:29:24.68Z"
+  },
+  {
+    "id": 76292007466829,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Dark Guardian Angel",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 31516,
+    "created": "2024-08-30T16:28:46.693Z"
+  },
+  {
+    "id": 95188146402423,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Striking Grim Reaper",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 21379,
+    "created": "2024-08-30T16:26:12.74Z"
+  },
+  {
+    "id": 112243615546468,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Ice Fire Ram Skull Helm",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 30620,
+    "created": "2024-08-30T16:23:36.893Z"
+  },
+  {
+    "id": 102887469225690,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Blue Inferno Skull",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 24601,
+    "created": "2024-08-30T16:22:51.973Z"
+  },
+  {
+    "id": 18524331128,
+    "itemType": "Asset",
+    "type": "Emote",
+    "name": "Shrek Roar",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2024-07-17T00:26:13.8Z"
+  },
+  {
+    "id": 18112493930,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Targeted Advertising",
+    "price": "R$ 100",
+    "restrictions": [],
+    "created": "2024-06-18T22:35:39.883Z"
+  },
+  {
+    "id": 17756304457,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Flaming Pink Horned Helmet",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 388225,
+    "created": "2024-06-06T17:54:17.72Z"
+  },
+  {
+    "id": 17682484184,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Extraterrestrial Shades",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 1526149,
+    "created": "2024-05-31T16:20:13.673Z"
+  },
+  {
+    "id": 17521857429,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Daemonshank",
+    "price": "R$ 39,999",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 958,
+    "created": "2024-05-17T16:54:41.89Z"
+  },
+  {
+    "id": 16972690019,
+    "itemType": "Asset",
+    "type": "Hair",
+    "name": "Atomic Blue Hairdo",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 238685,
+    "created": "2024-04-01T17:18:59.593Z"
+  },
+  {
+    "id": 16744173343,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Vault Glider Wings",
+    "price": "R$ 17,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 949,
+    "created": "2024-03-14T19:53:49.78Z"
+  },
+  {
+    "id": 16733641790,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Vault Commando",
+    "price": "R$ 40,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 1849,
+    "created": "2024-03-13T16:59:10.957Z"
+  },
+  {
+    "id": 16733631749,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Infinite Vault Star-glasses",
+    "price": "R$ 1,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 10010,
+    "created": "2024-03-13T16:57:59.857Z"
+  },
+  {
+    "id": 16491634419,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Striking White Owl Shoulder Pet",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 235098,
+    "created": "2024-02-23T19:01:03.83Z"
+  },
+  {
+    "id": 16477149823,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Gold Clockwork Headphones",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 262687,
+    "created": "2024-02-22T16:52:48.667Z"
+  },
+  {
+    "id": 16017997575,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Manly Bee Hat",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 140083,
+    "created": "2024-01-17T19:37:46.953Z"
+  },
+  {
+    "id": 1036,
+    "itemType": "Bundle",
+    "type": "Dynamic Head",
+    "name": ":]",
+    "price": "R$ 75",
+    "restrictions": [
+      "Live"
+    ],
+    "created": "2023-03-29T18:26:21.017Z"
+  },
+  {
+    "id": 965,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Galloping Gecko",
+    "price": "R$ 500",
+    "restrictions": [],
+    "created": "2022-10-11T20:41:17.053Z"
+  },
+  {
+    "id": 9650895151,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Gold Pilot Wings - Tate McRae",
+    "price": "R$ 120",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 20177,
+    "created": "2022-05-17T00:07:16.613Z"
+  },
+  {
+    "id": 8835828810,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Innovation Wings",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 57,
+    "created": "2022-02-15T21:31:14.643Z"
+  },
+  {
+    "id": 8835824672,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Hammer of Productivity",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 163,
+    "created": "2022-02-15T21:30:29.46Z"
+  },
+  {
+    "id": 8835819876,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Creativity Glasses",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 195,
+    "created": "2022-02-15T21:29:38Z"
+  },
+  {
+    "id": 8835815475,
+    "itemType": "Asset",
+    "type": "Neck",
+    "name": "Developer Keys",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 280,
+    "created": "2022-02-15T21:28:48.293Z"
+  },
+  {
+    "id": 8835809762,
+    "itemType": "Asset",
+    "type": "Waist",
+    "name": "Book of Success",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 405,
+    "created": "2022-02-15T21:27:51.687Z"
+  },
+  {
+    "id": 8835800486,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Cape of Inspiration",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 646,
+    "created": "2022-02-15T21:26:22.883Z"
+  },
+  {
+    "id": 8835792701,
+    "itemType": "Asset",
+    "type": "Waist",
+    "name": "Performance Keychain",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 1305,
+    "created": "2022-02-15T21:25:09.623Z"
+  },
+  {
+    "id": 825,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Stressed Out Tyler Joseph - Twenty One Pilots",
+    "price": "R$ 450",
+    "restrictions": [],
+    "created": "2021-09-04T00:02:06.3Z"
+  },
+  {
+    "id": 6589085795,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Achievement Medal",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 6121,
+    "created": "2021-03-30T15:45:49.897Z"
+  },
+  {
+    "id": 673,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Sea Serpent",
+    "price": "R$ 250",
+    "restrictions": [],
+    "created": "2020-07-21T19:07:26.727Z"
+  },
+  {
+    "id": 4750565659,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Crown of Knowledge",
+    "price": "Free",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 1407,
+    "created": "2020-03-03T19:13:47.697Z"
+  },
+  {
+    "id": 606,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Cindy",
+    "price": "Free",
+    "restrictions": [],
+    "created": "2020-01-27T19:24:21.18Z"
+  },
+  {
+    "id": 3576668320,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Redcliff Renegade",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2019-08-01T20:14:56.49Z"
+  },
+  {
+    "id": 3030364434,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Springtime Sabina",
+    "price": "R$ 245",
+    "restrictions": [],
+    "created": "2019-04-02T22:06:37.567Z"
+  },
+  {
+    "id": 465,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "CATS...IN SPACE: Medic Lily",
+    "price": "R$ 400",
+    "restrictions": [],
+    "created": "2019-03-01T17:59:12.61Z"
+  },
+  {
+    "id": 2880957356,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Crown of the Trirax Galaxy",
+    "price": "R$ 500",
+    "restrictions": [],
+    "created": "2019-02-21T18:31:06.897Z"
+  },
+  {
+    "id": 2620428516,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Celtic Snowflake Pauldrons",
+    "price": "R$ 600",
+    "restrictions": [],
+    "created": "2018-12-03T16:08:11.207Z"
+  },
+  {
+    "id": 2606189336,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Holiday Clockwork Top Hat",
+    "price": "R$ 800",
+    "restrictions": [],
+    "created": "2018-11-28T15:20:42.287Z"
+  },
+  {
+    "id": 418,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Icicle Fairy",
+    "price": "R$ 700",
+    "restrictions": [],
+    "created": "2018-11-21T01:14:57.427Z"
+  },
+  {
+    "id": 379,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Fearless Ocean Diver",
+    "price": "R$ 600",
+    "restrictions": [],
+    "created": "2018-10-26T22:44:49.37Z"
+  },
+  {
+    "id": 370,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "The Great Bear War: Grizzly Warrior",
+    "price": "R$ 600",
+    "restrictions": [],
+    "created": "2018-10-26T22:44:47.76Z"
+  },
+  {
+    "id": 2397721479,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Garlic Boppers",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2018-09-24T23:21:04.703Z"
+  },
+  {
+    "id": 291,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Zombie",
+    "price": "R$ 550",
+    "restrictions": [],
+    "created": "2018-08-14T22:51:39.767Z"
+  },
+  {
+    "id": 226,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Astral Isle Apprentice",
+    "price": "R$ 300",
+    "restrictions": [],
+    "created": "2018-08-14T22:51:34.883Z"
+  },
+  {
+    "id": 57,
+    "itemType": "Bundle",
+    "type": "Body Bundle",
+    "name": "Ten Million Robux Man",
+    "price": "R$ 5,000",
+    "restrictions": [],
+    "created": "2018-08-14T04:45:30.613Z"
+  },
+  {
+    "id": 1744252212,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Pauldrons of Starlight",
+    "price": "R$ 1,000",
+    "restrictions": [],
+    "created": "2018-05-10T01:15:25.737Z"
+  },
+  {
+    "id": 1744223703,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Treasure Hunter's Plastic Shovel",
+    "price": "R$ 200",
+    "restrictions": [],
+    "created": "2018-05-10T01:07:39.467Z"
+  },
+  {
+    "id": 1744218073,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Blue Butterfly Fashion Wings",
+    "price": "R$ 1,000",
+    "restrictions": [],
+    "created": "2018-05-10T01:06:05.38Z"
+  },
+  {
+    "id": 1609390589,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Blue Traffic Cone",
+    "price": "R$ 1,000",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 19117,
+    "created": "2018-04-13T00:17:29.327Z"
+  },
+  {
+    "id": 1320946398,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Golden Dragon Crown of a Forgotten Age",
+    "price": "R$ 500",
+    "restrictions": [],
+    "created": "2018-01-11T19:30:48.8Z"
+  },
+  {
+    "id": 1103005272,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Darkfire Wings",
+    "price": "R$ 1,500",
+    "restrictions": [],
+    "created": "2017-10-13T00:18:56.937Z"
+  },
+  {
+    "id": 1046312258,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Retro Disc Jockey Headphones",
+    "price": "R$ 400",
+    "restrictions": [],
+    "created": "2017-09-15T00:18:15.137Z"
+  },
+  {
+    "id": 1046287303,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Mathmagical Top Hat",
+    "price": "R$ 500",
+    "restrictions": [],
+    "created": "2017-09-14T19:01:11.28Z"
+  },
+  {
+    "id": 867844561,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "8-Bit Opconius",
+    "price": "R$ 800",
+    "restrictions": [],
+    "created": "2017-06-16T00:09:05Z"
+  },
+  {
+    "id": 522094442,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Zombie Fedora",
+    "price": "R$ 500",
+    "restrictions": [],
+    "created": "2016-10-14T00:59:25.837Z"
+  },
+  {
+    "id": 522092800,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Gruesome Groom",
+    "price": "R$ 245",
+    "restrictions": [],
+    "created": "2016-10-14T00:56:24.82Z"
+  },
+  {
+    "id": 382881521,
+    "itemType": "Asset",
+    "type": "Neck",
+    "name": "Tix Bling",
+    "price": "R$ 25,000",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 1194,
+    "created": "2016-03-16T00:26:47.477Z"
+  },
+  {
+    "id": 184742846,
+    "itemType": "Asset",
+    "type": "Hair",
+    "name": "Wild Party Cat",
+    "price": "R$ 250",
+    "restrictions": [],
+    "created": "2014-10-30T21:21:37.537Z"
+  },
+  {
+    "id": 172307658,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Melted Vinyl",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2014-08-15T23:07:44.127Z"
+  },
+  {
+    "id": 163516667,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Triple Striped Boater",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2014-06-27T22:29:35.45Z"
+  },
+  {
+    "id": 146083060,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Military Pilot",
+    "price": "R$ 175",
+    "restrictions": [],
+    "created": "2014-02-14T03:16:02.8Z"
+  },
+  {
+    "id": 139589127,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Super Skier",
+    "price": "R$ 150",
+    "restrictions": [],
+    "created": "2013-12-23T22:57:04.347Z"
+  },
+  {
+    "id": 128217885,
+    "itemType": "Asset",
+    "type": "Shoulder",
+    "name": "Fall Fairy",
+    "price": "R$ 300",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 63775,
+    "created": "2013-08-30T18:10:59.37Z"
+  },
+  {
+    "id": 126702804,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Spikez",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2013-08-16T17:28:04.487Z"
+  },
+  {
+    "id": 126702754,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Stoneraig",
+    "price": "R$ 220",
+    "restrictions": [],
+    "created": "2013-08-16T17:27:33.273Z"
+  },
+  {
+    "id": 116778527,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Crazyvision Goggles",
+    "price": "R$ 500",
+    "restrictions": [],
+    "created": "2013-05-24T22:41:52.81Z"
+  },
+  {
+    "id": 115302039,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Outback Boomerang Hat",
+    "price": "R$ 125",
+    "restrictions": [],
+    "created": "2013-05-09T21:13:04.183Z"
+  },
+  {
+    "id": 111902364,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Art Warrior",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2013-04-05T21:43:42.633Z"
+  },
+  {
+    "id": 90716965,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Greenie",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2012-08-21T20:19:50.927Z"
+  },
+  {
+    "id": 83012973,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Pink Thug",
+    "price": "R$ 100",
+    "restrictions": [],
+    "created": "2012-06-08T22:03:59.113Z"
+  },
+  {
+    "id": 73793689,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Smaug",
+    "price": "R$ 4,995",
+    "restrictions": [],
+    "created": "2012-03-02T23:14:56.68Z"
+  },
+  {
+    "id": 69343972,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Bear Hunter",
+    "price": "R$ 400",
+    "restrictions": [],
+    "created": "2012-01-04T20:03:40.323Z"
+  },
+  {
+    "id": 69228832,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Smiley Hat",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2012-01-03T00:56:24.313Z"
+  },
+  {
+    "id": 57608206,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Bitter Cold Winter",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2011-07-26T21:50:12.113Z"
+  },
+  {
+    "id": 51244401,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Peacock Feathered Adventurer",
+    "price": "R$ 140",
+    "restrictions": [],
+    "created": "2011-05-04T23:08:37.483Z"
+  },
+  {
+    "id": 38172771,
+    "itemType": "Asset",
+    "type": "Neck",
+    "name": "Adorabunny Necklace",
+    "price": "R$ 100",
+    "restrictions": [],
+    "created": "2010-11-04T00:08:05.607Z"
+  },
+  {
+    "id": 30391179,
+    "itemType": "Asset",
+    "type": "Face Accessory",
+    "name": "Stylish Square Shades",
+    "price": "R$ 576",
+    "restrictions": [],
+    "created": "2010-07-09T23:46:44.95Z"
+  },
+  {
+    "id": 20011925,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Oozing Oscar",
+    "price": "R$ 1,500",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 28035,
+    "created": "2009-12-31T01:36:29.907Z"
+  },
+  {
+    "id": 14463095,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Pinstripe Fedora",
+    "price": "R$ 2,500",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 63541,
+    "created": "2009-08-13T23:41:11.467Z"
+  },
+  {
+    "id": 13701005,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Alpine Hat",
+    "price": "R$ 360",
+    "restrictions": [],
+    "created": "2009-07-28T23:21:50.7Z"
+  },
+  {
+    "id": 1098282,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Lampshade",
+    "price": "R$ 350",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 142654,
+    "created": "2007-08-15T22:44:51.377Z"
+  },
+  {
+    "id": 1080949,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Bunny Ears",
+    "price": "R$ 2,424",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 56574,
+    "created": "2007-08-02T17:11:25.907Z"
+  }
+]
