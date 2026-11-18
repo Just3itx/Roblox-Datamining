@@ -1,9 +1,11 @@
 name: Mine
 
 on:
+  # Offset from the top of the hour: GitHub delays/skips scheduled runs that land on :00
+  # (peak load). These minutes avoid that and improve the chance each run actually fires.
   schedule:
-    - cron: "*/10 * * * *" # versions, api-dump, fflags
-    - cron: "23 */3 * * *" # games, catalog
+    - cron: "4,14,24,34,44,54 * * * *" # fast: versions, deploy-history, api-dump, luau, fflags
+    - cron: "19 1,4,7,10,13,16,19,22 * * *" # slow: games, catalog, limiteds, watchlist
   workflow_dispatch:
     inputs:
       trackers:
@@ -40,9 +42,9 @@ jobs:
           INPUT: ${{ inputs.trackers }}
         run: |
           case "$SCHEDULE" in
-            "*/10 * * * *") TRACKERS="versions deploy-history api-dump luau fflags" ;;
-            "")             TRACKERS="$INPUT" ;;
-            *)              TRACKERS="games catalog limiteds watchlist" ;;
+            "4,14,24,34,44,54 * * * *") TRACKERS="versions deploy-history api-dump luau fflags" ;;
+            "")                         TRACKERS="$INPUT" ;;
+            *)                          TRACKERS="games catalog limiteds watchlist" ;;
           esac
           echo "trackers=$TRACKERS" >> "$GITHUB_OUTPUT"
 
