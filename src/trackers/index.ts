@@ -8,6 +8,7 @@ import { luauTracker } from './luau.ts';
 import type { Tracker } from './types.ts';
 import { versionsTracker } from './versions.ts';
 import { watchlistTracker } from './watchlist.ts';
+import { webTracker } from './web.ts';
 
 /** Every tracker, in the order they run and appear in reports. */
 export const TRACKERS: readonly Tracker[] = [
@@ -16,6 +17,7 @@ export const TRACKERS: readonly Tracker[] = [
   apiDumpTracker,
   luauTracker,
   fflagsTracker,
+  webTracker,
   gamesTracker,
   catalogTracker,
   limitedsTracker,

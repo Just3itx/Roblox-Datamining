@@ -32,7 +32,7 @@ src/trackers/*.ts       one tracker per data source, registered in src/trackers/
 scripts/*.ps1           local runner + Windows Task Scheduler install (for the Discord side)
 ```
 
-Trackers: `versions`, `deploy-history`, `api-dump`, `luau`, `fflags`, `games`, `catalog`, `limiteds`, `watchlist`. The `luau` tracker reads the `MaximumADHD/Roblox-Client-Tracker` mirror (desktop CoreScripts aren't on the CDN) and uses `GITHUB_TOKEN`/`GH_TOKEN` when present for a higher rate limit. `limiteds` and `watchlist` share `src/trackers/economy.ts` (economy endpoint helpers, `mapLimit`) and `asset-types.ts`. `watchlist` reads the hand-edited `watchlist.json` at the repo root (not under `data/`). The `catalog.roblox.com` host allows only ~12 requests/min, so keep paged enumerations to `Limit=120` and few pages. Discord webhook URLs live only in a git-ignored `discord.config.json` / the `DISCORD_CONFIG` secret — never commit them or read them into any other output.
+Trackers: `versions`, `deploy-history`, `api-dump`, `luau`, `fflags`, `games`, `catalog`, `limiteds`, `watchlist`, `web`. The `luau` tracker reads the `MaximumADHD/Roblox-Client-Tracker` mirror (desktop CoreScripts aren't on the CDN) and uses `GITHUB_TOKEN`/`GH_TOKEN` when present for a higher rate limit. `limiteds` and `watchlist` share `src/trackers/economy.ts` (economy endpoint helpers, `mapLimit`) and `asset-types.ts`. `watchlist` reads the hand-edited `watchlist.json` at the repo root (not under `data/`). The `catalog.roblox.com` host allows only ~12 requests/min, so keep paged enumerations to `Limit=120` and few pages. Discord webhook URLs live only in a git-ignored `discord.config.json` / the `DISCORD_CONFIG` secret — never commit them or read them into any other output.
 
 ### Adding a tracker
 

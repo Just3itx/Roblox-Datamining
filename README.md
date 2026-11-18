@@ -5,7 +5,7 @@
 <p>
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-7-3178C6?logo=typescript&logoColor=white">
 <img alt="Node" src="https://img.shields.io/badge/Node-24%2B-5FA04E?logo=node.js&logoColor=white">
-<img alt="Trackers" src="https://img.shields.io/badge/trackers-9-6C5CE7">
+<img alt="Trackers" src="https://img.shields.io/badge/trackers-10-6C5CE7">
 <img alt="Discord" src="https://img.shields.io/badge/Discord-live%20alerts-5865F2?logo=discord&logoColor=white">
 <img alt="No deps" src="https://img.shields.io/badge/runtime%20deps-1-00B894">
 </p>
@@ -74,6 +74,7 @@
 | 🧩 | **API dump** | `setup.rbxcdn.com` | ~10 min (downloads only on new builds) |
 | 📜 | **CoreScripts (Luau)** | `MaximumADHD/Roblox-Client-Tracker` | ~10 min |
 | 🚩 | **Fast flags** | `clientsettingscdn.roblox.com` | ~10 min |
+| 🌐 | **Website CSS/JS** | `css`/`js.rbxcdn.com` · `create.roblox.com` | every 3 h |
 | 🎮 | **Experience charts** | `apis.roblox.com/explore-api` | every 3 h |
 | 🛍️ | **Roblox catalog** | `catalog` + `economy.roblox.com` | every 3 h |
 | 🔴 | **Limited items** | `catalog.roblox.com` | every 3 h |
