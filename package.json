@@ -10,7 +10,7 @@
   "scripts": {
     "mine": "node src/cli.ts",
     "mine:fast": "node src/cli.ts versions deploy-history api-dump luau fflags",
-    "mine:slow": "node src/cli.ts web games catalog limiteds watchlist",
+    "mine:slow": "node src/cli.ts android web games catalog limiteds watchlist",
     "typecheck": "tsc",
     "test": "node --test \"src/**/*.test.ts\"",
     "check": "npm run typecheck && npm test",

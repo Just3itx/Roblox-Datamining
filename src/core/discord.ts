@@ -46,6 +46,7 @@ const COLORS: Record<string, number> = {
   limiteds: 0xdc2626,
   watchlist: 0x14b8a6,
   web: 0x0ea5e9,
+  android: 0x3ddc84,
 };
 
 // Discord "Components V2": a Container (type 17) with an accent bar, holding Text Displays

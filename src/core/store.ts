@@ -42,6 +42,21 @@ export class Store {
   writeJson(relativePath: string, value: unknown): Promise<boolean> {
     return this.writeText(relativePath, toJson(value));
   }
+
+  /** Writes binary content, skipping the write when bytes are unchanged. Returns true on create/change. */
+  async writeBytes(relativePath: string, bytes: Uint8Array): Promise<boolean> {
+    const fullPath = this.path(relativePath);
+    try {
+      const existing = await readFile(fullPath);
+      if (existing.length === bytes.length && existing.equals(bytes)) return false;
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error;
+    }
+    await mkdir(dirname(fullPath), { recursive: true });
+    await writeFile(fullPath, bytes);
+    this.changedFiles.add(relativePath.replace(/\\/g, '/'));
+    return true;
+  }
 }
 
 /** Pretty JSON with LF endings and a trailing newline, so git diffs stay line-oriented. */

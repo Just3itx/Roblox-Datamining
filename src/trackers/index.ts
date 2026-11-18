@@ -1,3 +1,4 @@
+import { androidTracker } from './android.ts';
 import { apiDumpTracker } from './api-dump/index.ts';
 import { catalogTracker } from './catalog.ts';
 import { deployHistoryTracker } from './deploy-history.ts';
@@ -17,6 +18,7 @@ export const TRACKERS: readonly Tracker[] = [
   apiDumpTracker,
   luauTracker,
   fflagsTracker,
+  androidTracker,
   webTracker,
   gamesTracker,
   catalogTracker,
