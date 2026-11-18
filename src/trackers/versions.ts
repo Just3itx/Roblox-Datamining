@@ -3,6 +3,12 @@ import type { Section } from '../core/report.ts';
 import { errorMessage, mdCode, plural } from '../core/text.ts';
 import type { Tracker } from './types.ts';
 
+/** "0.748.0.7481526" → "0.748.0 · build 7481526" for human-readable display. */
+export function prettyVersion(version: string): string {
+  const parts = version.split('.');
+  return parts.length === 4 ? `${parts[0]}.${parts[1]}.${parts[2]} · build ${parts[3]}` : version;
+}
+
 export const BINARIES = {
   WindowsPlayer: '🪟 Windows Player',
   WindowsStudio64: '🪟 Windows Studio',
@@ -69,10 +75,10 @@ export const versionsTracker: Tracker = {
       let status = '—';
       if (updated.includes(binary)) {
         if (!before) status = '🆕 first seen';
-        else if (before.version !== latest.version) status = `⬆️ from ${mdCode(before.version)}`;
-        else status = `🔁 rebuild of ${mdCode(before.clientVersionUpload)}`;
+        else if (before.version !== latest.version) status = `⬆️ from ${mdCode(prettyVersion(before.version))}`;
+        else status = `🔁 rebuild`;
       }
-      return [[BINARIES[binary], mdCode(latest.version), mdCode(latest.clientVersionUpload), status]];
+      return [[BINARIES[binary], mdCode(prettyVersion(latest.version)), status]];
     });
 
     const versions = [...new Set(updated.map((binary) => current[binary]!.version))];
@@ -80,9 +86,9 @@ export const versionsTracker: Tracker = {
       id: 'versions',
       icon: '🚀',
       title: 'Client versions',
-      short: `🚀 ${versions.join(', ')}`,
-      headline: `${plural(updated.length, 'build')} updated → ${versions.join(', ')}`,
-      blocks: [{ type: 'table', columns: ['Binary', 'Version', 'Upload', 'Status'], rows }],
+      short: `🚀 ${versions.map(prettyVersion).join(', ')}`,
+      headline: `${plural(updated.length, 'build')} updated → ${versions.map(prettyVersion).join(', ')}`,
+      blocks: [{ type: 'table', columns: ['Binary', 'Version', 'Status'], rows }],
     } satisfies Section;
   },
 };
