@@ -55,5 +55,5 @@ function Register-MinerTask([string]$name, [string]$trackers, [int]$minutes) {
 
 Register-MinerTask "Fast" "versions deploy-history api-dump luau fflags" $FastMinutes
 # Slow set includes android + web — the Android APK download needs this (home) IP, since APKPure blocks datacenter IPs.
-Register-MinerTask "Slow" "android web games catalog limiteds watchlist" $SlowMinutes
+Register-MinerTask "Slow" "android scripts web games catalog limiteds watchlist" $SlowMinutes
 Write-Host "`nDone. The tasks run as your user while you're logged in. Check them in Task Scheduler under RobloxDatamining."

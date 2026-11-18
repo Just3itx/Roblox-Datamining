@@ -6,6 +6,7 @@ import { fflagsTracker } from './fflags.ts';
 import { gamesTracker } from './games.ts';
 import { limitedsTracker } from './limiteds.ts';
 import { luauTracker } from './luau.ts';
+import { scriptsTracker } from './scripts.ts';
 import type { Tracker } from './types.ts';
 import { versionsTracker } from './versions.ts';
 import { watchlistTracker } from './watchlist.ts';
@@ -19,6 +20,7 @@ export const TRACKERS: readonly Tracker[] = [
   luauTracker,
   fflagsTracker,
   androidTracker,
+  scriptsTracker,
   webTracker,
   gamesTracker,
   catalogTracker,
