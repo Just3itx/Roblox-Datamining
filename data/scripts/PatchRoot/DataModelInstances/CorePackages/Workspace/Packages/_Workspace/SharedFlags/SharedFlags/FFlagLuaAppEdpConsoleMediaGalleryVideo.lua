@@ -1,4 +1,4 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T01:30:58Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T14:21:01Z
+-- Luau bytecode version: 14 | Luau type version: 3
 return require(script.Parent.FFlagLuaAppEdpMediaGalleryVideoPreview)
     and game:DefineFastFlag("LuaAppEdpConsoleMediaGalleryVideo", false)
