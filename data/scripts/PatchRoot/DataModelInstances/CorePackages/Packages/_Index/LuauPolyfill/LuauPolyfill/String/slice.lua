@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T05:00:50Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T11:01:26Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local function slice(str1: string, arg1, arg2): string
     local var1, var2 = utf8.len(str1)

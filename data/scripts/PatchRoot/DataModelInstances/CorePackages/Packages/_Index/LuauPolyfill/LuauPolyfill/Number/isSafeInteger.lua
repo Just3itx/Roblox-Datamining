@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T04:51:06Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T11:00:58Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local isInteger = require(script.Parent.isInteger)
 local MAX_SAFE_INTEGER = require(script.Parent.MAX_SAFE_INTEGER)

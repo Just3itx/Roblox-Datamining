@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T05:00:52Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T11:01:29Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local function startsWith(str1: string, str2: string, num1: number?): boolean
     if string.len(str2) == 0 then
