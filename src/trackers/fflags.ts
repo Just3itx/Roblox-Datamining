@@ -22,6 +22,22 @@ export type Flags = Record<string, string>;
 
 export const flagFile = (app: string) => `fflags/${app}.json`;
 
+/**
+ * Flags excluded from snapshots and diffs — deploy metadata that changes on every push
+ * (git hash + timestamp of the flag deploy), so they'd otherwise spam every run.
+ * Add more patterns here to mute other noisy flags.
+ */
+export const IGNORED_FLAG_PATTERNS: RegExp[] = [/FlagRepoGitHash/i, /FlipTimeStamp/i];
+
+const isIgnored = (key: string) => IGNORED_FLAG_PATTERNS.some((re) => re.test(key));
+
+/** Drops ignored flags before they're stored or diffed. */
+export function filterFlags(flags: Flags): Flags {
+  const kept: Flags = {};
+  for (const [key, value] of Object.entries(flags)) if (!isIgnored(key)) kept[key] = value;
+  return kept;
+}
+
 export interface FlagChange {
   op: 'added' | 'removed' | 'changed';
   key: string;
@@ -83,7 +99,7 @@ export const fflagsTracker: Tracker = {
         try {
           const url = `https://clientsettingscdn.roblox.com/v2/settings/application/${app}`;
           const { applicationSettings } = await http.json<{ applicationSettings: Flags }>(url);
-          return { app, flags: sortKeys(applicationSettings) };
+          return { app, flags: sortKeys(filterFlags(applicationSettings)) };
         } catch (error) {
           warn(`fflags: could not read ${app}: ${errorMessage(error)}`);
           return null;
