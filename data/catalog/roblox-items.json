@@ -1415,6 +1415,19 @@
     "created": "2024-03-14T19:53:49.78Z"
   },
   {
+    "id": 16744155285,
+    "itemType": "Asset",
+    "type": "Back",
+    "name": "Vault Swordpack",
+    "price": "R$ 36,000",
+    "restrictions": [
+      "Limited"
+    ],
+    "quantity": 323,
+    "created": "2024-03-14T19:51:39.417Z",
+    "upcoming": true
+  },
+  {
     "id": 16733641790,
     "itemType": "Asset",
     "type": "Hat",
@@ -1882,6 +1895,15 @@
     "created": "2014-10-30T21:21:37.537Z"
   },
   {
+    "id": 177432939,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Bowler with Mutton Chops",
+    "price": "R$ 300",
+    "restrictions": [],
+    "created": "2014-09-12T18:45:12.93Z"
+  },
+  {
     "id": 172307658,
     "itemType": "Asset",
     "type": "Hat",
@@ -1898,6 +1920,15 @@
     "price": "R$ 95",
     "restrictions": [],
     "created": "2014-06-27T22:29:35.45Z"
+  },
+  {
+    "id": 155680405,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Sombrero Cat",
+    "price": "R$ 245",
+    "restrictions": [],
+    "created": "2014-05-02T20:11:39.953Z"
   },
   {
     "id": 146083060,
@@ -1973,6 +2004,15 @@
     "price": "R$ 95",
     "restrictions": [],
     "created": "2013-04-05T21:43:42.633Z"
+  },
+  {
+    "id": 98450175,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Autumn's Sorcerer",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2012-11-22T01:13:24.347Z"
   },
   {
     "id": 90716965,
