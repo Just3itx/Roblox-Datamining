@@ -33,11 +33,11 @@
 |  | Snapshot | Data |
 | --- | --- | --- |
 | 🧩 API dump | 960 classes · 8,927 members · 664 enums | [`data/api-dump`](data/api-dump) |
-| 🚩 Fast flags | 207,114 values across 9 apps | [`data/fflags`](data/fflags) |
-| 🎮 Top playing now | [Steal An Egg](https://www.roblox.com/games/107778070777162) · [Brookhaven 🏡RP](https://www.roblox.com/games/4924922222) · [Throw Food For Animals](https://www.roblox.com/games/120219252362013) | [`data/games`](data/games) |
+| 🚩 Fast flags | 207,122 values across 9 apps | [`data/fflags`](data/fflags) |
+| 🎮 Top playing now | [Steal An Egg](https://www.roblox.com/games/107778070777162) · [Brookhaven 🏡RP](https://www.roblox.com/games/4924922222) · [\[🥤\] Adopt Me!](https://www.roblox.com/games/920587237) | [`data/games`](data/games) |
 | 🛍️ Latest Roblox items | [Shedletsekkar](https://www.roblox.com/catalog/93762663362787) · [Courtside Golden Hour](https://www.roblox.com/catalog/81421947324360) · [Moonlight Meadow](https://www.roblox.com/catalog/95681420685521) | [`data/catalog`](data/catalog) |
 
-<sub>Last change detected 2026-11-19 17:50 UTC. This block is rewritten by the miner.</sub>
+<sub>Last change detected 2026-11-19 18:00 UTC. This block is rewritten by the miner.</sub>
 <!-- status:end -->
 
 ---
