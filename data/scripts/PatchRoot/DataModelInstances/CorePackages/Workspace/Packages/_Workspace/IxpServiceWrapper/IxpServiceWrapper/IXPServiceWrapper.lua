@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-18T23:50:42Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T12:30:46Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local RunService = game:GetService("RunService")
 local IXPService = game:GetService("IXPService")
