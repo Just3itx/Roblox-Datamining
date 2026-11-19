@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T04:20:59Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T17:11:17Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local RunService = game:GetService("RunService")
 
@@ -99,9 +99,11 @@ local GetFFlagVoiceChatClientRewriteMasterLua = require(scriptParentParent.Share
 
 local GetFFlagCheckUniversePlaceBeforeSuspending = require(scriptParentParent.SharedFlags).GetFFlagCheckUniversePlaceBeforeSuspending
 local FFlagEnablePartyVoiceChangersInLua = require(scriptParentParent.SharedFlags).FFlagEnablePartyVoiceChangersInLua
+local FFlagReactiveVoiceRestrictionsUFR = require(scriptParentParent.SharedFlags).FFlagReactiveVoiceRestrictionsUFR
 local FFlagSkipVoiceInTeamCreateViewer = require(Flags.FFlagSkipVoiceInTeamCreateViewer)
 local GetFFlagCoreMicManagerRefactor = require(Flags.GetFFlagCoreMicManagerRefactor)
 local GetFFlagMicConsumerRegistry = require(Flags.GetFFlagMicConsumerRegistry)
+local FFlagMicSyncVoiceDeviceAcrossRejoin = require(Flags.FFlagMicSyncVoiceDeviceAcrossRejoin)
 local MicInputManager = if GetFFlagCoreMicManagerRefactor() then require(script.Parent.MicInputManager) else nil
 local WATCHED_NAMESPACES = Constants.WATCHED_NAMESPACES
 local WATCHED_MESSAGE_TYPES = Constants.WATCHED_MESSAGE_TYPES
@@ -905,7 +907,10 @@ function module.userAndPlaceCanUseVoice(arg1)
         end
 
         task.spawn(function()
-            arg1:FetchAgeVerificationOverlay()
+            local ageVerificationOverlayResult = arg1:FetchAgeVerificationOverlay()
+            if FFlagReactiveVoiceRestrictionsUFR then
+                arg1:emit("OnJoinAgeVerificationOverlayFetched", ageVerificationOverlayResult)
+            end
         end)
     end
 
@@ -1458,11 +1463,15 @@ function module.SetupParticipantListeners(arg1)
         local bool8 = voiceChatState2 == Enum.VoiceChatState.Joining
         local bool9 = voiceChatState2 == Enum.VoiceChatState.Leaving
         local bool10 = voiceChatState2 == Enum.VoiceChatState.Ended
-        local localMuted = arg1.service:IsPublishPaused()
+        local isPublishPaused = arg1.service:IsPublishPaused()
+        if FFlagMicSyncVoiceDeviceAcrossRejoin then
+            arg1:_registerVoiceChatConsumerOnJoined(voiceChatState2)
+            bool8, isPublishPaused = arg1:_applyVoiceRejoinMicState(voiceChatState2, bool8, isPublishPaused)
+        end
 
-        if localMuted ~= arg1.localMuted and not (bool7 or bool8 or bool9 or bool10) then
-            arg1.localMuted = localMuted
-            arg1.muteChanged:Fire(localMuted)
+        if isPublishPaused ~= arg1.localMuted and not (bool7 or bool8 or bool9 or bool10) then
+            arg1.localMuted = isPublishPaused
+            arg1.muteChanged:Fire(isPublishPaused)
         elseif bool8 or bool9 or bool10 then
             arg1.localMuted = nil
         end
@@ -1470,7 +1479,7 @@ function module.SetupParticipantListeners(arg1)
         if GetFFlagVoiceChatClientRewriteMasterLua()
             and voiceChatState2 == Enum.VoiceChatState.Joined
             and arg1.isInCall
-            and localMuted ~= arg1.callMutedState
+            and isPublishPaused ~= arg1.callMutedState
         then
             log:debug("In call, setting local muted to call muted state {}", arg1.callMutedState)
             arg1:ToggleMic("InitInCall")
@@ -2386,6 +2395,55 @@ end
 function module._reportJoinFailed(arg1, arg2, arg3)
     arg1.Analytics:reportVoiceChatJoinResult(false, arg2, arg3)
     arg1:emit("OnReportJoinFailed", arg2)
+end
+
+function module._registerVoiceChatConsumerOnJoined(arg1, voiceChatState)
+    if not GetFFlagMicConsumerRegistry()
+        or not GetFFlagCoreMicManagerRefactor()
+        or voiceChatState ~= Enum.VoiceChatState.Joined
+    then
+        return
+    end
+    local localPlayer = Players.LocalPlayer
+    arg1.micManager:RegisterConsumer({
+        id = "voice_chat",
+        consumerType = "VoiceChat",
+        device = if localPlayer then localPlayer:FindFirstChildOfClass("AudioDeviceInput") else nil
+    })
+end
+
+function module._applyVoiceRejoinMicState(tbl3, voiceChatState, bool7: boolean, bool8: boolean)
+    if tbl3.localMuted ~= nil then
+        tbl3._mutedBeforeRejoin = tbl3.localMuted
+    end
+
+    if voiceChatState == Enum.VoiceChatState.JoiningRetry then
+        bool7 = true
+    end
+
+    if bool7 then
+        tbl3.localMuted = nil
+        tbl3:_syncLocalAudioDeviceActive()
+        return bool7, bool8
+    end
+
+    if voiceChatState ~= Enum.VoiceChatState.Joined then
+        return bool7, bool8
+    end
+
+    local bool9 = tbl3._mutedBeforeRejoin == true
+    tbl3._mutedBeforeRejoin = nil
+    if not bool9 or bool8 ~= false or not GetFFlagCoreMicManagerRefactor() then
+        return bool7, bool8
+    end
+
+    if not VoiceChatService.UseNewAudioApi then
+        tbl3.service:PublishPause(true)
+    end
+    tbl3.localMuted = true
+    tbl3.muteChanged:Fire(true)
+    tbl3:_syncLocalAudioDeviceActive()
+    return bool7, true
 end
 
 function module._syncLocalAudioDeviceActive(arg1)

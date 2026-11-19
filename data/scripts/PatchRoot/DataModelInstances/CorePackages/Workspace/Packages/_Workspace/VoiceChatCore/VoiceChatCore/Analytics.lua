@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T04:20:57Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T17:11:14Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local RbxAnalyticsService = game:GetService("RbxAnalyticsService")
 local SessionService = game:GetService("SessionService")
@@ -35,6 +35,23 @@ local tbl1 = {
         backends = { "RobloxTelemetryCounter" },
         lastUpdated = { 2026, 10, 22 },
         description = "The user clicked the voice rewarm join-voice icon, consuming the rewarm. customFields: rearmed, consequence (what JoinVoice did, e.g. FirstJoinSession, FaeUpsell, ConsentModal, or none).",
+        links = ""
+    }
+}
+
+local tbl2 = {
+    Connected = {
+        eventName = "VoiceConnected",
+        backends = { "RobloxTelemetryCounter" },
+        lastUpdated = { 2026, 11, 3 },
+        description = "Counted wherever the voiceConnectEvent event stream event is sent, so the two stay comparable. customFields: source (the VOICE_CONNECTION_SOURCE that started the join: AUTO_CONNECT, IN_EXPERIENCE, SETTINGS_TOGGLE_ON, or none). User-initiated connects are every source except AUTO_CONNECT.",
+        links = ""
+    },
+    Disconnected = {
+        eventName = "VoiceDisconnected",
+        backends = { "RobloxTelemetryCounter" },
+        lastUpdated = { 2026, 11, 3 },
+        description = "The voice session reached the Ended state, counted alongside the voiceDisconnectReasonEvent event stream event. customFields: reason (the VOICE_DISCONNECT_REASON: USER_DISCONNECT when the user turned voice off, MODERATED, or SYSTEM for everything else).",
         links = ""
     }
 }
@@ -104,8 +121,8 @@ function module:reportBanMessageEvent(str1: string)
     end
 end
 
-function module.reportBanMessageEventV2(tbl2, eventType: string, banReason: number, userId: number, voiceSessionId: string)
-    tbl2:_report(
+function module.reportBanMessageEventV2(tbl3, eventType: string, banReason: number, userId: number, voiceSessionId: string)
+    tbl3:_report(
         "voiceChat",
         "reportBanEvent",
         nil,
@@ -128,8 +145,8 @@ function module:reportOutOfOrderSequence()
     self._impl:ReportCounter("voiceChat-outOfOrderSequence", 1)
 end
 
-function module:reportReceivedNudge(tbl2, userId: number, voiceSessionId: string)
-    local unixTimestampMillis = DateTime.fromIsoDate(tbl2.deliveryTime).UnixTimestampMillis
+function module:reportReceivedNudge(tbl3, userId: number, voiceSessionId: string)
+    local unixTimestampMillis = DateTime.fromIsoDate(tbl3.deliveryTime).UnixTimestampMillis
     local durationInMs = DateTime.now().UnixTimestampMillis - unixTimestampMillis
     self._impl:ReportCounter("voicechat-receivednudge", 1)
     self._impl:ReportCounter("voicechat-receivednudgeduration", durationInMs)
@@ -138,7 +155,7 @@ function module:reportReceivedNudge(tbl2, userId: number, voiceSessionId: string
         "voiceChat",
         "receivedNudge",
         {
-            type = tbl2.type,
+            type = tbl3.type,
             durationInMs = durationInMs,
             userId = userId,
             voiceSessionId = voiceSessionId
@@ -176,35 +193,35 @@ function module:reportDeniedNudge(userId: number, voiceSessionId: string)
     )
 end
 
-function module:reportVoiceMuteIndividual(tbl2)
+function module:reportVoiceMuteIndividual(tbl3)
     self._impl:SendEventDeferred("client", "voice", "voiceUIMuteUnmuteIndividual", {
-        user_id = tbl2.userId,
-        client_session_id = tbl2.clientSessionId,
-        target_user_id = tbl2.targetUserId,
-        channel_id = tbl2.channelId,
-        context = tbl2.context,
-        muted = tbl2.muted
+        user_id = tbl3.userId,
+        client_session_id = tbl3.clientSessionId,
+        target_user_id = tbl3.targetUserId,
+        channel_id = tbl3.channelId,
+        context = tbl3.context,
+        muted = tbl3.muted
     })
 end
 
-function module:reportVoiceMuteGroup(tbl2)
+function module:reportVoiceMuteGroup(tbl3)
     self._impl:SendEventDeferred("client", "voice", "voiceUIMuteUnmuteGroup", {
-        user_id = tbl2.userId,
-        client_session_id = tbl2.clientSessionId,
-        channel_id = tbl2.channelId,
-        context = tbl2.context,
-        group_type = tbl2.groupType,
-        muted = tbl2.muted
+        user_id = tbl3.userId,
+        client_session_id = tbl3.clientSessionId,
+        channel_id = tbl3.channelId,
+        context = tbl3.context,
+        group_type = tbl3.groupType,
+        muted = tbl3.muted
     })
 end
 
-function module:reportVoiceMuteSelf(tbl2)
+function module:reportVoiceMuteSelf(tbl3)
     self._impl:SendEventDeferred("client", "voice", "voiceUIMuteUnmuteSelf", {
-        user_id = tbl2.userId,
-        client_session_id = tbl2.clientSessionId,
-        channel_id = tbl2.channelId,
-        context = tbl2.context,
-        muted = tbl2.muted
+        user_id = tbl3.userId,
+        client_session_id = tbl3.clientSessionId,
+        channel_id = tbl3.channelId,
+        context = tbl3.context,
+        muted = tbl3.muted
     })
 end
 
@@ -304,7 +321,7 @@ function module:reportVoiceEvents(arg1, arg2)
     self._impl:SendEventDeferred("client", "voice", arg1, arg2)
 end
 
-function module.reportVoiceVolumeEligibility(_, tbl2)
+function module.reportVoiceVolumeEligibility(_, tbl3)
     local config = {
         eventName = "VoiceVolumeControlsEligibility",
         backends = { "EventIngest" },
@@ -315,12 +332,12 @@ function module.reportVoiceVolumeEligibility(_, tbl2)
     }
 
     local customFields = {
-        playSessionId = tbl2.playSessionId,
-        voiceSessionId = tbl2.voiceSessionId,
-        voiceChatVolume = tbl2.voiceChatVolume,
-        usesNewAudioApi = tbl2.usesNewAudioApi,
-        enablesVoiceVolumeControls = tbl2.enablesVoiceVolumeControls,
-        isEligible = tbl2.isEligible
+        playSessionId = tbl3.playSessionId,
+        voiceSessionId = tbl3.voiceSessionId,
+        voiceChatVolume = tbl3.voiceChatVolume,
+        usesNewAudioApi = tbl3.usesNewAudioApi,
+        enablesVoiceVolumeControls = tbl3.enablesVoiceVolumeControls,
+        isEligible = tbl3.isEligible
     }
     TelemetryService:LogEvent(
         config,
@@ -331,7 +348,7 @@ function module.reportVoiceVolumeEligibility(_, tbl2)
     )
 end
 
-function module.reportVoiceVolumeImpressions(_, tbl2)
+function module.reportVoiceVolumeImpressions(_, tbl3)
     local config = {
         eventName = "VoiceVolumeControlsImpressions",
         backends = { "EventIngest" },
@@ -342,11 +359,11 @@ function module.reportVoiceVolumeImpressions(_, tbl2)
     }
 
     local customFields = {
-        playSessionId = tbl2.playSessionId,
-        voiceSessionId = tbl2.voiceSessionId,
-        sliderSeen = tbl2.sliderSeen,
-        voiceJoinTimestampMs = tbl2.voiceJoinTimestampMs,
-        sliderSeenTimestampMs = tbl2.sliderSeenTimestampMs
+        playSessionId = tbl3.playSessionId,
+        voiceSessionId = tbl3.voiceSessionId,
+        sliderSeen = tbl3.sliderSeen,
+        voiceJoinTimestampMs = tbl3.voiceJoinTimestampMs,
+        sliderSeenTimestampMs = tbl3.sliderSeenTimestampMs
     }
     TelemetryService:LogEvent(
         config,
@@ -372,6 +389,14 @@ function module.reportVoiceRewarmClicked(_, bool1: boolean, consequence: string?
         },
         1
     )
+end
+
+function module.reportVoiceConnected(_, source: string?)
+    TelemetryService:LogCounter(tbl2.Connected, { customFields = { source = source or "none" } }, 1)
+end
+
+function module.reportVoiceDisconnected(_, reason: string?)
+    TelemetryService:LogCounter(tbl2.Disconnected, { customFields = { reason = reason or "none" } }, 1)
 end
 
 return module
