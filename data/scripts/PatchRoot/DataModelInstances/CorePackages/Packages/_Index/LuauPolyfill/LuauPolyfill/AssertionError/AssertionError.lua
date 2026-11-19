@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T04:50:44Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:51:05Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local scriptParentParent = script.Parent.Parent
 local Array = require(scriptParentParent.Array)
@@ -44,13 +44,13 @@ local tbl2 = {
     notDeepEqualUnequal = "Expected values not to be loosely deep-equal:"
 }
 
-local function copyError(tbl3) -- Luacid: Inlined by compiler; 2 call sites recovered
+local function copyError(arg1) -- Luacid: unused: defined but never referenced
     local result = {}
 
-    for _, value in (Object.keys(tbl3)) do
-        result[value] = tbl3[value]
+    for _, value in (Object.keys(arg1)) do
+        result[value] = arg1[value]
     end
-    result.message = tbl3.message
+    result.message = arg1.message
     return result
 end
 
@@ -292,6 +292,8 @@ function AssertionError.new(tbl3)
             end
         end
 
+        local tbl4, tbl5
+
         if typeof(actual) == "table"
             and actual ~= nil
             and typeof(expected) == "table"
@@ -301,9 +303,27 @@ function AssertionError.new(tbl3)
             and Array.indexOf(Object.keys(expected), "stack") ~= -1
             and instanceof(expected, Error)
         then
-            actual = copyError(actual)
-            expected = copyError(expected)
+            local var3 = Object.keys(actual)
+
+            tbl4 = {}
+            for _, value in var3 do
+                tbl4[value] = actual[value]
+            end
+            tbl4.message = actual.message
+            local var4 = Object.keys(expected)
+
+            tbl5 = {}
+            for _, value in var4 do
+                tbl5[value] = expected[value]
+            end
+            tbl5.message = expected.message
+        else
+            tbl5 = expected
+            tbl4 = actual
         end
+
+        expected = tbl5
+        actual = tbl4
 
         if operator == "deepStrictEqual" or operator == "strictEqual" then
             var2 = setmetatable(Error.new(createErrDiff(actual, expected, operator)), AssertionError)
