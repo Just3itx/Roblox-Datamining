@@ -6853,7 +6853,7 @@
   "EndCardTelemetryThrottleHundredthsPercent": "1000",
   "EventStreamBatchSize": "10",
   "EventUploadEnableRetryAttemptCount": "True",
-  "FFlagAACAssetPublishBatchEndpoint_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-19T18:05:09",
+  "FFlagAACAssetPublishBatchEndpoint": "True",
   "FFlagAACAssetPublishCommands": "True",
   "FFlagAACAssetPublishCommandsTelemetry": "True",
   "FFlagAACParseVersionedAssetIds": "True",
