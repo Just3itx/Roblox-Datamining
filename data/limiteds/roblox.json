@@ -261,7 +261,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 10007,
-    "lowestResale": 1200
+    "lowestResale": 2000
   },
   "143635868": {
     "id": 143635868,
@@ -537,7 +537,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 696,
-    "lowestResale": 20000
+    "lowestResale": 19999
   },
   "153028036": {
     "id": 153028036,
@@ -681,7 +681,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 30790,
-    "lowestResale": 219
+    "lowestResale": 234
   },
   "153563851": {
     "id": 153563851,
@@ -897,7 +897,7 @@
     "price": 30,
     "remaining": 0,
     "totalQuantity": 5002,
-    "lowestResale": 4444
+    "lowestResale": 4874
   },
   "155661985": {
     "id": 155661985,
@@ -946,18 +946,6 @@
     "remaining": 0,
     "totalQuantity": 2501,
     "lowestResale": 2299
-  },
-  "156105465": {
-    "id": 156105465,
-    "name": "Wanwood Sombrero",
-    "type": "Hat",
-    "created": "2014-05-05T19:15:22.157Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 5000,
-    "remaining": 0,
-    "totalQuantity": 78,
-    "lowestResale": 0
   },
   "156467990": {
     "id": 156467990,
@@ -2217,7 +2205,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 7996,
-    "lowestResale": 2859
+    "lowestResale": 2858
   },
   "190247723": {
     "id": 190247723,
@@ -2601,7 +2589,7 @@
     "price": 50000,
     "remaining": 0,
     "totalQuantity": 100,
-    "lowestResale": 19000000
+    "lowestResale": 19999999
   },
   "215762773": {
     "id": 215762773,
@@ -2997,7 +2985,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2002,
-    "lowestResale": 13216
+    "lowestResale": 13214
   },
   "243853512": {
     "id": 243853512,
@@ -3633,7 +3621,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 1000,
-    "lowestResale": 6870
+    "lowestResale": 6869
   },
   "287426148": {
     "id": 287426148,
@@ -3645,7 +3633,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 1001,
-    "lowestResale": 8000
+    "lowestResale": 7100
   },
   "292969139": {
     "id": 292969139,
@@ -5985,7 +5973,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3804
+    "lowestResale": 3803
   },
   "562478132": {
     "id": 562478132,
@@ -6033,7 +6021,7 @@
     "price": 95,
     "remaining": 0,
     "totalQuantity": 44280,
-    "lowestResale": 6400
+    "lowestResale": 6399
   },
   "567531362": {
     "id": 567531362,
@@ -6201,7 +6189,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 20018,
-    "lowestResale": 1499
+    "lowestResale": 1498
   },
   "628771505": {
     "id": 628771505,
@@ -7413,7 +7401,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 10027,
-    "lowestResale": 41250
+    "lowestResale": 41500
   },
   "1609402609": {
     "id": 1609402609,
@@ -7725,7 +7713,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 732
+    "lowestResale": 729
   },
   "1974902858": {
     "id": 1974902858,
@@ -8061,7 +8049,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 75023,
-    "lowestResale": 721
+    "lowestResale": 719
   },
   "2588169261": {
     "id": 2588169261,
@@ -8265,7 +8253,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2036162,
-    "lowestResale": 199
+    "lowestResale": 200
   },
   "3016722037": {
     "id": 3016722037,
@@ -8889,7 +8877,7 @@
     "price": 120,
     "remaining": 0,
     "totalQuantity": 7868,
-    "lowestResale": 833
+    "lowestResale": 832
   },
   "10856293131": {
     "id": 10856293131,
@@ -9475,7 +9463,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9472560,
+    "remaining": 9472558,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9681,7 +9669,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1246054,
-    "lowestResale": 1725
+    "lowestResale": 1750
   },
   "14847637885": {
     "id": 14847637885,
@@ -9815,6 +9803,18 @@
     "totalQuantity": 140083,
     "lowestResale": 2200
   },
+  "161273774968765": {
+    "id": 161273774968765,
+    "name": "Snow Queen Smile",
+    "type": "Asset #?",
+    "created": "2026-01-17T09:09:50.235Z",
+    "kind": "LimitedUnique",
+    "onSale": false,
+    "price": 100,
+    "remaining": 0,
+    "totalQuantity": 25006,
+    "lowestResale": 4600
+  },
   "163046677043335": {
     "id": 163046677043335,
     "name": "Rose Amazeface",
@@ -9873,7 +9873,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 10010,
-    "lowestResale": 900
+    "lowestResale": 949
   },
   "16733641790": {
     "id": 16733641790,
@@ -10677,7 +10677,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2137963,
-    "lowestResale": 200
+    "lowestResale": 199
   },
   "4771699155": {
     "id": 4771699155,
@@ -10689,7 +10689,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3520335,
-    "lowestResale": 230
+    "lowestResale": 229
   },
   "4773569689": {
     "id": 4773569689,
@@ -11205,7 +11205,7 @@
     "price": 70,
     "remaining": 0,
     "totalQuantity": 33878,
-    "lowestResale": 800
+    "lowestResale": 850
   },
   "72389557944696": {
     "id": 72389557944696,
@@ -11949,7 +11949,7 @@
     "price": 50,
     "remaining": 0,
     "totalQuantity": 11049,
-    "lowestResale": 1350
+    "lowestResale": 1597
   },
   "99742784495587": {
     "id": 99742784495587,
