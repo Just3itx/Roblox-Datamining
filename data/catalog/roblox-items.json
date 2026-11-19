@@ -2038,6 +2038,15 @@
     "created": "2011-05-04T23:08:37.483Z"
   },
   {
+    "id": 39072316,
+    "itemType": "Asset",
+    "type": "Hat",
+    "name": "Veteran's Day Cap",
+    "price": "R$ 95",
+    "restrictions": [],
+    "created": "2010-11-11T21:18:57.19Z"
+  },
+  {
     "id": 38172771,
     "itemType": "Asset",
     "type": "Neck",
