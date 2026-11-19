@@ -1,0 +1,3 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T01:15:01Z
+-- Luau bytecode version: 9 | Luau type version: 3
+return game:DefineFastFlag("ExperiencesOnProfile_v2", false)
