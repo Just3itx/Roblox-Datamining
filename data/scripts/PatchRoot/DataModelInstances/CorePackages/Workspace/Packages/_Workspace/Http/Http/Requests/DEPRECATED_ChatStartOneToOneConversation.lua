@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-18T23:41:09Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T12:21:02Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local HttpService = game:GetService("HttpService")
 

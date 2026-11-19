@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-18T23:40:57Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T12:20:52Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local HttpService = game:GetService("HttpService")
 local Http = script:FindFirstAncestor("Http")
@@ -7,6 +7,7 @@ local HttpParent = Http.Parent
 
 local Promise = require(HttpParent.Promise)
 local NetworkProfiler = require(Http.NetworkProfiler)
+local FFlagDisableLegacyReportToDiag = require(HttpParent.SharedFlags.FFlagDisableLegacyReportToDiag)
 local _RequestTypes = require(Http.RequestTypes)
 local StatusCodes = require(Http.StatusCodes)
 local HttpCanceller = require(Http.NetworkLayers.HttpCanceller)
@@ -90,14 +91,16 @@ function tbl2:processResponse(arg1)
         self.reject({ HttpError = Enum.HttpError.OK, isJSONValid = false })
         return
     end
-    NetworkProfiler:track({
-        queued = arg1.Stats.DurationInQueue,
-        nameLookup = arg1.Stats.DurationNameLookup,
-        connect = arg1.Stats.DurationConnect,
-        sslHandshake = arg1.Stats.DurationSSLHandshake,
-        makeRequest = arg1.Stats.DurationMakeRequest,
-        receiveResponse = arg1.Stats.DurationReceiveResponse
-    })
+    if not FFlagDisableLegacyReportToDiag then
+        NetworkProfiler:track({
+            queued = arg1.Stats.DurationInQueue,
+            nameLookup = arg1.Stats.DurationNameLookup,
+            connect = arg1.Stats.DurationConnect,
+            sslHandshake = arg1.Stats.DurationSSLHandshake,
+            makeRequest = arg1.Stats.DurationMakeRequest,
+            receiveResponse = arg1.Stats.DurationReceiveResponse
+        })
+    end
     local responseTimeMs = arg1.Stats.RoundTripTime * 1000
     local bodyLen = arg1.Body and typeof(arg1.Body) == "string" and #arg1.Body or 0
 
