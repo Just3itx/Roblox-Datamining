@@ -311,6 +311,18 @@
     "totalQuantity": 3907,
     "lowestResale": 8499
   },
+  "152980442": {
+    "id": 152980442,
+    "name": "Egg of Luck",
+    "type": "Hat",
+    "created": "2014-04-11T04:52:46.493Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 93465,
+    "lowestResale": 299
+  },
   "152980450": {
     "id": 152980450,
     "name": "Egg of Time",
@@ -465,7 +477,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 77375,
-    "lowestResale": 210
+    "lowestResale": 229
   },
   "152980796": {
     "id": 152980796,
@@ -633,7 +645,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 24503,
-    "lowestResale": 250
+    "lowestResale": 249
   },
   "153563680": {
     "id": 153563680,
@@ -1989,7 +2001,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 3517,
-    "lowestResale": 5696
+    "lowestResale": 5695
   },
   "187483689": {
     "id": 187483689,
@@ -2649,7 +2661,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 1864,
-    "lowestResale": 265000
+    "lowestResale": 268500
   },
   "226189986": {
     "id": 226189986,
@@ -6645,7 +6657,7 @@
     "price": 750,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 9314
+    "lowestResale": 9312
   },
   "1117744489": {
     "id": 1117744489,
@@ -6945,7 +6957,7 @@
     "price": 350,
     "remaining": 0,
     "totalQuantity": 28211,
-    "lowestResale": 900
+    "lowestResale": 750
   },
   "1230403652": {
     "id": 1230403652,
@@ -7269,7 +7281,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3702688,
-    "lowestResale": 229
+    "lowestResale": 230
   },
   "1556235379": {
     "id": 1556235379,
@@ -7931,18 +7943,6 @@
     "totalQuantity": 5239276,
     "lowestResale": 249
   },
-  "2528067691": {
-    "id": 2528067691,
-    "name": "Catrina Dia de Muertos Mask",
-    "type": "Face Accessory",
-    "created": "2018-10-30T14:43:02.08Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 3393767,
-    "lowestResale": 0
-  },
   "2544538622": {
     "id": 2544538622,
     "name": "Ninja Smoke Screen Bandolier",
@@ -8373,7 +8373,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4203154,
-    "lowestResale": 230
+    "lowestResale": 229
   },
   "3798239844": {
     "id": 3798239844,
@@ -8385,7 +8385,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4120993,
-    "lowestResale": 200
+    "lowestResale": 230
   },
   "3798243238": {
     "id": 3798243238,
@@ -8409,7 +8409,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4395927,
-    "lowestResale": 307
+    "lowestResale": 299
   },
   "3798251754": {
     "id": 3798251754,
@@ -8937,7 +8937,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 16837,
-    "lowestResale": 9000
+    "lowestResale": 11500
   },
   "110673146052704": {
     "id": 110673146052704,
@@ -9453,7 +9453,7 @@
     "price": 105,
     "remaining": 9472618,
     "totalQuantity": 10000000,
-    "lowestResale": 0
+    "lowestResale": 105
   },
   "12804998382": {
     "id": 12804998382,
@@ -9501,7 +9501,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 3150
+    "lowestResale": 3350
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9657,7 +9657,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1246054,
-    "lowestResale": 1799
+    "lowestResale": 1700
   },
   "148231230019774": {
     "id": 148231230019774,
@@ -10485,7 +10485,7 @@
     "price": 50,
     "remaining": 0,
     "totalQuantity": 2505,
-    "lowestResale": 30982
+    "lowestResale": 30499
   },
   "3404964728936": {
     "id": 3404964728936,
@@ -11241,7 +11241,7 @@
     "price": 3000,
     "remaining": 0,
     "totalQuantity": 10078,
-    "lowestResale": 1455
+    "lowestResale": 1460
   },
   "74319168976379": {
     "id": 74319168976379,
@@ -11757,7 +11757,7 @@
     "price": 900,
     "remaining": 0,
     "totalQuantity": 2917,
-    "lowestResale": 901
+    "lowestResale": 900
   },
   "8853111709": {
     "id": 8853111709,
