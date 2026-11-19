@@ -1,0 +1,10 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T04:50:46Z
+-- Luau bytecode version: 9 | Luau type version: 3
+--!optimize 1
+local scriptParentParent = script.Parent.Parent
+local Number = require(scriptParentParent.Number)
+
+return function(arg1): boolean
+    local bool1 = not not arg1
+    return bool1 and arg1 ~= 0 and arg1 ~= "" and not Number.isNaN(arg1)
+end
