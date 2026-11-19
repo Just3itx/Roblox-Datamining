@@ -1,0 +1,5 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T13:01:11Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local FFlagPromptsHandlerEnabled = require(script.Parent.FFlagPromptsHandlerEnabled)
+
+return game:DefineFastFlag("ChatPushUpsellPromptsEnabled", false) and FFlagPromptsHandlerEnabled
