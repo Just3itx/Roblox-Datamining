@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-18T23:05:35Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T11:31:31Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Signal = require(script.Signal)
 local Immutable = require(script.Immutable)
@@ -12,6 +12,7 @@ local GetDefaultQualityLevel = require(script.GetDefaultQualityLevel)
 local isRunningInStudio = require(script.isRunningInStudio)
 local callOnce = require(script.callOnce)
 local memoize = require(script.memoize)
+local nextWrappedInteger = require(script.nextWrappedInteger)
 local OrderedMap = require(script.OrderedMap)
 local Text = require(script.Text)
 local Symbol = require(script.Symbol)
@@ -39,6 +40,7 @@ local module = {
     Functional = Functional,
     callOnce = callOnce,
     memoize = memoize,
+    nextWrappedInteger = nextWrappedInteger,
     OrderedMap = OrderedMap,
     Text = Text,
     Symbol = Symbol,
