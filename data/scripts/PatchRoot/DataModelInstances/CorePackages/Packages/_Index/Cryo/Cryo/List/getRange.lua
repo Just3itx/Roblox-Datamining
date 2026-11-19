@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T04:40:41Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:41:26Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local function getRange<T>(tbl1: {T}, arg1, arg2): {T}
     assert(arg1 <= arg2, "startIndex must be less than or equal to endIndex")
