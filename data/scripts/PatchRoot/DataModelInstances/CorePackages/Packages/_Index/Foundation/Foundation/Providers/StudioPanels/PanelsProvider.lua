@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:00:40Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T06:41:26Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -42,7 +42,7 @@ local function PanelsProvider(tbl1)
         end
     end, { var3 })
 
-    local registerPopoverAsync = React.useCallback(function(targetWidgetUri, arg1, func1: (...any) -> (...any), num1: number?, str1: string?, bool1: boolean?)
+    local registerPopoverAsync = React.useCallback(function(targetWidgetUri, arg1, func1: (...any) -> (...any), num1: number?, str1: string?, bool1: boolean?, vector2: Vector2?)
         if Flags.FoundationPopoverPluginAnchorRefresh then
             var2.refreshAsync(targetWidgetUri)
         end
@@ -58,7 +58,11 @@ local function PanelsProvider(tbl1)
             bool1 = nil
         end
 
-        local var5 = var4:openAtAsync(tbl2, func1, num1, str1, bool1)
+        if not Flags.FoundationPopoverPluginPoolReclaim then
+            vector2 = nil
+        end
+
+        local var5 = var4:openAtAsync(tbl2, func1, num1, str1, bool1, vector2)
 
         return var5, function()
             var5.close()

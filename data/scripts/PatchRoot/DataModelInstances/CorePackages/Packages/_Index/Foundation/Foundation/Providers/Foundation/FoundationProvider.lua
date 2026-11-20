@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T09:51:00Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T06:40:36Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local scriptParentParent = script.Parent.Parent
 local scriptParentParentParent = scriptParentParent.Parent
@@ -20,6 +20,7 @@ local StyleProvider = require(scriptParentParent.Style.StyleProvider)
 local _Types = require(scriptParentParentParent.Components.Types)
 local WidgetsProvider = require(scriptParentParent.StudioWidgets.WidgetsProvider)
 local ElevationProvider = require(scriptParentParent.Elevation.ElevationProvider).ElevationProvider
+local ScreenRegionProvider = require(scriptParentParent.ScreenRegion.ScreenRegionProvider).ScreenRegionProvider
 local isPluginElevated = require(scriptParentParent.Plugin.isPluginElevated)
 
 local var1 = table.freeze({})
@@ -52,6 +53,9 @@ local function FoundationProvider(arg1)
         React.createElement(Cursor)
     }
 
+    if Flags.FoundationScreenRegionProvider then
+        table.insert(providers, React.createElement(ScreenRegionProvider, nil))
+    end
     if arg1.plugin and isPluginElevated(arg1.plugin) then
         table.insert(providers, React.createElement(WidgetsProvider, {}))
         table.insert(providers, React.createElement(PanelsProvider, {}))

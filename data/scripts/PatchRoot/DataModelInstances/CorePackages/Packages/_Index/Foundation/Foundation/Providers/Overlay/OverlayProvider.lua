@@ -1,10 +1,11 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T09:51:04Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T06:40:41Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
 
 local Constants = require(Foundation.Constants)
+local Flags = require(Foundation.Utility.Flags)
 
 local getMainGui = require(Foundation.Utility.getMainGui)
 local withDefaults = require(Foundation.Utility.withDefaults)
@@ -12,7 +13,9 @@ local useStyleSheet = require(Foundation.Providers.Style.StyleSheetContext).useS
 local _Types = require(Foundation.Components.Types)
 
 local OverlayContext = require(script.Parent.OverlayContext)
+local ViewportBreakpointContext = require(script.Parent.ViewportBreakpointContext)
 local useKeyboardAwareSize = require(script.Parent.useKeyboardAwareSize)
+local useSharedViewportBreakpoint = require(script.Parent.useSharedViewportBreakpoint)
 
 local React = require(FoundationParent.React)
 local ReactRoblox = require(FoundationParent.ReactRoblox)
@@ -48,13 +51,16 @@ local function OverlayProvider(arg1)
     if var1.gui ~= nil then
         parent = var1.gui
     end
-    local value = React.useMemo(function()
+
+    local value = if Flags.FoundationSharedViewportBreakpoint then useSharedViewportBreakpoint(parent) else nil
+
+    local var3 = React.useMemo(function()
         return { requestOverlay = requestOverlay, instance = var2, screen = parent }
     end, { requestOverlay, var2, parent })
 
     local createElement = React.createElement
     local provider = OverlayContext.Provider
-    local tbl2 = { value = value }
+    local tbl2 = { value = var3 }
     local tbl3 = { FoundationOverlay = 0, Children = 0 }
     local portal
 
@@ -79,7 +85,7 @@ local function OverlayProvider(arg1)
 
     tbl3.FoundationOverlay = portal
 
-    tbl3.Children = React.createElement(React.Fragment, nil, var1.children)
+    tbl3.Children = if Flags.FoundationSharedViewportBreakpoint then React.createElement(ViewportBreakpointContext.Provider, { value = value }, var1.children) else React.createElement(React.Fragment, nil, var1.children)
     return createElement(provider, tbl2, tbl3)
 end
 
