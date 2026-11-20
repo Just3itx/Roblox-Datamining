@@ -1,0 +1,10 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T12:51:03Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local useLazyRef = require(script.Parent.useLazyRef)
+
+local function useInitializedValue(func1: (...any) -> (...any))
+    return useLazyRef(func1).current
+end
+
+return useInitializedValue

@@ -1,0 +1,13 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T12:51:07Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local ReactUtilsParent = script:FindFirstAncestor("ReactUtils").Parent
+local _React = require(ReactUtilsParent.React)
+
+local usePropertiesBase = require(script.Parent.usePropertiesBase)
+
+local function useProperties(arg1, arg2, ...)
+    return usePropertiesBase(arg1, arg2, false, ...)
+end
+
+return useProperties
