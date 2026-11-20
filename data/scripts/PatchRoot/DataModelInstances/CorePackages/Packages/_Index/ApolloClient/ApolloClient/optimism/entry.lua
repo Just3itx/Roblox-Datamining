@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T05:31:12Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T02:11:06Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local scriptParentParentParent = script.Parent.Parent.Parent
 
@@ -206,12 +206,12 @@ reallyRecompute = function(arg1, arg2)
     return valueGet(arg1.value)
 end
 
-recomputeNewValue = function(_, arg1, tbl4: {any})
+recomputeNewValue = function(_, arg1, arg2)
     arg1.recomputing = true
 
     table.clear(arg1.value)
 
-    local success, result = pcall(arg1.fn, table.unpack(tbl4))
+    local success, result = pcall(arg1.fn, table.unpack(arg2))
     if success then
         arg1.value[1] = result
 
