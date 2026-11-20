@@ -1,0 +1,9 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T00:30:47Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local CorePackages = game:GetService("CorePackages")
+local Rodux = require(CorePackages.Packages.Rodux)
+
+local Modules = game:GetService("CoreGui").RobloxGui.Modules
+local AppReducer = require(Modules.Settings.Pages.ShareGame.AppReducer)
+
+return Rodux.Store.new(AppReducer, nil, { Rodux.thunkMiddleware })
