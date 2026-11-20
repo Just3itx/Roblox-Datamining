@@ -69,7 +69,7 @@
     "price": 2500,
     "remaining": 1,
     "totalQuantity": 63541,
-    "lowestResale": 9490
+    "lowestResale": 9499
   },
   "20011925": {
     "id": 20011925,
@@ -310,18 +310,6 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8499
-  },
-  "152980428": {
-    "id": 152980428,
-    "name": "Egg of Life",
-    "type": "Hat",
-    "created": "2014-04-11T04:52:17.117Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 137570,
-    "lowestResale": 229
   },
   "152980442": {
     "id": 152980442,
@@ -3609,7 +3597,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 5921
+    "lowestResale": 5919
   },
   "287424705": {
     "id": 287424705,
@@ -4749,7 +4737,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 138,
-    "lowestResale": 6999000
+    "lowestResale": 6666666
   },
   "382881373": {
     "id": 382881373,
@@ -4917,7 +4905,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 200844,
-    "lowestResale": 425
+    "lowestResale": 450
   },
   "398674241": {
     "id": 398674241,
@@ -4941,7 +4929,7 @@
     "price": 400,
     "remaining": 1,
     "totalQuantity": 72346,
-    "lowestResale": 11000
+    "lowestResale": 11250
   },
   "402302006": {
     "id": 402302006,
@@ -5085,7 +5073,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 1067,
-    "lowestResale": 13945
+    "lowestResale": 13944
   },
   "417458345": {
     "id": 417458345,
@@ -6861,7 +6849,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 9898,
-    "lowestResale": 1000
+    "lowestResale": 1296
   },
   "1191150322": {
     "id": 1191150322,
@@ -7713,7 +7701,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 732
+    "lowestResale": 729
   },
   "1974902858": {
     "id": 1974902858,
@@ -8253,7 +8241,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2036162,
-    "lowestResale": 224
+    "lowestResale": 220
   },
   "3016722037": {
     "id": 3016722037,
@@ -8373,7 +8361,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 6467908,
-    "lowestResale": 227
+    "lowestResale": 229
   },
   "3798231832": {
     "id": 3798231832,
@@ -8469,7 +8457,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 251516,
-    "lowestResale": 36450
+    "lowestResale": 35000
   },
   "10159606132": {
     "id": 10159606132,
@@ -8493,7 +8481,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 167117,
-    "lowestResale": 11400
+    "lowestResale": 11200
   },
   "10159617728": {
     "id": 10159617728,
@@ -9463,7 +9451,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9472415,
+    "remaining": 9472413,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9658,6 +9646,18 @@
     "remaining": 0,
     "totalQuantity": 10006,
     "lowestResale": 3397
+  },
+  "14524326503": {
+    "id": 14524326503,
+    "name": "Quadri-Skull Aura",
+    "type": "Back",
+    "created": "2023-08-21T22:38:07.783Z",
+    "kind": "LimitedUnique",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 1246054,
+    "lowestResale": 1800
   },
   "148231230019774": {
     "id": 148231230019774,
@@ -10041,7 +10041,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 388225,
-    "lowestResale": 5201
+    "lowestResale": 5200
   },
   "180840496952935": {
     "id": 180840496952935,
@@ -10701,7 +10701,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4525697,
-    "lowestResale": 220
+    "lowestResale": 240
   },
   "4773579034": {
     "id": 4773579034,
@@ -11349,7 +11349,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 31516,
-    "lowestResale": 4998
+    "lowestResale": 4999
   },
   "76831638855316": {
     "id": 76831638855316,
