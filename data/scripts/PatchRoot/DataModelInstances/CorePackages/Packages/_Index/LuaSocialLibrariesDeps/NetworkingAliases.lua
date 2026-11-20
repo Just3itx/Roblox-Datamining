@@ -1,0 +1,5 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T09:10:30Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local _Index = script.Parent.Parent.Parent._Index
+
+return (require(_Index["NetworkingAliases-31ab8d40-0.6.3"].NetworkingAliases))
