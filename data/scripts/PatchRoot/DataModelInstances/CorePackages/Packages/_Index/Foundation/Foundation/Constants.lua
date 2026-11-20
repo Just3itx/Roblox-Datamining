@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T09:10:46Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:51:20Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 0
 -- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
 local Foundation = script:FindFirstAncestor("Foundation")
@@ -38,6 +38,7 @@ return {
     DEFAULT_INPUT_FIELD_WIDTH_PIXELS = 400,
     DEFAULT_NUMBER_INPUT_WIDTH = 300,
     TOOLTIP_MAX_WIDTH = 280,
+    FLOATING_MAX_WIDTH = 480,
     SHADOW_IMAGE = "component_assets/dropshadow_17_8",
     SHADOW_SIZE = 16,
     PLUGIN_SHADOW_SIZE = 4,

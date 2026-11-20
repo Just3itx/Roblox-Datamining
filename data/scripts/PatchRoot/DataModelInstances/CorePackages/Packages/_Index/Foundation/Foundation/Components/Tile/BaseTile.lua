@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T09:01:35Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:50:48Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -8,6 +8,7 @@ local React = require(FoundationParent.React)
 
 local BaseTileContent = require(script.Parent.BaseTileContent)
 local BaseTileMedia = require(script.Parent.BaseTileMedia)
+local BaseTileMediaClipping = require(Foundation.Enums.BaseTileMediaClipping)
 local TileAspectRatio = require(Foundation.Enums.TileAspectRatio)
 local _Types = require(Foundation.Components.Types)
 local getTestIdTag = require(Foundation.Utility.getTestIdTag)
@@ -24,6 +25,7 @@ end
 
 local tbl1 = {
     mediaAspectRatio = TileAspectRatio.Ratio16x9,
+    mediaClippingStyle = BaseTileMediaClipping.Default,
     isContained = false,
     testId = "--foundation-base-tile"
 }
@@ -94,12 +96,13 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BaseTile
     local onSecondaryActivated = var1.onSecondaryActivated
     local onStateChanged = var1.onStateChanged
     local bool2 = onActivated ~= nil or onSecondaryActivated ~= nil
+    local isSizeConstrained = var1.minSize ~= nil or var1.maxSize ~= nil
 
-    local bool3 = onStateChanged ~= nil
+    local bool4 = onStateChanged ~= nil
     local var9 = if var1.isContained then var1.containedBackgroundStyle or var2.Color.Shift.Shift_200 else nil
-    local var10 = useGuiControlState(if bool3 then arg2 else nil, onStateChanged)
+    local var10 = useGuiControlState(if bool4 then arg2 else nil, onStateChanged)
 
-    local bool4 = bool2 or bool3
+    local bool5 = bool2 or bool4
     local tbl2 = {
         AnchorPoint = var1.AnchorPoint,
         AutomaticSize = automaticSize,
@@ -117,7 +120,7 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BaseTile
         ZIndex = var1.ZIndex
     }
 
-    if not bool3 then
+    if not bool4 then
         var10 = arg2
     end
 
@@ -128,7 +131,7 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BaseTile
     tbl2[React.Change.AbsolutePosition] = var1.onAbsolutePositionChanged
     tbl2[React.Tag] = getTestIdTag(var1.testId)
 
-    if bool4 then
+    if bool5 then
         tbl2.Active = bool2
         tbl2.AutoButtonColor = false
         tbl2.Selectable = bool2
@@ -139,9 +142,10 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BaseTile
     end
 
     local createElement = React.createElement
-    local str1 = if bool4 then "TextButton" else "Frame"
+    local str1 = if bool5 then "TextButton" else "Frame"
     local tbl3 = {
         Corner = React.createElement("UICorner", { CornerRadius = UDim.new(0, var2.Radius.Medium) }),
+        SizeConstraint = if isSizeConstrained then React.createElement("UISizeConstraint", { MinSize = var1.minSize, MaxSize = var1.maxSize }) else nil,
         Layout = React.createElement("UIListLayout", {
             FillDirection = Enum.FillDirection.Vertical,
             HorizontalAlignment = Enum.HorizontalAlignment.Center,
@@ -149,8 +153,10 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BaseTile
         }),
         Media = React.createElement(BaseTileMedia, {
             content = var1.mediaContent,
+            clippingStyle = var1.mediaClippingStyle,
             aspectRatio = var1.mediaAspectRatio,
             backgroundStyle = var1.mediaBackgroundStyle or var2.Color.Shift.Shift_200,
+            isSizeConstrained = isSizeConstrained,
             isContained = var1.isContained,
             tileSize = var5,
             maxHeight = if var8 == nil then nil else var8.mediaMaxHeight,

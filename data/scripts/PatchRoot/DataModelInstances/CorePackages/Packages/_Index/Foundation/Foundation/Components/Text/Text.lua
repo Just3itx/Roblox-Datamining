@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T09:01:28Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:50:40Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -9,7 +9,6 @@ local ReactIs = require(FoundationParent.ReactIs)
 
 local Interactable = require(Foundation.Components.Interactable)
 
-local Flags = require(Foundation.Utility.Flags)
 local GuiObjectChildren = require(Foundation.Utility.GuiObjectChildren)
 local _Types = require(Foundation.Components.Types)
 local indexBindable = require(Foundation.Utility.indexBindable)
@@ -43,19 +42,8 @@ return React.memo(React.forwardRef(function(arg1, ref) -- name: Text
     local var3 = useStyleTags(var2)
 
     local fontFace = React.useMemo(function()
-        if Flags.FoundationFontFaceMigration then
-            local font = if var1.fontStyle == nil then nil else var1.fontStyle.Font
-            return normalizeFontFace(font)
-        end
-
         local font = if var1.fontStyle == nil then nil else var1.fontStyle.Font
-
-        if typeof(font) == "table" and not ReactIs.isBinding(font) then
-            return Font.new(font.Family, font.Weight, font.Style)
-        elseif typeof(font) == "EnumItem" then
-            return Font.fromEnum(font)
-        end
-        return font
+        return normalizeFontFace(font)
     end, { var1.fontStyle })
 
     local y = React.useMemo(function()
