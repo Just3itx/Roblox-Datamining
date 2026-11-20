@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:21:14Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T07:11:15Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local function strict(arg1, str1: string?)
     local str2 = str1 or tostring(arg1)
