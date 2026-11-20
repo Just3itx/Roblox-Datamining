@@ -1,0 +1,44 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T08:10:36Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local getIntrospectionQuery = require(script.getIntrospectionQuery)
+local buildASTSchema = require(script.buildASTSchema)
+local printSchema = require(script.printSchema)
+local TypeInfo = require(script.TypeInfo)
+local typeComparators = require(script.typeComparators)
+local assertValidName = require(script.assertValidName)
+local findBreakingChanges = require(script.findBreakingChanges)
+
+return {
+    getIntrospectionQuery = getIntrospectionQuery.getIntrospectionQuery,
+    getOperationAST = require(script.getOperationAST).getOperationAST,
+    getOperationRootType = require(script.getOperationRootType).getOperationRootType,
+    introspectionFromSchema = require(script.introspectionFromSchema).introspectionFromSchema,
+    buildClientSchema = require(script.buildClientSchema).buildClientSchema,
+    buildASTSchema = buildASTSchema.buildASTSchema,
+    buildSchema = buildASTSchema.buildSchema,
+    parse = buildASTSchema.parse,
+    extendSchema = require(script.extendSchema).extendSchema,
+    lexicographicSortSchema = require(script.lexicographicSortSchema).lexicographicSortSchema,
+    printSchema = printSchema.printSchema,
+    printType = printSchema.printType,
+    printIntrospectionSchema = printSchema.printIntrospectionSchema,
+    typeFromAST = require(script.typeFromAST).typeFromAST,
+    valueFromAST = require(script.valueFromAST).valueFromAST,
+    valueFromASTUntyped = require(script.valueFromASTUntyped).valueFromASTUntyped,
+    astFromValue = require(script.astFromValue).astFromValue,
+    TypeInfo = TypeInfo.TypeInfo,
+    visitWithTypeInfo = TypeInfo.visitWithTypeInfo,
+    coerceInputValue = require(script.coerceInputValue).coerceInputValue,
+    concatAST = require(script.concatAST).concatAST,
+    separateOperations = require(script.separateOperations).separateOperations,
+    stripIgnoredCharacters = require(script.stripIgnoredCharacters).stripIgnoredCharacters,
+    isEqualType = typeComparators.isEqualType,
+    isTypeSubTypeOf = typeComparators.isTypeSubTypeOf,
+    doTypesOverlap = typeComparators.doTypesOverlap,
+    assertValidName = assertValidName.assertValidName,
+    isValidNameError = assertValidName.isValidNameError,
+    BreakingChangeType = findBreakingChanges.BreakingChangeType,
+    DangerousChangeType = findBreakingChanges.DangerousChangeType,
+    findBreakingChanges = findBreakingChanges.findBreakingChanges,
+    findDangerousChanges = findBreakingChanges.findDangerousChanges
+}
