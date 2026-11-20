@@ -1,0 +1,41 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T01:41:00Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+return {
+    None = "None",
+    User = "User",
+    Place = "Place",
+    NotAudible = "NotAudible",
+    NotAudibleVoiceChatVolume = "NotAudibleVoiceChatVolume",
+    Permission = "Permission",
+    Retry = "Retry",
+    VoiceChatSuspendedTemporary = "VoiceChatSuspendedTemporary",
+    VoiceChatSuspendedTemporaryAvatarChat = "VoiceChatSuspendedTemporaryAvatarChat",
+    VoiceChatSuspendedTemporaryB = "VoiceChatSuspendedTemporaryB",
+    VoiceChatSuspendedTemporaryBV2 = "VoiceChatSuspendedTemporaryBV2",
+    VoiceChatSuspendedPermanent = "VoiceChatSuspendedPermanent",
+    VoiceLoading = "VoiceLoading",
+    VoiceToxicityModal = "VoiceToxicityModal",
+    VoiceToxicityModalV2 = "VoiceToxicityModalV2",
+    VoiceToxicityToast = "VoiceToxicityToast",
+    VoiceToxicityToastV2 = "VoiceToxicityToastV2",
+    VoiceToxicityFeedbackToast = "VoiceToxicityFeedbackToast",
+    VoiceChatSuspendedTemporaryToast = "VoiceChatSuspendedTemporaryToast",
+    VoiceConsentDeclinedToast = "VoiceConsentDeclinedToast",
+    VoiceConsentAcceptedToast = "VoiceConsentAcceptedToast",
+    VoiceConsentModalV1 = "VoiceConsentModalV1",
+    VoiceConsentModalV2 = "VoiceConsentModalV2",
+    VoiceConsentModalV3 = "VoiceConsentModalV3",
+    JoinedVoiceToast = "JoinedVoiceToast",
+    JoinVoiceSTUX = "JoinVoiceSTUX",
+    JoinVoice = "JoinVoice",
+    LeaveVoice = "LeaveVoice",
+    DevicePermissionsModal = "DevicePermissionsModal",
+    VoiceDataConsentOptOutToast = "VoiceDataConsentOptOutToast",
+    UnifiedJoinVoiceToast = "UnifiedJoinVoiceToast",
+    AgeCheckForVoiceToast = "AgeCheckForVoiceToast",
+    UpdateOnAutoJoinToast = "UpdateOnAutoJoinToast",
+    MicPermissionDenied = "MicPermissionDenied",
+    MicFirstUnmutePrivacy = "MicFirstUnmutePrivacy"
+}
