@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T08:20:30Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:01:10Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -62,8 +62,7 @@ local var1 = React.memo(React.forwardRef(function(tbl2, ref)
             Selectable = false,
             Active = not isBoundsChecker and nil,
             Visible = not isBoundsChecker and nil,
-            Font = if Flags.FoundationFontFaceMigration then nil else tbl2.fontStyle.Font,
-            FontFace = if Flags.FoundationFontFaceMigration then normalizeFontFace(tbl2.fontStyle.Font) else nil,
+            FontFace = normalizeFontFace(tbl2.fontStyle.Font),
             TextSize = tbl2.fontStyle.FontSize,
             LineHeight = tbl2.fontStyle.LineHeight,
             TextColor3 = if tbl2.textStyle then tbl2.textStyle.Color3 else nil,
