@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:10:54Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T07:01:06Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 0
 -- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
 local FoundationParent = script:FindFirstAncestor("Foundation").Parent
@@ -19,7 +19,6 @@ return {
     FoundationGuiObjectInputSinkProperty = SafeFlags.createGetFFlag("FoundationGuiObjectInputSinkProperty")(),
     FoundationDisableTokenScaling = SafeFlags.createGetFFlag("FoundationDisableTokenScaling2")(),
     FoundationBaseMenuContentSizing = SafeFlags.createGetFFlag("FoundationBaseMenuContentSizing")(),
-    FoundationPopoverPluginOverlayMeasurement = SafeFlags.createGetFFlag("FoundationPopoverPluginOverlayMeasurement2")(),
     FoundationViewMemoizationChanges = SafeFlags.createGetFFlag("FoundationViewMemoizationChanges")(),
     FoundationWidgetManagerSnapshotFlush = SafeFlags.createGetFFlag("FoundationWidgetManagerSnapshotFlush")(),
     FoundationSegmentedControlBeta = SafeFlags.createGetFFlag("FoundationSegmentedControlBeta")(),
@@ -36,15 +35,12 @@ return {
     FoundationPopoverClampMinBound = SafeFlags.createGetFFlag("FoundationPopoverClampMinBound")(),
     FoundationFixColorOnScrubbableNumberInput = FoundationFixColorOnScrubbableNumberInput,
     FoundationPluginShadowSize = SafeFlags.createGetFFlag("FoundationPluginShadowSize")(),
-    FoundationProgressBarBetaUpdate = SafeFlags.createGetFFlag("FoundationProgressBarBetaUpdate2")(),
-    FoundationCenterSheetHeightFix = SafeFlags.createGetFFlag("FoundationCenterSheetHeightFix")(),
     FoundationNumberInputScrubbingUsesOffset = FoundationFixColorOnScrubbableNumberInput and SafeFlags.createGetFFlag("FoundationNumberInputScrubbingUsesOffset")(),
     FoundationSliderCapture = FoundationSliderCapture,
     FoundationAlertLinkWrap = SafeFlags.createGetFFlag("FoundationAlertLinkWrap")(),
     FoundationAlertStackTrailingOnOverflow = var2 and SafeFlags.createGetFFlag("FoundationAlertStackTrailingOnOverflow")(),
     FoundationEducationalTooltipMinMediaWidth = FoundationEducationalTooltipMinMediaWidth,
     FoundationStudioFontFaceMigration = SafeFlags.createGetFFlag("FoundationStudioFontFaceMigration")(),
-    FoundationFontFaceMigration = SafeFlags.createGetFFlag("FoundationFontFaceMigration3")(),
     FoundationSheetReversedContent = SafeFlags.createGetFFlag("FoundationSheetReversedContent")(),
     FoundationStatusIndicatorDesignUpdate = SafeFlags.createGetFFlag("FoundationStatusIndicatorDesignUpdate")(),
     FoundationUnifiedScrimScrolling = SafeFlags.createGetFFlag("FoundationUnifiedScrimScrolling2")(),
@@ -74,5 +70,13 @@ return {
     FoundationNumberInputScrubEndedAlone = FoundationNumberInputScrubCallbackProps and SafeFlags.createGetFFlag("FoundationNumberInputScrubEndedAlone")(),
     FoundationSideSheetInternalDrawer = SafeFlags.createGetFFlag("FoundationSideSheetInternalDrawer")(),
     FoundationSliderRebuild = FoundationSliderCapture and SafeFlags.createGetFFlag("FoundationSliderRebuild2")(),
-    FoundationTabsAccessory = SafeFlags.createGetFFlag("FoundationTabsAccessory")()
+    FoundationTabsAccessory = SafeFlags.createGetFFlag("FoundationTabsAccessory")(),
+    FoundationBottomSheetClearsActionsHeight = SafeFlags.createGetFFlag("FoundationBottomSheetClearsActionsHeight")(),
+    FoundationBottomSheetKeepsSnapPoint = SafeFlags.createGetFFlag("FoundationBottomSheetKeepsSnapPoint")(),
+    FoundationFloatingElevationLayer = SafeFlags.createGetFFlag("FoundationFloatingElevationLayer")(),
+    FoundationHeaderBarSlotSizing = SafeFlags.createGetFFlag("FoundationHeaderBarSlotSizing")(),
+    FoundationMetadataTruncateFallback = SafeFlags.createGetFFlag("FoundationMetadataTruncateFallback")(),
+    FoundationPopoverPluginPoolReclaim = SafeFlags.createGetFFlag("FoundationPopoverPluginPoolReclaim")(),
+    FoundationScreenRegionProvider = SafeFlags.createGetFFlag("FoundationScreenRegionProvider")(),
+    FoundationSharedViewportBreakpoint = SafeFlags.createGetFFlag("FoundationSharedViewportBreakpoint")()
 }

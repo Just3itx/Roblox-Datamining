@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:11:08Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T07:01:19Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 
@@ -191,25 +191,6 @@ local tbl3 = {
     }
 }
 
-local tbl4 = {
-    [FontName.BuilderSans] = {
-        Desktop = function()
-            return require(Foundation.Generated.StyleRules.Legacy.Typography.BuilderSans.DesktopAttribute)
-        end,
-        Console = function()
-            return require(Foundation.Generated.StyleRules.Legacy.Typography.BuilderSans.ConsoleAttribute)
-        end
-    },
-    [FontName.Cartoon] = {
-        Desktop = function()
-            return require(Foundation.Generated.StyleRules.Legacy.Typography.Cartoon.DesktopAttribute)
-        end,
-        Console = function()
-            return require(Foundation.Generated.StyleRules.Legacy.Typography.Cartoon.ConsoleAttribute)
-        end
-    }
-}
-
 local function getGeneratedRules(arg1, arg2, console)
     local var1 = arg1 or ThemeName.Default
 
@@ -231,8 +212,7 @@ local function getGeneratedRules(arg1, arg2, console)
         var5[value] = value2
     end
     local var6 = TypographyVariants[var1] or BuilderSans
-
-    local var7 = (if Flags.FoundationFontFaceMigration then tbl3[var6] or tbl3[BuilderSans] else tbl4[var6] or tbl4[BuilderSans])[if console == Device.Console and not Flags.FoundationDisableTokenScaling then Device.Console else Device.Desktop]
+    local var7 = (tbl3[var6] or tbl3[BuilderSans])[if console == Device.Console and not Flags.FoundationDisableTokenScaling then Device.Console else Device.Desktop]
 
     if var7 then
         local var8 = var7()
