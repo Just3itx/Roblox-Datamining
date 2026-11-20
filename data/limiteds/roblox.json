@@ -81,7 +81,7 @@
     "price": 1500,
     "remaining": 0,
     "totalQuantity": 28035,
-    "lowestResale": 3571
+    "lowestResale": 3590
   },
   "22970114": {
     "id": 22970114,
@@ -165,7 +165,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 2716,
-    "lowestResale": 2527
+    "lowestResale": 2525
   },
   "102606919": {
     "id": 102606919,
@@ -310,6 +310,18 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8499
+  },
+  "152980413": {
+    "id": 152980413,
+    "name": "Egg of Friendship",
+    "type": "Hat",
+    "created": "2014-04-11T04:51:49.24Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 77765,
+    "lowestResale": 279
   },
   "152980428": {
     "id": 152980428,
@@ -1041,7 +1053,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 557291,
-    "lowestResale": 290
+    "lowestResale": 300
   },
   "158068251": {
     "id": 158068251,
@@ -2001,7 +2013,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 3517,
-    "lowestResale": 5652
+    "lowestResale": 5650
   },
   "187483689": {
     "id": 187483689,
@@ -4977,7 +4989,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 2503,
-    "lowestResale": 10482
+    "lowestResale": 10481
   },
   "402304782": {
     "id": 402304782,
@@ -5109,7 +5121,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 5004,
-    "lowestResale": 1494
+    "lowestResale": 1493
   },
   "425119181": {
     "id": 425119181,
@@ -5973,7 +5985,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3778
+    "lowestResale": 3777
   },
   "562478132": {
     "id": 562478132,
@@ -6657,7 +6669,7 @@
     "price": 750,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 9262
+    "lowestResale": 9260
   },
   "1117744489": {
     "id": 1117744489,
@@ -6969,7 +6981,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 20033,
-    "lowestResale": 3350
+    "lowestResale": 3300
   },
   "1230404580": {
     "id": 1230404580,
@@ -6981,7 +6993,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 339861,
-    "lowestResale": 595
+    "lowestResale": 610
   },
   "1230409188": {
     "id": 1230409188,
@@ -7281,7 +7293,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3702688,
-    "lowestResale": 230
+    "lowestResale": 231
   },
   "1556235379": {
     "id": 1556235379,
@@ -7293,7 +7305,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1938161,
-    "lowestResale": 219
+    "lowestResale": 207
   },
   "1560601706": {
     "id": 1560601706,
@@ -7413,7 +7425,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 518280,
-    "lowestResale": 1400
+    "lowestResale": 1426
   },
   "1645055518": {
     "id": 1645055518,
@@ -7473,7 +7485,7 @@
     "price": 10000,
     "remaining": 0,
     "totalQuantity": 2403,
-    "lowestResale": 189997
+    "lowestResale": 189500
   },
   "1743906481": {
     "id": 1743906481,
@@ -7713,7 +7725,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 732
+    "lowestResale": 729
   },
   "1974902858": {
     "id": 1974902858,
@@ -8411,18 +8423,6 @@
     "totalQuantity": 4395927,
     "lowestResale": 260
   },
-  "3798251754": {
-    "id": 3798251754,
-    "name": "Sugar Shades",
-    "type": "Face Accessory",
-    "created": "2019-09-03T18:06:34.497Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 2891760,
-    "lowestResale": 0
-  },
   "4255053867": {
     "id": 4255053867,
     "name": "Dominus Formidulosus",
@@ -8457,7 +8457,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 251516,
-    "lowestResale": 34300
+    "lowestResale": 36000
   },
   "10159606132": {
     "id": 10159606132,
@@ -8697,7 +8697,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 6354,
-    "lowestResale": 2904
+    "lowestResale": 3500
   },
   "10467162863": {
     "id": 10467162863,
@@ -8829,7 +8829,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 27110,
-    "lowestResale": 1748
+    "lowestResale": 1750
   },
   "107587989163065": {
     "id": 107587989163065,
@@ -9129,7 +9129,7 @@
     "price": 2500,
     "remaining": 0,
     "totalQuantity": 12298,
-    "lowestResale": 5879
+    "lowestResale": 5699
   },
   "11530449367": {
     "id": 11530449367,
@@ -9451,7 +9451,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9472478,
+    "remaining": 9472477,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9861,7 +9861,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 235098,
-    "lowestResale": 2038
+    "lowestResale": 2037
   },
   "16733631749": {
     "id": 16733631749,
@@ -10029,7 +10029,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1526149,
-    "lowestResale": 1389
+    "lowestResale": 1386
   },
   "17756304457": {
     "id": 17756304457,
@@ -10041,7 +10041,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 388225,
-    "lowestResale": 4800
+    "lowestResale": 5099
   },
   "180840496952935": {
     "id": 180840496952935,
@@ -10101,7 +10101,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 5006,
-    "lowestResale": 5970
+    "lowestResale": 5969
   },
   "196108949920441": {
     "id": 196108949920441,
@@ -10737,7 +10737,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2589521,
-    "lowestResale": 220
+    "lowestResale": 210
   },
   "4786869155": {
     "id": 4786869155,
@@ -11805,7 +11805,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 4324,
-    "lowestResale": 1386
+    "lowestResale": 1384
   },
   "92800147120500": {
     "id": 92800147120500,

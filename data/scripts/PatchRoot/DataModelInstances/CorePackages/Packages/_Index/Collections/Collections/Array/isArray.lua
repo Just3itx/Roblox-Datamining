@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T06:01:09Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T02:40:46Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 return function(arg1)
     if typeof(arg1) ~= "table" then
