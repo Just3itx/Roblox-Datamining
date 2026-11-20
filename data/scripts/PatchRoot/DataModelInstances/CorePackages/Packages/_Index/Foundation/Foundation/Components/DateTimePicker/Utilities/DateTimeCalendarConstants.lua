@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T07:41:10Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T04:21:00Z
+-- Luau bytecode version: 14 | Luau type version: 3
 return {
     DAYS_PER_WEEK = 7,
     NUM_CALENDAR_GRID_ROWS = 7,
