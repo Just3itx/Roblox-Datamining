@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T07:10:52Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T03:50:41Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 0
 -- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
 local strict = require(script.Utility.strict)
@@ -90,6 +90,7 @@ local StatusBadgeVariant = require(script.Enums.StatusBadgeVariant)
 local StatusIndicatorShape = require(script.Enums.StatusIndicatorShape)
 local StatusIndicatorSize = require(script.Enums.StatusIndicatorSize)
 local StatusIndicatorVariant = require(script.Enums.StatusIndicatorVariant)
+local SwipeBehavior = require(script.Enums.SwipeBehavior)
 local TextOverflow = require(script.Enums.TextOverflow)
 
 local Theme = require(script.Enums.Theme)
@@ -157,6 +158,8 @@ local Empty = require(script.Components.Empty)
 
 local FeedbackAlert = require(script.Components.FeedbackAlert)
 
+local FloatingBanner = require(script.Components.FloatingBanner)
+
 local Icon2 = require(script.Components.Icon)
 
 local IconButton = require(script.Components.IconButton)
@@ -166,6 +169,8 @@ local Image = require(script.Components.Image)
 local InputChip = require(script.Components.InputChip)
 
 local InputLabel = require(script.Components.InputLabel)
+
+local InputSlider = require(script.Components.InputSlider)
 
 local KeyLabel = require(script.Components.KeyLabel)
 
@@ -184,6 +189,8 @@ local Metadata = require(script.Components.Metadata)
 local Menu = require(script.Components.Menu)
 
 local NavigationBar = require(script.Components.NavigationBar)
+
+local NavigationDrawer = require(script.Components.NavigationDrawer)
 
 local NumberInput = require(script.Components.NumberInput)
 
@@ -252,11 +259,13 @@ local var1 = strict({
     HeaderBar = HeaderBar,
     Empty = Empty,
     FeedbackAlert = FeedbackAlert,
+    FloatingBanner = FloatingBanner,
     Icon = Icon2,
     IconButton = IconButton,
     Image = Image,
     InputChip = InputChip,
     InputLabel = InputLabel,
+    InputSlider = InputSlider,
     KeyLabel = KeyLabel,
     Knob = Knob,
     Link = Link,
@@ -266,6 +275,7 @@ local var1 = strict({
     Metadata = Metadata,
     Menu = Menu,
     NavigationBar = NavigationBar,
+    NavigationDrawer = NavigationDrawer,
     NumberInput = NumberInput,
     OptionSelectorGroup = OptionSelectorGroup,
     Pagination = Pagination,
@@ -290,6 +300,8 @@ local var1 = strict({
     Text = require(script.Components.Text),
     TextArea = require(script.Components.TextArea),
     TextInput = require(script.Components.TextInput),
+    TileIcon = require(script.Components.TileIcon),
+    TilePlayer = require(script.Components.TilePlayer),
     Toggle = require(script.Components.Toggle),
     ToggleGroup = require(script.Components.ToggleGroup),
     Tooltip = require(script.Components.Tooltip),
@@ -308,6 +320,7 @@ local var1 = strict({
         useDefaultTags = require(script.Utility.useDefaultTags),
         useDialogNavigation = require(script.Components.Dialog.useDialogNavigation),
         useSheetNavigation = require(script.Components.Sheet.useSheetNavigation),
+        useHeaderBarHeight = require(script.Components.HeaderBar.useHeaderBarHeight),
         useIconSize = require(script.Utility.useIconSize),
         useMeasurableRef = require(script.Components.Popover.useMeasurableRef),
         useOverlay = require(script.Providers.Overlay.useOverlay),
@@ -404,6 +417,7 @@ local var1 = strict({
         StatusIndicatorShape = StatusIndicatorShape,
         StatusIndicatorSize = StatusIndicatorSize,
         StatusIndicatorVariant = StatusIndicatorVariant,
+        SwipeBehavior = SwipeBehavior,
         TextOverflow = TextOverflow,
         Theme = Theme,
         ThemeName = ThemeName,
