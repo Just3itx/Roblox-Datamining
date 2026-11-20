@@ -311,6 +311,18 @@
     "totalQuantity": 3907,
     "lowestResale": 8499
   },
+  "152980428": {
+    "id": 152980428,
+    "name": "Egg of Life",
+    "type": "Hat",
+    "created": "2014-04-11T04:52:17.117Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 137570,
+    "lowestResale": 229
+  },
   "152980442": {
     "id": 152980442,
     "name": "Egg of Luck",
@@ -333,7 +345,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 80724,
-    "lowestResale": 210
+    "lowestResale": 230
   },
   "152980504": {
     "id": 152980504,
@@ -1185,7 +1197,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 1001,
-    "lowestResale": 8276
+    "lowestResale": 8274
   },
   "161265873": {
     "id": 161265873,
@@ -1821,7 +1833,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 1501,
-    "lowestResale": 3100
+    "lowestResale": 3099
   },
   "182774911": {
     "id": 182774911,
@@ -2973,7 +2985,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2002,
-    "lowestResale": 12000
+    "lowestResale": 11999
   },
   "243853512": {
     "id": 243853512,
@@ -3489,7 +3501,7 @@
     "price": 750,
     "remaining": 0,
     "totalQuantity": 1337,
-    "lowestResale": 3993
+    "lowestResale": 3992
   },
   "280662903": {
     "id": 280662903,
@@ -3609,7 +3621,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 1000,
-    "lowestResale": 6859
+    "lowestResale": 6858
   },
   "287426148": {
     "id": 287426148,
@@ -5961,7 +5973,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3743
+    "lowestResale": 3742
   },
   "562478132": {
     "id": 562478132,
@@ -7161,7 +7173,7 @@
     "price": 875,
     "remaining": 0,
     "totalQuantity": 4943,
-    "lowestResale": 3198
+    "lowestResale": 3199
   },
   "1402442557": {
     "id": 1402442557,
@@ -7701,7 +7713,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 736
+    "lowestResale": 732
   },
   "1974902858": {
     "id": 1974902858,
@@ -8037,7 +8049,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 75023,
-    "lowestResale": 649
+    "lowestResale": 647
   },
   "2588169261": {
     "id": 2588169261,
@@ -8241,7 +8253,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2036162,
-    "lowestResale": 210
+    "lowestResale": 224
   },
   "3016722037": {
     "id": 3016722037,
@@ -8373,7 +8385,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4203154,
-    "lowestResale": 220
+    "lowestResale": 230
   },
   "3798239844": {
     "id": 3798239844,
@@ -8829,7 +8841,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 27110,
-    "lowestResale": 1750
+    "lowestResale": 1749
   },
   "107587989163065": {
     "id": 107587989163065,
@@ -8925,7 +8937,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 405535,
-    "lowestResale": 800
+    "lowestResale": 848
   },
   "10999681015": {
     "id": 10999681015,
@@ -8985,7 +8997,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 30620,
-    "lowestResale": 23000
+    "lowestResale": 28000
   },
   "112278583934553": {
     "id": 112278583934553,
@@ -9451,7 +9463,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9472418,
+    "remaining": 9472415,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9501,7 +9513,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 2999
+    "lowestResale": 3000
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9647,18 +9659,6 @@
     "totalQuantity": 10006,
     "lowestResale": 3397
   },
-  "14524326503": {
-    "id": 14524326503,
-    "name": "Quadri-Skull Aura",
-    "type": "Back",
-    "created": "2023-08-21T22:38:07.783Z",
-    "kind": "LimitedUnique",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 1246054,
-    "lowestResale": 1700
-  },
   "148231230019774": {
     "id": 148231230019774,
     "name": "Blue Amazeface",
@@ -9801,7 +9801,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 140083,
-    "lowestResale": 2150
+    "lowestResale": 2000
   },
   "161273774968765": {
     "id": 161273774968765,
@@ -10545,7 +10545,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 26535,
-    "lowestResale": 4000
+    "lowestResale": 3999
   },
   "4390848511": {
     "id": 4390848511,
@@ -10569,7 +10569,7 @@
     "price": 875,
     "remaining": 0,
     "totalQuantity": 13437,
-    "lowestResale": 3000
+    "lowestResale": 3590
   },
   "4390888537": {
     "id": 4390888537,
@@ -10761,7 +10761,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2254939,
-    "lowestResale": 240
+    "lowestResale": 246
   },
   "4786883113": {
     "id": 4786883113,
