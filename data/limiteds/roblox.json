@@ -21,7 +21,7 @@
     "price": 2424,
     "remaining": 0,
     "totalQuantity": 56574,
-    "lowestResale": 24899
+    "lowestResale": 24999
   },
   "1098282": {
     "id": 1098282,
@@ -69,7 +69,7 @@
     "price": 2500,
     "remaining": 1,
     "totalQuantity": 63541,
-    "lowestResale": 9495
+    "lowestResale": 9499
   },
   "20011925": {
     "id": 20011925,
@@ -201,7 +201,7 @@
     "price": 350,
     "remaining": 0,
     "totalQuantity": 5551,
-    "lowestResale": 7898
+    "lowestResale": 9000
   },
   "113327754": {
     "id": 113327754,
@@ -249,7 +249,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 63775,
-    "lowestResale": 7150
+    "lowestResale": 7250
   },
   "139617823": {
     "id": 139617823,
@@ -310,18 +310,6 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8499
-  },
-  "152980428": {
-    "id": 152980428,
-    "name": "Egg of Life",
-    "type": "Hat",
-    "created": "2014-04-11T04:52:17.117Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 137570,
-    "lowestResale": 229
   },
   "152980442": {
     "id": 152980442,
@@ -5889,7 +5877,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10972,
-    "lowestResale": 97999
+    "lowestResale": 97000
   },
   "553971558": {
     "id": 553971558,
@@ -5973,7 +5961,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3746
+    "lowestResale": 3745
   },
   "562478132": {
     "id": 562478132,
@@ -6201,7 +6189,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 10022,
-    "lowestResale": 141999
+    "lowestResale": 142892
   },
   "628783410": {
     "id": 628783410,
@@ -6537,7 +6525,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 36270,
-    "lowestResale": 1616
+    "lowestResale": 1450
   },
   "928908332": {
     "id": 928908332,
@@ -6981,7 +6969,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 339861,
-    "lowestResale": 658
+    "lowestResale": 695
   },
   "1230409188": {
     "id": 1230409188,
@@ -7281,7 +7269,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3702688,
-    "lowestResale": 230
+    "lowestResale": 200
   },
   "1556235379": {
     "id": 1556235379,
@@ -7293,7 +7281,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1938161,
-    "lowestResale": 225
+    "lowestResale": 190
   },
   "1560601706": {
     "id": 1560601706,
@@ -7413,7 +7401,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 518280,
-    "lowestResale": 1490
+    "lowestResale": 1480
   },
   "1645055518": {
     "id": 1645055518,
@@ -7713,7 +7701,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 734
+    "lowestResale": 729
   },
   "1974902858": {
     "id": 1974902858,
@@ -7929,7 +7917,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 781668,
-    "lowestResale": 240
+    "lowestResale": 200
   },
   "2528066922": {
     "id": 2528066922,
@@ -8373,7 +8361,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 6467908,
-    "lowestResale": 225
+    "lowestResale": 227
   },
   "3798231832": {
     "id": 3798231832,
@@ -8493,7 +8481,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 167117,
-    "lowestResale": 11700
+    "lowestResale": 11500
   },
   "10159617728": {
     "id": 10159617728,
@@ -8961,7 +8949,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 73124,
-    "lowestResale": 9970
+    "lowestResale": 9980
   },
   "11123556756": {
     "id": 11123556756,
@@ -9369,7 +9357,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1116368,
-    "lowestResale": 238
+    "lowestResale": 150
   },
   "123621683179706": {
     "id": 123621683179706,
@@ -9463,7 +9451,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9472422,
+    "remaining": 9472420,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9513,7 +9501,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 2929
+    "lowestResale": 2900
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9669,7 +9657,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1246054,
-    "lowestResale": 1799
+    "lowestResale": 1800
   },
   "148231230019774": {
     "id": 148231230019774,
@@ -10005,7 +9993,7 @@
     "price": 39999,
     "remaining": 0,
     "totalQuantity": 958,
-    "lowestResale": 159999
+    "lowestResale": 0
   },
   "175353425783426": {
     "id": 175353425783426,
@@ -10197,7 +10185,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 5009,
-    "lowestResale": 33599
+    "lowestResale": 33598
   },
   "207362786996620": {
     "id": 207362786996620,
@@ -10581,7 +10569,7 @@
     "price": 875,
     "remaining": 0,
     "totalQuantity": 13437,
-    "lowestResale": 3000
+    "lowestResale": 2859
   },
   "4390888537": {
     "id": 4390888537,
@@ -10667,6 +10655,18 @@
     "totalQuantity": 1407,
     "lowestResale": 35400
   },
+  "4771629993": {
+    "id": 4771629993,
+    "name": "Deteggctive W. Wolf",
+    "type": "Hat",
+    "created": "2020-03-11T22:55:28.897Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 2015512,
+    "lowestResale": 222
+  },
   "4771632715": {
     "id": 4771632715,
     "name": "Eggmunition",
@@ -10725,7 +10725,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2426313,
-    "lowestResale": 255
+    "lowestResale": 0
   },
   "4773591735": {
     "id": 4773591735,
@@ -10773,7 +10773,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2523433,
-    "lowestResale": 271
+    "lowestResale": 258
   },
   "49142176654239": {
     "id": 49142176654239,
@@ -11037,7 +11037,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 74962,
-    "lowestResale": 347
+    "lowestResale": 320
   },
   "6803412842": {
     "id": 6803412842,

@@ -1,0 +1,18 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T11:10:49Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local FRIENDS_URL = require(script.Parent.Parent.FRIENDS_URL)
+local _networkingFriendsTypes = require(script.Parent.Parent.networkingFriendsTypes)
+
+return function(arg1)
+    return arg1.roduxNetworking.GET({ Name = "GetLuobuFriendsFromUserId" }, function(arg2, arg3, arg4)
+        return arg2(FRIENDS_URL):path("v1"):path("users"):id(arg3):path("luobu-friends"):queryArgs(
+            {
+                userOpenId = arg4.userOpenId,
+                userAccessToken = arg4.userAccessToken,
+                type = arg4.type,
+                appType = arg4.appType
+            }
+        )
+    end)
+end
