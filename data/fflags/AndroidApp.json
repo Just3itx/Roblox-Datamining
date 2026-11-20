@@ -8364,6 +8364,7 @@
   "FFlagAimUploadUseKnownAssetCache": "True",
   "FFlagAinSetCageTempIds": "True",
   "FFlagAlertWindowUseFoundationTokens": "True",
+  "FFlagAlignNativeFallbackFontTables._Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-20T00:32:13",
   "FFlagAlignProcessCheckInLayoutMinSizeWithLayoutSize": "False",
   "FFlagAlignToolImprovedAnalytics": "True",
   "FFlagAllFmodDevicesUseSameRecording": "False",

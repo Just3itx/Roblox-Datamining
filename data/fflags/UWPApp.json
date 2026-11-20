@@ -24050,7 +24050,6 @@
   "FStringAudioVolumetricSoundsBetaFeatureUrl": "https://devforum.roblox.com/t/the-volumetric-sounds-beta-is-here/1695240",
   "FStringAuthenticationErrorCodeAlternative": "9002",
   "FStringAutomaticDRSFramebufferTiers": "4000,50,6000,80,11,11",
-  "FStringAutomaticDRSFramebufferTiers_Staged": "4000,50,6000,80,19,19;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-20T00:28:03",
   "FStringAvatarChatSettingsAudioLink": "https://create.roblox.com/docs/chat/spatial-voice",
   "FStringAvatarChatSettingsVideoLink": "https://roblox.com/info/animate-your-avatar",
   "FStringAvatarDeepLinkPattern": "roblox.*://navigation/avatar.*",

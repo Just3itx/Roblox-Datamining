@@ -1,0 +1,37 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T00:40:49Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local Modules = game:GetService("CoreGui").RobloxGui.Modules
+local CorePackages = game:GetService("CorePackages")
+local Roact = require(CorePackages.Packages.Roact)
+local GlobalSettings = require(Modules.Shell.GlobalSettings)
+local LocalizedStrings = require(Modules.Shell.LocalizedStrings)
+
+return function(_)
+    return Roact.createElement("ImageLabel", {
+        Size = UDim2.new(0, 599, 0, 404),
+        Position = UDim2.new(0.5, 0, 0.5, 0),
+        AnchorPoint = Vector2.new(0.5, 0.5),
+        BackgroundTransparency = 1,
+        Image = "rbxasset://textures/ui/Shell/ScreenAdjustment/Controller@1080.png"
+    }, {
+        Line = Roact.createElement("Frame", {
+            Size = UDim2.new(0, 240, 0, 1),
+            Position = UDim2.new(0, 437, 0, 220),
+            BackgroundTransparency = 0,
+            BackgroundColor3 = Color3.new(1, 1, 1),
+            BorderSizePixel = 0
+        }, {
+            InputHint = Roact.createElement("TextLabel", {
+                Size = UDim2.new(0, 0, 0, 0),
+                Position = UDim2.new(1, 3, 0, -1),
+                BackgroundTransparency = 1,
+                Font = GlobalSettings.RegularFont,
+                FontSize = GlobalSettings.ButtonSize,
+                TextColor3 = GlobalSettings.WhiteTextColor,
+                TextXAlignment = Enum.TextXAlignment.Left,
+                Text = LocalizedStrings:LocStringUA("Xbox.Old.ResizeScreenInputHint")
+            })
+        })
+    })
+end
