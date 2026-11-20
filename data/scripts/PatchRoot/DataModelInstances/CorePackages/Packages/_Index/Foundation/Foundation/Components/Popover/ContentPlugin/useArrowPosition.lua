@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T08:31:39Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:20:52Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -11,7 +11,7 @@ local Flags = require(Foundation.Utility.Flags)
 local PopoverSide = require(Foundation.Enums.PopoverSide)
 local Radius = require(Foundation.Enums.Radius)
 local useTokens = require(Foundation.Providers.Style.useTokens)
-local var1 = if Flags.FoundationPopoverPluginOverlayMeasurement and Flags.FoundationPluginShadowSize then Constants.PLUGIN_SHADOW_SIZE else Constants.SHADOW_SIZE
+local var1 = if Flags.FoundationPluginShadowSize then Constants.PLUGIN_SHADOW_SIZE else Constants.SHADOW_SIZE
 
 local function useArrowPosition(arg1, arg2, arg3, num1: number, num2: number, arg4)
     local var2 = useTokens()

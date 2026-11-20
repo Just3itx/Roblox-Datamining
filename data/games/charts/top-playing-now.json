@@ -16,15 +16,15 @@
     },
     {
       "rank": 3,
-      "universeId": 1686885941,
-      "placeId": 4924922222,
-      "name": "Brookhaven 🏡RP"
-    },
-    {
-      "rank": 4,
       "universeId": 10766972131,
       "placeId": 120219252362013,
       "name": "Throw Food For Animals"
+    },
+    {
+      "rank": 4,
+      "universeId": 1686885941,
+      "placeId": 4924922222,
+      "name": "Brookhaven 🏡RP"
     },
     {
       "rank": 5,
@@ -40,15 +40,15 @@
     },
     {
       "rank": 7,
-      "universeId": 10765288803,
-      "placeId": 114326934417838,
-      "name": "Break and Steal an Egg"
-    },
-    {
-      "rank": 8,
       "universeId": 6035872082,
       "placeId": 17625359962,
       "name": "[🎯] RIVALS"
+    },
+    {
+      "rank": 8,
+      "universeId": 10765288803,
+      "placeId": 114326934417838,
+      "name": "Break and Steal an Egg"
     },
     {
       "rank": 9,
@@ -106,15 +106,15 @@
     },
     {
       "rank": 18,
-      "universeId": 3317771874,
-      "placeId": 8737899170,
-      "name": "🍁 [TYCOON] Pet Simulator 99! 🍀"
-    },
-    {
-      "rank": 19,
       "universeId": 10629695169,
       "placeId": 72858262610964,
       "name": "[🏰] Tap Simulator REBORN"
+    },
+    {
+      "rank": 19,
+      "universeId": 3317771874,
+      "placeId": 8737899170,
+      "name": "🍁 [TYCOON] Pet Simulator 99! 🍀"
     },
     {
       "rank": 20,
@@ -124,15 +124,15 @@
     },
     {
       "rank": 21,
-      "universeId": 6331902150,
-      "placeId": 18687417158,
-      "name": "Forsaken"
-    },
-    {
-      "rank": 22,
       "universeId": 3808081382,
       "placeId": 10449761463,
       "name": "[HALLOWEEN] The Strongest Battlegrounds"
+    },
+    {
+      "rank": 22,
+      "universeId": 6331902150,
+      "placeId": 18687417158,
+      "name": "Forsaken"
     },
     {
       "rank": 23,
@@ -154,27 +154,27 @@
     },
     {
       "rank": 26,
+      "universeId": 10772066587,
+      "placeId": 91246277860636,
+      "name": "[KENDURI] MALAM SAMA OPAH"
+    },
+    {
+      "rank": 27,
       "universeId": 4658598196,
       "placeId": 13379208636,
       "name": "Attack on Titan Revolution"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "universeId": 10773487349,
       "placeId": 123969755970816,
       "name": "[🐜] Ant Evolution"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "universeId": 3647333358,
       "placeId": 9872472334,
       "name": "[🎃HLWN🎃] Evade"
-    },
-    {
-      "rank": 29,
-      "universeId": 10772066587,
-      "placeId": 91246277860636,
-      "name": "[KENDURI] MALAM SAMA OPAH"
     },
     {
       "rank": 30,
@@ -190,27 +190,27 @@
     },
     {
       "rank": 32,
-      "universeId": 7219654364,
-      "placeId": 135856908115931,
-      "name": "[💀DUELS] Murderers VS Sheriffs"
-    },
-    {
-      "rank": 33,
       "universeId": 6931042565,
       "placeId": 73956553001240,
       "name": "[UPD] Volleyball Legends"
     },
     {
-      "rank": 34,
-      "universeId": 10770730129,
-      "placeId": 106931373443671,
-      "name": "Ragdoll Soccer"
-    },
-    {
-      "rank": 35,
+      "rank": 33,
       "universeId": 7709344486,
       "placeId": 109983668079237,
       "name": "[💀] Steal a Brainrot"
+    },
+    {
+      "rank": 34,
+      "universeId": 7219654364,
+      "placeId": 135856908115931,
+      "name": "[💀DUELS] Murderers VS Sheriffs"
+    },
+    {
+      "rank": 35,
+      "universeId": 10770730129,
+      "placeId": 106931373443671,
+      "name": "Ragdoll Soccer"
     },
     {
       "rank": 36,
@@ -220,45 +220,45 @@
     },
     {
       "rank": 37,
-      "universeId": 7529591378,
-      "placeId": 80681221431821,
-      "name": "[ALPHA] Practical Basketball"
-    },
-    {
-      "rank": 38,
-      "universeId": 8172250815,
-      "placeId": 128828638194450,
-      "name": "STAND OUT"
-    },
-    {
-      "rank": 39,
-      "universeId": 10770604649,
-      "placeId": 83784149502814,
-      "name": "BloxNG [CRASH PHYSICS] 💥"
-    },
-    {
-      "rank": 40,
-      "universeId": 10155360168,
-      "placeId": 126987974021910,
-      "name": "Illegal Soccer"
-    },
-    {
-      "rank": 41,
       "universeId": 7089588429,
       "placeId": 131378148336503,
       "name": "(TOWING x LIMITED UPDATE 🎃) Drag Drive Simulator"
     },
     {
-      "rank": 42,
-      "universeId": 1202096104,
-      "placeId": 3351674303,
-      "name": "Driving Empire [✨LIMITED + DRIFT✨]"
+      "rank": 38,
+      "universeId": 10770604649,
+      "placeId": 83784149502814,
+      "name": "BloxNG [CRASH PHYSICS] 💥"
     },
     {
-      "rank": 43,
+      "rank": 39,
+      "universeId": 8172250815,
+      "placeId": 128828638194450,
+      "name": "STAND OUT"
+    },
+    {
+      "rank": 40,
+      "universeId": 7529591378,
+      "placeId": 80681221431821,
+      "name": "[ALPHA] Practical Basketball"
+    },
+    {
+      "rank": 41,
+      "universeId": 10155360168,
+      "placeId": 126987974021910,
+      "name": "Illegal Soccer"
+    },
+    {
+      "rank": 42,
       "universeId": 10771421858,
       "placeId": 119958473240233,
       "name": "DONT SPLASH"
+    },
+    {
+      "rank": 43,
+      "universeId": 1202096104,
+      "placeId": 3351674303,
+      "name": "Driving Empire [✨LIMITED + DRIFT✨]"
     },
     {
       "rank": 44,
@@ -298,51 +298,51 @@
     },
     {
       "rank": 50,
-      "universeId": 10708913337,
-      "placeId": 113290951185459,
-      "name": "Anime Dice"
-    },
-    {
-      "rank": 51,
-      "universeId": 10764627709,
-      "placeId": 107535308163741,
-      "name": "[🏆] Huss Valley"
-    },
-    {
-      "rank": 52,
       "universeId": 10774784939,
       "placeId": 128749725449995,
       "name": "[🏹] Shoot Arrows For Animals!"
     },
     {
+      "rank": 51,
+      "universeId": 10708913337,
+      "placeId": 113290951185459,
+      "name": "Anime Dice"
+    },
+    {
+      "rank": 52,
+      "universeId": 10764627709,
+      "placeId": 107535308163741,
+      "name": "[🏆] Huss Valley"
+    },
+    {
       "rank": 53,
-      "universeId": 9978329815,
-      "placeId": 74188431054457,
-      "name": "Mukbang Game [Testing]🥤🎍!"
-    },
-    {
-      "rank": 54,
-      "universeId": 3240075297,
-      "placeId": 8481844229,
-      "name": "Berry Avenue 🏠 RP"
-    },
-    {
-      "rank": 55,
       "universeId": 8178086002,
       "placeId": 117713779364528,
       "name": "[UPD] Lethal Ape Experience"
     },
     {
-      "rank": 56,
+      "rank": 54,
+      "universeId": 9978329815,
+      "placeId": 74188431054457,
+      "name": "Mukbang Game [Testing]🥤🎍!"
+    },
+    {
+      "rank": 55,
       "universeId": 7671049560,
       "placeId": 76558904092080,
       "name": "The Forge [🪽x👹]"
     },
     {
-      "rank": 57,
+      "rank": 56,
       "universeId": 9167377564,
       "placeId": 70411440483149,
       "name": "100 Days at Sea"
+    },
+    {
+      "rank": 57,
+      "universeId": 3240075297,
+      "placeId": 8481844229,
+      "name": "Berry Avenue 🏠 RP"
     },
     {
       "rank": 58,
@@ -352,33 +352,33 @@
     },
     {
       "rank": 59,
-      "universeId": 7174773198,
-      "placeId": 104067066727140,
-      "name": "Vox Seas"
-    },
-    {
-      "rank": 60,
       "universeId": 10773416193,
       "placeId": 78884249003161,
       "name": "Voxel Wars"
     },
     {
-      "rank": 61,
-      "universeId": 7554119808,
-      "placeId": 75387700043737,
-      "name": "🛍️ My Avatar!"
-    },
-    {
-      "rank": 62,
-      "universeId": 5995470825,
-      "placeId": 17516596118,
-      "name": "🔥Hypershot"
-    },
-    {
-      "rank": 63,
+      "rank": 60,
       "universeId": 10768905764,
       "placeId": 80392427444524,
       "name": "Build Your World! 🔨"
+    },
+    {
+      "rank": 61,
+      "universeId": 7174773198,
+      "placeId": 104067066727140,
+      "name": "Vox Seas"
+    },
+    {
+      "rank": 62,
+      "universeId": 1831550657,
+      "placeId": 5233782396,
+      "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals"
+    },
+    {
+      "rank": 63,
+      "universeId": 7554119808,
+      "placeId": 75387700043737,
+      "name": "🛍️ My Avatar!"
     },
     {
       "rank": 64,
@@ -388,39 +388,39 @@
     },
     {
       "rank": 65,
-      "universeId": 4839802560,
-      "placeId": 13967668166,
-      "name": "LifeTogether 🏠 RP"
+      "universeId": 5995470825,
+      "placeId": 17516596118,
+      "name": "🔥Hypershot"
     },
     {
       "rank": 66,
-      "universeId": 1831550657,
-      "placeId": 5233782396,
-      "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals"
-    },
-    {
-      "rank": 67,
       "universeId": 10774810800,
       "placeId": 124780003623150,
       "name": "Realistic Ragdoll MMA 🥊"
     },
     {
-      "rank": 68,
+      "rank": 67,
       "universeId": 1176784616,
       "placeId": 3260590327,
       "name": "Tower Defense Simulator"
     },
     {
-      "rank": 69,
+      "rank": 68,
       "universeId": 10701622575,
       "placeId": 133151378618377,
       "name": "Steal an Anime Pack"
     },
     {
-      "rank": 70,
+      "rank": 69,
       "universeId": 10774244015,
       "placeId": 75260404327641,
       "name": "[⚔️] Kit PVP FFA"
+    },
+    {
+      "rank": 70,
+      "universeId": 4839802560,
+      "placeId": 13967668166,
+      "name": "LifeTogether 🏠 RP"
     },
     {
       "rank": 71,
@@ -436,45 +436,45 @@
     },
     {
       "rank": 73,
-      "universeId": 10774204862,
-      "placeId": 98979169190595,
-      "name": "Volley Bomb"
-    },
-    {
-      "rank": 74,
       "universeId": 2619619496,
       "placeId": 6872265039,
       "name": "[🛏️] BedWars"
     },
     {
-      "rank": 75,
+      "rank": 74,
       "universeId": 10769851460,
       "placeId": 83048653078891,
       "name": "[🏝️ISLAND] Criminal Simulator 💰"
     },
     {
-      "rank": 76,
-      "universeId": 10222476236,
-      "placeId": 97577741629233,
-      "name": "🎀 Catalog Avatar Runway"
-    },
-    {
-      "rank": 77,
+      "rank": 75,
       "universeId": 9089939780,
       "placeId": 95221040467077,
       "name": "🏁 Build A Racetrack"
     },
     {
-      "rank": 78,
-      "universeId": 372226183,
-      "placeId": 893973440,
-      "name": "🎃Flee the Facility🍁"
+      "rank": 76,
+      "universeId": 10774204862,
+      "placeId": 98979169190595,
+      "name": "Volley Bomb"
     },
     {
-      "rank": 79,
+      "rank": 77,
+      "universeId": 10222476236,
+      "placeId": 97577741629233,
+      "name": "🎀 Catalog Avatar Runway"
+    },
+    {
+      "rank": 78,
       "universeId": 10769941703,
       "placeId": 134117451433332,
       "name": "13 Days to Escape [ALPHA]"
+    },
+    {
+      "rank": 79,
+      "universeId": 703124385,
+      "placeId": 1962086868,
+      "name": "Tower of Hell"
     },
     {
       "rank": 80,
@@ -484,45 +484,45 @@
     },
     {
       "rank": 81,
+      "universeId": 372226183,
+      "placeId": 893973440,
+      "name": "🎃Flee the Facility🍁"
+    },
+    {
+      "rank": 82,
       "universeId": 10004244222,
       "placeId": 89469502395769,
       "name": "[🕰️] Kick a Lucky Block"
     },
     {
-      "rank": 82,
+      "rank": 83,
       "universeId": 5595353122,
       "placeId": 16205713724,
       "name": "Project Slayers 2"
     },
     {
-      "rank": 83,
-      "universeId": 703124385,
-      "placeId": 1962086868,
-      "name": "Tower of Hell"
-    },
-    {
       "rank": 84,
-      "universeId": 88070565,
-      "placeId": 185655149,
-      "name": "[📱] Welcome to Bloxburg"
-    },
-    {
-      "rank": 85,
       "universeId": 10770703729,
       "placeId": 129382295065915,
       "name": "🎃 KRN: Crosshair"
     },
     {
+      "rank": 85,
+      "universeId": 88070565,
+      "placeId": 185655149,
+      "name": "[📱] Welcome to Bloxburg"
+    },
+    {
       "rank": 86,
-      "universeId": 10740316645,
-      "placeId": 79389059854988,
-      "name": "⛏️ My Anime Mine"
+      "universeId": 10765490774,
+      "placeId": 85738654635245,
+      "name": "Climb For Animals Eggs🥚"
     },
     {
       "rank": 87,
-      "universeId": 9584852943,
-      "placeId": 95082159892680,
-      "name": "+1 Speed Keyboard Escape | Candy & Chocolate"
+      "universeId": 10740316645,
+      "placeId": 79389059854988,
+      "name": "⛏️ My Anime Mine"
     },
     {
       "rank": 88,
@@ -532,66 +532,72 @@
     },
     {
       "rank": 89,
-      "universeId": 10765490774,
-      "placeId": 85738654635245,
-      "name": "Climb For Animals Eggs🥚"
-    },
-    {
-      "rank": 90,
-      "universeId": 4777817887,
-      "placeId": 13772394625,
-      "name": "Blade Ball"
-    },
-    {
-      "rank": 91,
-      "universeId": 10638886777,
-      "placeId": 80959592833753,
-      "name": "[🦃] 🧈 Stack A Butter Squishy [ASMR]"
-    },
-    {
-      "rank": 92,
-      "universeId": 2936053166,
-      "placeId": 7554888362,
-      "name": "[🦑] Squid Game X"
-    },
-    {
-      "rank": 93,
       "universeId": 10770463307,
       "placeId": 71586501620185,
       "name": "Stop The Tsunami!"
     },
     {
-      "rank": 94,
+      "rank": 90,
       "universeId": 6325068386,
       "placeId": 18668065416,
       "name": "[OTOYA 🥷] Blue Lock: Rivals"
     },
     {
-      "rank": 95,
-      "universeId": 10769420234,
-      "placeId": 81688312343760,
-      "name": "MOUSE"
+      "rank": 91,
+      "universeId": 9584852943,
+      "placeId": 95082159892680,
+      "name": "+1 Speed Keyboard Escape | Candy & Chocolate"
     },
     {
-      "rank": 96,
+      "rank": 92,
+      "universeId": 4777817887,
+      "placeId": 13772394625,
+      "name": "Blade Ball"
+    },
+    {
+      "rank": 93,
+      "universeId": 2936053166,
+      "placeId": 7554888362,
+      "name": "[🦑] Squid Game X"
+    },
+    {
+      "rank": 94,
       "universeId": 10772946647,
       "placeId": 116779912472448,
       "name": "Do Not Stop."
     },
     {
-      "rank": 97,
+      "rank": 95,
+      "universeId": 10774303559,
+      "placeId": 107192230357786,
+      "name": "Fish for Secret Animals!"
+    },
+    {
+      "rank": 96,
       "universeId": 10769835283,
       "placeId": 119101118479978,
       "name": "[UPD6 🎉] Depth Incremental"
     },
     {
+      "rank": 97,
+      "universeId": 10638886777,
+      "placeId": 80959592833753,
+      "name": "[🦃] 🧈 Stack A Butter Squishy [ASMR]"
+    },
+    {
       "rank": 98,
+      "universeId": 10769420234,
+      "placeId": 81688312343760,
+      "name": "MOUSE"
+    },
+    {
+      "rank": 99,
       "universeId": 10774160414,
       "placeId": 121011978933862,
       "name": "Scare Your Favorite Streamer"
     },
     {
-      "rank": 99,
+      "rank": 100,
       "universeId": 8342498724,
       "placeId": 98502499119821,
       "name": "[👊UPD] Heavyweight Fishing"

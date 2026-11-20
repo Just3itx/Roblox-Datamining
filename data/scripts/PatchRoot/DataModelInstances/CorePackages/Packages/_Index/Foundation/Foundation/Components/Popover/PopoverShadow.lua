@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T08:40:40Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:21:01Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -14,12 +14,12 @@ local View = require(Foundation.Components.View)
 local useTokens = require(Foundation.Providers.Style.useTokens)
 
 local SHADOW_IMAGE = Constants.SHADOW_IMAGE
-local var1 = if Flags.FoundationPopoverPluginOverlayMeasurement and Flags.FoundationPluginShadowSize then Constants.PLUGIN_SHADOW_SIZE else Constants.SHADOW_SIZE
+local var1 = if Flags.FoundationPluginShadowSize then Constants.PLUGIN_SHADOW_SIZE else Constants.SHADOW_SIZE
 
 local function PopoverShadow(tbl1)
     local var2 = useTokens()
 
-    if not (Flags.FoundationPopoverPluginOverlayMeasurement and Flags.FoundationPluginShadowSize) then
+    if not Flags.FoundationPluginShadowSize then
         return (React.createElement(Image, {
             AnchorPoint = tbl1.AnchorPoint,
             Image = SHADOW_IMAGE,
