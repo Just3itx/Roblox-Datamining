@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T09:01:07Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:41:12Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 
@@ -23,6 +23,7 @@ local VariantsContext = require(Foundation.Providers.Style.VariantsContext)
 local devAssert = require(Foundation.Utility.devAssert)
 
 local Constants = require(Foundation.Constants)
+local getStatusIndicatorSize = require(script.Parent.getStatusIndicatorSize)
 
 local font = Font.new(Constants.BUILDER_SANS_FONT_ASSET, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 
@@ -117,85 +118,123 @@ function variantsFactory(arg1)
             }
         }
     }
-    local sizes = {
-        [StatusIndicatorSize.XSmall] = {
-            container = {
-                size = UDim2.fromOffset(arg1.Size.Size_150, arg1.Size.Size_150)
-            },
-            ring = {
-                size = UDim2.fromOffset(arg1.Size.Size_150 / 2, arg1.Size.Size_150 / 2)
-            },
-            stroke = not Flags.FoundationStatusIndicatorDesignUpdate and {
-                Thickness = arg1.Stroke.Standard
-            } or nil
-        },
-        [StatusIndicatorSize.Small] = {
-            container = {
-                size = UDim2.fromOffset(arg1.Size.Size_200, arg1.Size.Size_200)
-            },
-            ring = {
-                size = UDim2.fromOffset(arg1.Size.Size_200 / 2, arg1.Size.Size_200 / 2)
-            },
-            stroke = not Flags.FoundationStatusIndicatorDesignUpdate and {
-                Thickness = arg1.Size.Size_50
-            } or nil
-        },
-        [StatusIndicatorSize.Medium] = {
-            container = {
-                size = UDim2.fromOffset(arg1.Size.Size_250, arg1.Size.Size_250)
-            },
-            ring = {
-                size = UDim2.fromOffset(arg1.Size.Size_250 / 2, arg1.Size.Size_250 / 2)
-            },
-            stroke = not Flags.FoundationStatusIndicatorDesignUpdate and {
-                Thickness = arg1.Size.Size_50
-            } or nil
-        },
-        [StatusIndicatorSize.Large] = {
-            container = {
-                size = UDim2.fromOffset(arg1.Size.Size_500, arg1.Size.Size_500)
-            },
-            ring = {
-                size = UDim2.fromOffset(arg1.Size.Size_500 / 2, arg1.Size.Size_500 / 2)
-            },
-            stroke = {
-                Thickness = arg1.Stroke.Thicker
-            }
-        },
-        [StatusIndicatorSize.Pictogram] = {
-            container = {
-                size = UDim2.fromOffset(arg1.Size.Size_500, arg1.Size.Size_500)
-            },
-            ring = {
-                size = UDim2.fromOffset(arg1.Size.Size_500 / 2, arg1.Size.Size_500 / 2)
-            },
-            stroke = {
-                Thickness = arg1.Stroke.Thicker
-            }
-        }
+    local function squareSize(arg2, bool1: boolean, num1: number?): UDim2 -- Luacid: unused: defined but never referenced
+        local var1 = getStatusIndicatorSize(arg1, arg2, bool1) * (num1 or 1)
+        return UDim2.fromOffset(var1, var1)
+    end
+
+    local sizes = {}
+    local xSmall = StatusIndicatorSize.XSmall
+    local tbl6 = { container = 0, ring = 0, stroke = 0 }
+    local container = { size = 0 }
+    local xSmall2 = StatusIndicatorSize.XSmall
+    local var1 = getStatusIndicatorSize(arg1, xSmall2, false) * 1
+    container.size = UDim2.fromOffset(var1, var1)
+    tbl6.container = container
+    local ring = { size = 0 }
+    local xSmall3 = StatusIndicatorSize.XSmall
+    local var2 = getStatusIndicatorSize(arg1, xSmall3, false) * 0.5
+    ring.size = UDim2.fromOffset(var2, var2)
+    tbl6.ring = ring
+    tbl6.stroke = not Flags.FoundationStatusIndicatorDesignUpdate and {
+        Thickness = arg1.Stroke.Standard
+    } or nil
+    sizes[xSmall] = tbl6
+
+    local small = StatusIndicatorSize.Small
+    local tbl9 = { container = 0, ring = 0, stroke = 0 }
+    local tbl1 = { size = 0 }
+    local small2 = StatusIndicatorSize.Small
+    local var3 = getStatusIndicatorSize(arg1, small2, false) * 1
+    tbl1.size = UDim2.fromOffset(var3, var3)
+    tbl9.container = tbl1
+    local tbl2 = { size = 0 }
+    local small3 = StatusIndicatorSize.Small
+    local var4 = getStatusIndicatorSize(arg1, small3, false) * 0.5
+    tbl2.size = UDim2.fromOffset(var4, var4)
+    tbl9.ring = tbl2
+    tbl9.stroke = not Flags.FoundationStatusIndicatorDesignUpdate and {
+        Thickness = arg1.Size.Size_50
+    } or nil
+    sizes[small] = tbl9
+
+    local medium = StatusIndicatorSize.Medium
+    local tbl12 = { container = 0, ring = 0, stroke = 0 }
+    local tbl3 = { size = 0 }
+    local medium2 = StatusIndicatorSize.Medium
+    local var5 = getStatusIndicatorSize(arg1, medium2, false) * 1
+    tbl3.size = UDim2.fromOffset(var5, var5)
+    tbl12.container = tbl3
+    local tbl4 = { size = 0 }
+    local medium3 = StatusIndicatorSize.Medium
+    local var6 = getStatusIndicatorSize(arg1, medium3, false) * 0.5
+    tbl4.size = UDim2.fromOffset(var6, var6)
+    tbl12.ring = tbl4
+    tbl12.stroke = not Flags.FoundationStatusIndicatorDesignUpdate and {
+        Thickness = arg1.Size.Size_50
+    } or nil
+    sizes[medium] = tbl12
+
+    local large = StatusIndicatorSize.Large
+    local tbl15 = { container = 0, ring = 0, stroke = 0 }
+    local tbl5 = { size = 0 }
+    local large2 = StatusIndicatorSize.Large
+    local var7 = getStatusIndicatorSize(arg1, large2, false) * 1
+    tbl5.size = UDim2.fromOffset(var7, var7)
+    tbl15.container = tbl5
+    local tbl7 = { size = 0 }
+    local large3 = StatusIndicatorSize.Large
+    local var8 = getStatusIndicatorSize(arg1, large3, false) * 0.5
+    tbl7.size = UDim2.fromOffset(var8, var8)
+    tbl15.ring = tbl7
+    tbl15.stroke = {
+        Thickness = arg1.Stroke.Thicker
     }
-    local tbl6 = {
-        container = {
-            size = UDim2.fromOffset(arg1.Size.Size_400, arg1.Size.Size_400)
-        }
+    sizes[large] = tbl15
+
+    local pictogram = StatusIndicatorSize.Pictogram
+    local tbl18 = { container = 0, ring = 0, stroke = 0 }
+    local tbl8 = { size = 0 }
+    local pictogram2 = StatusIndicatorSize.Pictogram
+    local var9 = getStatusIndicatorSize(arg1, pictogram2, false) * 1
+    tbl8.size = UDim2.fromOffset(var9, var9)
+    tbl18.container = tbl8
+    local tbl10 = { size = 0 }
+    local pictogram3 = StatusIndicatorSize.Pictogram
+    local var10 = getStatusIndicatorSize(arg1, pictogram3, false) * 0.5
+    tbl10.size = UDim2.fromOffset(var10, var10)
+    tbl18.ring = tbl10
+    tbl18.stroke = {
+        Thickness = arg1.Stroke.Thicker
     }
-    local tbl7 = {
-        container = {
-            size = UDim2.fromOffset(arg1.Size.Size_500, arg1.Size.Size_500)
-        },
-        content = {
-            typography = arg1.Typography.LabelMedium
-        }
-    }
-    local tbl8 = {
-        [StatusIndicatorSize.XSmall] = tbl6,
-        [StatusIndicatorSize.Small] = tbl6,
-        [StatusIndicatorSize.Medium] = tbl6,
-        [StatusIndicatorSize.Large] = tbl7,
-        [StatusIndicatorSize.Pictogram] = tbl7
+    sizes[pictogram] = tbl18
+
+    local tbl21 = { container = 0 }
+    local tbl11 = { size = 0 }
+    local small4 = StatusIndicatorSize.Small
+    local var11 = getStatusIndicatorSize(arg1, small4, true) * 1
+    tbl11.size = UDim2.fromOffset(var11, var11)
+    tbl21.container = tbl11
+
+    local tbl23 = { container = 0, content = 0 }
+    local tbl13 = { size = 0 }
+    local large4 = StatusIndicatorSize.Large
+    local var12 = getStatusIndicatorSize(arg1, large4, true) * 1
+    tbl13.size = UDim2.fromOffset(var12, var12)
+    tbl23.container = tbl13
+    tbl23.content = {
+        typography = arg1.Typography.LabelMedium
     }
 
-    local tbl9 = {
+    local tbl25 = {
+        [StatusIndicatorSize.XSmall] = tbl21,
+        [StatusIndicatorSize.Small] = tbl21,
+        [StatusIndicatorSize.Medium] = tbl21,
+        [StatusIndicatorSize.Large] = tbl23,
+        [StatusIndicatorSize.Pictogram] = tbl23
+    }
+
+    local tbl26 = {
         common = common,
         variants = variants,
         hasValue = hasValue,
@@ -205,11 +244,11 @@ function variantsFactory(arg1)
     }
 
     if not Flags.FoundationStatusIndicatorDesignUpdate then
-        tbl8 = nil
+        tbl25 = nil
     end
 
-    tbl9.numericSizes = tbl8
-    return tbl9
+    tbl26.numericSizes = tbl25
+    return tbl26
 end
 
 return function(arg1, arg2, bool1: boolean, arg3, arg4, arg5)

@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T08:51:07Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:40:44Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local function calculateSliderFraction(vector2: Vector2, arg1, bool1: boolean): number
     local absolutePosition = arg1.AbsolutePosition
