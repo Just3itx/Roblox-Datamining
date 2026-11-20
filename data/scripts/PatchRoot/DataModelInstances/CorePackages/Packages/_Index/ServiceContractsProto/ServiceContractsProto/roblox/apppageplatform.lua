@@ -1,0 +1,29 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T14:41:06Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local _proto = require(script.Parent.Parent.proto)
+
+return {
+    badges = require(script.badges.v1beta1),
+    buyrobux = require(script.buyrobux.v1beta1),
+    campaign = require(script.campaign.v1beta1),
+    charts = require(script.charts.v1beta1),
+    communities = require(script.communities.v1beta1),
+    communityprofile = require(script.communityprofile.v1beta1),
+    devstore = require(script.devstore.v1beta1),
+    experiencedetails = require(script.experiencedetails.v1beta1),
+    experienceevents = require(script.experienceevents.v1beta1),
+    experienceleaderboard = require(script.experienceleaderboard.v1beta1),
+    friendrecommendations = require(script.friendrecommendations.v1beta1),
+    groups = require(script.groups.v1beta1),
+    home = require(script.home.v1beta1),
+    marketplacecatalog = require(script.marketplacecatalog.v1beta1),
+    notifications = require(script.notifications.v1beta1),
+    partychat = require(script.partychat.v1beta1),
+    prompts = require(script.prompts.v1beta1),
+    search = require(script.search.v1beta1),
+    settings = require(script.settings.v1beta1),
+    shared = require(script.shared.v1beta1),
+    spotlightcollection = require(script.spotlightcollection.v1beta1),
+    templates = require(script.templates.v1beta1),
+    userlibrary = require(script.userlibrary.v1beta1)
+}
