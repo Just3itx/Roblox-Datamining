@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T09:50:55Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T06:31:30Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -16,6 +16,7 @@ return {
     ElevationProvider = function(tbl1)
         local var1 = React.useRef({
             [ElevationLayer.Popover] = 0,
+            [ElevationLayer.Floating] = 0,
             [ElevationLayer.Drawer] = 0,
             [ElevationLayer.Sheet] = 0,
             [ElevationLayer.Dialog] = 0,
