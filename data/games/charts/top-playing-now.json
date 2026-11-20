@@ -58,15 +58,15 @@
     },
     {
       "rank": 10,
-      "universeId": 3508322461,
-      "placeId": 9391468976,
-      "name": "[🎃] Jujutsu Shenanigans"
-    },
-    {
-      "rank": 11,
       "universeId": 5569032992,
       "placeId": 16116270224,
       "name": "🌻 Dandy's World [ALPHA]"
+    },
+    {
+      "rank": 11,
+      "universeId": 3508322461,
+      "placeId": 9391468976,
+      "name": "[🎃] Jujutsu Shenanigans"
     },
     {
       "rank": 12,
@@ -160,15 +160,15 @@
     },
     {
       "rank": 27,
-      "universeId": 10773487349,
-      "placeId": 123969755970816,
-      "name": "[🐜] Ant Evolution"
-    },
-    {
-      "rank": 28,
       "universeId": 7709344486,
       "placeId": 109983668079237,
       "name": "[💀] Steal a Brainrot"
+    },
+    {
+      "rank": 28,
+      "universeId": 10773487349,
+      "placeId": 123969755970816,
+      "name": "[🐜] Ant Evolution"
     },
     {
       "rank": 29,
@@ -196,15 +196,15 @@
     },
     {
       "rank": 33,
-      "universeId": 601130232,
-      "placeId": 1537690962,
-      "name": "Bee Swarm Simulator"
-    },
-    {
-      "rank": 34,
       "universeId": 10155360168,
       "placeId": 126987974021910,
       "name": "Illegal Soccer"
+    },
+    {
+      "rank": 34,
+      "universeId": 601130232,
+      "placeId": 1537690962,
+      "name": "Bee Swarm Simulator"
     },
     {
       "rank": 35,
@@ -238,21 +238,21 @@
     },
     {
       "rank": 40,
+      "universeId": 703124385,
+      "placeId": 1962086868,
+      "name": "Tower of Hell"
+    },
+    {
+      "rank": 41,
       "universeId": 10772281976,
       "placeId": 76870565041704,
       "name": "Unstable SMP FFA [JAVA PVP!]"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "universeId": 7174773198,
       "placeId": 104067066727140,
       "name": "Vox Seas"
-    },
-    {
-      "rank": 42,
-      "universeId": 703124385,
-      "placeId": 1962086868,
-      "name": "Tower of Hell"
     },
     {
       "rank": 43,
@@ -268,27 +268,27 @@
     },
     {
       "rank": 45,
-      "universeId": 4778845442,
-      "placeId": 13775256536,
-      "name": "[🦃EVENT] Toilet Tower Defense"
-    },
-    {
-      "rank": 46,
-      "universeId": 1202096104,
-      "placeId": 3351674303,
-      "name": "Driving Empire [✨LIMITED + DRIFT✨]"
-    },
-    {
-      "rank": 47,
       "universeId": 3240075297,
       "placeId": 8481844229,
       "name": "Berry Avenue 🏠 RP"
     },
     {
+      "rank": 46,
+      "universeId": 4778845442,
+      "placeId": 13775256536,
+      "name": "[🦃EVENT] Toilet Tower Defense"
+    },
+    {
+      "rank": 47,
+      "universeId": 1202096104,
+      "placeId": 3351674303,
+      "name": "Driving Empire [✨LIMITED + DRIFT✨]"
+    },
+    {
       "rank": 48,
-      "universeId": 10770463307,
-      "placeId": 71586501620185,
-      "name": "Stop The Tsunami!"
+      "universeId": 7219654364,
+      "placeId": 135856908115931,
+      "name": "[💀DUELS] Murderers VS Sheriffs"
     },
     {
       "rank": 49,
@@ -298,9 +298,9 @@
     },
     {
       "rank": 50,
-      "universeId": 7219654364,
-      "placeId": 135856908115931,
-      "name": "[💀DUELS] Murderers VS Sheriffs"
+      "universeId": 10770463307,
+      "placeId": 71586501620185,
+      "name": "Stop The Tsunami!"
     },
     {
       "rank": 51,
@@ -400,21 +400,21 @@
     },
     {
       "rank": 67,
-      "universeId": 9089939780,
-      "placeId": 95221040467077,
-      "name": "🏁 Build A Racetrack"
-    },
-    {
-      "rank": 68,
       "universeId": 10774444233,
       "placeId": 99352685758267,
       "name": "Flat the Mountain"
     },
     {
-      "rank": 69,
+      "rank": 68,
       "universeId": 10769851460,
       "placeId": 83048653078891,
       "name": "[🏝️ISLAND] Criminal Simulator 💰"
+    },
+    {
+      "rank": 69,
+      "universeId": 9089939780,
+      "placeId": 95221040467077,
+      "name": "🏁 Build A Racetrack"
     },
     {
       "rank": 70,
@@ -424,9 +424,9 @@
     },
     {
       "rank": 71,
-      "universeId": 7018190066,
-      "placeId": 116495829188952,
-      "name": "Dead Rails"
+      "universeId": 10770703729,
+      "placeId": 129382295065915,
+      "name": "🎃 KRN: Crosshair"
     },
     {
       "rank": 72,
@@ -436,9 +436,9 @@
     },
     {
       "rank": 73,
-      "universeId": 10770703729,
-      "placeId": 129382295065915,
-      "name": "🎃 KRN: Crosshair"
+      "universeId": 7018190066,
+      "placeId": 116495829188952,
+      "name": "Dead Rails"
     },
     {
       "rank": 74,
@@ -448,63 +448,63 @@
     },
     {
       "rank": 75,
-      "universeId": 372226183,
-      "placeId": 893973440,
-      "name": "🎃Flee the Facility🍁"
-    },
-    {
-      "rank": 76,
-      "universeId": 10774386745,
-      "placeId": 88246556972100,
-      "name": "[WORLD 2] Sandworm Playground"
-    },
-    {
-      "rank": 77,
-      "universeId": 8178086002,
-      "placeId": 117713779364528,
-      "name": "[UPD] Lethal Ape Experience"
-    },
-    {
-      "rank": 78,
       "universeId": 10769420234,
       "placeId": 81688312343760,
       "name": "MOUSE"
     },
     {
+      "rank": 76,
+      "universeId": 372226183,
+      "placeId": 893973440,
+      "name": "🎃Flee the Facility🍁"
+    },
+    {
+      "rank": 77,
+      "universeId": 10774386745,
+      "placeId": 88246556972100,
+      "name": "[WORLD 2] Sandworm Playground"
+    },
+    {
+      "rank": 78,
+      "universeId": 8178086002,
+      "placeId": 117713779364528,
+      "name": "[UPD] Lethal Ape Experience"
+    },
+    {
       "rank": 79,
-      "universeId": 10772284025,
-      "placeId": 87324870231331,
-      "name": "[⚡ UPD 2] Be The Biggest Streamer"
-    },
-    {
-      "rank": 80,
-      "universeId": 10222476236,
-      "placeId": 97577741629233,
-      "name": "🎀 Catalog Avatar Runway"
-    },
-    {
-      "rank": 81,
       "universeId": 2936053166,
       "placeId": 7554888362,
       "name": "[🦑] Squid Game X"
     },
     {
-      "rank": 82,
-      "universeId": 9978329815,
-      "placeId": 74188431054457,
-      "name": "Mukbang Game [Testing]🥤🎍!"
+      "rank": 80,
+      "universeId": 10772284025,
+      "placeId": 87324870231331,
+      "name": "[⚡ UPD 2] Be The Biggest Streamer"
     },
     {
-      "rank": 83,
+      "rank": 81,
+      "universeId": 10222476236,
+      "placeId": 97577741629233,
+      "name": "🎀 Catalog Avatar Runway"
+    },
+    {
+      "rank": 82,
       "universeId": 10773425091,
       "placeId": 135264274035761,
       "name": "[🐍] Ragdoll Research"
     },
     {
-      "rank": 84,
+      "rank": 83,
       "universeId": 10148749921,
       "placeId": 78515283254292,
       "name": "Animal Hospital (Anomaly) 🧪"
+    },
+    {
+      "rank": 84,
+      "universeId": 9978329815,
+      "placeId": 74188431054457,
+      "name": "Mukbang Game [Testing]🥤🎍!"
     },
     {
       "rank": 85,
@@ -538,15 +538,15 @@
     },
     {
       "rank": 90,
-      "universeId": 3310460039,
-      "placeId": 8712817601,
-      "name": "🚨BARRY'S PRISON RUN! (OBBY)"
-    },
-    {
-      "rank": 91,
       "universeId": 7633926880,
       "placeId": 114234929420007,
       "name": "[ZOMBIES!] BloxStrike"
+    },
+    {
+      "rank": 91,
+      "universeId": 3310460039,
+      "placeId": 8712817601,
+      "name": "🚨BARRY'S PRISON RUN! (OBBY)"
     },
     {
       "rank": 92,
@@ -580,15 +580,15 @@
     },
     {
       "rank": 97,
-      "universeId": 7089588429,
-      "placeId": 131378148336503,
-      "name": "(TOWING x LIMITED UPDATE 🎃) Drag Drive Simulator"
-    },
-    {
-      "rank": 98,
       "universeId": 10771935715,
       "placeId": 104549080643413,
       "name": "MAHANAKHON RACING"
+    },
+    {
+      "rank": 98,
+      "universeId": 7089588429,
+      "placeId": 131378148336503,
+      "name": "(TOWING x LIMITED UPDATE 🎃) Drag Drive Simulator"
     },
     {
       "rank": 99,
