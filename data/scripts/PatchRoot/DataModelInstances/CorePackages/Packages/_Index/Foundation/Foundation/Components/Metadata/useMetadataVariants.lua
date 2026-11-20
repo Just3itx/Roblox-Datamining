@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T08:21:06Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:11:04Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 
@@ -21,7 +21,10 @@ local function variantsFactory(arg1)
     return {
         common = {
             container = { tag = "row align-y-center auto-xy" },
-            item = { tag = "row align-y-center gap-xsmall auto-xy" },
+            item = {
+                tag = "row align-y-center gap-xsmall auto-xy",
+                gap = arg1.Gap.XSmall
+            },
             truncatedItem = { tag = "row align-y-center shrink gap-xsmall auto-xy" },
             text = { tag = "auto-xy content-default", openTypeFeatures = "zero, ss03" },
             truncatedText = { tag = "shrink auto-xy text-truncate-split content-default" },
@@ -32,7 +35,9 @@ local function variantsFactory(arg1)
                 iconSize = IconSize.Small,
                 avatarSize = AvatarIconSize.Small,
                 avatarTag = "auto-xy padding-right-xxsmall",
-                style = arg1.Color.Content.Default
+                style = arg1.Color.Content.Default,
+                width = arg1.Size.Size_400,
+                avatarWidth = arg1.Size.Size_400 + arg1.Padding.XXSmall
             }
         },
         sizes = {
