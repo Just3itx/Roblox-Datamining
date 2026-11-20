@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T08:50:30Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:31:04Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -353,10 +353,10 @@ return React.memo(React.forwardRef(function(arg1, ref) -- name: CenterSheet
                     Position = UDim2.fromScale(0.5, 0.5),
                     tag = "col align-y-center anchor-center-center size-full padding-medium",
                     testId = `{var1.testId}--center-sheet-container`,
-                    onAbsoluteSizeChanged = (Flags.FoundationCenterSheetHeightFix or var1.centerSheetHeight and var6) and function(arg2)
+                    onAbsoluteSizeChanged = function(arg2)
                         local var43 = var3.Margin.Medium * 2
                         var6(math.min(arg2.AbsoluteSize.Y - var43, y))
-                    end or nil
+                    end
                 }, nil)
             })
         else
@@ -386,11 +386,13 @@ return React.memo(React.forwardRef(function(arg1, ref) -- name: CenterSheet
                 GroupTransparency = if var8 then var13:map(function(num1: number)
                     return num1 / size800
                 end) else nil,
-                onAbsoluteSizeChanged = (Flags.FoundationCenterSheetHeightFix or var1.centerSheetHeight and var6) and function(arg2)
-                    local var42 = var3.Margin.Medium * 2
-                    var6(math.min(arg2.AbsoluteSize.Y - var42, y))
-                end or nil
+                onAbsoluteSizeChanged = 0
             }
+
+            function tbl8.onAbsoluteSizeChanged(arg2)
+                local var42 = var3.Margin.Medium * 2
+                var6(math.min(arg2.AbsoluteSize.Y - var42, y))
+            end
 
             var40 = createElement5(var41, tbl8, nil)
         end

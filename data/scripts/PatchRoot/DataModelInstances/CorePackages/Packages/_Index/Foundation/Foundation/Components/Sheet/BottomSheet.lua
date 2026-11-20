@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T08:41:25Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T05:31:03Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -314,24 +314,46 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
         var54,
         var57
     })
+
+    local var61 = if Flags.FoundationBottomSheetKeepsSnapPoint then React.useCallback(function()
+        local var61 = var11[var13.current]
+        if var61 == nil or var12(var61) >= num2 then
+            return
+        end
+
+        local num3 = 1
+        for value, value2 in var11 do
+            if var12(value2) > var12(var11[num3]) then
+                num3 = value
+            end
+        end
+
+        var13.current = num3
+        if var15.current then
+            var15.current(var11[num3], num3)
+        end
+    end, { var11, var12, num2 }) else nil
+
     React.useEffect(function()
         if var2 then
+            local var62 = if Flags.FoundationBottomSheetKeepsSnapPoint and var11[var13.current] ~= nil then var13.current else var1.defaultSnapPointIndex
+
             if reducedMotion then
-                var56(var1.defaultSnapPointIndex)
+                var56(var62)
                 var17(Otter.instant(0))
             else
-                var55(var1.defaultSnapPointIndex)
+                var55(var62)
                 var17(Otter.ease(0, { duration = var3.Time.Time_100 }))
             end
 
-            local var61 = var12(var11[var1.defaultSnapPointIndex])
-            local bool1 = num2 <= var61
-            local var62 = var37
+            local var63 = var12(var11[var62])
+            local bool1 = num2 <= var63
+            local var64 = var37
             if Flags.FoundationSheetReversedContent and not bool1 then
                 bool1 = var38.current
             end
 
-            var62(bool1)
+            var64(bool1)
         end
 
         return function()
@@ -389,12 +411,15 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
                 var37(true)
             end
 
-            if var58() or var14.current then
-                var37(true)
+            if not (var58() or var14.current) then
+                var60()
                 return
             end
 
-            var60()
+            var37(true)
+            if Flags.FoundationBottomSheetKeepsSnapPoint and not var14.current then
+                var61()
+            end
         end)
 
         return function()
@@ -409,14 +434,15 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
         var59,
         var52,
         var58,
-        var51
+        var51,
+        var61
     })
 
     local closeAffordanceRef = React.useRef(nil)
     local contentStartRef, setContentStartRef = React.useState(nil)
 
-    local innerSurface, var65 = React.useState(nil)
-    local var4 = ReactUtils.useComposedRef(arg2, var65)
+    local innerSurface, var66 = React.useState(nil)
+    local var4 = ReactUtils.useComposedRef(arg2, var66)
 
     React.useImperativeHandle(var1.sheetRef, function()
         return { close = var57 }
@@ -471,7 +497,7 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
     })
 
     local createElement = React.createElement
-    local var68 = View
+    local var69 = View
     local tbl2 = {
         ZIndex = 5,
         backgroundStyle = var3.Color.Content.Muted,
@@ -481,7 +507,7 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
         testId = `{var1.testId}--gripper`
     }
 
-    local gripper = createElement(var68, tbl2, {
+    local gripper = createElement(var69, tbl2, {
         TouchTarget = React.createElement(View, {
             tag = "size-1000-600",
             stateLayer = {
@@ -507,30 +533,30 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
                     return
                 end
 
-                local var69 = var13.current % #var11 + 1
+                local var70 = var13.current % #var11 + 1
                 if reducedMotion then
-                    var56(var69)
+                    var56(var70)
                 else
-                    var55(var69)
+                    var55(var70)
                 end
-                local var70 = var12(var11[var69])
-                local bool1 = num2 <= var70
-                local var71 = var37
+                local var71 = var12(var11[var70])
+                local bool1 = num2 <= var71
+                local var72 = var37
                 if Flags.FoundationSheetReversedContent and not bool1 then
                     bool1 = var38.current
                 end
 
-                var71(bool1)
+                var72(bool1)
             end
         })
     })
 
-    local var69
+    local var70
 
     if var2 then
         local createPortal = ReactRoblox.createPortal
         local createElement2 = React.createElement
-        local var70 = View
+        local var71 = View
         local tbl3 = {
             ZIndex = owner.zIndex,
             ref = var4,
@@ -558,9 +584,9 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
 
             if Flags.FoundationSheetReversedContent and contentRevealOffset and value then
                 local current = innerScrollingRef.current
-                local var71 = contentRevealOffset:getValue() - value
-                if var38.current and current and var71 ~= 0 then
-                    current.CanvasPosition = Vector2.new(0, current.CanvasPosition.Y + var71)
+                local var72 = contentRevealOffset:getValue() - value
+                if var38.current and current and var72 ~= 0 then
+                    current.CanvasPosition = Vector2.new(0, current.CanvasPosition.Y + var72)
                 end
             end
             var59()
@@ -570,7 +596,7 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
         end
         local tbl5 = { SheetContainer = 0, Shadow = 0, Backdrop = 0 }
         local createElement4 = React.createElement
-        local var71 = View
+        local var72 = View
         local tbl6 = {
             Size = UDim2.new(1, 0, 1, 200 - num2 - bottom),
             Position = UDim2.new(0, 0, 1, -num2),
@@ -578,7 +604,7 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
         }
         local tbl7 = { Sheet = 0 }
         local createElement5 = React.createElement
-        local var72 = View
+        local var73 = View
 
         local tbl8 = {
             Size = if var1.snapPoints == nil then UDim2.fromScale(1, 0) else UDim2.new(1, 0, 0, num2 + 200),
@@ -597,7 +623,7 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
             }
         }
 
-        tbl7.Sheet = createElement5(var72, tbl8, {
+        tbl7.Sheet = createElement5(var73, tbl8, {
             GripperContainer = React.createElement("Folder", nil, { Gripper = gripper }),
             Content = React.createElement(
                 SheetContext.Provider,
@@ -605,7 +631,7 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
                 React.createElement(ElevationOwnerScope, { owner = owner }, var1.children)
             )
         })
-        tbl5.SheetContainer = createElement4(var71, tbl6, tbl7)
+        tbl5.SheetContainer = createElement4(var72, tbl6, tbl7)
         local element2
 
         if Flags.FoundationBottomSheetOverlayShadow then
@@ -665,10 +691,10 @@ return React.memo(React.forwardRef(function(arg1, arg2) -- name: BottomSheet
         end
 
         tbl5.Backdrop = element3
-        var69 = createPortal(createElement2(var70, tbl3, createElement3(str1, tbl4, tbl5)), var2)
+        var70 = createPortal(createElement2(var71, tbl3, createElement3(str1, tbl4, tbl5)), var2)
     else
-        var69 = var2
+        var70 = var2
     end
 
-    return var69
+    return var70
 end))
