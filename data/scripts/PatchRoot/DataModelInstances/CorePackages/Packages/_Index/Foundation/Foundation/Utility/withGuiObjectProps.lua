@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:31:02Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T07:20:52Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -14,7 +14,7 @@ local getTestIdTag = require(Foundation.Utility.getTestIdTag)
 local indexBindable = require(Foundation.Utility.indexBindable)
 local withCommonProps = require(Foundation.Utility.withCommonProps)
 
-local var1 = Flags.FoundationGuiObjectInputSinkProperty and pcall(game.GetEngineFeature, game, "GuiObjectInputSink")
+local FoundationGuiObjectInputSinkProperty = Flags.FoundationGuiObjectInputSinkProperty and pcall(game.GetEngineFeature, game, "GuiObjectInputSink")
 
 local function withGuiObjectProps(arg1, arg2)
     if type(arg2) == "table" then
@@ -28,7 +28,7 @@ local function withGuiObjectProps(arg1, arg2)
         arg2.BorderColor3 = arg1.BorderColor3
         arg2.BorderMode = arg1.BorderMode
         arg2.ClipsDescendants = arg1.ClipsDescendants
-        if var1 then
+        if FoundationGuiObjectInputSinkProperty then
             arg2.InputSink = arg1.InputSink
         end
         arg2.Rotation = arg1.Rotation
@@ -59,24 +59,24 @@ local function withGuiObjectProps(arg1, arg2)
 
         arg2.Size = arg1.Size
     end
-    local var2 = withCommonProps(arg1, arg2)
+    local var1 = withCommonProps(arg1, arg2)
 
-    var2[React.Change.AbsoluteSize] = arg1.onAbsoluteSizeChanged
-    var2.onAbsoluteSizeChanged = nil
-    var2[React.Change.AbsolutePosition] = arg1.onAbsolutePositionChanged
-    var2.onAbsolutePositionChanged = nil
+    var1[React.Change.AbsoluteSize] = arg1.onAbsoluteSizeChanged
+    var1.onAbsoluteSizeChanged = nil
+    var1[React.Change.AbsolutePosition] = arg1.onAbsolutePositionChanged
+    var1.onAbsolutePositionChanged = nil
 
-    local testIdTag = getTestIdTag(var2.testId)
+    local testIdTag = getTestIdTag(var1.testId)
 
-    if var2[React.Tag] and testIdTag then
+    if var1[React.Tag] and testIdTag then
         local tag = React.Tag
-        var2[tag] ..= " " .. testIdTag
+        var1[tag] ..= " " .. testIdTag
     else
-        var2[React.Tag] = var2[React.Tag] or testIdTag
+        var1[React.Tag] = var1[React.Tag] or testIdTag
     end
-    var2.testId = nil
+    var1.testId = nil
 
-    return var2
+    return var1
 end
 
 return withGuiObjectProps

@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:31:34Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T07:21:22Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 0
 -- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
 return {
