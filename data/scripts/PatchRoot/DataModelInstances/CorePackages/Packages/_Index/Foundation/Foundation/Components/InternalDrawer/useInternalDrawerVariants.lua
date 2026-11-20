@@ -1,7 +1,9 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T08:10:46Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T04:51:10Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
+local FoundationParent = Foundation.Parent
+local React = require(FoundationParent.React)
 
 local composeStyleVariant = require(Foundation.Utility.composeStyleVariant)
 
@@ -64,7 +66,9 @@ local function useInternalDrawerVariants(arg1, arg2)
     local var1 = useTokens()
     local var2 = VariantsContext.useVariants("InternalDrawer", variantsFactory, var1)
 
-    return composeStyleVariant(var2.common, var2.layout[arg1], var2.side[arg2])
+    return React.useMemo(function()
+        return composeStyleVariant(var2.common, var2.layout[arg1], var2.side[arg2])
+    end, { var2, arg1, arg2 })
 end
 
 return useInternalDrawerVariants
