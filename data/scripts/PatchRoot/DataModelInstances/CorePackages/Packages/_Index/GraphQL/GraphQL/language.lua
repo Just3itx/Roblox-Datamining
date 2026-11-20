@@ -1,0 +1,45 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T07:51:20Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local location = require(script.location)
+local printLocation = require(script.printLocation)
+local kinds = require(script.kinds)
+local tokenKind = require(script.tokenKind)
+local parser = require(script.parser)
+local visitor = require(script.visitor)
+local ast = require(script.ast)
+local predicates = require(script.predicates)
+local directiveLocation = require(script.directiveLocation)
+local source = require(script.source)
+
+local lexer = require(script.lexer)
+
+return {
+    Source = source.Source,
+    getLocation = location.getLocation,
+    printLocation = printLocation.printLocation,
+    printSourceLocation = printLocation.printSourceLocation,
+    Kind = kinds.Kind,
+    TokenKind = tokenKind.TokenKind,
+    Lexer = lexer.Lexer,
+    parse = parser.parse,
+    parseValue = parser.parseValue,
+    parseType = parser.parseType,
+    print = require(script.printer).print,
+    visit = visitor.visit,
+    visitInParallel = visitor.visitInParallel,
+    getVisitFn = visitor.getVisitFn,
+    BREAK = visitor.BREAK,
+    REMOVE = visitor.REMOVE,
+    Location = ast.Location,
+    Token = ast.Token,
+    isDefinitionNode = predicates.isDefinitionNode,
+    isExecutableDefinitionNode = predicates.isExecutableDefinitionNode,
+    isSelectionNode = predicates.isSelectionNode,
+    isValueNode = predicates.isValueNode,
+    isTypeNode = predicates.isTypeNode,
+    isTypeSystemDefinitionNode = predicates.isTypeSystemDefinitionNode,
+    isTypeDefinitionNode = predicates.isTypeDefinitionNode,
+    isTypeSystemExtensionNode = predicates.isTypeSystemExtensionNode,
+    isTypeExtensionNode = predicates.isTypeExtensionNode,
+    DirectiveLocation = directiveLocation.DirectiveLocation
+}
