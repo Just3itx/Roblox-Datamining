@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T06:51:22Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T03:31:13Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local function mapLast(tbl1, func1: (...any) -> (...any))
     for i = #tbl1, 1, -1 do
