@@ -9582,7 +9582,7 @@
   "FFlagBuildExperienceAnswerForm2": "True",
   "FFlagBuildExperienceBuyMoreRobuxCardLayout": "True",
   "FFlagBuildExperienceBuyRobuxContext": "True",
-  "FFlagBuildExperienceChatCaptureGalleryEmptyEducation_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-20T17:58:28",
+  "FFlagBuildExperienceChatCaptureGalleryEmptyEducation": "True",
   "FFlagBuildExperienceChatCaptureGalleryNewestFirst": "True",
   "FFlagBuildExperienceChatCardEmphasis2": "True",
   "FFlagBuildExperienceChatHistoryLoadingSkeleton": "True",
