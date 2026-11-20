@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:01:28Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T06:51:16Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -142,7 +142,7 @@ local function SizeRules(sizes)
     return result
 end
 
-local function TypographyRules(typography, nominalScale: number, bool1: boolean?)
+local function TypographyRules(typography, nominalScale: number)
     local result = {}
 
     for value, value2 in typography do
@@ -151,8 +151,7 @@ local function TypographyRules(typography, nominalScale: number, bool1: boolean?
         local tbl1 = {
             tag = `text-{value}`,
             properties = {
-                Font = if bool1 then nil else `$Font{var1}`,
-                FontFace = if bool1 then `$Font{var1}` else nil,
+                FontFace = `$Font{var1}`,
                 TextSize = `$TextSize{var1}`,
                 LineHeight = value2.LineHeight
             },
@@ -302,14 +301,11 @@ local function GuiObjectDefaultRules()
     }}
 end
 
-local function DefaultFontRules(arg1, bool1: boolean?)
+local function DefaultFontRules(arg1)
     return {{
         tag = "text-defaults",
         priority = -1,
-        properties = {
-            Font = if bool1 then nil else "$FontBodyLarge",
-            FontFace = if bool1 then "$FontBodyLarge" else nil
-        },
+        properties = { FontFace = "$FontBodyLarge" },
         attributes = {{
             name = "FontBodyLarge",
             value = arg1.Typography.BodyLarge.Font
@@ -1004,7 +1000,7 @@ local function AspectRatioRules()
 end
 
 return {
-    rulesGenerator = function(arg1, arg2, bool1: boolean?)
+    rulesGenerator = function(arg1, arg2)
         local colors = arg2.colors
         local variants = arg2.variants
         local gaps = arg2.gaps
@@ -1040,9 +1036,9 @@ return {
             StrokeRules(colors, variants),
             (ContentRules(colors, variants))
         ), (Dash.joinArrays(
-            DefaultFontRules(arg1, bool1),
+            DefaultFontRules(arg1),
             DefaultSizeRules(typography["body-large"], arg1.Config.Text.NominalScale),
-            (TypographyRules(typography, arg1.Config.Text.NominalScale, bool1))
+            (TypographyRules(typography, arg1.Config.Text.NominalScale))
         ))
     end
 }

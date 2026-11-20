@@ -993,7 +993,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 5005,
-    "lowestResale": 1600
+    "lowestResale": 1500
   },
   "158066212": {
     "id": 158066212,
@@ -1185,7 +1185,7 @@
     "price": 25,
     "remaining": 0,
     "totalQuantity": 5430,
-    "lowestResale": 1700
+    "lowestResale": 1699
   },
   "161212509": {
     "id": 161212509,
@@ -2925,7 +2925,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 164640,
-    "lowestResale": 794
+    "lowestResale": 793
   },
   "241671482": {
     "id": 241671482,
@@ -4881,7 +4881,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2580232,
-    "lowestResale": 620
+    "lowestResale": 634
   },
   "395201183": {
     "id": 395201183,
@@ -6141,7 +6141,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 4559,
-    "lowestResale": 9499
+    "lowestResale": 9498
   },
   "583159170": {
     "id": 583159170,
@@ -6525,7 +6525,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 570,
-    "lowestResale": 11281
+    "lowestResale": 11280
   },
   "928819079": {
     "id": 928819079,
@@ -6861,7 +6861,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 9898,
-    "lowestResale": 1297
+    "lowestResale": 1000
   },
   "1191150322": {
     "id": 1191150322,
@@ -7389,7 +7389,7 @@
     "price": 5000,
     "remaining": 0,
     "totalQuantity": 1616,
-    "lowestResale": 26715
+    "lowestResale": 26714
   },
   "1609401184": {
     "id": 1609401184,
@@ -7713,7 +7713,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 729
+    "lowestResale": 738
   },
   "1974902858": {
     "id": 1974902858,
@@ -7869,7 +7869,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 2001,
-    "lowestResale": 12000
+    "lowestResale": 11999
   },
   "2316714645": {
     "id": 2316714645,
@@ -7953,7 +7953,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3393767,
-    "lowestResale": 200
+    "lowestResale": 240
   },
   "2544538622": {
     "id": 2544538622,
@@ -8145,7 +8145,7 @@
     "price": 210,
     "remaining": 0,
     "totalQuantity": 3002,
-    "lowestResale": 5000
+    "lowestResale": 6000
   },
   "2830416348": {
     "id": 2830416348,
@@ -8182,6 +8182,18 @@
     "remaining": 0,
     "totalQuantity": 51,
     "lowestResale": 25000000
+  },
+  "2830451846": {
+    "id": 2830451846,
+    "name": "Immortal Sword: Shattered Earth",
+    "type": "Back",
+    "created": "2019-02-07T20:57:09.23Z",
+    "kind": "LimitedUnique",
+    "onSale": false,
+    "price": 25000,
+    "remaining": 0,
+    "totalQuantity": 100,
+    "lowestResale": 9999999999
   },
   "2830454962": {
     "id": 2830454962,
@@ -8373,7 +8385,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4203154,
-    "lowestResale": 200
+    "lowestResale": 205
   },
   "3798239844": {
     "id": 3798239844,
@@ -8421,7 +8433,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2891760,
-    "lowestResale": 200
+    "lowestResale": 250
   },
   "4255053867": {
     "id": 4255053867,
@@ -8493,7 +8505,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 163207,
-    "lowestResale": 8000
+    "lowestResale": 7500
   },
   "10159622004": {
     "id": 10159622004,
@@ -8853,7 +8865,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 8464,
-    "lowestResale": 344
+    "lowestResale": 299
   },
   "10855932882": {
     "id": 10855932882,
@@ -10041,7 +10053,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 388225,
-    "lowestResale": 5100
+    "lowestResale": 5200
   },
   "180840496952935": {
     "id": 180840496952935,
@@ -10641,7 +10653,7 @@
     "price": 25,
     "remaining": 0,
     "totalQuantity": 50019,
-    "lowestResale": 2299
+    "lowestResale": 2200
   },
   "4750565659": {
     "id": 4750565659,
@@ -10714,18 +10726,6 @@
     "remaining": 0,
     "totalQuantity": 3729662,
     "lowestResale": 292
-  },
-  "4773588762": {
-    "id": 4773588762,
-    "name": "Despacitegg",
-    "type": "Hat",
-    "created": "2020-03-12T23:04:05.09Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 2426313,
-    "lowestResale": 250
   },
   "4773591735": {
     "id": 4773591735,
@@ -10905,7 +10905,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 25007,
-    "lowestResale": 2400
+    "lowestResale": 2300
   },
   "6803395856": {
     "id": 6803395856,
@@ -11493,7 +11493,7 @@
     "price": 200,
     "remaining": 1,
     "totalQuantity": 27288,
-    "lowestResale": 490
+    "lowestResale": 498
   },
   "85157065680913": {
     "id": 85157065680913,
@@ -11637,7 +11637,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 107691,
-    "lowestResale": 4000
+    "lowestResale": 4230
   },
   "8835792701": {
     "id": 8835792701,
@@ -11793,7 +11793,7 @@
     "price": 700,
     "remaining": 0,
     "totalQuantity": 3587,
-    "lowestResale": 999
+    "lowestResale": 860
   },
   "9063024415": {
     "id": 9063024415,

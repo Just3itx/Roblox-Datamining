@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:00:45Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T06:50:32Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local Foundation = script:FindFirstAncestor("Foundation")
 local FoundationParent = Foundation.Parent
@@ -19,7 +19,8 @@ local function usePanel(tbl1)
         position = tbl1.position,
         depth = tbl1.depth,
         parentPopoverId = tbl1.parentPopoverId,
-        isFocusable = if Flags.FoundationPopoverPluginFocusable then tbl1.isFocusable else nil
+        isFocusable = if Flags.FoundationPopoverPluginFocusable then tbl1.isFocusable else nil,
+        initialSize = if Flags.FoundationPopoverPluginPoolReclaim then tbl1.initialSize else nil
     })
 
     local var3 = React.useRef(tbl1.onClose)
@@ -27,79 +28,46 @@ local function usePanel(tbl1)
 
     local var4 = React.useRef(tbl1.registerPanelAsync)
     var4.current = tbl1.registerPanelAsync
-    local value
 
-    if Flags.FoundationPopoverPluginOverlayMeasurement then
-        local var5, var6 = React.useState(false)
+    local var5, var6 = React.useState(false)
 
-        local var7 = React.useCallback(function()
-            var6(true)
-            var3.current()
-        end, {})
+    local var7 = React.useCallback(function()
+        var6(true)
+        var3.current()
+    end, {})
 
-        local var8 = ReactUtils.useAsync(function()
-            if not tbl1.isOpen or var5 then
-                if var1.current then
-                    var1.current()
-                    var1.current = nil
-                end
-
-                return nil
-            end
-
-            local var8, current = var4.current(
-                var2.current.anchorUri,
-                var2.current.position,
-                var7,
-                var2.current.depth,
-                var2.current.parentPopoverId,
-                if Flags.FoundationPopoverPluginFocusable then var2.current.isFocusable else nil
-            )
-
-            var1.current = current
-            return var8
-        end, { tbl1.isOpen, var2, var5 })
-
-        if not var5 and var8.status == "ok" then
-            value = var8.value
-        else
-            value = nil
-        end
-        React.useEffect(function()
-            if not tbl1.isOpen then
-                var6(false)
-            end
-        end, { tbl1.isOpen })
-    else
-        local var5 = ReactUtils.useAsync(function()
-            if tbl1.isOpen then
-                local var5, current = var4.current(
-                    var2.current.anchorUri,
-                    var2.current.position,
-                    var3.current,
-                    var2.current.depth,
-                    var2.current.parentPopoverId,
-                    if Flags.FoundationPopoverPluginFocusable then var2.current.isFocusable else nil
-                )
-
-                var1.current = current
-                return var5
-            end
-
+    local var8 = ReactUtils.useAsync(function()
+        if not tbl1.isOpen or var5 then
             if var1.current then
                 var1.current()
                 var1.current = nil
             end
 
             return nil
-        end, { tbl1.isOpen, var2 })
-
-        if var5.status == "ok" then
-            value = var5.value
-        else
-            value = nil
         end
-    end
+
+        local var8, current = var4.current(
+            var2.current.anchorUri,
+            var2.current.position,
+            var7,
+            var2.current.depth,
+            var2.current.parentPopoverId,
+            if Flags.FoundationPopoverPluginFocusable then var2.current.isFocusable else nil,
+            if Flags.FoundationPopoverPluginPoolReclaim then var2.current.initialSize else nil
+        )
+
+        var1.current = current
+        return var8
+    end, { tbl1.isOpen, var2, var5 })
+
+    local value = if not var5 and var8.status == "ok" then var8.value else nil
+
+    React.useEffect(function()
+        if not tbl1.isOpen then
+            var6(false)
+        end
+    end, { tbl1.isOpen })
+
     ReactUtils.useAsync(function()
         if value then
             value.updateAsync({

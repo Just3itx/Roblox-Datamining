@@ -1,5 +1,5 @@
--- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-19T10:00:53Z
--- Luau bytecode version: 9 | Luau type version: 3
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T06:50:41Z
+-- Luau bytecode version: 14 | Luau type version: 3
 --!optimize 1
 local HttpService = game:GetService("HttpService")
 
@@ -132,7 +132,7 @@ function module:_flushWith(tbl1, tbl2)
         local _signal = self._signals[var3]
         if _signal then
             if _signal.Widget == value.Widget then
-                if not Flags.FoundationPopoverPluginOverlayMeasurement or _signal.Host == deprecatedPluginGui then
+                if _signal.Host == deprecatedPluginGui then
                     continue
                 end
 
@@ -148,39 +148,28 @@ function module:_flushWith(tbl1, tbl2)
         end
 
         local _signals = self._signals
-        local tbl5 = {
+
+        _signals[var3] = {
             Widget = value.Widget,
-            Host = 0,
-            PositionChanged = 0,
-            SizeChanged = 0,
-            VisibleChanged = 0,
-            AncestryChanged = 0
+            Host = deprecatedPluginGui,
+            PositionChanged = value.Widget:GetPropertyChangedSignal("AbsolutePosition"):Connect(function()
+                self:register(value.Uri, value.Widget)
+            end),
+            SizeChanged = value.Widget:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
+                self:register(value.Uri, value.Widget)
+            end),
+            VisibleChanged = value.Widget:GetStyledPropertyChangedSignal("Visible"):Connect(function()
+                self:register(value.Uri, value.Widget)
+            end),
+            AncestryChanged = value.Widget.AncestryChanged:Connect(function(_: Instance, parent: Instance)
+                if not parent then
+                    self:deregister(value.Uri)
+                end
+            end)
         }
-
-        if not Flags.FoundationPopoverPluginOverlayMeasurement then
-            deprecatedPluginGui = nil
-        end
-
-        tbl5.Host = deprecatedPluginGui
-        tbl5.PositionChanged = value.Widget:GetPropertyChangedSignal("AbsolutePosition"):Connect(function()
-            self:register(value.Uri, value.Widget)
-        end)
-        tbl5.SizeChanged = value.Widget:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
-            self:register(value.Uri, value.Widget)
-        end)
-        tbl5.VisibleChanged = value.Widget:GetStyledPropertyChangedSignal("Visible"):Connect(function()
-            self:register(value.Uri, value.Widget)
-        end)
-        tbl5.AncestryChanged = value.Widget.AncestryChanged:Connect(function(_: Instance, parent: Instance)
-            if not parent then
-                self:deregister(value.Uri)
-            end
-        end)
-
-        _signals[var3] = tbl5
     end
 
-    if Flags.FoundationPopoverPluginOverlayMeasurement and #tbl4 > 0 then
+    if #tbl4 > 0 then
         pcall(function()
             self._widgetsApi:DeregisterAsync(tbl4)
         end)
