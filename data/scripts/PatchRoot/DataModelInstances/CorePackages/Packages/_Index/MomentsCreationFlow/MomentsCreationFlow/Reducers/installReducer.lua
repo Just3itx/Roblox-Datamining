@@ -1,0 +1,14 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-20T10:30:52Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local MomentsCreationFlow = script:FindFirstAncestor("MomentsCreationFlow")
+local MomentsCreationFlowParent = MomentsCreationFlow.Parent
+
+local Rodux = require(MomentsCreationFlowParent.Rodux)
+
+local CreationFlow = require(MomentsCreationFlow.Reducers.CreationFlow)
+local Music = require(MomentsCreationFlow.Reducers.Music)
+
+return function()
+    return Rodux.combineReducers({ CreationFlow = CreationFlow, Music = Music })
+end
