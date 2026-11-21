@@ -1,0 +1,97 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T22:20:47Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+local scriptParent = script.Parent
+local FFlagLuaAppHomeThumbnailPrefetch = require(scriptParent.SharedFlags).FFlagLuaAppHomeThumbnailPrefetch
+
+local OpenCentralOverlayForPlacesList = require(script.OpenCentralOverlayForPlacesList)
+local GameTileConstants = require(script.GameTileConstants)
+local GameTileTypes = require(script.GameTileTypes)
+local FriendIcon = require(script.Footer.FriendIcon)
+local UserIconList = require(script.Footer.UserIconList)
+local ExperienceFooter = require(script.Footer.ExperienceFooter)
+local GameStats = require(script.Footer.GameStats)
+local usePlayerCountText = require(script.Footer.usePlayerCountText)
+local getGameTileLayoutData = require(script.getGameTileLayoutData)
+local getLayoutDataVideo = require(script.getLayoutDataVideo)
+local getGameTileCollectionItemSize = require(script.getGameTileCollectionItemSize)
+local getTileBadgeByPositionConfigFromEntry = require(script.getTileBadgeByPositionConfigFromEntry)
+local getValidTileBadges = require(script.Overlays.getValidTileBadges)
+local WideGameTileViewConfig = require(script.WideGameTileViewConfig)
+local GameTileViewConfig = require(script.GameTileViewConfig)
+local AppExperienceActionRow = require(script.AppExperienceActionRow)
+local OpenSponsoredTooltip = require(script.OpenSponsoredTooltip)
+local AppGameTile = require(script.AppGameTile)
+local GameTileThumbnailBadges = require(script.Overlays.GameTileThumbnailBadges)
+local GameTileView = require(script.GameTileView)
+local GridTileTextFooter = require(script.Footer.GridTileTextFooter)
+local FooterCornerButtonStyle = require(script.Footer.FooterCornerButtonStyle)
+local HoverTileCoordinator = require(script.HoverTileCoordinator)
+local GameTileExperimentation = require(script.GameTileExperimentation)
+local useIsVideoEligible = require(script.Video.useIsVideoEligible)
+local useVideoAnalytics = require(script.Video.Analytics.useVideoAnalytics)
+local TileVideoBlockingConfig = require(script.Video.TileVideoBlockingConfig)
+local formatExperienceIcon = require(script.formatExperienceIcon)
+local formatExperienceRating = require(script.formatExperienceRating)
+local formatExperienceThumbnail = require(script.formatExperienceThumbnail)
+local resolveGameTileThumbnailUri = if FFlagLuaAppHomeThumbnailPrefetch then require(script.resolveGameTileThumbnailUri) else nil
+local resolveWideAssetId = require(script.resolveWideAssetId)
+local useNavigateToGameDetails = require(script.useNavigateToGameDetails)
+local ItemLayoutDataParsingUtils = require(script.ItemLayoutDataParsingUtils)
+local useIsHoveredTile = require(script.useIsHoveredTile)
+local useValidTileBadges = require(script.Overlays.useValidTileBadges)
+local GameTileContextualActions = require(script.GameTileContextualActions)
+local GameTileOverflowMenu = require(script.GameTileOverflowMenu)
+local getAvailableGameTileOverflowMenuItems = require(script.getAvailableGameTileOverflowMenuItems)
+
+return {
+    AppExperienceActionRow = AppExperienceActionRow,
+    AppGameTile = AppGameTile,
+    ExperienceFooter = ExperienceFooter,
+    FooterCornerButtonStyle = FooterCornerButtonStyle,
+    FriendIcon = FriendIcon,
+    GameStats = GameStats,
+    GameTileConstants = GameTileConstants,
+    GameTileExperimentation = GameTileExperimentation,
+    GameTileThumbnailBadges = GameTileThumbnailBadges,
+    GameTileTypes = GameTileTypes,
+    GameTileViewConfig = GameTileViewConfig,
+    GameTileView = GameTileView,
+    GridTileTextFooter = GridTileTextFooter,
+    HoverTileCoordinator = HoverTileCoordinator,
+    OpenCentralOverlayForPlacesList = OpenCentralOverlayForPlacesList,
+    OpenSponsoredTooltip = OpenSponsoredTooltip,
+    usePlayerCountText = usePlayerCountText,
+    getGameTileLayoutData = getGameTileLayoutData,
+    getLayoutDataVideo = getLayoutDataVideo,
+    getGameTileCollectionItemSize = getGameTileCollectionItemSize,
+    UserIconList = UserIconList,
+    WideGameTileViewConfig = WideGameTileViewConfig,
+    getValidTileBadges = getValidTileBadges,
+    useIsVideoEligible = useIsVideoEligible,
+    useVideoAnalytics = useVideoAnalytics,
+    TileVideoBlockingConfig = TileVideoBlockingConfig,
+    formatExperienceIcon = formatExperienceIcon,
+    formatExperienceRating = formatExperienceRating,
+    formatExperienceThumbnail = formatExperienceThumbnail,
+    resolveGameTileThumbnailUri = resolveGameTileThumbnailUri,
+    resolveWideAssetId = resolveWideAssetId,
+    useNavigateToGameDetails = useNavigateToGameDetails,
+    NotInterestedUserSignalTelemetryEventConfigs = require(script.NotInterestedUserSignalTelemetryEventConfigs),
+    activateGameNotInterested = require(script.activateGameNotInterested),
+    undoGameNotInterested = require(script.undoGameNotInterested),
+    getGameTileHiddenStore = require(script.HiddenGameTile.getGameTileHiddenStore),
+    HiddenTileContent = require(script.HiddenGameTile.HiddenTileContent),
+    EmphasisGameTile = require(script.EmphasisGameTile),
+    getTileBadgeByPositionConfigFromEntry = getTileBadgeByPositionConfigFromEntry,
+    ItemLayoutDataParsingUtils = ItemLayoutDataParsingUtils,
+    useIsHoveredTile = useIsHoveredTile,
+    useValidTileBadges = useValidTileBadges,
+    GameTileContextualActions = GameTileContextualActions,
+    GameTileOverflowMenu = GameTileOverflowMenu,
+    getAvailableGameTileOverflowMenuItems = getAvailableGameTileOverflowMenuItems,
+    useGameTileOverflowMenuFocusNavigation = require(script.useGameTileOverflowMenuFocusNavigation),
+    ZoomAnimatedFrame = require(script.ZoomAnimatedFrame),
+    ["jest.config"] = script["jest.config"]
+}
