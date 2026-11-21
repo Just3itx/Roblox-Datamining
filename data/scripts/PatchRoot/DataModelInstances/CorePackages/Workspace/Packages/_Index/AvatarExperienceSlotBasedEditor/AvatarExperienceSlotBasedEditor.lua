@@ -1,0 +1,85 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T04:40:44Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+local _Types = require(script.Types)
+local Categories = require(script.Enums.Categories)
+local ScreenLayout = require(script.Enums.ScreenLayout)
+local ItemView = require(script.Enums.ItemView)
+local NavigationParams = require(script.Enums.NavigationParams)
+local _useSlotItemCardBreakpoints = require(script.Hooks.useSlotItemCardBreakpoints)
+local InventorySorts = require(script.Enums.InventorySorts)
+local InventoryFilters = require(script.Enums.InventoryFilters)
+local InventoryItemAvailability = require(script.Enums.InventoryItemAvailability)
+local InventoryItemType = require(script.Enums.InventoryItemType)
+local _InventorySearchSortOption = require(script.Enums.InventorySearchSortOption)
+local SlotType = require(script.Enums.SlotType)
+local createCategoryInventoryStore = require(script.Stores.createCategoryInventoryStore)
+local createSortAndFiltersStore = require(script.Stores.createSortAndFiltersStore)
+local createInventorySearchStore = require(script.Stores.createInventorySearchStore)
+local createAvatarEditorStores = require(script.Stores.createAvatarEditorStores)
+local createSlotBasedEditorStore = require(script.Stores.createSlotBasedEditorStore)
+local createStaleInventoryGrantStore = require(script.Stores.createStaleInventoryGrantStore)
+local createThumbnailLatencyStore = require(script.Stores.createThumbnailLatencyStore)
+local SlotBasedEditorContext = require(script.Context.SlotBasedEditorContext)
+local AvatarEditorStores = require(script.Context.AvatarEditorStores)
+
+return {
+    Components = {
+        SlotItemCard = require(script.Components.SlotItemCard),
+        SlotItemCardFooter = require(script.Components.SlotItemCardFooter),
+        SlotCircularGradientFrame = require(script.Components.SlotCircularGradientFrame),
+        SlotItemCardThumbnail = require(script.Components.SlotItemCardThumbnail),
+        ClearAllButton = require(script.Components.ClearAllButton),
+        CloseableHeader = require(script.Components.CloseableHeader),
+        AXPartialPageModal = require(script.Components.AXPartialPageModal),
+        OutfitDetailsActionBar = require(script.Components.OutfitDetails.ActionBar.OutfitDetailsActionBarContainer),
+        OutfitDetailsTopBar = require(script.Components.OutfitDetails.TopBar.OutfitDetailsTopBarContainer)
+    },
+    Hooks = {
+        useSlotItemCardBreakpoints = require(script.Hooks.useSlotItemCardBreakpoints),
+        useSlotCustomizeFtux = require(script.Hooks.useSlotCustomizeFtux)
+    },
+    Context = {
+        SlotBasedEditorContext = SlotBasedEditorContext,
+        useSlotBasedEditorContext = require(script.Context.useSlotBasedEditorContext),
+        AvatarEditorStores = AvatarEditorStores,
+        useAvatarEditorStores = require(script.Context.useAvatarEditorStores)
+    },
+    Stores = {
+        createCategoryInventoryStore = createCategoryInventoryStore,
+        createSortAndFiltersStore = createSortAndFiltersStore,
+        createInventorySearchStore = createInventorySearchStore,
+        createAvatarEditorStores = createAvatarEditorStores,
+        createSlotBasedEditorStore = createSlotBasedEditorStore,
+        createStaleInventoryGrantStore = createStaleInventoryGrantStore,
+        createThumbnailLatencyStore = createThumbnailLatencyStore,
+        getStaleInventoryGrantStore = require(script.Stores.getStaleInventoryGrantStore)
+    },
+    Enums = {
+        ScreenLayout = ScreenLayout,
+        Categories = Categories,
+        ItemView = ItemView,
+        NavigationParams = NavigationParams,
+        InventorySorts = InventorySorts,
+        InventoryFilters = InventoryFilters,
+        InventoryItemAvailability = InventoryItemAvailability,
+        InventoryItemType = InventoryItemType,
+        SlotType = SlotType
+    },
+    Constants = require(script.Constants),
+    InventorySearchConstants = require(script.InventorySearchConstants),
+    Utils = {
+        buildStringsToLocalize = require(script.Utils.buildStringsToLocalize),
+        buildSlots = require(script.Utils.buildSlots),
+        getAssetTypesByCategory = require(script.Utils.getAssetTypesByCategory),
+        buildBodySlotViewportProps = require(script.Utils.buildBodySlotViewportProps),
+        getRemainingTimeFromExpiration = require(script.Utils.getRemainingTimeFromExpiration),
+        buildSlotCategoryTabItems = require(script.Utils.buildSlotCategoryTabItems),
+        buildSlotCategoryLocalizationKeys = require(script.Utils.buildSlotCategoryLocalizationKeys),
+        buildSearchAvatarInventoryQuery = require(script.Utils.buildSearchAvatarInventoryQuery),
+        toSearchableItemCategories = require(script.Utils.toSearchableItemCategories),
+        getInventorySearchKey = require(script.Utils.getInventorySearchKey)
+    },
+    ["jest.config"] = script["jest.config"]
+}
