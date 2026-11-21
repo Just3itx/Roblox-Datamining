@@ -1,0 +1,40 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T00:50:14Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+return {
+    AreaTest = require(script.AreaTest),
+    debounce = require(script.debounce),
+    createLegalLinkRenderer = require(script.createLegalLinkRenderer),
+    formatBoldRichText = require(script.formatBoldRichText),
+    isStringPhone = require(script.isStringPhone),
+    isStringEmail = require(script.isStringEmail),
+    getLinkedPlatformAccountName = require(script.getLinkedPlatformAccountName),
+    getSingleSignOnUrls = require(script.getSingleSignOnUrls),
+    AppStorageUtilities = require(script.AppStorageUtilities),
+    scheduleAccountSwitchRelaunchFallback = require(script.scheduleAccountSwitchRelaunchFallback),
+    Base64 = require(script.Base64),
+    GetDxBlob = require(script.GetDxBlob),
+    GetCaptchaDataJson = require(script.GetCaptchaDataJson),
+    GetMultipleUsersPerCredentialErrorData = require(script.GetMultipleUsersPerCredentialErrorData),
+    GetLoginByUsernameErrorMessage = require(script.GetLoginByUsernameErrorMessage),
+    LoginByUsernameSSOErrorsTelemetry = require(script.LoginByUsernameSSOErrorsTelemetry),
+    LoginByEmailSSOErrorsTelemetry = require(script.LoginByEmailSSOErrorsTelemetry),
+    LoginByPhoneSSOErrorsTelemetry = require(script.LoginByPhoneSSOErrorsTelemetry),
+    LoginByOtpSSOErrorsTelemetry = require(script.LoginByOtpSSOErrorsTelemetry),
+    getSignedOutAccounts = require(script.getSignedOutAccounts),
+    recordLogin = require(script.recordLogin),
+    recordSignOut = require(script.recordSignOut),
+    updateLoginEntryData = require(script.updateLoginEntryData),
+    ensureLoginEntry = require(script.ensureLoginEntry),
+    record2svCompletion = require(script.record2svCompletion),
+    PreviousAccountEntry = require(script.PreviousAccountEntry),
+    parseCredentialsProtocolIsAvailableResponse = require(script.parseCredentialsProtocolIsAvailableResponse),
+    getTwoStepLoginErrorKey = require(script.getTwoStepLoginErrorKey),
+    isIosAuthServiceEnabled = require(script.isIosAuthServiceEnabled),
+    shouldSkipLegacyPasswordSaveEvent = require(script.shouldSkipLegacyPasswordSaveEvent),
+    coarseLoginErrorBucket = require(script.coarseLoginErrorBucket),
+    isNonTerminalLoginError = require(script.isNonTerminalLoginError),
+    fillGenericLoginErrorKey = require(script.fillGenericLoginErrorKey),
+    isLoggedOutUserId = require(script.isLoggedOutUserId)
+}
