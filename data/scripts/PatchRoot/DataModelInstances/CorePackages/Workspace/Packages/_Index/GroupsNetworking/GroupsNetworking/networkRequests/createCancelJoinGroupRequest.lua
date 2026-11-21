@@ -1,0 +1,12 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T23:50:07Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local GroupsNetworking = script:FindFirstAncestor("GroupsNetworking")
+
+local GROUPS_URL = require(GroupsNetworking.GROUPS_URL)
+
+return function(tbl1)
+    return tbl1.roduxNetworking.DELETE("CancelJoinGroupRequest", function(arg1, tbl2)
+        return arg1(GROUPS_URL):path("v1"):path("groups"):id(tbl2.groupId):path("join-requests"):path("users"):id(tbl2.userId)
+    end)
+end
