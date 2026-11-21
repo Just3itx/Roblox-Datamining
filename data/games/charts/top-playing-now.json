@@ -4,33 +4,33 @@
   "entries": [
     {
       "rank": 1,
-      "universeId": 10563114921,
-      "placeId": 107778070777162,
-      "name": "Steal An Egg"
-    },
-    {
-      "rank": 2,
-      "universeId": 1686885941,
-      "placeId": 4924922222,
-      "name": "Brookhaven 🏡RP"
-    },
-    {
-      "rank": 3,
       "universeId": 7709344486,
       "placeId": 109983668079237,
       "name": "[💀] Steal a Brainrot"
     },
     {
-      "rank": 4,
-      "universeId": 9584852943,
-      "placeId": 95082159892680,
-      "name": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate"
+      "rank": 2,
+      "universeId": 10563114921,
+      "placeId": 107778070777162,
+      "name": "Steal An Egg"
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "universeId": 1686885941,
+      "placeId": 4924922222,
+      "name": "Brookhaven 🏡RP"
+    },
+    {
+      "rank": 4,
       "universeId": 994732206,
       "placeId": 2753915549,
       "name": "[🎃] Blox Fruits"
+    },
+    {
+      "rank": 5,
+      "universeId": 10766972131,
+      "placeId": 120219252362013,
+      "name": "Throw Food For Animals"
     },
     {
       "rank": 6,
@@ -40,9 +40,9 @@
     },
     {
       "rank": 7,
-      "universeId": 10766972131,
-      "placeId": 120219252362013,
-      "name": "Throw Food For Animals"
+      "universeId": 9584852943,
+      "placeId": 95082159892680,
+      "name": "[X20] +1 Speed Keyboard Escape | Candy & Chocolate"
     },
     {
       "rank": 8,
@@ -172,15 +172,15 @@
     },
     {
       "rank": 29,
-      "universeId": 4778845442,
-      "placeId": 13775256536,
-      "name": "[💥UTS 3.0] Toilet Tower Defense"
-    },
-    {
-      "rank": 30,
       "universeId": 10769671316,
       "placeId": 77900175935766,
       "name": "[🦧 BOSS] Survive Your Ideas"
+    },
+    {
+      "rank": 30,
+      "universeId": 4778845442,
+      "placeId": 13775256536,
+      "name": "[💥UTS 3.0] Toilet Tower Defense"
     },
     {
       "rank": 31,
@@ -202,9 +202,9 @@
     },
     {
       "rank": 34,
-      "universeId": 6739698191,
-      "placeId": 93978595733734,
-      "name": "[WEEK 4 🎃 x BUTCHER] Violence District"
+      "universeId": 3317771874,
+      "placeId": 8737899170,
+      "name": "🦃 [TURKEY] Pet Simulator 99! 🍁"
     },
     {
       "rank": 35,
@@ -214,9 +214,9 @@
     },
     {
       "rank": 36,
-      "universeId": 3317771874,
-      "placeId": 8737899170,
-      "name": "🦃 [TURKEY] Pet Simulator 99! 🍁"
+      "universeId": 6739698191,
+      "placeId": 93978595733734,
+      "name": "[WEEK 4 🎃 x BUTCHER] Violence District"
     },
     {
       "rank": 37,
@@ -226,27 +226,27 @@
     },
     {
       "rank": 38,
-      "universeId": 10769941703,
-      "placeId": 134117451433332,
-      "name": "13 Days to Escape [ALPHA]"
-    },
-    {
-      "rank": 39,
       "universeId": 8172250815,
       "placeId": 128828638194450,
       "name": "STAND OUT"
     },
     {
-      "rank": 40,
-      "universeId": 10155360168,
-      "placeId": 126987974021910,
-      "name": "Illegal Soccer"
+      "rank": 39,
+      "universeId": 10769941703,
+      "placeId": 134117451433332,
+      "name": "13 Days to Escape [ALPHA]"
     },
     {
-      "rank": 41,
+      "rank": 40,
       "universeId": 10629695169,
       "placeId": 72858262610964,
       "name": "[UPD] Tap Simulator REBORN"
+    },
+    {
+      "rank": 41,
+      "universeId": 10155360168,
+      "placeId": 126987974021910,
+      "name": "Illegal Soccer"
     },
     {
       "rank": 42,
@@ -268,15 +268,15 @@
     },
     {
       "rank": 45,
-      "universeId": 2668101271,
-      "placeId": 6961824067,
-      "name": "Fling Things and People"
+      "universeId": 10769851460,
+      "placeId": 83048653078891,
+      "name": "[🏝️ISLAND] Criminal Simulator 💰"
     },
     {
       "rank": 46,
-      "universeId": 10774204862,
-      "placeId": 98979169190595,
-      "name": "Volley Bomb"
+      "universeId": 2668101271,
+      "placeId": 6961824067,
+      "name": "Fling Things and People"
     },
     {
       "rank": 47,
@@ -286,9 +286,9 @@
     },
     {
       "rank": 48,
-      "universeId": 1202096104,
-      "placeId": 3351674303,
-      "name": "Driving Empire [✨NEW LIMITED ✨]"
+      "universeId": 10774204862,
+      "placeId": 98979169190595,
+      "name": "Volley Bomb"
     },
     {
       "rank": 49,
@@ -298,63 +298,63 @@
     },
     {
       "rank": 50,
+      "universeId": 1202096104,
+      "placeId": 3351674303,
+      "name": "Driving Empire [✨NEW LIMITED ✨]"
+    },
+    {
+      "rank": 51,
       "universeId": 10772281976,
       "placeId": 76870565041704,
       "name": "[THROWING DISC!] Unstable SMP FFA"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "universeId": 10773487349,
       "placeId": 123969755970816,
       "name": "[🐜] Ant Evolution"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "universeId": 10770463307,
       "placeId": 71586501620185,
       "name": "[UPD] Stop The Tsunami!"
     },
     {
-      "rank": 53,
-      "universeId": 10769851460,
-      "placeId": 83048653078891,
-      "name": "[🏝️ISLAND] Criminal Simulator 💰"
-    },
-    {
       "rank": 54,
-      "universeId": 1451439645,
-      "placeId": 4520749081,
-      "name": "[🐉UPD 11 PART 1🎃] King Legacy"
-    },
-    {
-      "rank": 55,
       "universeId": 10774160414,
       "placeId": 121011978933862,
       "name": "Scare Your Favorite Streamer"
     },
     {
-      "rank": 56,
-      "universeId": 703124385,
-      "placeId": 1962086868,
-      "name": "Tower of Hell"
+      "rank": 55,
+      "universeId": 1451439645,
+      "placeId": 4520749081,
+      "name": "[🐉UPD 11 PART 1🎃] King Legacy"
     },
     {
-      "rank": 57,
+      "rank": 56,
       "universeId": 1831550657,
       "placeId": 5233782396,
       "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals"
     },
     {
-      "rank": 58,
+      "rank": 57,
       "universeId": 372226183,
       "placeId": 893973440,
       "name": "🎃Flee the Facility🍁"
     },
     {
+      "rank": 58,
+      "universeId": 703124385,
+      "placeId": 1962086868,
+      "name": "Tower of Hell"
+    },
+    {
       "rank": 59,
-      "universeId": 2619619496,
-      "placeId": 6872265039,
-      "name": "[🦃Cornucopia] BedWars"
+      "universeId": 7174773198,
+      "placeId": 104067066727140,
+      "name": "Vox Seas"
     },
     {
       "rank": 60,
@@ -364,9 +364,9 @@
     },
     {
       "rank": 61,
-      "universeId": 7174773198,
-      "placeId": 104067066727140,
-      "name": "Vox Seas"
+      "universeId": 2619619496,
+      "placeId": 6872265039,
+      "name": "[🦃Cornucopia] BedWars"
     },
     {
       "rank": 62,
@@ -376,15 +376,15 @@
     },
     {
       "rank": 63,
-      "universeId": 10773926254,
-      "placeId": 140431845542654,
-      "name": "Bloody Ragdoll Physics 🩸"
-    },
-    {
-      "rank": 64,
       "universeId": 7018190066,
       "placeId": 116495829188952,
       "name": "Dead Rails"
+    },
+    {
+      "rank": 64,
+      "universeId": 10773926254,
+      "placeId": 140431845542654,
+      "name": "Bloody Ragdoll Physics 🩸"
     },
     {
       "rank": 65,
@@ -418,33 +418,33 @@
     },
     {
       "rank": 70,
-      "universeId": 10775182046,
-      "placeId": 129081220403721,
-      "name": "Throw a Seed"
-    },
-    {
-      "rank": 71,
-      "universeId": 10770703729,
-      "placeId": 129382295065915,
-      "name": "🎃 KRN: Crosshair"
-    },
-    {
-      "rank": 72,
-      "universeId": 10770228857,
-      "placeId": 74183246285569,
-      "name": "[⚡] Steal a Superpower!"
-    },
-    {
-      "rank": 73,
       "universeId": 2440500124,
       "placeId": 6516141723,
       "name": "DOORS 👁️"
     },
     {
-      "rank": 74,
+      "rank": 71,
+      "universeId": 10775182046,
+      "placeId": 129081220403721,
+      "name": "Throw a Seed"
+    },
+    {
+      "rank": 72,
+      "universeId": 10770703729,
+      "placeId": 129382295065915,
+      "name": "🎃 KRN: Crosshair"
+    },
+    {
+      "rank": 73,
       "universeId": 9089939780,
       "placeId": 95221040467077,
       "name": "🏁 Build A Racetrack"
+    },
+    {
+      "rank": 74,
+      "universeId": 10770228857,
+      "placeId": 74183246285569,
+      "name": "[⚡] Steal a Superpower!"
     },
     {
       "rank": 75,
@@ -460,9 +460,9 @@
     },
     {
       "rank": 77,
-      "universeId": 10762636904,
-      "placeId": 132929771812494,
-      "name": "[Medal+X2💰] Cameraman Tower Defense"
+      "universeId": 8178086002,
+      "placeId": 117713779364528,
+      "name": "[UPD] Lethal Ape Experience"
     },
     {
       "rank": 78,
@@ -472,9 +472,9 @@
     },
     {
       "rank": 79,
-      "universeId": 8178086002,
-      "placeId": 117713779364528,
-      "name": "[UPD] Lethal Ape Experience"
+      "universeId": 10769634720,
+      "placeId": 75815532269840,
+      "name": "PINKIE PROMISE [CH 2]"
     },
     {
       "rank": 80,
@@ -484,9 +484,9 @@
     },
     {
       "rank": 81,
-      "universeId": 10769634720,
-      "placeId": 75815532269840,
-      "name": "PINKIE PROMISE [CH 2]"
+      "universeId": 10762636904,
+      "placeId": 132929771812494,
+      "name": "[Medal+X2💰] Cameraman Tower Defense"
     },
     {
       "rank": 82,
@@ -496,15 +496,15 @@
     },
     {
       "rank": 83,
-      "universeId": 9167377564,
-      "placeId": 70411440483149,
-      "name": "100 Days at Sea"
-    },
-    {
-      "rank": 84,
       "universeId": 10771881861,
       "placeId": 108901361810209,
       "name": "[CROC🐊] FERAL 🐺 Animal Survival"
+    },
+    {
+      "rank": 84,
+      "universeId": 9167377564,
+      "placeId": 70411440483149,
+      "name": "100 Days at Sea"
     },
     {
       "rank": 85,
@@ -514,15 +514,15 @@
     },
     {
       "rank": 86,
-      "universeId": 8546873728,
-      "placeId": 102917792916356,
-      "name": "(UTTV + MORE) Apocalyptic Titans Roleplay"
-    },
-    {
-      "rank": 87,
       "universeId": 10771053183,
       "placeId": 93898234979111,
       "name": "[🐟] Net a Fish!"
+    },
+    {
+      "rank": 87,
+      "universeId": 8546873728,
+      "placeId": 102917792916356,
+      "name": "(UTTV + MORE) Apocalyptic Titans Roleplay"
     },
     {
       "rank": 88,
@@ -538,15 +538,15 @@
     },
     {
       "rank": 90,
-      "universeId": 10774244015,
-      "placeId": 75260404327641,
-      "name": "[⚔️] Kit PVP FFA"
-    },
-    {
-      "rank": 91,
       "universeId": 10772543706,
       "placeId": 109576450376407,
       "name": "[🛸] Sweep The Moon 🌕"
+    },
+    {
+      "rank": 91,
+      "universeId": 10774244015,
+      "placeId": 75260404327641,
+      "name": "[⚔️] Kit PVP FFA"
     },
     {
       "rank": 92,
@@ -556,9 +556,9 @@
     },
     {
       "rank": 93,
-      "universeId": 2936053166,
-      "placeId": 7554888362,
-      "name": "[🦑] Squid Game X"
+      "universeId": 10770609435,
+      "placeId": 117316454635032,
+      "name": "Jujutsu Farm"
     },
     {
       "rank": 94,
@@ -568,21 +568,21 @@
     },
     {
       "rank": 95,
+      "universeId": 2936053166,
+      "placeId": 7554888362,
+      "name": "[🦑] Squid Game X"
+    },
+    {
+      "rank": 96,
       "universeId": 10774444233,
       "placeId": 99352685758267,
       "name": "Flat the Mountain"
     },
     {
-      "rank": 96,
+      "rank": 97,
       "universeId": 5995470825,
       "placeId": 17516596118,
       "name": "[🔥CLANS] Hypershot"
-    },
-    {
-      "rank": 97,
-      "universeId": 10773741519,
-      "placeId": 116365602177114,
-      "name": "Fake Sick!"
     },
     {
       "rank": 98,
