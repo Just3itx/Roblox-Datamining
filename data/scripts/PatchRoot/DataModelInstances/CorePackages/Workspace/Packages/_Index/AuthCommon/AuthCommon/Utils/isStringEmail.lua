@@ -1,0 +1,11 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T01:00:39Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+return function(str1: string?): boolean
+    if not str1 or str1 == "" then
+        return false
+    end
+    assert(str1, "")
+
+    return string.find(str1, "^.+@.+%..+$") ~= nil
+end
