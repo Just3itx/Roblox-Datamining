@@ -1,0 +1,4 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T06:20:38Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local scriptParentParent = script.Parent.Parent
+return require(scriptParentParent.SocialCommon).Utils.buildApiSiteUrl("apis") .. "/look-api/v1/looks/purchase-details"
