@@ -1,0 +1,57 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T17:20:52Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+local scriptParent = script.Parent
+local GameCollectionItemTypes = require(scriptParent.DiscoveryTypes).GameCollectionItemTypes
+
+local isSeeAllTileEnabled = require(script.isSeeAllTileEnabled)
+local useCountdownSubtitleTextBinding = require(script.useCountdownSubtitleTextBinding)
+local useGetGameTileHeight = require(script.useGetGameTileHeight)
+local useRenderGameCollectionItem = require(script.useRenderGameCollectionItem)
+local GameCollectionLayoutCalculators = require(script.GameCollectionLayoutCalculators)
+local useGameCollectionLayoutParams = require(script.useGameCollectionLayoutParams)
+local useNavigateToSortLinkWebView = require(script.useNavigateToSortLinkWebView)
+local useGameSortHeaderButtonParams = require(script.useGameSortHeaderButtonParams)
+local PlaceholderGameGrid = require(script.PlaceholderGameGrid)
+local GameCollectionNavigationBindings = require(script.GameCollectionNavigationBindings)
+local useGameSortAnalytics = require(script.useGameSortAnalytics)
+local GameSortImpressionsDetector = require(script.Impressions.GameSortImpressionsDetector)
+local SendGameImpressions = require(script.Impressions.SendGameImpressions)
+local useGameSortImpressionsParams = require(script.Impressions.useGameSortImpressionsParams)
+local useGameSortData = require(script.useGameSortData)
+local useIsHoldToPlayEnabledForGames = require(script.useIsHoldToPlayEnabledForGames)
+local useGameSortTooltipParams = require(script.useGameSortTooltipParams)
+local WaitForPropWrapper = require(script.Impressions.WaitForPropWrapper)
+local SeeAllTile = require(script.SeeAllTile)
+local GameCollectionItemBuilder = require(script.GameCollectionItemBuilder)
+local useTriggerGameTileFeedbackCallbacks = require(script.useTriggerGameTileFeedbackCallbacks)
+
+return {
+    GameCollectionGrid = require(script.GameCollectionGrid),
+    isSeeAllTileEnabled = isSeeAllTileEnabled,
+    useCountdownSubtitleTextBinding = useCountdownSubtitleTextBinding,
+    useGameCollectionLayoutParams = useGameCollectionLayoutParams,
+    useGameSortAnalytics = useGameSortAnalytics,
+    useGameSortData = useGameSortData,
+    useGameSortHeaderButtonParams = useGameSortHeaderButtonParams,
+    useGameSortImpressionsParams = useGameSortImpressionsParams,
+    useGameSortTooltipParams = useGameSortTooltipParams,
+    useGetGameTileHeight = useGetGameTileHeight,
+    useIsHoldToPlayEnabledForGames = useIsHoldToPlayEnabledForGames,
+    useNavigateToSortLinkWebView = useNavigateToSortLinkWebView,
+    useRenderGameCollectionItem = useRenderGameCollectionItem,
+    useTriggerGameTileFeedbackCallbacks = useTriggerGameTileFeedbackCallbacks,
+    ["jest.config"] = script["jest.config"],
+    ["jest.main.config"] = script["jest.main.config"],
+    ["jest.mockDataModel.config"] = script["jest.mockDataModel.config"],
+    GameCollectionLayoutCalculators = GameCollectionLayoutCalculators,
+    GameCollectionNavigationBindings = GameCollectionNavigationBindings,
+    GameSortImpressionsDetector = GameSortImpressionsDetector,
+    PlaceholderGameGrid = PlaceholderGameGrid,
+    SendGameImpressions = SendGameImpressions,
+    WaitForPropWrapper = WaitForPropWrapper,
+    SeeAllTile = SeeAllTile,
+    GameCollectionItemBuilder = GameCollectionItemBuilder,
+    GameCollectionItemTypes = GameCollectionItemTypes
+}
