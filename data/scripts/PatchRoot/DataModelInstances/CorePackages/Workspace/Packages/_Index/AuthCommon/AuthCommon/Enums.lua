@@ -1,0 +1,29 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T00:21:06Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local InputValidity = require(script.InputValidity)
+
+local Alignment = require(script.Alignment)
+
+return {
+    AccountLinkingAlertType = require(script.AccountLinkingAlertType),
+    Alignment = Alignment,
+    AuthLocalStorageKeys = require(script.AuthLocalStorageKeys),
+    AppLoginCounterNames = require(script.AppLoginCounterNames),
+    AuthMemStorageKeys = require(script.AuthMemStorageKeys),
+    DisclaimerLinksVariant = require(script.DisclaimerLinksVariant),
+    LoginErrorCodes = require(script.LoginErrorCodes),
+    LoginErrorCodeSSO = require(script.LoginErrorCodeSSO),
+    InputValidity = InputValidity,
+    IssueCondition = require(script.IssueCondition),
+    PasswordIssue = require(script.PasswordIssue),
+    PasskeyRegistrationSource = require(script.PasskeyRegistrationSource),
+    SignupActionRequired = require(script.SignupActionRequired),
+    ScrollingPickerDirection = require(script.ScrollingPickerDirection),
+    UsernameIssue = require(script.UsernameIssue),
+    UserGender = require(script.UserGender),
+    UsernameValidationContext = require(script.UsernameValidationContext),
+    TransitionAnimation = require(script.TransitionAnimation),
+    TwoStepErrorCodes = require(script.TwoStepErrorCodes),
+    LogoutReasonNames = require(script.LogoutReasonNames),
+    LoginMethods = require(script.LoginMethods)
+}
