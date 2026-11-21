@@ -21,7 +21,7 @@
     "price": 2424,
     "remaining": 0,
     "totalQuantity": 56574,
-    "lowestResale": 24300
+    "lowestResale": 24500
   },
   "1098282": {
     "id": 1098282,
@@ -311,30 +311,6 @@
     "totalQuantity": 3907,
     "lowestResale": 8499
   },
-  "152980413": {
-    "id": 152980413,
-    "name": "Egg of Friendship",
-    "type": "Hat",
-    "created": "2014-04-11T04:51:49.24Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 77765,
-    "lowestResale": 277
-  },
-  "152980428": {
-    "id": 152980428,
-    "name": "Egg of Life",
-    "type": "Hat",
-    "created": "2014-04-11T04:52:17.117Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 137570,
-    "lowestResale": 244
-  },
   "152980442": {
     "id": 152980442,
     "name": "Egg of Luck",
@@ -357,7 +333,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 80724,
-    "lowestResale": 248
+    "lowestResale": 196
   },
   "152980504": {
     "id": 152980504,
@@ -1041,7 +1017,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 2576,
-    "lowestResale": 3250
+    "lowestResale": 3249
   },
   "158068171": {
     "id": 158068171,
@@ -2997,7 +2973,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 1895,
-    "lowestResale": 4211
+    "lowestResale": 4209
   },
   "243791145": {
     "id": 243791145,
@@ -4737,7 +4713,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 48103,
-    "lowestResale": 450
+    "lowestResale": 549
   },
   "382880833": {
     "id": 382880833,
@@ -5061,7 +5037,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 4012,
-    "lowestResale": 7996
+    "lowestResale": 7997
   },
   "416832622": {
     "id": 416832622,
@@ -5889,7 +5865,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 4486,
-    "lowestResale": 192444
+    "lowestResale": 180000
   },
   "553970961": {
     "id": 553970961,
@@ -7293,7 +7269,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3702688,
-    "lowestResale": 180
+    "lowestResale": 228
   },
   "1556235379": {
     "id": 1556235379,
@@ -7425,7 +7401,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 518280,
-    "lowestResale": 1550
+    "lowestResale": 1500
   },
   "1645055518": {
     "id": 1645055518,
@@ -7725,7 +7701,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 734
+    "lowestResale": 730
   },
   "1974902858": {
     "id": 1974902858,
@@ -7965,7 +7941,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3393767,
-    "lowestResale": 240
+    "lowestResale": 246
   },
   "2544538622": {
     "id": 2544538622,
@@ -8195,6 +8171,18 @@
     "totalQuantity": 51,
     "lowestResale": 25000000
   },
+  "2830451846": {
+    "id": 2830451846,
+    "name": "Immortal Sword: Shattered Earth",
+    "type": "Back",
+    "created": "2019-02-07T20:57:09.23Z",
+    "kind": "LimitedUnique",
+    "onSale": false,
+    "price": 25000,
+    "remaining": 0,
+    "totalQuantity": 100,
+    "lowestResale": 9876543210
+  },
   "2830454962": {
     "id": 2830454962,
     "name": "Noob Attack: Frozen Crossbow Collision",
@@ -8277,7 +8265,7 @@
     "price": 80,
     "remaining": 0,
     "totalQuantity": 186285,
-    "lowestResale": 612
+    "lowestResale": 550
   },
   "3210189360": {
     "id": 3210189360,
@@ -8409,7 +8397,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3142552,
-    "lowestResale": 380
+    "lowestResale": 440
   },
   "3798248888": {
     "id": 3798248888,
@@ -8985,7 +8973,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 4059,
-    "lowestResale": 1299
+    "lowestResale": 1298
   },
   "112243615546468": {
     "id": 112243615546468,
@@ -9463,9 +9451,9 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9472218,
+    "remaining": 9472217,
     "totalQuantity": 10000000,
-    "lowestResale": 0
+    "lowestResale": 105
   },
   "12804998382": {
     "id": 12804998382,
@@ -9537,7 +9525,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 5084,
-    "lowestResale": 1397
+    "lowestResale": 1396
   },
   "134938511887235": {
     "id": 134938511887235,
@@ -10702,6 +10690,18 @@
     "remaining": 0,
     "totalQuantity": 3520335,
     "lowestResale": 236
+  },
+  "4773569689": {
+    "id": 4773569689,
+    "name": "Epic Egg",
+    "type": "Hat",
+    "created": "2020-03-12T22:55:46.31Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 4525697,
+    "lowestResale": 210
   },
   "4773579034": {
     "id": 4773579034,
@@ -11961,6 +11961,6 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 6185,
-    "lowestResale": 778
+    "lowestResale": 771
   }
 }
