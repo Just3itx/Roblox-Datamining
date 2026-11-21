@@ -1,0 +1,23 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T01:21:02Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    TokenValidationFailed = 0,
+    Captcha = 2,
+    TooManyAttempts = 3,
+    InvalidBirthdate = 4,
+    InvalidUsername = 5,
+    UsernameAlreadyTaken = 6,
+    InvalidPassword = 7,
+    UsernameAndPasswordTheSame = 8,
+    PasswordTooSimple = 9,
+    InvalidEmail = 10,
+    InvalidAsset = 11,
+    EmptyAccountSwitchBlobRequired = 21,
+    ParentEmptyAccountSwitchBlobRequired = 23,
+    VNGAgeUnder12 = 24,
+    UnavailableInRegion = game:DefineFastInt("UnavailableInRegionErrorCode", 26),
+    PasskeyRegistrationFailed = 27,
+    AccountLinkingRequired = 28,
+    PlatformAccountAlreadyLinked = 29,
+    AccountLinkingFailed = 30
+}
