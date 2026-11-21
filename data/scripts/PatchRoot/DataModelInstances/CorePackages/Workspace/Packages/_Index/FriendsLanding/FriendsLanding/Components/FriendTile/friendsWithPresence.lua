@@ -1,0 +1,108 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T15:50:46Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+local FriendsLanding = script:FindFirstAncestor("FriendsLanding")
+local PresenceType = require(FriendsLanding.dependencies).RoduxPresence.Enums.PresenceType
+
+return {
+    OnlineFriend = {
+        displayName = "OnlineFriend",
+        gameId = "Game-OoooOO-Id",
+        id = "37",
+        lastLocation = "LastLocation",
+        lastOnline = "LastOnline-OOOoOO",
+        placeId = 123,
+        rootPlaceId = 234,
+        thumbnail = "rbxthumb://type=Avatar&id=37&w=150&h=150",
+        universeId = 345,
+        userId = 456,
+        userPresenceType = PresenceType.Online,
+        username = "username37"
+    },
+    DeletedFriend = {
+        displayName = "DeletedFriend",
+        gameId = "Game-OoooOO-Id",
+        id = "37",
+        lastLocation = "LastLocation",
+        lastOnline = "LastOnline-OOOoOO",
+        placeId = 123,
+        rootPlaceId = 234,
+        thumbnail = "rbxthumb://type=Avatar&id=37&w=150&h=150",
+        universeId = 345,
+        userId = 456,
+        userPresenceType = PresenceType.Offline,
+        username = "username37",
+        isDeleted = true
+    },
+    OfflineFriend = {
+        displayName = "OfflineFriend",
+        gameId = "Game-OoooOO-Id",
+        id = "37",
+        lastLocation = "LastLocation",
+        lastOnline = "LastOnline-OOOoOO",
+        placeId = 123,
+        rootPlaceId = 234,
+        thumbnail = "rbxthumb://type=Avatar&id=37&w=150&h=150",
+        universeId = 345,
+        userId = 456,
+        userPresenceType = PresenceType.Offline,
+        username = "username37"
+    },
+    InGameFriend = {
+        displayName = "InGameFriend",
+        gameId = "Game-OoooOO-Id",
+        id = "37",
+        lastLocation = "LastLocation",
+        lastOnline = "LastOnline-OOOoOO",
+        placeId = 123,
+        rootPlaceId = 234,
+        thumbnail = "rbxthumb://type=Avatar&id=37&w=150&h=150",
+        universeId = 345,
+        userId = 456,
+        userPresenceType = PresenceType.InGame,
+        username = "username37"
+    },
+    InStudioFriend = {
+        displayName = "InStudioFriend",
+        gameId = "Game-OoooOO-Id",
+        id = "37",
+        lastLocation = "LastLocation",
+        lastOnline = "LastOnline-OOOoOO",
+        placeId = 123,
+        rootPlaceId = 234,
+        thumbnail = "rbxthumb://type=Avatar&id=37&w=150&h=150",
+        universeId = 345,
+        userId = 456,
+        userPresenceType = PresenceType.InStudio,
+        username = "username37"
+    },
+    InGameWithoutLastLocationFriend = {
+        displayName = "InGameWithoutLastLocationFriend",
+        gameId = "Game-OoooOO-Id",
+        id = "37",
+        lastLocation = "",
+        lastOnline = "LastOnline-OOOoOO",
+        placeId = 123,
+        rootPlaceId = 234,
+        thumbnail = "rbxthumb://type=Avatar&id=37&w=150&h=150",
+        universeId = 345,
+        userId = 456,
+        userPresenceType = PresenceType.InGame,
+        username = "username37"
+    },
+    InStudioWithoutLastLocationFriend = {
+        displayName = "InStudioWithoutLastLocationFriend",
+        gameId = "Game-OoooOO-Id",
+        id = "37",
+        lastLocation = "",
+        lastOnline = "LastOnline-OOOoOO",
+        placeId = 123,
+        rootPlaceId = 234,
+        thumbnail = "rbxthumb://type=Avatar&id=37&w=150&h=150",
+        universeId = 345,
+        userId = 456,
+        userPresenceType = PresenceType.InStudio,
+        username = "username37"
+    }
+}
