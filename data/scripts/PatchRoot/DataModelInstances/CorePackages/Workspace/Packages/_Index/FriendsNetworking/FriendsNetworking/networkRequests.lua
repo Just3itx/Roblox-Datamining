@@ -1,0 +1,33 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T16:41:11Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    createAcceptFriendRequestFromUserId = require(script.createAcceptFriendRequestFromUserId),
+    createAcceptFriendRequestWithToken = require(script.createAcceptFriendRequestWithToken),
+    createDeclineAllFriendRequests = require(script.createDeclineAllFriendRequests),
+    createDeclineFriendRequestFromUserId = require(script.createDeclineFriendRequestFromUserId),
+    createFindFriendsFromUserId = require(script.createFindFriendsFromUserId),
+    createGetExtendedFriendshipStatus = require(script.createGetExtendedFriendshipStatus),
+    createGetFollowersCount = require(script.createGetFollowersCount),
+    createGetFollowingExists = require(script.createGetFollowingExists),
+    createGetFollowingsCount = require(script.createGetFollowingsCount),
+    createGetFriendRecommendationsFromUserId = require(script.createGetFriendRecommendationsFromUserId),
+    createGetFriendRequests = require(script.createGetFriendRequests),
+    createGetFriendRequestsCount = require(script.createGetFriendRequestsCount),
+    createGetFriendsCountFromUserId = require(script.createGetFriendsCountFromUserId),
+    createGetFriendsFromUserId = require(script.createGetFriendsFromUserId),
+    createGetFriendshipStatus = require(script.createGetFriendshipStatus),
+    createGetInactiveFriends = require(script.createGetInactiveFriends),
+    createGetLuobuFriendRequests = require(script.createGetLuobuFriendRequests),
+    createGetLuobuFriendsFromUserId = require(script.createGetLuobuFriendsFromUserId),
+    createGetTencentFriendsSuggestion = require(script.createGetTencentFriendsSuggestion),
+    createGetUserFollowers = require(script.createGetUserFollowers),
+    createRequestFriendshipFromContactId = require(script.createRequestFriendshipFromContactId),
+    createRequestFriendshipFromUserId = require(script.createRequestFriendshipFromUserId),
+    createSearchFriendsByQuery = require(script.createSearchFriendsByQuery),
+    createUnfriendTargetUserId = require(script.createUnfriendTargetUserId),
+    createValidateFriendRequestNickname = require(script.createValidateFriendRequestNickname),
+    createGetNewFriendRequestsCount = require(script.createGetNewFriendRequestsCount),
+    createClearNewFriendRequests = require(script.createClearNewFriendRequests),
+    createRemoveTC = require(script.createRemoveTC),
+    createSendTCRequest = require(script.createSendTCRequest)
+}
