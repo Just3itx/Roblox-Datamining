@@ -1,0 +1,22 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T00:31:08Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    AccountUpgradeRequest = require(script.AccountUpgradeRequest),
+    GetAuthMetaData = require(script.GetAuthMetaData),
+    GetCountryCodes = require(script.GetCountryCodes),
+    GetGameMedia = require(script.GetGameMedia),
+    GetLoggedInUsersMetadataRequest = require(script.GetLoggedInUsersMetadataRequest),
+    GetUserAppLaunchInfo = require(script.GetUserAppLaunchInfo),
+    GetUserByIdRequest = require(script.GetUserByIdRequest),
+    LoginRequests = require(script.LoginRequests),
+    PostGetUserByUsername = require(script.PostGetUserByUsername),
+    PostPasswordValid = require(script.PostPasswordValid),
+    RedeemAuthenticationTicket = require(script.RedeemAuthenticationTicket),
+    LogoutAllLoggedInUsersRequest = require(script.LogoutAllLoggedInUsersRequest),
+    LogoutFromAllSessionsAndReauthenticateRequest = require(script.LogoutFromAllSessionsAndReauthenticateRequest),
+    LogoutRequest = require(script.LogoutRequest),
+    PostUsernameValid = require(script.PostUsernameValid),
+    TwoStepRequests = require(script.TwoStepRequests),
+    AuthPlatformDisconnect = require(script.AuthPlatformDisconnect),
+    AuthSessionRefresh = require(script.AuthSessionRefresh)
+}
