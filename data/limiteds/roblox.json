@@ -21,7 +21,7 @@
     "price": 2424,
     "remaining": 0,
     "totalQuantity": 56574,
-    "lowestResale": 24997
+    "lowestResale": 24998
   },
   "1098282": {
     "id": 1098282,
@@ -249,7 +249,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 63775,
-    "lowestResale": 7498
+    "lowestResale": 7499
   },
   "139617823": {
     "id": 139617823,
@@ -310,18 +310,6 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8498
-  },
-  "152980442": {
-    "id": 152980442,
-    "name": "Egg of Luck",
-    "type": "Hat",
-    "created": "2014-04-11T04:52:46.493Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 93465,
-    "lowestResale": 323
   },
   "152980450": {
     "id": 152980450,
@@ -1125,7 +1113,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 100,
-    "lowestResale": 1750000
+    "lowestResale": 1250000
   },
   "160189476": {
     "id": 160189476,
@@ -1605,7 +1593,7 @@
     "price": 175,
     "remaining": 0,
     "totalQuantity": 1271,
-    "lowestResale": 8649
+    "lowestResale": 8645
   },
   "172309861": {
     "id": 172309861,
@@ -2925,7 +2913,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 164640,
-    "lowestResale": 753
+    "lowestResale": 752
   },
   "241671482": {
     "id": 241671482,
@@ -2973,7 +2961,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 1895,
-    "lowestResale": 4209
+    "lowestResale": 4207
   },
   "243791145": {
     "id": 243791145,
@@ -4221,7 +4209,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 3460,
-    "lowestResale": 4796
+    "lowestResale": 4600
   },
   "327318405": {
     "id": 327318405,
@@ -6513,7 +6501,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 10002,
-    "lowestResale": 1149
+    "lowestResale": 1000
   },
   "904541305": {
     "id": 904541305,
@@ -6609,7 +6597,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 22368,
-    "lowestResale": 875
+    "lowestResale": 898
   },
   "1076571965": {
     "id": 1076571965,
@@ -6921,7 +6909,7 @@
     "price": 9001,
     "remaining": 0,
     "totalQuantity": 507,
-    "lowestResale": 120000
+    "lowestResale": 130000
   },
   "1225163762": {
     "id": 1225163762,
@@ -7713,7 +7701,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 710
+    "lowestResale": 707
   },
   "1974902858": {
     "id": 1974902858,
@@ -7931,6 +7919,18 @@
     "totalQuantity": 781668,
     "lowestResale": 195
   },
+  "2528066922": {
+    "id": 2528066922,
+    "name": "Catrin Dia de Muertos Mask",
+    "type": "Face Accessory",
+    "created": "2018-10-30T14:42:29.437Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 5239276,
+    "lowestResale": 210
+  },
   "2528067691": {
     "id": 2528067691,
     "name": "Catrina Dia de Muertos Mask",
@@ -8001,7 +8001,7 @@
     "price": 1200,
     "remaining": 0,
     "totalQuantity": 3863,
-    "lowestResale": 2165
+    "lowestResale": 2163
   },
   "2566018860": {
     "id": 2566018860,
@@ -8409,7 +8409,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4395927,
-    "lowestResale": 287
+    "lowestResale": 289
   },
   "3798251754": {
     "id": 3798251754,
@@ -8421,7 +8421,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2891760,
-    "lowestResale": 250
+    "lowestResale": 257
   },
   "4255053867": {
     "id": 4255053867,
@@ -8457,7 +8457,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 251516,
-    "lowestResale": 36000
+    "lowestResale": 36500
   },
   "10159606132": {
     "id": 10159606132,
@@ -9045,7 +9045,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 24089,
-    "lowestResale": 8348
+    "lowestResale": 8349
   },
   "11394133357": {
     "id": 11394133357,
@@ -9451,7 +9451,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9472195,
+    "remaining": 9472194,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9501,7 +9501,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 3198
+    "lowestResale": 3199
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9525,7 +9525,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 5084,
-    "lowestResale": 1299
+    "lowestResale": 1298
   },
   "134938511887235": {
     "id": 134938511887235,
@@ -10041,7 +10041,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 388225,
-    "lowestResale": 4900
+    "lowestResale": 5198
   },
   "180840496952935": {
     "id": 180840496952935,
@@ -10185,7 +10185,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 5009,
-    "lowestResale": 0
+    "lowestResale": 30000
   },
   "207362786996620": {
     "id": 207362786996620,
@@ -10725,7 +10725,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2426313,
-    "lowestResale": 258
+    "lowestResale": 240
   },
   "4773591735": {
     "id": 4773591735,
@@ -11817,7 +11817,7 @@
     "price": 9999,
     "remaining": 0,
     "totalQuantity": 1749,
-    "lowestResale": 4249
+    "lowestResale": 4247
   },
   "93762663362787": {
     "id": 93762663362787,
@@ -11877,7 +11877,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 27750,
-    "lowestResale": 298
+    "lowestResale": 299
   },
   "9731869178": {
     "id": 9731869178,
@@ -11949,7 +11949,7 @@
     "price": 50,
     "remaining": 0,
     "totalQuantity": 11049,
-    "lowestResale": 1564
+    "lowestResale": 1563
   },
   "99742784495587": {
     "id": 99742784495587,
