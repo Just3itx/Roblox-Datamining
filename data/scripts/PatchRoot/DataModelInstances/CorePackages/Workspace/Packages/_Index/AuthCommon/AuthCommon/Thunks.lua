@@ -1,0 +1,33 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T00:41:03Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    ApiFetchCountryCodes = require(script.ApiFetchCountryCodes),
+    ApiFetchAuthMetaData = require(script.ApiFetchAuthMetaData),
+    CrossDeviceLogin = require(script.CrossDeviceLogin),
+    FetchAndStoreUserAppLaunchInfo = require(script.FetchAndStoreUserAppLaunchInfo),
+    GetUserById = require(script.GetUserById),
+    GetUserByUsername = require(script.GetUserByUsername),
+    FetchGameMedia = require(script.FetchGameMedia),
+    LoginByPasskey = require(script.LoginByPasskey),
+    LoginByCode = require(script.LoginByCode),
+    LoginByEmail = require(script.LoginByEmail),
+    LoginByOtp = require(script.LoginByOtp),
+    LoginByPhone = require(script.LoginByPhone),
+    LoginByUsername = require(script.LoginByUsername),
+    Login = require(script.Login),
+    User = require(script.User),
+    OpenAccountSelector = require(script.OpenAccountSelector),
+    OpenExternalBrowser = require(script.OpenExternalBrowser),
+    OpenCentralOverlayForLoginPasswordResetPrompt = require(script.OpenCentralOverlayForLoginPasswordResetPrompt),
+    OpenAccountIneligibleLoginModal = require(script.OpenAccountIneligibleLoginModal),
+    LogoutAllLoggedInUsers = require(script.LogoutAllLoggedInUsers),
+    LogoutFromAllSessionsAndReauthenticate = require(script.LogoutFromAllSessionsAndReauthenticate),
+    RegisterPasskey = require(script.RegisterPasskey),
+    SetPassword = require(script.SetPassword),
+    RegisterPreauthPasskey = require(script.RegisterPreauthPasskey),
+    FinishPreauthPasskeyRegistration = require(script.FinishPreauthPasskeyRegistration),
+    FinishARPreauthPasskeyRegistration = require(script.FinishARPreauthPasskeyRegistration),
+    ConsoleDisconnect = require(script.ConsoleDisconnect),
+    StorePreviousAccountData = require(script.StorePreviousAccountData),
+    GetUniverseIdFromPlaceId = require(script.GetUniverseIdFromPlaceId)
+}
