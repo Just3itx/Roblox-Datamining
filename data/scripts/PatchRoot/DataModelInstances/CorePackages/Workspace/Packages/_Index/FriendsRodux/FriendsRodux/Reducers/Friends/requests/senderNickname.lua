@@ -1,0 +1,62 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-21T17:01:25Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local scriptParentParentParentParent = script.Parent.Parent.Parent.Parent
+local scriptParentParentParentParentParent = scriptParentParentParentParent.Parent
+local Rodux = require(scriptParentParentParentParentParent.Rodux)
+
+local Actions = scriptParentParentParentParent.Actions
+local FriendRequestCreated = require(Actions.FriendRequestCreated)
+local FriendRequestDeclined = require(Actions.FriendRequestDeclined)
+
+local _roduxFriendsTypes = require(scriptParentParentParentParent.roduxFriendsTypes)
+local removeIdsFromRequestsStore = require(scriptParentParentParentParent.Reducers.Friends.utils.removeIdsFromRequestsStore)
+
+local llama = require(scriptParentParentParentParentParent.llama)
+
+local tbl1 = {}
+
+return function(arg1)
+    local friendsNetworking = arg1.friendsNetworking
+
+    local createReducer = Rodux.createReducer
+    local tbl2 = tbl1
+    local tbl3 = {}
+    tbl3[friendsNetworking.AcceptFriendRequestFromUserId.Succeeded.name] = function(tbl4, arg2)
+        local ids = arg2.ids
+
+        return removeIdsFromRequestsStore(tbl4, ids)
+    end
+    tbl3[friendsNetworking.DeclineFriendRequestFromUserId.Succeeded.name] = function(tbl4, arg2)
+        local ids = arg2.ids
+
+        return removeIdsFromRequestsStore(tbl4, ids)
+    end
+    tbl3[friendsNetworking.GetFriendRequests.Succeeded.name] = function(tbl4, arg2)
+        local data = arg2.responseBody.data
+
+        local tbl5 = {}
+        for _, value in pairs(data) do
+            local id = value.id
+            tbl5[tostring(id)] = value.friendRequest.senderNickname
+        end
+        return (llama.Dictionary.join(tbl4, tbl5))
+    end
+    tbl3[FriendRequestCreated.name] = function(tbl4, arg2)
+        local requesteeId = arg2.requesteeId
+        local senderNickname = arg2.senderNickname
+
+        return llama.Dictionary.join(tbl4, { [tostring(requesteeId)] = senderNickname })
+    end
+
+    tbl3[FriendRequestDeclined.name] = function(tbl4, arg2)
+        local ids = arg2.ids
+
+        return removeIdsFromRequestsStore(tbl4, ids)
+    end
+    tbl3[friendsNetworking.DeclineAllFriendRequests.Succeeded.name] = function()
+        return {}
+    end
+
+    return createReducer(tbl2, tbl3)
+end
