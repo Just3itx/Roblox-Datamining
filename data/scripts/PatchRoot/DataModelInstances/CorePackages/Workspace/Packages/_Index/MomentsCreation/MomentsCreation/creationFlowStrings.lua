@@ -1,0 +1,55 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T07:01:28Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+local MomentsCreation = script:FindFirstAncestor("MomentsCreation")
+local MomentsCreationParent = MomentsCreation.Parent
+
+local FFlagMomentsCreationBackCta = require(MomentsCreationParent.MomentsCommon).Flags.FFlagMomentsCreationBackCta
+
+local tbl1 = {
+    CommunityStandardsText = "Feature.Moments.Description.CommunityStandards",
+    CreationTooltip = "Feature.Moments.Disclaimer.EveryoneMoments",
+    EditingCtaMusic = "Feature.Moments.Label.Music",
+    GeneralAllChipLabel = "Feature.Moments.Label.All",
+    GeneralCtaBack = "Feature.Moments.Action.Back",
+    GeneralCtaCancel = "Feature.Moments.Action.Cancel",
+    GeneralCtaDone = "Feature.Moments.Action.Done",
+    GeneralCtaLeave = "Feature.Moments.Action.Leave",
+    GeneralCtaOk = "Feature.Moments.Action.Ok",
+    GeneralCtaRetry = "Feature.Moments.Action.Retry",
+    GeneralCtaReturn = "Feature.Moments.Action.Back",
+    GeneralCtaSave = "Feature.Moments.Action.Save",
+    GeneralCtaShowMore = "Feature.Moments.Action.ShowMore",
+    GeneralEmptyStateText = "Feature.Moments.Description.EmptyCapturesLibrary",
+    GeneralPhotosChipLabel = "Feature.Moments.Label.Photos",
+    GeneralSearchPlaceholder = "Feature.Moments.Label.Search",
+    GeneralVideosChipLabel = "Feature.Moments.Label.Videos",
+    GenerateTextCta = "Feature.Moments.Action.GenerateText",
+    GenerateTextOptionsTitle = "Feature.Moments.Title.GenerateTextOptions",
+    ToneCinematic = "Feature.Moments.Label.Tone.Cinematic",
+    ToneFunny = "Feature.Moments.Label.Tone.Funny",
+    ToneHeading = "Feature.Moments.Label.Tone",
+    ToneHype = "Feature.Moments.Label.Tone.Hype",
+    ToneNeutral = "Feature.Moments.Label.Tone.Neutral",
+    LeaveMomentCreationBody = "Feature.Moments.Description.LeaveMomentsCreation",
+    LeaveMomentCreationTitle = "Feature.Moments.Title.LeaveMomentCreation",
+    MusicNoResults = "Feature.Moments.Description.NoMusicResults",
+    MusicSearchError = "Feature.Moments.Label.Error",
+    MusicSavedEmptySubtitle = "Feature.Catalog.Message.Favorites.Empty",
+    MusicSavedEmptyTitle = "Feature.Moments.Description.NothingHereYet",
+    MusicTabTrending = "Feature.Moments.Label.FeedTrending",
+    PublishingAllowComments = "Feature.Moments.Label.AllowComments",
+    PublishingCtaContinue = "Feature.Moments.Action.Continue",
+    PublishingCtaPrimary = "Feature.Moments.Action.Post",
+    PublishingCtaReturn = if FFlagMomentsCreationBackCta then "Feature.Moments.Action.Back" else "Feature.Moments.Action.Return",
+    PublishingCtaSecondary = if FFlagMomentsCreationBackCta then "Feature.Moments.Action.Back" else "Feature.Moments.Action.ReturnToEditing",
+    PublishingDescription = "Feature.Moments.Description.PublishMoment",
+    StayFriendlyModeration = "Feature.Moments.Label.StayFriendlyModeration"
+}
+
+if require(MomentsCreation.Flags.FFlagMomentsTextOverlayDragToDeleteRefinement) then
+    tbl1.TextOverlayDragHereToDelete = "Feature.Moments.Label.DragHereToDelete"
+end
+
+return tbl1
