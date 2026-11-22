@@ -21,7 +21,7 @@
     "price": 2424,
     "remaining": 0,
     "totalQuantity": 56574,
-    "lowestResale": 24900
+    "lowestResale": 24500
   },
   "1098282": {
     "id": 1098282,
@@ -69,7 +69,7 @@
     "price": 2500,
     "remaining": 1,
     "totalQuantity": 63541,
-    "lowestResale": 8950
+    "lowestResale": 8997
   },
   "20011925": {
     "id": 20011925,
@@ -310,6 +310,18 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8499
+  },
+  "152980428": {
+    "id": 152980428,
+    "name": "Egg of Life",
+    "type": "Hat",
+    "created": "2014-04-11T04:52:17.117Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 137570,
+    "lowestResale": 243
   },
   "152980442": {
     "id": 152980442,
@@ -1089,7 +1101,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 2003,
-    "lowestResale": 8373
+    "lowestResale": 8372
   },
   "158069180": {
     "id": 158069180,
@@ -2505,7 +2517,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 753,
-    "lowestResale": 12497
+    "lowestResale": 12099
   },
   "212971414": {
     "id": 212971414,
@@ -3513,7 +3525,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 301,
-    "lowestResale": 222220
+    "lowestResale": 222219
   },
   "280896465": {
     "id": 280896465,
@@ -5973,7 +5985,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3546
+    "lowestResale": 3543
   },
   "562478132": {
     "id": 562478132,
@@ -8001,7 +8013,7 @@
     "price": 1200,
     "remaining": 0,
     "totalQuantity": 3863,
-    "lowestResale": 2169
+    "lowestResale": 2167
   },
   "2566018860": {
     "id": 2566018860,
@@ -8973,7 +8985,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 4059,
-    "lowestResale": 1298
+    "lowestResale": 1700
   },
   "112243615546468": {
     "id": 112243615546468,
@@ -9129,7 +9141,7 @@
     "price": 2500,
     "remaining": 0,
     "totalQuantity": 12298,
-    "lowestResale": 5796
+    "lowestResale": 5759
   },
   "11530449367": {
     "id": 11530449367,
@@ -9346,18 +9358,6 @@
     "remaining": 0,
     "totalQuantity": 3819,
     "lowestResale": 688
-  },
-  "123375593579461": {
-    "id": 123375593579461,
-    "name": "Roblox Innovation Awards 24 Ribbon Wings",
-    "type": "Back",
-    "created": "2024-09-03T18:25:35.453Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 1116368,
-    "lowestResale": 250
   },
   "123621683179706": {
     "id": 123621683179706,
@@ -10269,7 +10269,7 @@
     "price": 15000,
     "remaining": 0,
     "totalQuantity": 150,
-    "lowestResale": 9500000
+    "lowestResale": 10000000
   },
   "225334475670861": {
     "id": 225334475670861,
@@ -11805,7 +11805,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 4324,
-    "lowestResale": 1356
+    "lowestResale": 1354
   },
   "92800147120500": {
     "id": 92800147120500,
