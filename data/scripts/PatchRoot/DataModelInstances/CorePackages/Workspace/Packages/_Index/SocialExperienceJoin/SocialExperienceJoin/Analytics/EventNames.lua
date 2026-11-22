@@ -1,0 +1,10 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T18:41:20Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    JoinExperience = "SocialJoinExperience",
+    PurchaseExperience = "SocialPurchaseExperience",
+    CancelPurchaseExperience = "SocialCancelPurchaseExperience",
+    PurchaseExperienceAttempt = "SocialPurchaseExperienceAttempt",
+    UnableToJoinViewDetails = "SocialUnableToJoinViewDetails",
+    UnableToJoinCancel = "SocialUnableToJoinCancel"
+}
