@@ -1,0 +1,12 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T09:40:33Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+local Components = require(script.Components)
+
+return {
+    openPlayerContextualMenu = require(script.openPlayerContextualMenu),
+    Component = Components.PlayerContextualMenu,
+    installReducer = require(script.Reducers.installReducer),
+    ["jest.config"] = script["jest.config"]
+}

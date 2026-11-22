@@ -1,0 +1,8 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T09:40:47Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local PlayerContextualMenuParent = script:FindFirstAncestor("PlayerContextualMenu").Parent
+local React = require(PlayerContextualMenuParent.React)
+
+local DefaultHttpRequestInstance = require(script.Parent.DefaultHttpRequestInstance)
+
+return React.createContext(DefaultHttpRequestInstance)
