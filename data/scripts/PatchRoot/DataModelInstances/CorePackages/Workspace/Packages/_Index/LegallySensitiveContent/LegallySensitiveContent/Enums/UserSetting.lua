@@ -1,0 +1,33 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T02:41:08Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    contentAgeRestriction = "contentAgeRestriction",
+    phoneNumberDiscoverability = "phoneNumberDiscoverability",
+    whoCanChatWithMe = "whoCanChatWithMe",
+    whoCanChatWithMeInApp = "whoCanChatWithMeInApp",
+    whoCanJoinMeInExperiences = "whoCanJoinMeInExperiences",
+    whoCanSeeMyInventory = "whoCanSeeMyInventory",
+    whoCanTradeWithMe = "whoCanTradeWithMe",
+    themeType = "themeType",
+    updateFriendsAboutMyActivity = "updateFriendsAboutMyActivity",
+    privateServerPrivacy = "privateServerPrivacy",
+    allowSellShareData = "allowSellShareData",
+    allowPersonalizedAdvertising = "allowPersonalizedAdvertising",
+    monthlySpendLimit = "monthlySpendLimit",
+    monthlySpendLimitCurrencyCode = "monthlySpendLimitCurrencyCode",
+    monthlySpendLimitNotificationType = "monthlySpendLimitNotificationType",
+    enablePurchases = "enablePurchases",
+    whoCanGroupChatWithMeInApp = "whoCanGroupChatWithMeInApp",
+    whoCanWhisperChatWithMeInExperiences = "whoCanWhisperChatWithMeInExperiences",
+    whoCanChatWithMeInExperiences = "whoCanChatWithMeInExperiences",
+    dailyScreenTimeLimit = "dailyScreenTimeLimit",
+    whoCanSeeMySocialNetworks = "whoCanSeeMySocialNetworks",
+    allowThirdPartyAppPermissions = "allowThirdPartyAppPermissions",
+    allowEnablePushNotifications = "allowEnablePushNotifications",
+    allowEnableEmailNotifications = "allowEnableEmailNotifications",
+    allowEnableGroupNotifications = "allowEnableGroupNotifications",
+    allowEnableExperienceNotifications = "allowEnableExperienceNotifications",
+    whoCanOneOnOnePartyWithMe = "whoCanOneOnOnePartyWithMe",
+    whoCanGroupPartyWithMe = "whoCanGroupPartyWithMe",
+    allowPromotionalOffersNotifications = "allowPromotionalOffersNotifications"
+}
