@@ -33,7 +33,7 @@
     "price": 350,
     "remaining": 0,
     "totalQuantity": 142654,
-    "lowestResale": 700
+    "lowestResale": 766
   },
   "1114768": {
     "id": 1114768,
@@ -310,18 +310,6 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8499
-  },
-  "152980428": {
-    "id": 152980428,
-    "name": "Egg of Life",
-    "type": "Hat",
-    "created": "2014-04-11T04:52:17.117Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 137570,
-    "lowestResale": 243
   },
   "152980442": {
     "id": 152980442,
@@ -1101,7 +1089,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 2003,
-    "lowestResale": 8399
+    "lowestResale": 8398
   },
   "158069180": {
     "id": 158069180,
@@ -2889,7 +2877,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 7710,
-    "lowestResale": 5000
+    "lowestResale": 5600
   },
   "241542617": {
     "id": 241542617,
@@ -5889,7 +5877,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 4486,
-    "lowestResale": 172448
+    "lowestResale": 171000
   },
   "553970961": {
     "id": 553970961,
@@ -5985,7 +5973,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3578
+    "lowestResale": 3577
   },
   "562478132": {
     "id": 562478132,
@@ -6333,7 +6321,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 10004,
-    "lowestResale": 800
+    "lowestResale": 1211
   },
   "833771311": {
     "id": 833771311,
@@ -6369,7 +6357,7 @@
     "price": 8,
     "remaining": 0,
     "totalQuantity": 14678,
-    "lowestResale": 1998
+    "lowestResale": 1997
   },
   "835063865": {
     "id": 835063865,
@@ -6669,7 +6657,7 @@
     "price": 750,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 9212
+    "lowestResale": 9210
   },
   "1117744489": {
     "id": 1117744489,
@@ -6801,7 +6789,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 552,
-    "lowestResale": 7999
+    "lowestResale": 7998
   },
   "1191112079": {
     "id": 1191112079,
@@ -6945,7 +6933,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 7999,
-    "lowestResale": 4400
+    "lowestResale": 4399
   },
   "1229958370": {
     "id": 1229958370,
@@ -7245,7 +7233,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 10003,
-    "lowestResale": 1070
+    "lowestResale": 1071
   },
   "1492181189": {
     "id": 1492181189,
@@ -7425,7 +7413,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 518280,
-    "lowestResale": 1499
+    "lowestResale": 1554
   },
   "1645055518": {
     "id": 1645055518,
@@ -7725,7 +7713,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 716
+    "lowestResale": 710
   },
   "1974902858": {
     "id": 1974902858,
@@ -7941,7 +7929,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 5239276,
-    "lowestResale": 195
+    "lowestResale": 198
   },
   "2528067691": {
     "id": 2528067691,
@@ -7977,7 +7965,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 300,
-    "lowestResale": 333222
+    "lowestResale": 345678
   },
   "2565909803": {
     "id": 2565909803,
@@ -8301,7 +8289,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 3675,
-    "lowestResale": 9996
+    "lowestResale": 9995
   },
   "3210243135": {
     "id": 3210243135,
@@ -8373,7 +8361,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 6467908,
-    "lowestResale": 190
+    "lowestResale": 200
   },
   "3798231832": {
     "id": 3798231832,
@@ -8385,7 +8373,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4203154,
-    "lowestResale": 196
+    "lowestResale": 199
   },
   "3798239844": {
     "id": 3798239844,
@@ -8409,7 +8397,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3142552,
-    "lowestResale": 399
+    "lowestResale": 398
   },
   "3798248888": {
     "id": 3798248888,
@@ -8481,7 +8469,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 50736,
-    "lowestResale": 7350
+    "lowestResale": 7397
   },
   "10159610478": {
     "id": 10159610478,
@@ -8493,7 +8481,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 167117,
-    "lowestResale": 11000
+    "lowestResale": 12000
   },
   "10159617728": {
     "id": 10159617728,
@@ -8649,7 +8637,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 24601,
-    "lowestResale": 20000
+    "lowestResale": 20711
   },
   "103196750164703": {
     "id": 103196750164703,
@@ -8961,7 +8949,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 73124,
-    "lowestResale": 9700
+    "lowestResale": 9795
   },
   "11123556756": {
     "id": 11123556756,
@@ -9849,7 +9837,7 @@
     "price": 0,
     "remaining": 2,
     "totalQuantity": 262687,
-    "lowestResale": 5848
+    "lowestResale": 5800
   },
   "16491604946": {
     "id": 16491604946,
@@ -10245,7 +10233,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 20035,
-    "lowestResale": 14488
+    "lowestResale": 14200
   },
   "213959782500994": {
     "id": 213959782500994,
@@ -10413,7 +10401,7 @@
     "price": 12500,
     "remaining": 0,
     "totalQuantity": 10626,
-    "lowestResale": 9798
+    "lowestResale": 9750
   },
   "260003104040405": {
     "id": 260003104040405,
@@ -10677,7 +10665,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2015512,
-    "lowestResale": 195
+    "lowestResale": 196
   },
   "4771632715": {
     "id": 4771632715,
@@ -10702,6 +10690,18 @@
     "remaining": 0,
     "totalQuantity": 3520335,
     "lowestResale": 205
+  },
+  "4773569689": {
+    "id": 4773569689,
+    "name": "Epic Egg",
+    "type": "Hat",
+    "created": "2020-03-12T22:55:46.31Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 4525697,
+    "lowestResale": 245
   },
   "4773579034": {
     "id": 4773579034,
@@ -11181,7 +11181,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 38325,
-    "lowestResale": 358
+    "lowestResale": 300
   },
   "7212280564": {
     "id": 7212280564,
@@ -11817,7 +11817,7 @@
     "price": 9999,
     "remaining": 0,
     "totalQuantity": 1749,
-    "lowestResale": 4235
+    "lowestResale": 4233
   },
   "93762663362787": {
     "id": 93762663362787,
