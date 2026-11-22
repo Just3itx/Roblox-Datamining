@@ -1,0 +1,42 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T15:30:41Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+return {
+    AnchorPoint = "anchorPoint",
+    AutoLocalize = "autoLocalize",
+    AutomaticSize = "automaticSize",
+    BackgroundColor3 = "backgroundColor3",
+    BackgroundTransparency = "backgroundTransparency",
+    BorderColor3 = "borderColor3",
+    BorderMode = "borderMode",
+    BorderSizePixel = "borderSizePixel",
+    ClipsDescendants = "clipsDescendants",
+    GroupTransparency = "groupTransparency",
+    Image = "image",
+    LayoutOrder = "layoutOrder",
+    NextSelectionDown = "nextSelectionDown",
+    NextSelectionLeft = "nextSelectionLeft",
+    NextSelectionRight = "nextSelectionRight",
+    NextSelectionUp = "nextSelectionUp",
+    Position = "position",
+    ResampleMode = "resampleMode",
+    RichText = "richText",
+    Rotation = "rotation",
+    ScaleType = "scaleType",
+    Selectable = "selectable",
+    SelectionOrder = "selectionOrder",
+    Size = "size",
+    SizeConstraint = "sizeConstraint",
+    Text = "text",
+    TextColor3 = "textColor3",
+    TextDirection = "textDirection",
+    TextScaled = "textScaled",
+    TextTruncate = "textTruncate",
+    TextWrapped = "textWrapped",
+    TextXAlignment = "textXAlignment",
+    TextYAlignment = "textYAlignment",
+    TileSize = "tileSize",
+    Visible = "visible",
+    ZIndex = "zIndex"
+}
