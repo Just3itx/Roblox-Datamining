@@ -1,0 +1,7 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T03:10:54Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local MediaPlayback = script:FindFirstAncestor("MediaPlayback")
+
+local _Signals = require(MediaPlayback.Parent.Signals)
+
+return nil
