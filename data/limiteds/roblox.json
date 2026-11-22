@@ -21,7 +21,7 @@
     "price": 2424,
     "remaining": 0,
     "totalQuantity": 56574,
-    "lowestResale": 23998
+    "lowestResale": 23950
   },
   "1098282": {
     "id": 1098282,
@@ -310,6 +310,30 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8499
+  },
+  "152980413": {
+    "id": 152980413,
+    "name": "Egg of Friendship",
+    "type": "Hat",
+    "created": "2014-04-11T04:51:49.24Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 77765,
+    "lowestResale": 273
+  },
+  "152980428": {
+    "id": 152980428,
+    "name": "Egg of Life",
+    "type": "Hat",
+    "created": "2014-04-11T04:52:17.117Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 137570,
+    "lowestResale": 243
   },
   "152980442": {
     "id": 152980442,
@@ -1089,7 +1113,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 2003,
-    "lowestResale": 8395
+    "lowestResale": 8394
   },
   "158069180": {
     "id": 158069180,
@@ -1821,7 +1845,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3182,
-    "lowestResale": 29999
+    "lowestResale": 29998
   },
   "182774739": {
     "id": 182774739,
@@ -2661,7 +2685,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 1864,
-    "lowestResale": 239000
+    "lowestResale": 270000
   },
   "226189986": {
     "id": 226189986,
@@ -2973,7 +2997,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 1895,
-    "lowestResale": 4197
+    "lowestResale": 4195
   },
   "243791145": {
     "id": 243791145,
@@ -3921,7 +3945,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 2500,
-    "lowestResale": 2499
+    "lowestResale": 2899
   },
   "315549086": {
     "id": 315549086,
@@ -5433,7 +5457,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 3523,
-    "lowestResale": 1775
+    "lowestResale": 1770
   },
   "477860473": {
     "id": 477860473,
@@ -5973,7 +5997,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3575
+    "lowestResale": 3573
   },
   "562478132": {
     "id": 562478132,
@@ -6201,7 +6225,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 10022,
-    "lowestResale": 142499
+    "lowestResale": 139999
   },
   "628783410": {
     "id": 628783410,
@@ -6525,7 +6549,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 570,
-    "lowestResale": 11250
+    "lowestResale": 11249
   },
   "928819079": {
     "id": 928819079,
@@ -7005,7 +7029,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 14345,
-    "lowestResale": 5799
+    "lowestResale": 5800
   },
   "1241182524": {
     "id": 1241182524,
@@ -7293,7 +7317,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1938161,
-    "lowestResale": 238
+    "lowestResale": 237
   },
   "1560601706": {
     "id": 1560601706,
@@ -7461,7 +7485,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 351664,
-    "lowestResale": 550
+    "lowestResale": 600
   },
   "1743903423": {
     "id": 1743903423,
@@ -7713,7 +7737,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 720
+    "lowestResale": 715
   },
   "1974902858": {
     "id": 1974902858,
@@ -7929,7 +7953,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 5239276,
-    "lowestResale": 198
+    "lowestResale": 192
   },
   "2528067691": {
     "id": 2528067691,
@@ -8171,18 +8195,6 @@
     "totalQuantity": 51,
     "lowestResale": 25000000
   },
-  "2830451846": {
-    "id": 2830451846,
-    "name": "Immortal Sword: Shattered Earth",
-    "type": "Back",
-    "created": "2019-02-07T20:57:09.23Z",
-    "kind": "LimitedUnique",
-    "onSale": false,
-    "price": 25000,
-    "remaining": 0,
-    "totalQuantity": 100,
-    "lowestResale": 0
-  },
   "2830454962": {
     "id": 2830454962,
     "name": "Noob Attack: Frozen Crossbow Collision",
@@ -8193,7 +8205,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 75020,
-    "lowestResale": 500
+    "lowestResale": 698
   },
   "2830463943": {
     "id": 2830463943,
@@ -8362,18 +8374,6 @@
     "remaining": 0,
     "totalQuantity": 6467908,
     "lowestResale": 230
-  },
-  "3798231832": {
-    "id": 3798231832,
-    "name": "Party Unicorn Floatie",
-    "type": "Waist",
-    "created": "2019-09-03T18:03:02.917Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 4203154,
-    "lowestResale": 0
   },
   "3798239844": {
     "id": 3798239844,
@@ -8841,7 +8841,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 8092,
-    "lowestResale": 400
+    "lowestResale": 409
   },
   "10855907451": {
     "id": 10855907451,
@@ -9451,7 +9451,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9471961,
+    "remaining": 9471959,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9501,7 +9501,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 3049
+    "lowestResale": 3300
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9813,7 +9813,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 25006,
-    "lowestResale": 4936
+    "lowestResale": 4934
   },
   "163046677043335": {
     "id": 163046677043335,
@@ -10761,7 +10761,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2254939,
-    "lowestResale": 225
+    "lowestResale": 230
   },
   "4786883113": {
     "id": 4786883113,
@@ -10797,7 +10797,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 50027,
-    "lowestResale": 2144
+    "lowestResale": 2198
   },
   "504989506044": {
     "id": 504989506044,
@@ -11481,7 +11481,7 @@
     "price": 4000,
     "remaining": 1,
     "totalQuantity": 4453,
-    "lowestResale": 1100
+    "lowestResale": 1098
   },
   "83492849231658": {
     "id": 83492849231658,
@@ -11805,7 +11805,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 4324,
-    "lowestResale": 1382
+    "lowestResale": 1380
   },
   "92800147120500": {
     "id": 92800147120500,
@@ -11817,7 +11817,7 @@
     "price": 9999,
     "remaining": 0,
     "totalQuantity": 1749,
-    "lowestResale": 4239
+    "lowestResale": 4237
   },
   "93762663362787": {
     "id": 93762663362787,
