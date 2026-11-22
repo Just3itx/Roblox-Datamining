@@ -1,0 +1,18 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T04:00:59Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local Feed = require(script.Feed)
+local FeedContext = require(script.FeedContext)
+local _FeedTypes = require(script.FeedTypes)
+local createFeedStore = require(script.createFeedStore)
+local feedTelemetry = require(script.feedTelemetry)
+local createRecommendationTelemetry = require(script.createRecommendationTelemetry)
+
+return {
+    Feed = Feed,
+    createFeedStore = createFeedStore,
+    createMockFeedSource = require(script.Sources.createMockFeedSource),
+    createSnapshotFeedSource = require(script.Sources.createSnapshotFeedSource),
+    createNoopTelemetry = feedTelemetry.createNoopTelemetry,
+    createRecommendationTelemetry = createRecommendationTelemetry,
+    useFeed = FeedContext.useFeed
+}
