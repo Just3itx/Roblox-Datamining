@@ -1,0 +1,49 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T06:01:00Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local EventNames = require(script.EventNames)
+local FunnelEventNames = require(script.FunnelEventNames)
+local RecommendationSource = require(script.RecommendationSource)
+local SessionManager = require(script.SessionManager)
+local _Types = require(script.Types)
+local fireAnalyticsEvent = require(script.fireAnalyticsEvent)
+local fireFunnelAnalyticsEvent = require(script.fireFunnelAnalyticsEvent)
+local reportMomentSkip = require(script.reportMomentSkip)
+local reportMusicSearchCounts = require(script.reportMusicSearchCounts)
+local reportMomentsRealtimeEvent = require(script.reportMomentsRealtimeEvent)
+local reportMomentsCommentsRealtime = require(script.reportMomentsCommentsRealtime)
+local createMomentsSessionHeartbeat = require(script.createMomentsSessionHeartbeat)
+
+return {
+    EventNames = EventNames,
+    FunnelEventNames = FunnelEventNames,
+    RecommendationSource = RecommendationSource,
+    SessionManager = SessionManager,
+    fireAnalyticsEvent = fireAnalyticsEvent,
+    fireFunnelAnalyticsEvent = fireFunnelAnalyticsEvent,
+    reportMomentSkip = reportMomentSkip,
+    reportMusicSearchCounts = reportMusicSearchCounts,
+    reportMomentsFeedLoadAttempt = reportMomentsRealtimeEvent.reportMomentsFeedLoadAttempt,
+    reportMomentsFeedLoadMore = reportMomentsRealtimeEvent.reportMomentsFeedLoadMore,
+    reportMomentsFeedMediaLoad = reportMomentsRealtimeEvent.reportMomentsFeedMediaLoad,
+    reportMomentsFeedState = reportMomentsRealtimeEvent.reportMomentsFeedState,
+    reportMomentsSurfaceLoadAbort = reportMomentsRealtimeEvent.reportMomentsSurfaceLoadAbort,
+    reportMomentsViewBegan = reportMomentsRealtimeEvent.reportMomentsViewBegan,
+    reportMomentsSessionStarted = reportMomentsRealtimeEvent.reportMomentsSessionStarted,
+    reportMomentsSessionEnded = reportMomentsRealtimeEvent.reportMomentsSessionEnded,
+    reportMomentsSessionHeartbeat = reportMomentsRealtimeEvent.reportMomentsSessionHeartbeat,
+    reportMomentsEngagement = reportMomentsRealtimeEvent.reportMomentsEngagement,
+    reportMomentsCreationStep = reportMomentsRealtimeEvent.reportMomentsCreationStep,
+    createMomentsSessionHeartbeat = createMomentsSessionHeartbeat,
+    reportMomentsFeedItemsReceived = reportMomentsRealtimeEvent.reportMomentsFeedItemsReceived,
+    reportMomentsFeedItemFiltered = reportMomentsRealtimeEvent.reportMomentsFeedItemFiltered,
+    reportMomentsPublishedWithEdit = reportMomentsRealtimeEvent.reportMomentsPublishedWithEdit,
+    reportMomentsPublishedEditCount = reportMomentsRealtimeEvent.reportMomentsPublishedEditCount,
+    reportMomentsPublishedByCaptureType = reportMomentsRealtimeEvent.reportMomentsPublishedByCaptureType,
+    reportMomentsEditToolOpened = reportMomentsRealtimeEvent.reportMomentsEditToolOpened,
+    reportMomentsEditToolAbandoned = reportMomentsRealtimeEvent.reportMomentsEditToolAbandoned,
+    reportMomentsGenerateText = reportMomentsRealtimeEvent.reportMomentsGenerateText,
+    reportMomentsPostInsightsRequest = reportMomentsRealtimeEvent.reportMomentsPostInsightsRequest,
+    reportMomentsPostInsightsRequestLatency = reportMomentsRealtimeEvent.reportMomentsPostInsightsRequestLatency,
+    reportMomentsComments = reportMomentsCommentsRealtime.reportMomentsComments,
+    reportMomentsCommentAction = reportMomentsCommentsRealtime.reportMomentsCommentAction
+}

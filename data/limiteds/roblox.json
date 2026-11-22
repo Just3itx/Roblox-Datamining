@@ -311,18 +311,6 @@
     "totalQuantity": 3907,
     "lowestResale": 8499
   },
-  "152980413": {
-    "id": 152980413,
-    "name": "Egg of Friendship",
-    "type": "Hat",
-    "created": "2014-04-11T04:51:49.24Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 77765,
-    "lowestResale": 273
-  },
   "152980428": {
     "id": 152980428,
     "name": "Egg of Life",
@@ -1185,7 +1173,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 1695
+    "lowestResale": 1700
   },
   "161211371": {
     "id": 161211371,
@@ -1437,7 +1425,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 1001,
-    "lowestResale": 7366
+    "lowestResale": 7365
   },
   "164204164": {
     "id": 164204164,
@@ -1533,7 +1521,7 @@
     "price": 750,
     "remaining": 0,
     "totalQuantity": 3599,
-    "lowestResale": 89999
+    "lowestResale": 90000
   },
   "169444515": {
     "id": 169444515,
@@ -1629,7 +1617,7 @@
     "price": 175,
     "remaining": 0,
     "totalQuantity": 1271,
-    "lowestResale": 8668
+    "lowestResale": 8666
   },
   "172309861": {
     "id": 172309861,
@@ -1809,7 +1797,7 @@
     "price": 600,
     "remaining": 0,
     "totalQuantity": 1033,
-    "lowestResale": 8939
+    "lowestResale": 8937
   },
   "181644522": {
     "id": 181644522,
@@ -2685,7 +2673,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 1864,
-    "lowestResale": 270000
+    "lowestResale": 269999
   },
   "226189986": {
     "id": 226189986,
@@ -4521,7 +4509,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 1667,
-    "lowestResale": 2000
+    "lowestResale": 2499
   },
   "356210746": {
     "id": 356210746,
@@ -5913,7 +5901,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10972,
-    "lowestResale": 99998
+    "lowestResale": 99999
   },
   "553971558": {
     "id": 553971558,
@@ -7437,7 +7425,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 518280,
-    "lowestResale": 1550
+    "lowestResale": 1556
   },
   "1645055518": {
     "id": 1645055518,
@@ -7737,7 +7725,7 @@
     "price": 45,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 715
+    "lowestResale": 710
   },
   "1974902858": {
     "id": 1974902858,
@@ -7953,7 +7941,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 5239276,
-    "lowestResale": 192
+    "lowestResale": 190
   },
   "2528067691": {
     "id": 2528067691,
@@ -8375,6 +8363,18 @@
     "totalQuantity": 6467908,
     "lowestResale": 230
   },
+  "3798231832": {
+    "id": 3798231832,
+    "name": "Party Unicorn Floatie",
+    "type": "Waist",
+    "created": "2019-09-03T18:03:02.917Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 4203154,
+    "lowestResale": 199
+  },
   "3798239844": {
     "id": 3798239844,
     "name": "Frosting Flyers",
@@ -8745,7 +8745,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 11592,
-    "lowestResale": 1659
+    "lowestResale": 1664
   },
   "10487204569": {
     "id": 10487204569,
@@ -9451,7 +9451,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9471959,
+    "remaining": 9471957,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9489,7 +9489,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 186015,
-    "lowestResale": 3400
+    "lowestResale": 3900
   },
   "13241836994": {
     "id": 13241836994,
@@ -9501,7 +9501,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 3300
+    "lowestResale": 3000
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9645,7 +9645,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 10006,
-    "lowestResale": 3394
+    "lowestResale": 3393
   },
   "14524326503": {
     "id": 14524326503,
@@ -9729,7 +9729,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1591273,
-    "lowestResale": 600
+    "lowestResale": 648
   },
   "157682378774406": {
     "id": 157682378774406,
@@ -10029,7 +10029,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1526149,
-    "lowestResale": 1390
+    "lowestResale": 1370
   },
   "17756304457": {
     "id": 17756304457,
@@ -10713,7 +10713,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3729662,
-    "lowestResale": 300
+    "lowestResale": 310
   },
   "4773588762": {
     "id": 4773588762,
@@ -10737,7 +10737,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2589521,
-    "lowestResale": 219
+    "lowestResale": 218
   },
   "4786869155": {
     "id": 4786869155,
@@ -10761,7 +10761,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2254939,
-    "lowestResale": 230
+    "lowestResale": 225
   },
   "4786883113": {
     "id": 4786883113,
@@ -10797,7 +10797,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 50027,
-    "lowestResale": 2198
+    "lowestResale": 2026
   },
   "504989506044": {
     "id": 504989506044,
@@ -11493,7 +11493,7 @@
     "price": 200,
     "remaining": 1,
     "totalQuantity": 27288,
-    "lowestResale": 545
+    "lowestResale": 557
   },
   "85157065680913": {
     "id": 85157065680913,
@@ -11553,7 +11553,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 8750,
-    "lowestResale": 650
+    "lowestResale": 645
   },
   "8769466816": {
     "id": 8769466816,
@@ -11625,7 +11625,7 @@
     "price": 5000,
     "remaining": 0,
     "totalQuantity": 1899,
-    "lowestResale": 4342
+    "lowestResale": 4341
   },
   "87983592197138": {
     "id": 87983592197138,

@@ -1,0 +1,32 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T06:01:10Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    MomentsFeedLoadAttempt = "MomentsFeedLoadAttempt",
+    MomentsFeedLoadMore = "MomentsFeedLoadMore",
+    MomentsFeedMediaLoad = "MomentsFeedMediaLoad",
+    MomentsFeedState = "MomentsFeedState",
+    MomentsSurfaceLoadAbort = "MomentsSurfaceLoadAbort",
+    MomentsViewBegan = "MomentsViewBegan",
+    MomentsSessionStarted = "MomentsSessionStarted",
+    MomentsSessionEnded = "MomentsSessionEnded",
+    MomentsSessionHeartbeat = "MomentsSessionHeartbeat",
+    MomentsEngagement = "MomentsEngagement",
+    MomentsCreationStep = "MomentsCreationStep",
+    MomentsFeedItemsReceived = "MomentsFeedItemsReceived",
+    MomentsFeedItemFiltered = "MomentsFeedItemFiltered",
+    MomentsPublishedWithEdit = "MomentsPublishedWithEdit",
+    MomentsPublishedEditCount = "MomentsPublishedEditCount",
+    MomentsPublishedByCaptureType = "MomentsPublishedByCaptureType",
+    MomentsEditToolOpened = "MomentsEditToolOpened",
+    MomentsEditToolAbandoned = "MomentsEditToolAbandoned",
+    MomentsGenerateText = "MomentsGenerateText",
+    MomentsCommentsListLoad = "MomentsCommentsListLoad",
+    MomentsCommentPost = "MomentsCommentPost",
+    MomentsCommentReaction = "MomentsCommentReaction",
+    MomentsCommentDelete = "MomentsCommentDelete",
+    MomentsCommentReport = "MomentsCommentReport",
+    MomentsCommentAuthorBlock = "MomentsCommentAuthorBlock",
+    MomentsPostInsightsRequest = "MomentsPostInsightsRequest",
+    MomentsPostInsightsRequestLatency = "MomentsPostInsightsRequestLatency",
+    MomentsCommentTranslationToggle = "MomentsCommentTranslationToggle"
+}
