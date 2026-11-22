@@ -1,0 +1,9 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T13:31:15Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local PYMKCarousel = script:FindFirstAncestor("PYMKCarousel")
+local Result = require(PYMKCarousel.dependencies).Result
+
+return function(arg1)
+    return Result.success(arg1)
+end
