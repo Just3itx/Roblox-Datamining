@@ -1,0 +1,8 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T18:50:58Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local SocialExperienceJoin = script:FindFirstAncestor("SocialExperienceJoin")
+local SocialExperienceJoinParent = SocialExperienceJoin.Parent
+local LuaSocialLibrariesDeps = require(SocialExperienceJoinParent.LuaSocialLibrariesDeps)
+local myRoduxNetworking = require(SocialExperienceJoin.Networking.myRoduxNetworking)
+
+return (LuaSocialLibrariesDeps.NetworkingGames.config({ roduxNetworking = myRoduxNetworking }))
