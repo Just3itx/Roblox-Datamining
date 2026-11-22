@@ -1,0 +1,50 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T12:21:15Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local scriptParent = script.Parent
+local createLazyComponent = require(scriptParent.RoactUtils).Components.createLazyComponent
+local _Types = require(script.TiltLoadingScreen.Types)
+
+return {
+    Components = {
+        Footer = createLazyComponent(function()
+            return require(script.Components.Footer)
+        end),
+        TiltKeyart = createLazyComponent(function()
+            return require(script.TiltLoadingScreen.Components.TiltKeyart)
+        end),
+        TiltLockup = createLazyComponent(function()
+            return require(script.TiltLoadingScreen.Components.TiltLockup)
+        end)
+    },
+    ProgressLoadingAssetsScreenGui = createLazyComponent(function()
+        return require(script.ProgressLoadingAssetsScreenGui)
+    end),
+    PreGameLoadingScreen = createLazyComponent(function()
+        return require(script.PreGameLoadingScreen)
+    end),
+    GetDeferredAssetStore = require(script.Stores.GetDeferredAssetStore),
+    PregameOverride = require(script.Stores.PregameOverride),
+    TiltLoadingScreen = createLazyComponent(function()
+        return require(script.TiltLoadingScreen)
+    end),
+    useLoadingScreenAnimation = require(script.TiltLoadingScreen.Hooks.useLoadingScreenAnimation),
+    LoadingScreenView = createLazyComponent(function()
+        return require(script.LoadingScreenView)
+    end),
+    AutoTranslateBadge = createLazyComponent(function()
+        return require(script.Components.AutoTranslateBadge)
+    end),
+    PolicyContainer = createLazyComponent(function()
+        return require(script.Components.PolicyContainer)
+    end),
+    ServerStatus = createLazyComponent(function()
+        return require(script.Components.ServerStatus)
+    end),
+    ServerStatusWithCountdown = createLazyComponent(function()
+        return require(script.Components.ServerStatusWithCountdown)
+    end),
+    PlaceLauncherState = require(script.Enums.PlaceLauncherState),
+    createNetworking = require(script.createNetworking),
+    ["jest.config"] = script["jest.config"]
+}
