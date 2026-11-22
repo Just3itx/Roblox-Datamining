@@ -1,0 +1,6 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-22T16:01:17Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local scriptParentParent = script.Parent.Parent
+local dependencies = require(scriptParentParent.dependencies)
+local Dash = dependencies.Dash
+return dependencies.React.createContext({ fireAnalyticsEvent = Dash.noop })
