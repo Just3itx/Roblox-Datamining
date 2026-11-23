@@ -15542,6 +15542,7 @@
   "FFlagLuaAppCloudClientStreamSurvivesRemount": "True",
   "FFlagLuaAppCloudClientSyncOfferEligibility_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-23T18:02:24",
   "FFlagLuaAppCoachmarkImpression": "True",
+  "FFlagLuaAppCollectionGridRemeasureOnMove_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;true;47823951;2026-11-23T19:06:07",
   "FFlagLuaAppCollectionSelectionOrder": "True",
   "FFlagLuaAppCompositionAppChat": "True",
   "FFlagLuaAppCompositionAvatar": "True",
