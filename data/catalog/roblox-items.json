@@ -1253,6 +1253,19 @@
     "created": "2024-10-04T17:43:41.923Z"
   },
   {
+    "id": 109192260865551,
+    "itemType": "Asset",
+    "type": "Sweater",
+    "name": "Holiday Alpaca Sweater",
+    "price": "Free",
+    "restrictions": [
+      "LimitedUnique"
+    ],
+    "quantity": 38852,
+    "created": "2024-09-09T20:15:17.037Z",
+    "upcoming": true
+  },
+  {
     "id": 123375593579461,
     "itemType": "Asset",
     "type": "Back",

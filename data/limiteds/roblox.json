@@ -9,7 +9,7 @@
     "price": 14999,
     "remaining": 0,
     "totalQuantity": 999,
-    "lowestResale": 23999
+    "lowestResale": 24000
   },
   "1080949": {
     "id": 1080949,
@@ -33,7 +33,7 @@
     "price": 350,
     "remaining": 0,
     "totalQuantity": 142654,
-    "lowestResale": 699
+    "lowestResale": 766
   },
   "1114768": {
     "id": 1114768,
@@ -69,7 +69,7 @@
     "price": 2500,
     "remaining": 1,
     "totalQuantity": 63541,
-    "lowestResale": 8499
+    "lowestResale": 8498
   },
   "20011925": {
     "id": 20011925,
@@ -311,30 +311,6 @@
     "totalQuantity": 3907,
     "lowestResale": 8499
   },
-  "152980442": {
-    "id": 152980442,
-    "name": "Egg of Luck",
-    "type": "Hat",
-    "created": "2014-04-11T04:52:46.493Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 93465,
-    "lowestResale": 299
-  },
-  "152980450": {
-    "id": 152980450,
-    "name": "Egg of Time",
-    "type": "Hat",
-    "created": "2014-04-11T04:53:05.303Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 80724,
-    "lowestResale": 240
-  },
   "152980504": {
     "id": 152980504,
     "name": "Aqua Fabergé Egg of Never-ending Winter",
@@ -345,7 +321,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 20638,
-    "lowestResale": 400
+    "lowestResale": 398
   },
   "152980562": {
     "id": 152980562,
@@ -1089,7 +1065,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 2003,
-    "lowestResale": 8266
+    "lowestResale": 9497
   },
   "158069180": {
     "id": 158069180,
@@ -2193,7 +2169,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 155275,
-    "lowestResale": 650
+    "lowestResale": 697
   },
   "190247659": {
     "id": 190247659,
@@ -3081,7 +3057,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 331554,
-    "lowestResale": 230
+    "lowestResale": 244
   },
   "250394028": {
     "id": 250394028,
@@ -3645,7 +3621,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 3666,
-    "lowestResale": 46999
+    "lowestResale": 46000
   },
   "292969458": {
     "id": 292969458,
@@ -4917,7 +4893,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 200844,
-    "lowestResale": 500
+    "lowestResale": 499
   },
   "398674241": {
     "id": 398674241,
@@ -5037,7 +5013,7 @@
     "price": 10000,
     "remaining": 0,
     "totalQuantity": 100,
-    "lowestResale": 3199996
+    "lowestResale": 3199995
   },
   "416832414": {
     "id": 416832414,
@@ -6201,7 +6177,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 10022,
-    "lowestResale": 139966
+    "lowestResale": 139948
   },
   "628783410": {
     "id": 628783410,
@@ -7137,7 +7113,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 8590,
-    "lowestResale": 1000
+    "lowestResale": 899
   },
   "1402319378": {
     "id": 1402319378,
@@ -7413,7 +7389,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 518280,
-    "lowestResale": 950
+    "lowestResale": 1000
   },
   "1645055518": {
     "id": 1645055518,
@@ -8001,7 +7977,7 @@
     "price": 1200,
     "remaining": 0,
     "totalQuantity": 3863,
-    "lowestResale": 2164
+    "lowestResale": 2165
   },
   "2566018860": {
     "id": 2566018860,
@@ -8229,7 +8205,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4131110,
-    "lowestResale": 150
+    "lowestResale": 200
   },
   "3016590511": {
     "id": 3016590511,
@@ -8265,7 +8241,7 @@
     "price": 80,
     "remaining": 0,
     "totalQuantity": 186285,
-    "lowestResale": 528
+    "lowestResale": 480
   },
   "3210189360": {
     "id": 3210189360,
@@ -8493,7 +8469,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 163207,
-    "lowestResale": 7740
+    "lowestResale": 7739
   },
   "10159622004": {
     "id": 10159622004,
@@ -8673,7 +8649,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 15456,
-    "lowestResale": 1199
+    "lowestResale": 950
   },
   "103851361938518": {
     "id": 103851361938518,
@@ -8902,6 +8878,18 @@
     "remaining": 0,
     "totalQuantity": 432,
     "lowestResale": 149999
+  },
+  "109192260865551": {
+    "id": 109192260865551,
+    "name": "Holiday Alpaca Sweater",
+    "type": "Sweater",
+    "created": "2024-09-09T20:15:17.037Z",
+    "kind": "LimitedUnique",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 38852,
+    "lowestResale": 0
   },
   "10927612825": {
     "id": 10927612825,
@@ -9273,7 +9261,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 9419,
-    "lowestResale": 22856
+    "lowestResale": 22857
   },
   "11821664799": {
     "id": 11821664799,
@@ -9451,7 +9439,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9471565,
+    "remaining": 9471560,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9537,7 +9525,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 6016,
-    "lowestResale": 991
+    "lowestResale": 990
   },
   "136024737007504": {
     "id": 136024737007504,
@@ -9647,6 +9635,18 @@
     "totalQuantity": 10006,
     "lowestResale": 3000
   },
+  "14475021971": {
+    "id": 14475021971,
+    "name": "Blade of Frozen Fury",
+    "type": "Back",
+    "created": "2023-08-17T22:05:29.86Z",
+    "kind": "LimitedUnique",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 311801,
+    "lowestResale": 5777
+  },
   "14524326503": {
     "id": 14524326503,
     "name": "Quadri-Skull Aura",
@@ -9657,7 +9657,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1246054,
-    "lowestResale": 1900
+    "lowestResale": 1940
   },
   "148231230019774": {
     "id": 148231230019774,
@@ -9705,7 +9705,7 @@
     "price": 50,
     "remaining": 0,
     "totalQuantity": 5004,
-    "lowestResale": 26981
+    "lowestResale": 26980
   },
   "151374120070634": {
     "id": 151374120070634,
@@ -9729,7 +9729,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1591273,
-    "lowestResale": 678
+    "lowestResale": 560
   },
   "157682378774406": {
     "id": 157682378774406,
@@ -9837,7 +9837,7 @@
     "price": 0,
     "remaining": 2,
     "totalQuantity": 262687,
-    "lowestResale": 5300
+    "lowestResale": 5599
   },
   "16491604946": {
     "id": 16491604946,
@@ -9849,7 +9849,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 24383,
-    "lowestResale": 27400
+    "lowestResale": 27443
   },
   "16491634419": {
     "id": 16491634419,
@@ -10077,7 +10077,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 1003,
-    "lowestResale": 16730
+    "lowestResale": 16729
   },
   "188816309913888": {
     "id": 188816309913888,
@@ -10773,7 +10773,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2523433,
-    "lowestResale": 244
+    "lowestResale": 200
   },
   "49142176654239": {
     "id": 49142176654239,
@@ -10929,7 +10929,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 24389,
-    "lowestResale": 372
+    "lowestResale": 398
   },
   "6803398976": {
     "id": 6803398976,
@@ -11061,7 +11061,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 94291,
-    "lowestResale": 629
+    "lowestResale": 580
   },
   "6807133411": {
     "id": 6807133411,
@@ -11229,7 +11229,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 7066,
-    "lowestResale": 1422
+    "lowestResale": 1420
   },
   "74029346462094": {
     "id": 74029346462094,
@@ -11301,7 +11301,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 226891,
-    "lowestResale": 500
+    "lowestResale": 480
   },
   "7592004548": {
     "id": 7592004548,
@@ -11385,7 +11385,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 57619,
-    "lowestResale": 715
+    "lowestResale": 926
   },
   "8194165059": {
     "id": 8194165059,
