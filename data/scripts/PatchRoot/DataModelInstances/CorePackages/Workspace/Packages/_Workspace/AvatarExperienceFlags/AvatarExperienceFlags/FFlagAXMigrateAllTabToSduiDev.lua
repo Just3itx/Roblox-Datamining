@@ -1,0 +1,47 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-23T15:21:20Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local AvatarExperienceFlagsParent = script:FindFirstAncestor("AvatarExperienceFlags").Parent
+local SharedFlags = require(AvatarExperienceFlagsParent.SharedFlags)
+
+local FFlagSduiFeatureEntryPointTakesAbsoluteSizeHandler = SharedFlags.FFlagSduiFeatureEntryPointTakesAbsoluteSizeHandler
+local FFlagMarketplaceCatalogSortTrackLastReceived = SharedFlags.FFlagMarketplaceCatalogSortTrackLastReceived
+local FFlagMarketplaceCatalogCategoryTrackLastReceived = SharedFlags.FFlagMarketplaceCatalogCategoryTrackLastReceived
+local FFlagSduiMarketplaceCatalogActions = SharedFlags.FFlagSduiMarketplaceCatalogActions
+local FFlagAXVirtualizedFeedVerticalPadding = SharedFlags.FFlagAXVirtualizedFeedVerticalPadding
+local FFlagSduiCatalogVirtualizedFeed = SharedFlags.FFlagSduiCatalogVirtualizedFeed
+local FFlagSduiCatalogCategoryMenu = SharedFlags.FFlagSduiCatalogCategoryMenu
+local FFlagSduiMarketplaceCatalogSortSupport = SharedFlags.FFlagSduiMarketplaceCatalogSortSupport
+local FFlagSduiSkipEmptyCatalogCategoryHydration = SharedFlags.FFlagSduiSkipEmptyCatalogCategoryHydration
+local FFlagAXFetchCatalogPageReturnsPromise = require(script.Parent.FFlagAXFetchCatalogPageReturnsPromise)
+local FFlagAXUnifiedMarketplaceResultsFetcher = require(script.Parent.FFlagAXUnifiedMarketplaceResultsFetcher)
+local FFlagAXFixCatalogPageButtonSduiCrash = require(script.Parent.FFlagAXFixCatalogPageButtonSduiCrash)
+local FFlagAXCatalogSduiUseOpaqueRouteForSearch = require(script.Parent.FFlagAXCatalogSduiUseOpaqueRouteForSearch)
+local FFlagAXSduiFeedBackToTopAndNavClearance = require(script.Parent.FFlagAXSduiFeedBackToTopAndNavClearance)
+local FFlagAXCategoryMenuVisualFixes = require(script.Parent.FFlagAXCategoryMenuVisualFixes)
+local FFlagAXScrollHighlightedTabIntoView = require(script.Parent.FFlagAXScrollHighlightedTabIntoView)
+local FFlagAXTabGroupScrollOnlyWhenClipped = require(script.Parent.FFlagAXTabGroupScrollOnlyWhenClipped)
+local FFlagAXCatalogUseFixedWidgetPadding = require(script.Parent.FFlagAXCatalogUseFixedWidgetPadding)
+local FFlagAXUnmountHiddenSduiCatalogFeed = require(script.Parent.FFlagAXUnmountHiddenSduiCatalogFeed)
+local FFlagAXSduiFeedMaintainScrollOnSeeAll = require(script.Parent.FFlagAXSduiFeedMaintainScrollOnSeeAll)
+
+return game:DefineFastFlag("AXMigrateAllTabToSdui12", false)
+    and FFlagSduiFeatureEntryPointTakesAbsoluteSizeHandler
+    and FFlagMarketplaceCatalogSortTrackLastReceived
+    and FFlagMarketplaceCatalogCategoryTrackLastReceived
+    and FFlagAXFetchCatalogPageReturnsPromise
+    and FFlagAXUnifiedMarketplaceResultsFetcher
+    and FFlagAXFixCatalogPageButtonSduiCrash
+    and FFlagSduiMarketplaceCatalogActions
+    and FFlagAXVirtualizedFeedVerticalPadding
+    and FFlagAXCatalogSduiUseOpaqueRouteForSearch
+    and FFlagAXSduiFeedBackToTopAndNavClearance
+    and FFlagAXCategoryMenuVisualFixes
+    and FFlagAXScrollHighlightedTabIntoView
+    and FFlagAXTabGroupScrollOnlyWhenClipped
+    and FFlagAXCatalogUseFixedWidgetPadding
+    and FFlagSduiCatalogVirtualizedFeed
+    and FFlagSduiCatalogCategoryMenu
+    and FFlagSduiMarketplaceCatalogSortSupport
+    and FFlagSduiSkipEmptyCatalogCategoryHydration
+    and FFlagAXUnmountHiddenSduiCatalogFeed
+    and FFlagAXSduiFeedMaintainScrollOnSeeAll
