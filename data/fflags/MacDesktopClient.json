@@ -22191,6 +22191,7 @@
   "FFlagTiltLoadingScreenConsoleHints2_IXP": "1;Experience.Menu;Interactivity.LoadingScreen.TiltDesign.3;161030618;flagbank",
   "FFlagTiltLoadingScreenDismissOnLoaded_IXP": "1;Experience.Menu;Interactivity.LoadingScreen.TiltDesign.3;161030618;flagbank",
   "FFlagTiltLoadingScreenEnterExitHold3_IXP": "1;Experience.Menu;Interactivity.LoadingScreen.TiltDesign.3;161030618;flagbank",
+  "FFlagTiltLoadingScreenNoRootCanvasGroup_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;true;526116615;2026-11-23T20:52:23",
   "FFlagTiltMenuShortcutBarPadding": "True",
   "FFlagTiltSelection": "True",
   "FFlagTimeAndNewJoinDataTelemetry": "True",
