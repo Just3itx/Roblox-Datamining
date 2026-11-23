@@ -1,0 +1,12 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-23T12:51:25Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local AvatarExperienceAnalytics = script:FindFirstAncestor("AvatarExperienceAnalytics")
+
+local MarketplaceUnifiedAction = require(AvatarExperienceAnalytics.UnifiedEventLogEnums).MarketplaceUnifiedAction
+
+local function getItemSelectionAction(bool1: boolean)
+    return if bool1 then MarketplaceUnifiedAction.ITEM_DESELECTED else MarketplaceUnifiedAction.ITEM_SELECTED
+end
+
+return getItemSelectionAction
