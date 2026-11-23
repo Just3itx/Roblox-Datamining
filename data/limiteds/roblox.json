@@ -2589,7 +2589,7 @@
     "price": 50000,
     "remaining": 0,
     "totalQuantity": 100,
-    "lowestResale": 19000000
+    "lowestResale": 17000000
   },
   "215762773": {
     "id": 215762773,
@@ -2649,7 +2649,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 1002,
-    "lowestResale": 7509
+    "lowestResale": 7508
   },
   "226189871": {
     "id": 226189871,
@@ -3033,7 +3033,7 @@
     "price": 50,
     "remaining": 0,
     "totalQuantity": 15339,
-    "lowestResale": 3992
+    "lowestResale": 3991
   },
   "244097060": {
     "id": 244097060,
@@ -6201,7 +6201,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 10022,
-    "lowestResale": 139684
+    "lowestResale": 139672
   },
   "628783410": {
     "id": 628783410,
@@ -6609,7 +6609,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 22368,
-    "lowestResale": 790
+    "lowestResale": 789
   },
   "1076571965": {
     "id": 1076571965,
@@ -7005,7 +7005,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 14345,
-    "lowestResale": 4700
+    "lowestResale": 4750
   },
   "1241182524": {
     "id": 1241182524,
@@ -7041,7 +7041,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 10002,
-    "lowestResale": 1000
+    "lowestResale": 999
   },
   "1241224444": {
     "id": 1241224444,
@@ -7101,7 +7101,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 4219,
-    "lowestResale": 4500
+    "lowestResale": 5000
   },
   "1340199684": {
     "id": 1340199684,
@@ -7293,7 +7293,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1938161,
-    "lowestResale": 229
+    "lowestResale": 227
   },
   "1560601706": {
     "id": 1560601706,
@@ -7413,7 +7413,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 518280,
-    "lowestResale": 1190
+    "lowestResale": 1121
   },
   "1645055518": {
     "id": 1645055518,
@@ -8037,7 +8037,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 75023,
-    "lowestResale": 738
+    "lowestResale": 737
   },
   "2588169261": {
     "id": 2588169261,
@@ -8361,7 +8361,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 6467908,
-    "lowestResale": 200
+    "lowestResale": 212
   },
   "3798231832": {
     "id": 3798231832,
@@ -8373,7 +8373,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4203154,
-    "lowestResale": 247
+    "lowestResale": 248
   },
   "3798239844": {
     "id": 3798239844,
@@ -8481,7 +8481,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 167117,
-    "lowestResale": 10888
+    "lowestResale": 10998
   },
   "10159617728": {
     "id": 10159617728,
@@ -8745,7 +8745,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 11592,
-    "lowestResale": 1665
+    "lowestResale": 1664
   },
   "10487204569": {
     "id": 10487204569,
@@ -9033,7 +9033,7 @@
     "price": 12500,
     "remaining": 0,
     "totalQuantity": 13811,
-    "lowestResale": 19000
+    "lowestResale": 18999
   },
   "11386269063": {
     "id": 11386269063,
@@ -9451,7 +9451,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9471580,
+    "remaining": 9471579,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9561,7 +9561,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1129269,
-    "lowestResale": 200
+    "lowestResale": 210
   },
   "13753760092": {
     "id": 13753760092,
@@ -10029,7 +10029,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1526149,
-    "lowestResale": 1347
+    "lowestResale": 1322
   },
   "17756304457": {
     "id": 17756304457,
@@ -10041,7 +10041,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 388225,
-    "lowestResale": 5300
+    "lowestResale": 4900
   },
   "180840496952935": {
     "id": 180840496952935,
@@ -10077,7 +10077,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 1003,
-    "lowestResale": 16734
+    "lowestResale": 16732
   },
   "188816309913888": {
     "id": 188816309913888,
@@ -10137,7 +10137,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 2500,
-    "lowestResale": 4153
+    "lowestResale": 4102
   },
   "203349976064280": {
     "id": 203349976064280,
@@ -10689,7 +10689,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3520335,
-    "lowestResale": 200
+    "lowestResale": 205
   },
   "4773569689": {
     "id": 4773569689,
@@ -10701,7 +10701,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4525697,
-    "lowestResale": 236
+    "lowestResale": 237
   },
   "4773579034": {
     "id": 4773579034,
@@ -10869,7 +10869,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 501,
-    "lowestResale": 119999
+    "lowestResale": 100000
   },
   "6589085795": {
     "id": 6589085795,
@@ -10893,7 +10893,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 17349,
-    "lowestResale": 7997
+    "lowestResale": 7998
   },
   "67824030495196": {
     "id": 67824030495196,
@@ -11505,7 +11505,7 @@
     "price": 5000,
     "remaining": 0,
     "totalQuantity": 4079,
-    "lowestResale": 3389
+    "lowestResale": 3350
   },
   "86233108879893": {
     "id": 86233108879893,
@@ -11637,7 +11637,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 107691,
-    "lowestResale": 4249
+    "lowestResale": 4248
   },
   "8835792701": {
     "id": 8835792701,
