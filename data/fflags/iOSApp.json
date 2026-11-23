@@ -12088,7 +12088,7 @@
   "FFlagEnableGameJoinEarlyAccess": "True",
   "FFlagEnableGameJoinParamsPartyId3": "True",
   "FFlagEnableGameLeftMessage": "True",
-  "FFlagEnableGamePassTrialUnifiedLogging_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-23T18:29:17",
+  "FFlagEnableGamePassTrialUnifiedLogging": "True",
   "FFlagEnableGameSafetyBootOutDialog": "True",
   "FFlagEnableGameStreamingOrientationChangeAndroid": "True",
   "FFlagEnableGamepadHookForCorescriptGlobalEffects_IXP": "1;InExperience.Performance;CorescriptsGlobalEffectsNoRender;1938879323;flagbank",
