@@ -1,0 +1,42 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-23T07:21:04Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local AppChat = script:FindFirstAncestor("AppChat")
+
+local _ChatConversationTelemetryLayer = require(AppChat.Telemetry.Layers.ChatConversationTelemetryLayer)
+local ModalTelemetry = require(AppChat.Components.ModalTelemetry)
+
+return {
+    Events = {
+        ModalRendered = ModalTelemetry.Events.modalRenderedWithSequence({
+            modalSequence = ModalTelemetry.Enums.ModalSequence.ConversationTopModal,
+            counterFormat = function(arg1, _)
+                return {
+                    modalVariant = arg1.modalVariant
+                }
+            end,
+            eventStreamFormat = function(arg1, _)
+                return {
+                    modalVariant = arg1.modalVariant,
+                    modalContext = arg1.modalContext
+                }
+            end
+        }),
+        ModalAction = ModalTelemetry.Events.modalActionWithSequence({
+            modalSequence = ModalTelemetry.Enums.ModalSequence.ConversationTopModal,
+            counterFormat = function(arg1, _)
+                return {
+                    modalVariant = arg1.modalVariant,
+                    action = arg1.action
+                }
+            end,
+            eventStreamFormat = function(arg1, _)
+                return {
+                    modalVariant = arg1.modalVariant,
+                    action = arg1.action,
+                    modalContext = arg1.modalContext
+                }
+            end
+        })
+    }
+}
