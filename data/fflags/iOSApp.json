@@ -2599,6 +2599,7 @@
   "DFFlagPendingReceiptsPollingRequiresBackend": "True",
   "DFFlagPerfDataCategoryGrouping": "True",
   "DFFlagPerfDataCategoryGrouping3": "True",
+  "DFFlagPerfDataExcludeDoubleCountedTimers_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;15;Promote;2026-11-23T17:31:51",
   "DFFlagPerfDataIncludeRsl": "True",
   "DFFlagPerfDataSetInitialValueOptional": "True",
   "DFFlagPerformPurchaseCodeStandardization": "True",

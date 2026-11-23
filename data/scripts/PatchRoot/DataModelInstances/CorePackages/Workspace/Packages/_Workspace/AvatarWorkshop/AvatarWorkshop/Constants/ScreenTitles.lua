@@ -1,0 +1,47 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-23T17:41:19Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+local AvatarWorkshop = script:FindFirstAncestor("AvatarWorkshop")
+
+local Screens = require(AvatarWorkshop.Navigation.Screens)
+
+local Inventory = Screens.Inventory
+
+return {
+    [Screens.Workshop.YourAvatars] = "Feature.AvatarWorkshop.Heading.YourAvatars",
+    [Screens.Workshop.Customize] = "Feature.AvatarWorkshop.Heading.Customize",
+    [Inventory.Root] = "Feature.Avatar.Label.Title.Inventory",
+    [Inventory.Avatars] = "Feature.Avatar.Label.Avatars",
+    [Inventory.Emotes] = "Feature.Avatar.Label.Title.Emotes",
+    [Inventory.Body.Root] = "Feature.Catalog.Label.Body",
+    [Inventory.Body.FullBody] = "Feature.Catalog.Label.FullBody",
+    [Inventory.Body.Head] = "Feature.Avatar.Label.Head",
+    [Inventory.Body.Hair] = "Feature.Avatar.Label.Hair",
+    [Inventory.Clothing.Root] = "Feature.Avatar.Heading.Clothing",
+    [Inventory.Clothing.Top] = "Feature.Avatar.Label.Top",
+    [Inventory.Clothing.Outterwear] = "Feature.Avatar.Label.Outerwear",
+    [Inventory.Clothing.Bottom] = "Feature.Avatar.Label.Bottom",
+    [Inventory.Clothing.Shoes] = "Feature.Avatar.Label.Shoes",
+    [Inventory.Clothing.ClassicShirt] = "Feature.Catalog.Label.ClassicShirt",
+    [Inventory.Clothing.ClassicPants] = "Feature.Avatar.Label.ClassicPants",
+    [Inventory.Clothing.ClassicTShirt] = "Feature.Catalog.Label.ClassicTShirt",
+    [Inventory.Accessories.Root] = "Feature.Catalog.LabelAccessories",
+    [Inventory.Accessories.Hat] = "Feature.Avatar.Label.Hat",
+    [Inventory.Accessories.Face] = "Feature.Avatar.Label.Face",
+    [Inventory.Accessories.Neck] = "Feature.Avatar.Label.Neck",
+    [Inventory.Accessories.Back] = "Feature.Avatar.Label.Back",
+    [Inventory.Accessories.Waist] = "Feature.Avatar.Label.Waist",
+    [Inventory.Accessories.Shoulder] = "Feature.Avatar.Label.Shoulder",
+    [Inventory.Accessories.Front] = "Feature.Avatar.Label.Front",
+    [Inventory.Accessories.Gear] = "Feature.Avatar.Label.Gear",
+    [Inventory.Animations.Root] = "Feature.Avatar.Heading.Animations",
+    [Inventory.Animations.FullSet] = "Feature.Avatar.Label.AnimationFullSet",
+    [Inventory.Animations.Idle] = "Feature.Avatar.Label.Idle",
+    [Inventory.Animations.Walk] = "Feature.Avatar.Label.Walk",
+    [Inventory.Animations.Run] = "Feature.Avatar.Label.Run",
+    [Inventory.Animations.Jump] = "Feature.Avatar.Label.Jump",
+    [Inventory.Animations.Fall] = "Feature.Avatar.Label.Fall",
+    [Inventory.Animations.Climb] = "Feature.Avatar.Label.Climb",
+    [Inventory.Animations.Swim] = "Feature.Avatar.Label.Swim"
+}
