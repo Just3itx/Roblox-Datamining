@@ -1,0 +1,4 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-23T14:41:12Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return not UserSettings():GetService("UserGameSettings").ReducedMotion
+    and game:DefineFastFlag("AXCategoryPillColorAnimation", false)
