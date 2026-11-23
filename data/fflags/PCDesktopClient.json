@@ -8682,7 +8682,7 @@
   "FFlagAndroidCameraCaptureUseTemplatePreview": "True",
   "FFlagAndroidCameraSkipAvailabilityCallback": "True",
   "FFlagAndroidCheckTouchScreen": "True",
-  "FFlagAndroidEnableFlushingTelemetryV1Events_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;true;1374001508;2026-11-23T19:58:08",
+  "FFlagAndroidEnableFlushingTelemetryV1Events": "True",
   "FFlagAndroidEnableTaskSchedulerHangMonitor": "True",
   "FFlagAndroidHevcEncoderCheck": "True",
   "FFlagAndroidMouseLockButtonFix": "True",
