@@ -14927,7 +14927,7 @@
   "FFlagFoundationReducedMotionAccordion": "True",
   "FFlagFoundationRefactorInputs": "True",
   "FFlagFoundationRemoveCursorProviderTestOutput": "True",
-  "FFlagFoundationRemoveDeprecatedSemanticTokens_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;true;357532975;2026-11-23T18:15:57",
+  "FFlagFoundationRemoveDeprecatedSemanticTokens": "True",
   "FFlagFoundationRemoveDividerSegmentedControl": "True",
   "FFlagFoundationRemoveSecondUIDDFromScrubbableTextboxes": "True",
   "FFlagFoundationRemoveSelectionCursorHeartbeat": "True",
