@@ -744,6 +744,7 @@
   "DFFlagClientGameLoadResultTelemetry": "True",
   "DFFlagClientHealthCheckA": "True",
   "DFFlagClientLightingTechnologyChangedTelemetryTrackTimeSpent": "True",
+  "DFFlagClientNetworkTelemetryRCCChannelName_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;15;Promote;2026-11-24T17:38:52",
   "DFFlagClientPacketLimiting": "True",
   "DFFlagClientProcessLimitPartial": "True",
   "DFFlagClientReceiveNetStackPortAndToken": "True",
