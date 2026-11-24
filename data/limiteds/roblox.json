@@ -311,18 +311,6 @@
     "totalQuantity": 3907,
     "lowestResale": 8499
   },
-  "152980504": {
-    "id": 152980504,
-    "name": "Aqua Fabergé Egg of Never-ending Winter",
-    "type": "Hat",
-    "created": "2014-04-11T04:54:20.26Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 20638,
-    "lowestResale": 398
-  },
   "152980562": {
     "id": 152980562,
     "name": "Elegant Fabergé Egg of Fancy Times",
@@ -1677,7 +1665,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 190711,
-    "lowestResale": 398
+    "lowestResale": 397
   },
   "175134718": {
     "id": 175134718,
@@ -3177,7 +3165,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 3641,
-    "lowestResale": 14241
+    "lowestResale": 14233
   },
   "253153907": {
     "id": 253153907,
@@ -3585,7 +3573,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 5465
+    "lowestResale": 5463
   },
   "287424705": {
     "id": 287424705,
@@ -6117,7 +6105,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 4559,
-    "lowestResale": 9447
+    "lowestResale": 9446
   },
   "583159170": {
     "id": 583159170,
@@ -7041,7 +7029,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 19079,
-    "lowestResale": 1200
+    "lowestResale": 1150
   },
   "1301378557": {
     "id": 1301378557,
@@ -7269,7 +7257,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1938161,
-    "lowestResale": 220
+    "lowestResale": 219
   },
   "1560601706": {
     "id": 1560601706,
@@ -7389,7 +7377,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 518280,
-    "lowestResale": 1100
+    "lowestResale": 1299
   },
   "1645055518": {
     "id": 1645055518,
@@ -8445,7 +8433,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 50736,
-    "lowestResale": 7480
+    "lowestResale": 7400
   },
   "10159610478": {
     "id": 10159610478,
@@ -8973,7 +8961,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 30620,
-    "lowestResale": 25999
+    "lowestResale": 26000
   },
   "112278583934553": {
     "id": 112278583934553,
@@ -8985,7 +8973,7 @@
     "price": 1500,
     "remaining": 1,
     "totalQuantity": 4882,
-    "lowestResale": 850
+    "lowestResale": 848
   },
   "11235114092": {
     "id": 11235114092,
@@ -9621,7 +9609,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 29343,
-    "lowestResale": 5099
+    "lowestResale": 5049
   },
   "143090179339167": {
     "id": 143090179339167,
@@ -9705,7 +9693,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 25567,
-    "lowestResale": 14000
+    "lowestResale": 13419
   },
   "151293515880748": {
     "id": 151293515880748,
@@ -9933,7 +9921,7 @@
     "price": 8,
     "remaining": 0,
     "totalQuantity": 40390,
-    "lowestResale": 3000
+    "lowestResale": 2999
   },
   "168371516984921": {
     "id": 168371516984921,
@@ -10317,7 +10305,7 @@
     "price": 50,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 4799
+    "lowestResale": 4750
   },
   "237353242205754": {
     "id": 237353242205754,
@@ -10701,7 +10689,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3520335,
-    "lowestResale": 200
+    "lowestResale": 198
   },
   "4773569689": {
     "id": 4773569689,
@@ -11494,6 +11482,18 @@
     "remaining": 1,
     "totalQuantity": 4453,
     "lowestResale": 1000
+  },
+  "83492849231658": {
+    "id": 83492849231658,
+    "name": "Sk14r",
+    "type": "Hat",
+    "created": "2025-09-08T22:11:30.763Z",
+    "kind": "Limited",
+    "onSale": true,
+    "price": 200,
+    "remaining": 1,
+    "totalQuantity": 27288,
+    "lowestResale": 557
   },
   "85157065680913": {
     "id": 85157065680913,
