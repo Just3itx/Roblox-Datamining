@@ -7627,6 +7627,7 @@
   "FFlagAXImproveSlotBasedEditorPerformance": "True",
   "FFlagAXImproveSlotBasedEditorPerformance_IXP": "1;AvatarExperience.UA.AllViews;AvatarMarketplace.UACustomizeOverhaulV2-Second-Launch;193760623;dev_controlled",
   "FFlagAXImproveTryOnManagerUI": "True",
+  "FFlagAXInExperienceNotificationsPassthrough_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-24T17:20:11",
   "FFlagAXIncreaseBodyBundleZoomToMatchLooksEnabledForAll": "True",
   "FFlagAXIncreaseDefaultPeekViewHeight": "True",
   "FFlagAXInferCategorySelection": "True",
