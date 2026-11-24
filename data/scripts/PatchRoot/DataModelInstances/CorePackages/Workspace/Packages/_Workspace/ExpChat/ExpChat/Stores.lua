@@ -1,0 +1,24 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T09:21:15Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    GetAdorneeStore = require(script.GetAdorneeStore),
+    GetTransparencyStore = require(script.GetTransparencyStore),
+    GetMessagesStore = require(script.GetMessagesStore),
+    GetFocusNavigationStore = require(script.GetFocusNavigationStore),
+    GetCharacterStore = require(script.GetCharacterStore),
+    GetVoiceStore = require(script.GetVoiceStore),
+    GetProximityStore = require(script.GetProximityStore),
+    GetChatStatusStore = require(script.GetChatStatusStore),
+    GetChatConfigurationStore = require(script.GetChatConfigurationStore),
+    GetChannelTabsStore = require(script.GetChannelTabsStore),
+    GetChatWindowStatusStore = require(script.GetChatWindowStatusStore),
+    GetChatModerationStore = require(script.GetChatModerationStore),
+    GetUserChatSettingsStore = require(script.GetUserChatSettingsStore),
+    GetGlobalChatTooltipStore = require(script.GetGlobalChatTooltipStore),
+    GetChatTooltipStore = require(script.GetChatTooltipStore),
+    GetRewriteDropdownStore = require(script.GetRewriteDropdownStore),
+    GetGlobalMutedUsersStore = require(script.GetGlobalMutedUsersStore),
+    GetPresetChatStore = require(script.GetPresetChatStore),
+    GetDictationModeSettingStore = require(script.GetDictationModeSettingStore),
+    GetDictationStateStore = require(script.GetDictationStateStore)
+}
