@@ -13221,7 +13221,7 @@
   "FFlagExpChatMEUpdatedSystemMessage": "True",
   "FFlagExpChatMainInputBarClickAnalytics": "True",
   "FFlagExpChatMemoBillboardGui_IXP": "1;ExperienceChat.Performance;Experience.ExpChat.BubbleChat.DevTools5;2065932627;flagbank",
-  "FFlagExpChatMemoizeAutocompleteCallback_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;true;252587143;2026-11-23T23:50:01",
+  "FFlagExpChatMemoizeAutocompleteCallback": "True",
   "FFlagExpChatMemoizeExpressionTrayFocusRootRender_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;true;1801797600;2026-11-24T00:06:54",
   "FFlagExpChatMemoizeSystemMessage": "True",
   "FFlagExpChatMessageComposerDictation": "True",
