@@ -9783,6 +9783,7 @@
   "FFlagAssistantFixStartPlayHang": "True",
   "FFlagAssistantFixToolDisappear2": "False",
   "FFlagAssistantForceRemoteServiceForInternal": "False",
+  "FFlagAssistantForceRemoteServiceForInternal_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-24T18:10:06",
   "FFlagAssistantForceTestAutomation2": "True",
   "FFlagAssistantGameTreeYield": "True",
   "FFlagAssistantGen3DAssetPublishTracking": "True",
