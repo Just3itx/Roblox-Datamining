@@ -21269,6 +21269,7 @@
   "FFlagSocialCarouselInGamePlayIcon_IXP": "1;Social.Presence;Social.Friends.InGameFriendsJoinButton;836790687;dev_controlled",
   "FFlagSocialCarouselInGameTextInstantJoin_IXP": "1;Social.Presence;Social.Friends.InGameFriendsJoinButton;836790687;dev_controlled",
   "FFlagSocialCarouselInGameTileInstantJoin_IXP": "1;Social.Presence;Social.Friends.InGameFriendsJoinButton;836790687;dev_controlled",
+  "FFlagSocialCarouselInGameTitleMarquee4_IXP": "1;Social.Presence;Social.Presence.MarqueeInGameTitle;1688129233;dev_controlled",
   "FFlagSocialCarouselIncludeGameInfoInContextualMenu": "True",
   "FFlagSocialCarouselMigrateRecommendations": "True",
   "FFlagSocialCarouselNilUnifiedLoggingFixEnabled": "True",
