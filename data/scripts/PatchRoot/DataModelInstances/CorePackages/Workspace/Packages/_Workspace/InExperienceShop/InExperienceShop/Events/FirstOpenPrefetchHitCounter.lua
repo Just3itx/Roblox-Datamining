@@ -1,0 +1,17 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T20:11:40Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local InExperienceShop = script:FindFirstAncestor("InExperienceShop")
+local InExperienceShopParent = InExperienceShop.Parent
+
+local LoggingProtocol = require(InExperienceShopParent.LoggingProtocol)
+
+local FIntInExperienceShopTelemetryThrottleHundredthsPercent = require(InExperienceShop.Flags.FIntInExperienceShopTelemetryThrottleHundredthsPercent)
+
+return {
+    eventName = "InExperienceShop_FirstOpen_PrefetchHit",
+    backends = { LoggingProtocol.TelemetryBackends.Counter },
+    lastUpdated = { 2026, 5, 17 },
+    throttlingPercentage = FIntInExperienceShopTelemetryThrottleHundredthsPercent,
+    description = "Counter fired alongside `InExperienceShop_FirstOpen` when categories are already populated at first-open time -- i.e. the join-time prefetch landed before the user opened the shop. Acts as the numerator for the prefetch-hit-rate metric. Both numerator and denominator emit from the same effect invocation so the at-query-time ratio stays in sync.",
+    links = ""
+}
