@@ -1,0 +1,3 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T17:01:04Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return "\t enum ShareLinkType {\n\t\tExperienceInvite,\n\t\tFriendInvite,\n\t\tHome,\n\t\tProfile,\n\t\tNotificationExperienceInvite,\n\t\tScreenshotInvite,\n\t\tPrivateServer,\n\t\tServer,\n\t\tExperienceDetails,\n\t }\n\n\tinterface ShareLink {\n\t\tlinkId: ID!\n\t\tshortUrl: String!\n\t\tlinkType: ShareLinkType!\n\t}\n\n\ttype ExperienceDetailsLink implements ShareLink {\n\t\tuniverseId: String!\n\t\tlinkId: ID!\n\t\tshortUrl: String!\n\t\tlinkType: ShareLinkType!\n\t}\n\n\ttype Query {\n\t\texperienceDetailsLinkByUniverseId(universeId: String!): ExperienceDetailsLink!\n\t}\n"

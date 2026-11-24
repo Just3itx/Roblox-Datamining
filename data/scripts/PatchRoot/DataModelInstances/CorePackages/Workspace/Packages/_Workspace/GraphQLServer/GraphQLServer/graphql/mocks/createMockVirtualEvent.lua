@@ -1,0 +1,47 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T17:01:12Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local GraphQLServer = script:FindFirstAncestor("GraphQLServer")
+
+local _generatedTypes = require(GraphQLServer.graphql.generatedTypes)
+
+local function createMockVirtualEvent(id: string)
+    local dateTime = DateTime.now()
+    local dateTime2 = DateTime.fromUnixTimestamp(dateTime.UnixTimestamp + 86400)
+
+    return {
+        id = id,
+        title = "Event Name",
+        description = "Event description goes here...",
+        host = { hostType = "user", hostId = "1", hostName = "Roblox", hasVerifiedBadge = true },
+        eventTime = {
+            startUtc = dateTime:ToIsoDate(),
+            endUtc = dateTime2:ToIsoDate(),
+            startTime = dateTime,
+            endTime = dateTime2
+        },
+        universeId = "3531439676",
+        eventStatus = "active",
+        createdTime = dateTime,
+        updatedTime = dateTime,
+        userRsvpStatus = "none",
+        eventCategories = {
+            { category = "challenge", rank = 0 },
+            { category = "newContent", rank = 1 }
+        },
+        experienceDetails = { id = "3531439676", name = "Experience Name", playing = 50000 },
+        rsvpCounters = { going = 2500, notGoing = 0, none = 0, maybeGoing = 0 },
+        rsvps = {
+            { userId = "957765952", rsvpStatus = "going" },
+            { userId = "35392", rsvpStatus = "going" },
+            { userId = "4416634", rsvpStatus = "going" },
+            { userId = "1893522417", rsvpStatus = "going" },
+            { userId = "1343930", rsvpStatus = "going" },
+            { userId = "29819622", rsvpStatus = "notGoing" },
+            { userId = "1668748746", rsvpStatus = "notGoing" },
+            { userId = "308199922", rsvpStatus = "notGoing" }
+        }
+    }
+end
+
+return createMockVirtualEvent
