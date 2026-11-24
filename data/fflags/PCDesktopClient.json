@@ -21138,7 +21138,7 @@
   "FFlagSlimLoaderRetryUnknownFailures": "True",
   "FFlagSlimLoaderSafeChunkHashCheck": "True",
   "FFlagSlimLoaderUseAssetRequestAPI": "True",
-  "FFlagSlimLocalTranscoderSafeFilename_Staged": "True;SteadyState;10;15;Rollout;100;30;SteadyState;100;75;Promote;2026-11-23T22:37:59",
+  "FFlagSlimLocalTranscoderSafeFilename": "True",
   "FFlagSlimMergeNonAnimatedBones2": "True",
   "FFlagSlimMigrateModelScaleUVTransform": "True",
   "FFlagSlimNoRandomSeedFromPart": "True",
