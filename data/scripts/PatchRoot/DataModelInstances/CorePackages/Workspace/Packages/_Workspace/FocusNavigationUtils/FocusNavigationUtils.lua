@@ -1,0 +1,66 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T11:40:53Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+local useAppFocusRoot = require(script.useAppFocusRoot)
+local useAnyDescendantHasFocus = require(script.useAnyDescendantHasFocus)
+local useAutoFocus = require(script.useAutoFocus)
+local useDescendantHasFocus = require(script.useDescendantHasFocus)
+local useFirstFocusableDescendantRef = require(script.useFirstFocusableDescendantRef)
+local useFocusedTextBox = require(script.useFocusedTextBox)
+local useFocusRoot = require(script.useFocusRoot)
+local useFocusNavigableSurfaceRegistryConnection = require(script.useFocusNavigableSurfaceRegistryConnection)
+local useDefaultAppEventHandlers = require(script.useDefaultAppEventHandlers)
+local useDefaultFocusNavigationBindings = require(script.useDefaultFocusNavigationBindings)
+local useGlobalFocusHandler = require(script.useGlobalFocusHandler)
+local useGlobalDefaultSelectionCursor = require(script.useGlobalDefaultSelectionCursor)
+local AppFocusRoot = require(script.AppFocusRoot)
+local FocusNavigableSurfaceRegistry = require(script.FocusNavigableSurfaceRegistry)
+local FocusNavigableSurfaceIdentifierEnum = require(script.FocusNavigableSurfaceIdentifierEnum)
+local FocusNavigableSurfaceWrapper = require(script.FocusNavigableSurfaceWrapper)
+local FocusNavigationEventNameEnum = require(script.FocusNavigationEventNameEnum)
+local FocusRoot = require(script.FocusRoot)
+local getFirstFocusableDescendant = require(script.getFirstFocusableDescendant)
+local useLastInputMethod = require(script.useLastInputMethod)
+local getInputMethod = require(script.getInputMethod)
+local useLastInputMode = require(script.useLastInputMode)
+local useButtonHold = require(script.useButtonHold)
+local ButtonHoldStateEnum = require(script.ButtonHoldStateEnum)
+local ButtonHoldCompletedSignal = require(script.ButtonHoldCompletedSignal)
+local useFocusOnMount = require(script.useFocusOnMount)
+local useActivationOnFocus = require(script.useActivationOnFocus)
+local PendingActivationOnFocus = require(script.PendingActivationOnFocus)
+local useGamepadCursorEnabled = require(script.useGamepadCursorEnabled)
+
+return {
+    ["jest.config"] = script["jest.config"],
+    useAppFocusRoot = useAppFocusRoot,
+    useAnyDescendantHasFocus = useAnyDescendantHasFocus,
+    useAutoFocus = useAutoFocus,
+    useDescendantHasFocus = useDescendantHasFocus,
+    useFirstFocusableDescendantRef = useFirstFocusableDescendantRef,
+    useFocusNavigableSurfaceRegistryConnection = useFocusNavigableSurfaceRegistryConnection,
+    useFocusedTextBox = useFocusedTextBox,
+    useFocusOnMount = useFocusOnMount,
+    useActivationOnFocus = useActivationOnFocus,
+    flushPendingActivationOnFocus = PendingActivationOnFocus.flush,
+    useFocusRoot = useFocusRoot,
+    useDefaultAppEventHandlers = useDefaultAppEventHandlers,
+    useDefaultFocusNavigationBindings = useDefaultFocusNavigationBindings,
+    useGlobalFocusHandler = useGlobalFocusHandler,
+    useGlobalDefaultSelectionCursor = useGlobalDefaultSelectionCursor,
+    AppFocusRoot = AppFocusRoot,
+    FocusNavigableSurfaceRegistry = FocusNavigableSurfaceRegistry,
+    FocusNavigableSurfaceIdentifierEnum = FocusNavigableSurfaceIdentifierEnum,
+    FocusNavigableSurfaceWrapper = FocusNavigableSurfaceWrapper,
+    FocusNavigationEventNameEnum = FocusNavigationEventNameEnum,
+    FocusRoot = FocusRoot,
+    getFirstFocusableDescendant = getFirstFocusableDescendant,
+    useLastInputMode = useLastInputMode,
+    useGamepadCursorEnabled = useGamepadCursorEnabled,
+    useLastInputMethod = useLastInputMethod,
+    getInputMethod = getInputMethod,
+    useButtonHold = useButtonHold,
+    ButtonHoldStateEnum = ButtonHoldStateEnum,
+    ButtonHoldCompletedSignal = ButtonHoldCompletedSignal
+}
