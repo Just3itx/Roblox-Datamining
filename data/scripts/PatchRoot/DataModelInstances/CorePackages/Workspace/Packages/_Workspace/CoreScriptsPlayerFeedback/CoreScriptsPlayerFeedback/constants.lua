@@ -1,0 +1,17 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T01:11:17Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    DELAYED_INPUT_ANIM_SEC = 2,
+    MIN_TEXTBOX_HEIGHT = 80,
+    MAX_TEXTBOX_HEIGHT = 120,
+    TWEEN_DURATION = 0.3,
+    HIDE_OFFSET = -400,
+    SHOW_OFFSET = 0,
+    MIN_FEEDBACK_LENGTH = 10,
+    MAX_FEEDBACK_LENGTH = 500,
+    MAX_PLAYER_SUPPORT_LENGTH = 1000,
+    PLAYER_SUPPORT_CATEGORIES_REQUIRING_USER_ID = {
+        TICKET_CATEGORY_DATA_RESTORE_REQUEST = true,
+        TICKET_CATEGORY_PURCHASING_ISSUE = true
+    }
+}
