@@ -9,7 +9,7 @@
     "price": 14999,
     "remaining": 0,
     "totalQuantity": 999,
-    "lowestResale": 24000
+    "lowestResale": 23999
   },
   "1080949": {
     "id": 1080949,
@@ -249,7 +249,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 63775,
-    "lowestResale": 7097
+    "lowestResale": 7090
   },
   "139617823": {
     "id": 139617823,
@@ -310,6 +310,18 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8499
+  },
+  "152980504": {
+    "id": 152980504,
+    "name": "Aqua Fabergé Egg of Never-ending Winter",
+    "type": "Hat",
+    "created": "2014-04-11T04:54:20.26Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 20638,
+    "lowestResale": 398
   },
   "152980562": {
     "id": 152980562,
@@ -813,7 +825,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 1011,
-    "lowestResale": 6953
+    "lowestResale": 6951
   },
   "155504507": {
     "id": 155504507,
@@ -2469,7 +2481,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 753,
-    "lowestResale": 12099
+    "lowestResale": 11997
   },
   "212971414": {
     "id": 212971414,
@@ -2553,7 +2565,7 @@
     "price": 50000,
     "remaining": 0,
     "totalQuantity": 100,
-    "lowestResale": 17000000
+    "lowestResale": 14400000
   },
   "215762773": {
     "id": 215762773,
@@ -3477,7 +3489,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 301,
-    "lowestResale": 222045
+    "lowestResale": 222044
   },
   "280896465": {
     "id": 280896465,
@@ -3573,7 +3585,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 5461
+    "lowestResale": 5457
   },
   "287424705": {
     "id": 287424705,
@@ -6165,7 +6177,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 10022,
-    "lowestResale": 139471
+    "lowestResale": 139467
   },
   "628783410": {
     "id": 628783410,
@@ -6429,7 +6441,7 @@
     "price": 20000,
     "remaining": 0,
     "totalQuantity": 367,
-    "lowestResale": 419999
+    "lowestResale": 480000
   },
   "878912595": {
     "id": 878912595,
@@ -8217,7 +8229,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2046106,
-    "lowestResale": 200
+    "lowestResale": 206
   },
   "3064215952": {
     "id": 3064215952,
@@ -8277,7 +8289,7 @@
     "price": 70,
     "remaining": 0,
     "totalQuantity": 175700,
-    "lowestResale": 501
+    "lowestResale": 470
   },
   "3339364587": {
     "id": 3339364587,
@@ -8301,7 +8313,7 @@
     "price": 50,
     "remaining": 0,
     "totalQuantity": 7675,
-    "lowestResale": 887
+    "lowestResale": 888
   },
   "3377530077": {
     "id": 3377530077,
@@ -9009,7 +9021,7 @@
     "price": 12500,
     "remaining": 0,
     "totalQuantity": 13811,
-    "lowestResale": 18699
+    "lowestResale": 18600
   },
   "11386269063": {
     "id": 11386269063,
@@ -9467,18 +9479,6 @@
     "totalQuantity": 186015,
     "lowestResale": 3200
   },
-  "13241836994": {
-    "id": 13241836994,
-    "name": "Verdant Crown",
-    "type": "Hat",
-    "created": "2023-04-24T17:32:01.257Z",
-    "kind": "LimitedUnique",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 1203707,
-    "lowestResale": 3000
-  },
   "133968423526059": {
     "id": 133968423526059,
     "name": "Green Drool Angry Zombie",
@@ -9525,7 +9525,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 24997,
-    "lowestResale": 1716
+    "lowestResale": 1715
   },
   "136613436441070": {
     "id": 136613436441070,
@@ -9633,7 +9633,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 311801,
-    "lowestResale": 6900
+    "lowestResale": 6999
   },
   "14524326503": {
     "id": 14524326503,
@@ -9645,7 +9645,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1246054,
-    "lowestResale": 1800
+    "lowestResale": 1700
   },
   "148231230019774": {
     "id": 148231230019774,
@@ -9945,7 +9945,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 238685,
-    "lowestResale": 3500
+    "lowestResale": 3799
   },
   "170591579555886": {
     "id": 170591579555886,
@@ -10041,7 +10041,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 388225,
-    "lowestResale": 5250
+    "lowestResale": 5300
   },
   "180840496952935": {
     "id": 180840496952935,
@@ -10701,7 +10701,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4525697,
-    "lowestResale": 230
+    "lowestResale": 231
   },
   "4773579034": {
     "id": 4773579034,
@@ -11361,7 +11361,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 45350,
-    "lowestResale": 4500
+    "lowestResale": 4499
   },
   "77596436624061": {
     "id": 77596436624061,
@@ -11685,7 +11685,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 280,
-    "lowestResale": 33000
+    "lowestResale": 32999
   },
   "8835819876": {
     "id": 8835819876,
