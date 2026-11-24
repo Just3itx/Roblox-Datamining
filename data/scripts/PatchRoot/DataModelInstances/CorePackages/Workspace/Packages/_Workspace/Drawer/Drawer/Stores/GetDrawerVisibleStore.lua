@@ -1,0 +1,7 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T06:05:49Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local DrawerParent = script:FindFirstAncestor("Drawer").Parent
+local Signals = require(DrawerParent.Signals)
+local createDrawerVisibleStore = require(script.createDrawerVisibleStore)
+
+return Signals.createComputed(createDrawerVisibleStore)
