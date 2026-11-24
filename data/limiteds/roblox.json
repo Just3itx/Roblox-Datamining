@@ -81,7 +81,7 @@
     "price": 1500,
     "remaining": 0,
     "totalQuantity": 28035,
-    "lowestResale": 3305
+    "lowestResale": 3300
   },
   "22970114": {
     "id": 22970114,
@@ -310,6 +310,18 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8499
+  },
+  "152980504": {
+    "id": 152980504,
+    "name": "Aqua Fabergé Egg of Never-ending Winter",
+    "type": "Hat",
+    "created": "2014-04-11T04:54:20.26Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 20638,
+    "lowestResale": 398
   },
   "152980562": {
     "id": 152980562,
@@ -813,7 +825,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 1011,
-    "lowestResale": 6969
+    "lowestResale": 6967
   },
   "155504507": {
     "id": 155504507,
@@ -1665,7 +1677,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 190711,
-    "lowestResale": 402
+    "lowestResale": 401
   },
   "175134718": {
     "id": 175134718,
@@ -3165,7 +3177,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 3641,
-    "lowestResale": 14375
+    "lowestResale": 14365
   },
   "253153907": {
     "id": 253153907,
@@ -3477,7 +3489,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 301,
-    "lowestResale": 222066
+    "lowestResale": 222065
   },
   "280896465": {
     "id": 280896465,
@@ -8349,7 +8361,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4120993,
-    "lowestResale": 203
+    "lowestResale": 204
   },
   "3798243238": {
     "id": 3798243238,
@@ -8373,7 +8385,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4395927,
-    "lowestResale": 239
+    "lowestResale": 229
   },
   "3798251754": {
     "id": 3798251754,
@@ -8601,7 +8613,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 24601,
-    "lowestResale": 20900
+    "lowestResale": 20800
   },
   "103196750164703": {
     "id": 103196750164703,
@@ -8661,7 +8673,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 6354,
-    "lowestResale": 4250
+    "lowestResale": 4200
   },
   "10467162863": {
     "id": 10467162863,
@@ -8877,7 +8889,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 38852,
-    "lowestResale": 4500
+    "lowestResale": 2000
   },
   "10927612825": {
     "id": 10927612825,
@@ -8901,7 +8913,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 405535,
-    "lowestResale": 640
+    "lowestResale": 649
   },
   "10999681015": {
     "id": 10999681015,
@@ -9427,7 +9439,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9471401,
+    "remaining": 9471399,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9477,7 +9489,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 3000
+    "lowestResale": 3189
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9513,7 +9525,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 6016,
-    "lowestResale": 953
+    "lowestResale": 952
   },
   "136024737007504": {
     "id": 136024737007504,
@@ -9693,7 +9705,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 25567,
-    "lowestResale": 11450
+    "lowestResale": 11499
   },
   "151293515880748": {
     "id": 151293515880748,
@@ -10029,7 +10041,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1526149,
-    "lowestResale": 1299
+    "lowestResale": 1362
   },
   "17756304457": {
     "id": 17756304457,
@@ -10713,7 +10725,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3729662,
-    "lowestResale": 288
+    "lowestResale": 260
   },
   "4773588762": {
     "id": 4773588762,
@@ -10749,7 +10761,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3182221,
-    "lowestResale": 214
+    "lowestResale": 190
   },
   "4786877411": {
     "id": 4786877411,
@@ -11049,19 +11061,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 80523,
-    "lowestResale": 430
-  },
-  "6803423284": {
-    "id": 6803423284,
-    "name": "Gucci Headband",
-    "type": "Hat",
-    "created": "2021-05-11T23:27:48.927Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 94291,
-    "lowestResale": 0
+    "lowestResale": 500
   },
   "6807133411": {
     "id": 6807133411,
@@ -11637,7 +11637,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 107691,
-    "lowestResale": 4200
+    "lowestResale": 4220
   },
   "8835792701": {
     "id": 8835792701,
