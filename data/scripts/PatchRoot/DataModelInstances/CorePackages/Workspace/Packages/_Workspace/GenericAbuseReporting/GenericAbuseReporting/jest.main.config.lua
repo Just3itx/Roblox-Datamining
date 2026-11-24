@@ -1,0 +1,20 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T16:01:10Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local scriptParent = script.Parent
+local scriptParentParent = scriptParent.Parent
+
+local JestConfigs = require(scriptParentParent.Dev.JestConfigs)
+local extendExpectations = scriptParent.extendExpectations
+
+return {
+    displayName = "GenericAbuseReporting",
+    testMatch = { "**/*.test" },
+    testPathIgnorePatterns = { "analyticsService" },
+    setupFilesAfterEnv = {
+        JestConfigs.setupFiles.ErrorLogHandler,
+        JestConfigs.setupFiles.UIBloxInitializer,
+        JestConfigs.setupFiles.createPromiseRejectionHandler(),
+        extendExpectations,
+        JestConfigs.setupFiles.RetryTimes
+    }
+}
