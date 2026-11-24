@@ -1,0 +1,17 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T19:30:49Z
+-- Luau bytecode version: 14 | Luau type version: 3
+local InExperienceOffers = script:FindFirstAncestor("InExperienceOffers")
+local InExperienceOffersParent = InExperienceOffers.Parent
+
+local LoggingProtocol = require(InExperienceOffersParent.LoggingProtocol)
+
+local FIntInExperienceOffersTelemetryThrottleHundredthsPercent = require(InExperienceOffers.Flags.FIntInExperienceOffersTelemetryThrottleHundredthsPercent)
+
+return {
+    eventName = "InExperienceOffers_GetAllUserOffers_Failed",
+    backends = { LoggingProtocol.TelemetryBackends.Counter },
+    lastUpdated = { 2026, 8, 24 },
+    throttlingPercentage = FIntInExperienceOffersTelemetryThrottleHundredthsPercent,
+    description = "Counter incremented once each time a `getAllUserOffers` fetch fails, on any of its tagged rejection paths (Network -- server unreachable or non-2xx; Parse -- body is not valid JSON; Schema -- parsed but missing the `offers` array). The failure's `errorKind` is attached as a payload field so failures can be filtered by type. Emitted from the fetcher's rejection sites so it captures every failure regardless of which surface's featureKeys were requested. Use to track baseline offers-fetch reliability and to alert on failure-rate regressions.",
+    links = ""
+}
