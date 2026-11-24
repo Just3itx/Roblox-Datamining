@@ -1,0 +1,18 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-24T05:21:01Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local HttpService = game:GetService("HttpService")
+
+local DataHydration = script:FindFirstAncestor("DataHydration")
+local DataHydrationParent = DataHydration.Parent
+
+local Url = require(DataHydrationParent.Http).Url
+
+local TrustedConnections = DataHydration.TrustedConnections
+local myHttpRequest = require(TrustedConnections.Networking.myHttpRequest)
+
+return function(arg1, tokens)
+    local str1 = string.format("%s/users/%s/add-trusted-friend-from-link", Url.FRIEND_URL, tostring(arg1))
+
+    return myHttpRequest(str1, "POST", { postBody = HttpService:JSONEncode({ Tokens = tokens }) })
+end
