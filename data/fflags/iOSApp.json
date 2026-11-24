@@ -4413,7 +4413,7 @@
   "DFFlagVideoServiceClientFixLatestFrameNullCrash": "True",
   "DFFlagVideoServiceClientReportL2aSessionId": "True",
   "DFFlagVideoSourceStatusCounters": "True",
-  "DFFlagVideoStripCdnAuthFromCacheKey_Staged": "True;SteadyState;10;45;Rollout;100;420;SteadyState;100;15;Promote;2026-11-23T23:52:21",
+  "DFFlagVideoStripCdnAuthFromCacheKey": "True",
   "DFFlagVideoUncapMaxResolution": "True",
   "DFFlagVideoUniversalAppExcludeStudio": "True",
   "DFFlagVideoUsageBasedAnalyticsThrottling": "True",
