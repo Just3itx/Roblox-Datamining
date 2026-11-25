@@ -1,0 +1,43 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-25T09:51:18Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+return {
+    badge = "badge",
+    creator = "creator",
+    universe = "universe",
+    mediaAsset = "mediaAsset",
+    responsive = "responsive",
+    policy = "policy",
+    ageRecommendation = "ageRecommendation",
+    socialLink = "socialLink",
+    event = "event",
+    marketplaceCatalogCategory = "marketplaceCatalogCategory",
+    marketplaceCatalogSort = "marketplaceCatalogSort",
+    marketplaceAsset = "marketplaceAsset",
+    marketplaceBundle = "marketplaceBundle",
+    marketplaceLook = "marketplaceLook",
+    marketplaceAssetUserFavorite = "marketplaceAssetUserFavorite",
+    marketplaceBundleUserFavorite = "marketplaceBundleUserFavorite",
+    collectibleItem = "collectibleItem",
+    song = "song",
+    gamePass = "gamePass",
+    gameDeveloperProduct = "gameDeveloperProduct",
+    gameSubscription = "gameSubscription",
+    playability = "playability",
+    universeUserVote = "universeUserVote",
+    universeUserFavorite = "universeUserFavorite",
+    universeUserFollow = "universeUserFollow",
+    universeUserVoteFeedbackMetadata = "universeUserVoteFeedbackMetadata",
+    userProfile = "userProfile",
+    community = "community",
+    communityUserMembership = "communityUserMembership",
+    clientPageScope = "clientPageScope",
+    capability = "capability",
+    notificationBadge = "notificationBadge",
+    leaderboardStats = "leaderboardStats",
+    buyRobuxOneTimeProduct = "buyRobuxOneTimeProduct",
+    buyRobuxSubscriptionProduct = "buyRobuxSubscriptionProduct",
+    buyRobuxPendingTransfer = "buyRobuxPendingTransfer",
+    buyRobuxBonusItem = "buyRobuxBonusItem"
+}
