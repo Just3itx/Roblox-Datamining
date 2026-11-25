@@ -1,0 +1,31 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-25T17:40:57Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    EnterSquadButtonPressed = "enterSquadButtonPressed",
+    MultiInviteMenuActionStatus = "multiInviteMenuActionStatus",
+    NoResponseInviteAgainOrAddOthers = "noResponseInviteAgainOrAddOthers",
+    PartySheetAction = "partySheetAction",
+    PartyCoplay = "partyCoplay",
+    ScheduledSquadAction = "scheduledSquadAction",
+    SquadInvitePageNavSource = "squadInvitePageNavSource",
+    SquadTopBannerClicked = "squadTopBannerClicked",
+    SquadExperienceInviteApiCall = "squadExperienceInviteApiCall",
+    SquadExperienceInviteStateChange = "squadExperienceInviteStateChange",
+    SquadInvite = "squadInvite",
+    SquadToastActions = "squadToastActions",
+    SquadVoteApiCall = "squadVoteApiCall",
+    SquadPromptResponded = "squadPromptResponded",
+    SquadCreateOrJoinFromRCC = "squadCreateOrJoinFromRCC",
+    SquadRegroupButtonClicked = "squadRegroupButtonClicked",
+    SquadRegroupPromptShown = "squadRegroupPromptShown",
+    SquadRegroupPromptClicked = "squadRegroupPromptClicked",
+    SquadExperienceInviteImpression = "squadExperienceInviteImpression",
+    LuckyRecommendationRowImpression = "luckyRecommendationRowImpression",
+    LuckyRecommendationInvoked = "luckyRecommendationInvoked",
+    LuckyRecommendationRevealShown = "luckyRecommendationRevealShown",
+    LuckyRecommendationRerolled = "luckyRecommendationRerolled",
+    LuckyRecommendationJoinTapped = "luckyRecommendationJoinTapped",
+    LuckyRecommendationErrorShown = "luckyRecommendationErrorShown",
+    LuckyRecommendationDismissed = "luckyRecommendationDismissed",
+    LuckyRecommendationExperienceInviteCreated = "luckyRecommendationExperienceInviteCreated"
+}
