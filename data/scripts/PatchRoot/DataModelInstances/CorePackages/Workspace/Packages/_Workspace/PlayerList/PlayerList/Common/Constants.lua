@@ -1,0 +1,51 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-25T02:51:25Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 0
+-- Luacid: preserve fresh closures and hash-only table allocation when recompiling.
+return {
+    SELECTED_TITLE_PLAYER_ID = -1,
+    HEADER_HEIGHT = 36,
+    COLUMN_HEADER_HEIGHT = 22,
+    ROW_HEIGHT = 26,
+    ROW_PITCH = 30,
+    STAT_COLUMN_WIDTH = 53,
+    PEOPLE_MIN_WIDTH = 127,
+    PLATFORM_RANK_WIDTH = 40,
+    PLATFORM_SCORE_WIDTH = 80,
+    PLATFORM_PANEL_WIDTH = 320,
+    PLATFORM_ROW_HEIGHT = 30,
+    PLATFORM_HEADER_HEIGHT = 24,
+    PLATFORM_FOOTER_HEIGHT = 26,
+    PLATFORM_BODY_MIN_HEIGHT = 170,
+    LEGACY_PLATFORM_PANEL_MIN_HEIGHT = 210,
+    STATE_PANEL_TAG = "col fill size-full-0 padding-large gap-medium align-x-center align-y-center bg-over-media-0",
+    LEGACY_STATE_PANEL_TAG = "col fill size-full-0 padding-large gap-medium align-x-center align-y-center",
+    DESKTOP_MAX_STAT_COLUMNS = 3,
+    MOBILE_MAX_STAT_COLUMNS = 2,
+    DESKTOP_MAX_VIEWPORT_FRACTION = 0.4,
+    DESKTOP_MIN_VISIBLE_ROWS = 4,
+    PANEL_HEADER_DIVIDER_HEIGHT = 1,
+    PANEL_TABS_HEIGHT = 40,
+    PANEL_SIZE_MIN_CAP = 500,
+    PANEL_SIZE_MAX_CAP = 600,
+    PANEL_BORDER = 24,
+    MOBILE_EDGE_GAP = 8,
+    TEAM_LAYOUT_MULTIPLIER = 10000,
+    ROW_FLEX_TAG = "row align-y-center padding-x-large gap-xsmall",
+    CONSOLE_FOCUS_ISOLATE = {
+        SelectionBehaviorUp = Enum.SelectionBehavior.Stop,
+        SelectionBehaviorDown = Enum.SelectionBehavior.Stop,
+        SelectionBehaviorLeft = Enum.SelectionBehavior.Stop,
+        SelectionBehaviorRight = Enum.SelectionBehavior.Stop
+    },
+    CONSOLE_FOCUS_SCROLL_ESCAPE_UP = {
+        SelectionBehaviorUp = Enum.SelectionBehavior.Escape,
+        SelectionBehaviorDown = Enum.SelectionBehavior.Stop,
+        SelectionBehaviorLeft = Enum.SelectionBehavior.Stop,
+        SelectionBehaviorRight = Enum.SelectionBehavior.Stop
+    },
+    NOT_SELECTABLE = { Selectable = false },
+    SELECTABLE = { Selectable = true },
+    CONTEXT_MENU_WIDTH = 327,
+    PLATFORM_ROW_FLEX_TAG = "row align-y-center padding-x-large gap-xlarge"
+}
