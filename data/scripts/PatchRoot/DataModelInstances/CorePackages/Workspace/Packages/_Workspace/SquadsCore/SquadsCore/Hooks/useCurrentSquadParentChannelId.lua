@@ -1,0 +1,24 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-25T18:00:50Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local SquadsCoreParent = script:FindFirstAncestor("SquadsCore").Parent
+
+local React = require(SquadsCoreParent.React)
+local useSelector = require(SquadsCoreParent.RoactUtils).Hooks.RoactRodux.useSelector
+
+function useCurrentSquadParentChannelId()
+    local var1 = React.useCallback(function(arg1)
+        if arg1.Squad
+            and arg1.Squad.Squad
+            and arg1.Squad.Squad.currentSquad
+            and arg1.Squad.Squad.currentSquad.parentChannelId ~= ""
+        then
+            return arg1.Squad.Squad.currentSquad.parentChannelId
+        end
+
+        return nil
+    end, {})
+    return (useSelector(var1))
+end
+
+return useCurrentSquadParentChannelId
