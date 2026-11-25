@@ -311,6 +311,18 @@
     "totalQuantity": 3907,
     "lowestResale": 8490
   },
+  "152980504": {
+    "id": 152980504,
+    "name": "Aqua Fabergé Egg of Never-ending Winter",
+    "type": "Hat",
+    "created": "2014-04-11T04:54:20.26Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 20638,
+    "lowestResale": 400
+  },
   "152980562": {
     "id": 152980562,
     "name": "Elegant Fabergé Egg of Fancy Times",
@@ -813,7 +825,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 1011,
-    "lowestResale": 6941
+    "lowestResale": 6939
   },
   "155504507": {
     "id": 155504507,
@@ -1173,7 +1185,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 14007,
-    "lowestResale": 1480
+    "lowestResale": 1491
   },
   "162066057": {
     "id": 162066057,
@@ -1185,7 +1197,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 21293,
-    "lowestResale": 19000
+    "lowestResale": 18999
   },
   "162066176": {
     "id": 162066176,
@@ -1509,7 +1521,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 2590,
-    "lowestResale": 60995
+    "lowestResale": 60994
   },
   "169602010": {
     "id": 169602010,
@@ -3477,7 +3489,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 301,
-    "lowestResale": 221996
+    "lowestResale": 221995
   },
   "280896465": {
     "id": 280896465,
@@ -3645,7 +3657,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 6296,
-    "lowestResale": 31000
+    "lowestResale": 31690
   },
   "293315415": {
     "id": 293315415,
@@ -3801,7 +3813,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 2837,
-    "lowestResale": 31999
+    "lowestResale": 31527
   },
   "302502491": {
     "id": 302502491,
@@ -4845,7 +4857,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2580232,
-    "lowestResale": 598
+    "lowestResale": 597
   },
   "395201183": {
     "id": 395201183,
@@ -4905,7 +4917,7 @@
     "price": 400,
     "remaining": 1,
     "totalQuantity": 72346,
-    "lowestResale": 11299
+    "lowestResale": 11259
   },
   "402302006": {
     "id": 402302006,
@@ -6573,7 +6585,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 22368,
-    "lowestResale": 790
+    "lowestResale": 789
   },
   "1076571965": {
     "id": 1076571965,
@@ -7881,19 +7893,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 781668,
-    "lowestResale": 224
-  },
-  "2528066922": {
-    "id": 2528066922,
-    "name": "Catrin Dia de Muertos Mask",
-    "type": "Face Accessory",
-    "created": "2018-10-30T14:42:29.437Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 5239277,
-    "lowestResale": 0
+    "lowestResale": 228
   },
   "2528067691": {
     "id": 2528067691,
@@ -8253,7 +8253,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 3675,
-    "lowestResale": 11000
+    "lowestResale": 10999
   },
   "3210243135": {
     "id": 3210243135,
@@ -9081,7 +9081,7 @@
     "price": 350,
     "remaining": 0,
     "totalQuantity": 2721,
-    "lowestResale": 3239
+    "lowestResale": 3237
   },
   "11453075278": {
     "id": 11453075278,
@@ -9427,7 +9427,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9471187,
+    "remaining": 9471185,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9477,7 +9477,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 3300
+    "lowestResale": 3322
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9633,7 +9633,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 311801,
-    "lowestResale": 6499
+    "lowestResale": 6200
   },
   "14524326503": {
     "id": 14524326503,
@@ -10917,7 +10917,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 31640,
-    "lowestResale": 340
+    "lowestResale": 390
   },
   "6803397504": {
     "id": 6803397504,
