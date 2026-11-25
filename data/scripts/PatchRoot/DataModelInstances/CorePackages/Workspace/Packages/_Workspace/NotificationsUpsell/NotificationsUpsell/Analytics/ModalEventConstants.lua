@@ -1,0 +1,33 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-25T00:31:25Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    Opened = "opened",
+    Closed = "closed",
+    Clicked = "clicked",
+    ShouldRequest = "ShouldRequest",
+    BackendRequested = "BackendRequested",
+    BackendSuccess = "BackendSuccess",
+    BackendFailed = "BackendFailed",
+    RequestFailed = "RequestFailed",
+    RequestSuccess = "RequestSuccess",
+    SettingsOpened = "settingsOpened",
+    Cancel = "cancel",
+    Confirm = "confirm",
+    ModalContext = "uenUpsellModal",
+    ModalContextPushEduUpsell = "pushEduUpsell",
+    ModalContextSysUpsell = "pushSysUpsell",
+    ModalContextSettingsUpsell = "pushSettingsUpsell",
+    EntryPointInGameRsvp = "inGameRsvp",
+    EventId = "eventId",
+    OptInEventName = "experienceNotificationClientPromptOptInEvent",
+    OptInPushEventName = "pushNotificationClientPromptOptInEvent",
+    OptInPushUpsellEventName = "pushUpsellNotificationClientEvent",
+    ActionType = "actionType",
+    Button = "btn",
+    UniverseId = "universeId",
+    EntryPoint = "entryPoint",
+    SettingsResult = "settingsResult",
+    EntryPointChat = "Chat",
+    Variant = "variant",
+    VariantLegacy = "legacy"
+}
