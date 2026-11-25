@@ -1,0 +1,12 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-25T08:40:37Z
+-- Luau bytecode version: 14 | Luau type version: 3
+--!optimize 1
+local RoactUtilsParent = script:FindFirstAncestor("RoactUtils").Parent
+
+local React = require(RoactUtilsParent.React)
+
+return function(callback: (...any) -> (...any))
+    React.useEffect(function()
+        callback()
+    end, {})
+end
