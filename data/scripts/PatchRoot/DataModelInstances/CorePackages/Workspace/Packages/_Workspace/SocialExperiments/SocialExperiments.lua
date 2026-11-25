@@ -1,0 +1,26 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-25T15:41:31Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    ExpChatPresetChatBadgeFTUXExperimentation = require(script.ExpChatPresetChatBadgeFTUXExperimentation),
+    ExpChatPresetChatAutocompleteExperimentation = require(script.ExpChatPresetChatAutocompleteExperimentation),
+    ExpChatPresetChatEmojiTabExperimentation = require(script.ExpChatPresetChatEmojiTabExperimentation),
+    ExpChatPresetChatEmojiEffectExperimentation = require(script.ExpChatPresetChatEmojiEffectExperimentation),
+    ExpChatOpenExpressionTrayExperimentation = require(script.ExpChatOpenExpressionTrayExperimentation),
+    ExpChatNewSystemMessagesExperimentation = require(script.ExpChatNewSystemMessagesExperimentation),
+    ExpChatGlobalTabDefaultExperimentation = require(script.ExpChatGlobalTabDefaultExperimentation),
+    ExpChatMessageHistoryExperimentation = require(script.ExpChatMessageHistoryExperimentation),
+    QueueExperimentation = require(script.QueueExperimentation),
+    ScheduledSquadsListExperimentation = require(script.ScheduledSquadsListExperimentation),
+    SquadCoordinationExperienceJoinExperimentation = require(script.SquadCoordinationExperienceJoinExperimentation),
+    SquadCoordinationUIChangesExperimentation = require(script.SquadCoordinationUIChangesExperimentation),
+    SquadUnifyCoplayExperimentation = require(script.SquadUnifyCoplayExperimentation),
+    SquadQuickStartExperimentation = require(script.SquadQuickStartExperimentation),
+    SquadRegroupExperimentation = require(script.SquadRegroupExperimentation),
+    LuckyRecommendationExperimentation = require(script.LuckyRecommendationExperimentation),
+    AppChatPerfExperimentation = require(script.AppChatPerfExperimentation),
+    PartyPageCarouselExperimentation = require(script.PartyPageCarouselExperimentation),
+    deviceMeetsRequirementsForFAE = require(script.DeviceMeetsRequirementsForFAE),
+    FFlagTestDeviceForFAEUpsell = require(script.FFlagTestDeviceForFAEUpsell),
+    GetIsDeviceGated = require(script.GetIsDeviceGated),
+    DeviceGateFeature = require(script.DeviceGateFeature)
+}
