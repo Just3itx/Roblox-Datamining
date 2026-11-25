@@ -1,0 +1,8 @@
+-- [[ luacid.dev ]] v0.2.16 decompiled at 2026-11-25T02:31:21Z
+-- Luau bytecode version: 14 | Luau type version: 3
+return {
+    ReceivedMultiplePlaceInfos = require(script.ReceivedMultiplePlaceInfos),
+    ReceivedPlacesInfos = require(script.ReceivedPlacesInfos),
+    RequestMultiplePlaceInfos = require(script.RequestMultiplePlaceInfos),
+    FailedToFetchMultiplePlaceInfos = require(script.FailedToFetchMultiplePlaceInfos)
+}
