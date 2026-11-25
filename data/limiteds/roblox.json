@@ -21,7 +21,7 @@
     "price": 2424,
     "remaining": 0,
     "totalQuantity": 56574,
-    "lowestResale": 24999
+    "lowestResale": 25000
   },
   "1098282": {
     "id": 1098282,
@@ -261,7 +261,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 10007,
-    "lowestResale": 0
+    "lowestResale": 1955
   },
   "143635868": {
     "id": 143635868,
@@ -310,18 +310,6 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8490
-  },
-  "152980504": {
-    "id": 152980504,
-    "name": "Aqua Fabergé Egg of Never-ending Winter",
-    "type": "Hat",
-    "created": "2014-04-11T04:54:20.26Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 20638,
-    "lowestResale": 400
   },
   "152980562": {
     "id": 152980562,
@@ -477,7 +465,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 9597,
-    "lowestResale": 650
+    "lowestResale": 730
   },
   "153027826": {
     "id": 153027826,
@@ -1137,7 +1125,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 1901
+    "lowestResale": 1881
   },
   "161211371": {
     "id": 161211371,
@@ -1353,7 +1341,7 @@
     "price": 50,
     "remaining": 0,
     "totalQuantity": 5005,
-    "lowestResale": 1149
+    "lowestResale": 1150
   },
   "163501040": {
     "id": 163501040,
@@ -2745,7 +2733,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 1500,
-    "lowestResale": 5249
+    "lowestResale": 5248
   },
   "233609363": {
     "id": 233609363,
@@ -3585,7 +3573,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 5052
+    "lowestResale": 5108
   },
   "287424705": {
     "id": 287424705,
@@ -4857,7 +4845,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 2580232,
-    "lowestResale": 597
+    "lowestResale": 596
   },
   "395201183": {
     "id": 395201183,
@@ -4929,7 +4917,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 818,
-    "lowestResale": 13899
+    "lowestResale": 13897
   },
   "402303026": {
     "id": 402303026,
@@ -6549,7 +6537,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 167766,
-    "lowestResale": 976
+    "lowestResale": 950
   },
   "1016143686": {
     "id": 1016143686,
@@ -6597,7 +6585,7 @@
     "price": 10000,
     "remaining": 0,
     "totalQuantity": 1284,
-    "lowestResale": 99899
+    "lowestResale": 99000
   },
   "1090029941": {
     "id": 1090029941,
@@ -6741,7 +6729,7 @@
     "price": 2,
     "remaining": 0,
     "totalQuantity": 32438,
-    "lowestResale": 900
+    "lowestResale": 850
   },
   "1180433861": {
     "id": 1180433861,
@@ -6777,7 +6765,7 @@
     "price": 10,
     "remaining": 0,
     "totalQuantity": 47649,
-    "lowestResale": 2300
+    "lowestResale": 2199
   },
   "1191119857": {
     "id": 1191119857,
@@ -6993,7 +6981,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 10477,
-    "lowestResale": 2200
+    "lowestResale": 2199
   },
   "1241183979": {
     "id": 1241183979,
@@ -7437,7 +7425,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 351664,
-    "lowestResale": 598
+    "lowestResale": 550
   },
   "1743903423": {
     "id": 1743903423,
@@ -7449,7 +7437,7 @@
     "price": 10000,
     "remaining": 0,
     "totalQuantity": 2403,
-    "lowestResale": 181999
+    "lowestResale": 181888
   },
   "1743906481": {
     "id": 1743906481,
@@ -7895,6 +7883,18 @@
     "totalQuantity": 781668,
     "lowestResale": 228
   },
+  "2528066922": {
+    "id": 2528066922,
+    "name": "Catrin Dia de Muertos Mask",
+    "type": "Face Accessory",
+    "created": "2018-10-30T14:42:29.437Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 5239277,
+    "lowestResale": 246
+  },
   "2528067691": {
     "id": 2528067691,
     "name": "Catrina Dia de Muertos Mask",
@@ -7965,7 +7965,7 @@
     "price": 1200,
     "remaining": 0,
     "totalQuantity": 3863,
-    "lowestResale": 2163
+    "lowestResale": 2164
   },
   "2566018860": {
     "id": 2566018860,
@@ -8901,7 +8901,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 405535,
-    "lowestResale": 572
+    "lowestResale": 590
   },
   "10999681015": {
     "id": 10999681015,
@@ -9357,7 +9357,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 15015,
-    "lowestResale": 8000
+    "lowestResale": 7500
   },
   "124949164676470": {
     "id": 124949164676470,
@@ -9477,7 +9477,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 3322
+    "lowestResale": 3333
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9849,7 +9849,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 24383,
-    "lowestResale": 26772
+    "lowestResale": 26000
   },
   "16491634419": {
     "id": 16491634419,
@@ -11241,7 +11241,7 @@
     "price": 3000,
     "remaining": 0,
     "totalQuantity": 10079,
-    "lowestResale": 1376
+    "lowestResale": 1375
   },
   "74319168976379": {
     "id": 74319168976379,
@@ -11589,7 +11589,7 @@
     "price": 4999,
     "remaining": 0,
     "totalQuantity": 5356,
-    "lowestResale": 3700
+    "lowestResale": 3698
   },
   "8785277745": {
     "id": 8785277745,
@@ -11601,7 +11601,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 13382,
-    "lowestResale": 888
+    "lowestResale": 879
   },
   "8785294898": {
     "id": 8785294898,
@@ -11637,7 +11637,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 107691,
-    "lowestResale": 4298
+    "lowestResale": 4442
   },
   "8835792701": {
     "id": 8835792701,
