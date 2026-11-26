@@ -28,15 +28,15 @@
     },
     {
       "rank": 5,
-      "universeId": 7326934954,
-      "placeId": 79546208627805,
-      "name": "99 Nights in the Forest 🔦"
-    },
-    {
-      "rank": 6,
       "universeId": 66654135,
       "placeId": 142823291,
       "name": "Murder Mystery 2"
+    },
+    {
+      "rank": 6,
+      "universeId": 7326934954,
+      "placeId": 79546208627805,
+      "name": "99 Nights in the Forest 🔦"
     },
     {
       "rank": 7,
@@ -46,15 +46,15 @@
     },
     {
       "rank": 8,
-      "universeId": 5569032992,
-      "placeId": 16116270224,
-      "name": "🌻 Dandy's World [1.0]"
-    },
-    {
-      "rank": 9,
       "universeId": 6035872082,
       "placeId": 17625359962,
       "name": "[🤑] RIVALS"
+    },
+    {
+      "rank": 9,
+      "universeId": 5569032992,
+      "placeId": 16116270224,
+      "name": "🌻 Dandy's World [1.0]"
     },
     {
       "rank": 10,
@@ -154,15 +154,15 @@
     },
     {
       "rank": 26,
-      "universeId": 10778869268,
-      "placeId": 98487757108234,
-      "name": "The Great Build"
-    },
-    {
-      "rank": 27,
       "universeId": 10765288803,
       "placeId": 114326934417838,
       "name": "Break and Steal an Egg"
+    },
+    {
+      "rank": 27,
+      "universeId": 10778869268,
+      "placeId": 98487757108234,
+      "name": "The Great Build"
     },
     {
       "rank": 28,
@@ -214,15 +214,15 @@
     },
     {
       "rank": 36,
-      "universeId": 8172250815,
-      "placeId": 128828638194450,
-      "name": "[UPD 1] STAND OUT"
-    },
-    {
-      "rank": 37,
       "universeId": 10155360168,
       "placeId": 126987974021910,
       "name": "Illegal Soccer"
+    },
+    {
+      "rank": 37,
+      "universeId": 8172250815,
+      "placeId": 128828638194450,
+      "name": "[UPD 1] STAND OUT"
     },
     {
       "rank": 38,
@@ -244,21 +244,21 @@
     },
     {
       "rank": 41,
+      "universeId": 6325068386,
+      "placeId": 18668065416,
+      "name": "[OG BLR] Blue Lock: Rivals"
+    },
+    {
+      "rank": 42,
       "universeId": 10774051115,
       "placeId": 126221718321318,
       "name": "Clean The Ballpit!"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "universeId": 10773149360,
       "placeId": 73547227876007,
       "name": "Half Punch"
-    },
-    {
-      "rank": 43,
-      "universeId": 6325068386,
-      "placeId": 18668065416,
-      "name": "[OG BLR] Blue Lock: Rivals"
     },
     {
       "rank": 44,
@@ -310,15 +310,15 @@
     },
     {
       "rank": 52,
-      "universeId": 4778845442,
-      "placeId": 13775256536,
-      "name": "[💥UTS 3.0] Toilet Tower Defense"
-    },
-    {
-      "rank": 53,
       "universeId": 10769671316,
       "placeId": 77900175935766,
       "name": "[🦧 BOSS] Survive Your Ideas"
+    },
+    {
+      "rank": 53,
+      "universeId": 4778845442,
+      "placeId": 13775256536,
+      "name": "[💥UTS 3.0] Toilet Tower Defense"
     },
     {
       "rank": 54,
@@ -334,9 +334,9 @@
     },
     {
       "rank": 56,
-      "universeId": 10767012496,
-      "placeId": 101880234193261,
-      "name": "Turbo Soccer [BETA]"
+      "universeId": 10773416193,
+      "placeId": 78884249003161,
+      "name": "Voxel Wars"
     },
     {
       "rank": 57,
@@ -346,9 +346,9 @@
     },
     {
       "rank": 58,
-      "universeId": 10773416193,
-      "placeId": 78884249003161,
-      "name": "Voxel Wars"
+      "universeId": 10767012496,
+      "placeId": 101880234193261,
+      "name": "Turbo Soccer [BETA]"
     },
     {
       "rank": 59,
@@ -376,51 +376,51 @@
     },
     {
       "rank": 63,
-      "universeId": 10777305926,
-      "placeId": 78203199643918,
-      "name": "untitled monkey game"
-    },
-    {
-      "rank": 64,
       "universeId": 10769420234,
       "placeId": 81688312343760,
       "name": "MOUSE"
     },
     {
-      "rank": 65,
-      "universeId": 10773971368,
-      "placeId": 129516203408961,
-      "name": "[💈] Barber Empire"
+      "rank": 64,
+      "universeId": 10777305926,
+      "placeId": 78203199643918,
+      "name": "untitled monkey game"
     },
     {
-      "rank": 66,
+      "rank": 65,
       "universeId": 184199275,
       "placeId": 2338325648,
       "name": "[🦃EVENT] NFL Universe Football"
     },
     {
-      "rank": 67,
+      "rank": 66,
       "universeId": 7554119808,
       "placeId": 75387700043737,
       "name": "🛍️ My Avatar!"
     },
     {
+      "rank": 67,
+      "universeId": 10774784939,
+      "placeId": 128749725449995,
+      "name": "[🏹] Shoot Arrows For Animals!"
+    },
+    {
       "rank": 68,
+      "universeId": 10773971368,
+      "placeId": 129516203408961,
+      "name": "[💈] Barber Empire"
+    },
+    {
+      "rank": 69,
       "universeId": 10769941703,
       "placeId": 134117451433332,
       "name": "13 Days to Escape [ALPHA]"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "universeId": 574085635,
       "placeId": 1445389341,
       "name": "Escape Da Cave!"
-    },
-    {
-      "rank": 70,
-      "universeId": 10774784939,
-      "placeId": 128749725449995,
-      "name": "[🏹] Shoot Arrows For Animals!"
     },
     {
       "rank": 71,
@@ -436,21 +436,21 @@
     },
     {
       "rank": 73,
+      "universeId": 5995470825,
+      "placeId": 17516596118,
+      "name": "[🔥THANKSGIVING] Hypershot"
+    },
+    {
+      "rank": 74,
       "universeId": 10775160561,
       "placeId": 76275796126573,
       "name": "My Little Pony Card Opening"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "universeId": 10775166914,
       "placeId": 73517220164735,
       "name": "[REVAMP] Dummy Lab🩸"
-    },
-    {
-      "rank": 75,
-      "universeId": 5995470825,
-      "placeId": 17516596118,
-      "name": "[🔥THANKSGIVING] Hypershot"
     },
     {
       "rank": 76,
@@ -484,39 +484,39 @@
     },
     {
       "rank": 81,
-      "universeId": 6765805766,
-      "placeId": 104715542330896,
-      "name": "BlockSpin 🔪"
-    },
-    {
-      "rank": 82,
       "universeId": 4949420752,
       "placeId": 14315258385,
       "name": "Realistic Street Soccer"
     },
     {
-      "rank": 83,
-      "universeId": 10771533429,
-      "placeId": 93349291960708,
-      "name": "Stay the Night"
+      "rank": 82,
+      "universeId": 6765805766,
+      "placeId": 104715542330896,
+      "name": "BlockSpin 🔪"
     },
     {
-      "rank": 84,
+      "rank": 83,
       "universeId": 4723764956,
       "placeId": 13600218266,
       "name": "🎥My Movie"
     },
     {
-      "rank": 85,
+      "rank": 84,
       "universeId": 10701622575,
       "placeId": 133151378618377,
       "name": "Steal an Anime Pack"
     },
     {
-      "rank": 86,
+      "rank": 85,
       "universeId": 10774160414,
       "placeId": 121011978933862,
       "name": "Scare Your Favorite Streamer"
+    },
+    {
+      "rank": 86,
+      "universeId": 10771533429,
+      "placeId": 93349291960708,
+      "name": "Stay the Night"
     },
     {
       "rank": 87,
@@ -538,9 +538,9 @@
     },
     {
       "rank": 90,
-      "universeId": 6774320049,
-      "placeId": 122485613019196,
-      "name": "Dubai 🏡 RP [Pets! 🐶]"
+      "universeId": 9978329815,
+      "placeId": 74188431054457,
+      "name": "Mukbang Game [Testing]🍚🏮!"
     },
     {
       "rank": 91,
@@ -556,9 +556,9 @@
     },
     {
       "rank": 93,
-      "universeId": 9978329815,
-      "placeId": 74188431054457,
-      "name": "Mukbang Game [Testing]🍚🏮!"
+      "universeId": 6774320049,
+      "placeId": 122485613019196,
+      "name": "Dubai 🏡 RP [Pets! 🐶]"
     },
     {
       "rank": 94,
