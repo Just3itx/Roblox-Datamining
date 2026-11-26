@@ -16,15 +16,15 @@
     },
     {
       "rank": 3,
-      "universeId": 994732206,
-      "placeId": 2753915549,
-      "name": "Blox Fruits"
-    },
-    {
-      "rank": 4,
       "universeId": 10766972131,
       "placeId": 120219252362013,
       "name": "Throw Food For Animals"
+    },
+    {
+      "rank": 4,
+      "universeId": 994732206,
+      "placeId": 2753915549,
+      "name": "Blox Fruits"
     },
     {
       "rank": 5,
@@ -34,15 +34,15 @@
     },
     {
       "rank": 6,
-      "universeId": 383310974,
-      "placeId": 920587237,
-      "name": "[🐶] Adopt Me!"
-    },
-    {
-      "rank": 7,
       "universeId": 6035872082,
       "placeId": 17625359962,
       "name": "[🤑] RIVALS"
+    },
+    {
+      "rank": 7,
+      "universeId": 383310974,
+      "placeId": 920587237,
+      "name": "[🐶] Adopt Me!"
     },
     {
       "rank": 8,
@@ -178,15 +178,15 @@
     },
     {
       "rank": 30,
-      "universeId": 10774071683,
-      "placeId": 90296841634441,
-      "name": "[🐟] Fish For Sea Animals"
-    },
-    {
-      "rank": 31,
       "universeId": 10774784939,
       "placeId": 128749725449995,
       "name": "[🏹] Shoot Arrows For Animals!"
+    },
+    {
+      "rank": 31,
+      "universeId": 10774071683,
+      "placeId": 90296841634441,
+      "name": "[🐟] Fish For Sea Animals"
     },
     {
       "rank": 32,
@@ -238,15 +238,15 @@
     },
     {
       "rank": 40,
-      "universeId": 10768905764,
-      "placeId": 80392427444524,
-      "name": "Build Your World! 🔨"
-    },
-    {
-      "rank": 41,
       "universeId": 10770730129,
       "placeId": 106931373443671,
       "name": "Ragdoll Soccer"
+    },
+    {
+      "rank": 41,
+      "universeId": 10768905764,
+      "placeId": 80392427444524,
+      "name": "Build Your World! 🔨"
     },
     {
       "rank": 42,
@@ -262,15 +262,15 @@
     },
     {
       "rank": 44,
-      "universeId": 10772066587,
-      "placeId": 91246277860636,
-      "name": "NIGHT WITH OPAH"
-    },
-    {
-      "rank": 45,
       "universeId": 10762636904,
       "placeId": 132929771812494,
       "name": "[🦃UPD] Cameraman Tower Defense"
+    },
+    {
+      "rank": 45,
+      "universeId": 10772066587,
+      "placeId": 91246277860636,
+      "name": "NIGHT WITH OPAH"
     },
     {
       "rank": 46,
@@ -286,75 +286,75 @@
     },
     {
       "rank": 48,
-      "universeId": 10701622575,
-      "placeId": 133151378618377,
-      "name": "Steal an Anime Pack"
-    },
-    {
-      "rank": 49,
-      "universeId": 703124385,
-      "placeId": 1962086868,
-      "name": "Tower of Hell"
-    },
-    {
-      "rank": 50,
-      "universeId": 10772281976,
-      "placeId": 76870565041704,
-      "name": "[THROWING DISC!] Unstable SMP FFA"
-    },
-    {
-      "rank": 51,
-      "universeId": 8172250815,
-      "placeId": 128828638194450,
-      "name": "[UPD 1] STAND OUT"
-    },
-    {
-      "rank": 52,
-      "universeId": 10774303559,
-      "placeId": 107192230357786,
-      "name": "Fish for Secret Animals!"
-    },
-    {
-      "rank": 53,
-      "universeId": 4839802560,
-      "placeId": 13967668166,
-      "name": "LifeTogether 🏠 RP [💃🏻 STEPS]"
-    },
-    {
-      "rank": 54,
-      "universeId": 10769671316,
-      "placeId": 77900175935766,
-      "name": "[🦧 BOSS] Survive Your Ideas"
-    },
-    {
-      "rank": 55,
-      "universeId": 7436755782,
-      "placeId": 126884695634066,
-      "name": "[⚖️] Grow a Garden 🌶️"
-    },
-    {
-      "rank": 56,
       "universeId": 10774769300,
       "placeId": 92700843475315,
       "name": "[EVENT] River Hunter"
     },
     {
-      "rank": 57,
+      "rank": 49,
+      "universeId": 10701622575,
+      "placeId": 133151378618377,
+      "name": "Steal an Anime Pack"
+    },
+    {
+      "rank": 50,
+      "universeId": 703124385,
+      "placeId": 1962086868,
+      "name": "Tower of Hell"
+    },
+    {
+      "rank": 51,
+      "universeId": 10772281976,
+      "placeId": 76870565041704,
+      "name": "[THROWING DISC!] Unstable SMP FFA"
+    },
+    {
+      "rank": 52,
+      "universeId": 8172250815,
+      "placeId": 128828638194450,
+      "name": "[UPD 1] STAND OUT"
+    },
+    {
+      "rank": 53,
+      "universeId": 10774303559,
+      "placeId": 107192230357786,
+      "name": "Fish for Secret Animals!"
+    },
+    {
+      "rank": 54,
       "universeId": 9584852943,
       "placeId": 95082159892680,
       "name": "+1 Speed Keyboard Escape | Candy & Chocolate"
     },
     {
-      "rank": 58,
-      "universeId": 1831550657,
-      "placeId": 5233782396,
-      "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals"
+      "rank": 55,
+      "universeId": 4839802560,
+      "placeId": 13967668166,
+      "name": "LifeTogether 🏠 RP [💃🏻 STEPS]"
     },
     {
-      "rank": 59,
+      "rank": 56,
+      "universeId": 7436755782,
+      "placeId": 126884695634066,
+      "name": "[⚖️] Grow a Garden 🌶️"
+    },
+    {
+      "rank": 57,
+      "universeId": 10769671316,
+      "placeId": 77900175935766,
+      "name": "[🦧 BOSS] Survive Your Ideas"
+    },
+    {
+      "rank": 58,
       "universeId": 10775759810,
       "placeId": 131424283721618,
       "name": "Cast For Fish!"
+    },
+    {
+      "rank": 59,
+      "universeId": 1831550657,
+      "placeId": 5233782396,
+      "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals"
     },
     {
       "rank": 60,
@@ -382,51 +382,51 @@
     },
     {
       "rank": 64,
-      "universeId": 7529591378,
-      "placeId": 80681221431821,
-      "name": "[THANKSGIVING] Practical Basketball"
-    },
-    {
-      "rank": 65,
-      "universeId": 10773149360,
-      "placeId": 73547227876007,
-      "name": "Half Punch"
-    },
-    {
-      "rank": 66,
       "universeId": 7089588429,
       "placeId": 131378148336503,
       "name": "(TOWING x LIMITED UPDATE 🎃) Drag Drive Simulator"
     },
     {
-      "rank": 67,
+      "rank": 65,
       "universeId": 10769851460,
       "placeId": 83048653078891,
       "name": "[🏦HEISTS] Criminal Simulator 💰"
     },
     {
-      "rank": 68,
-      "universeId": 10773971368,
-      "placeId": 129516203408961,
-      "name": "[💈] Barber Empire"
+      "rank": 66,
+      "universeId": 10773149360,
+      "placeId": 73547227876007,
+      "name": "Half Punch"
     },
     {
-      "rank": 69,
-      "universeId": 10771533429,
-      "placeId": 93349291960708,
-      "name": "Stay the Night"
-    },
-    {
-      "rank": 70,
+      "rank": 67,
       "universeId": 10771421858,
       "placeId": 119958473240233,
       "name": "DONT SPLASH"
     },
     {
-      "rank": 71,
+      "rank": 68,
+      "universeId": 10771533429,
+      "placeId": 93349291960708,
+      "name": "Stay the Night"
+    },
+    {
+      "rank": 69,
+      "universeId": 10773971368,
+      "placeId": 129516203408961,
+      "name": "[💈] Barber Empire"
+    },
+    {
+      "rank": 70,
       "universeId": 9978329815,
       "placeId": 74188431054457,
       "name": "Mukbang Game [Testing]🍚🏮!"
+    },
+    {
+      "rank": 71,
+      "universeId": 7529591378,
+      "placeId": 80681221431821,
+      "name": "[THANKSGIVING] Practical Basketball"
     },
     {
       "rank": 72,
@@ -448,9 +448,9 @@
     },
     {
       "rank": 75,
-      "universeId": 10771053183,
-      "placeId": 93898234979111,
-      "name": "[🐟] Net a Fish!"
+      "universeId": 10774810800,
+      "placeId": 124780003623150,
+      "name": "Realistic Ragdoll MMA 🥊"
     },
     {
       "rank": 76,
@@ -460,39 +460,39 @@
     },
     {
       "rank": 77,
-      "universeId": 10774810800,
-      "placeId": 124780003623150,
-      "name": "Realistic Ragdoll MMA 🥊"
+      "universeId": 10771053183,
+      "placeId": 93898234979111,
+      "name": "[🐟] Net a Fish!"
     },
     {
       "rank": 78,
-      "universeId": 10740316645,
-      "placeId": 79389059854988,
-      "name": "⛏️ My Anime Mine"
+      "universeId": 4049246711,
+      "placeId": 11379739543,
+      "name": "Timebomb Duels [Alpha]"
     },
     {
       "rank": 79,
-      "universeId": 2619619496,
-      "placeId": 6872265039,
-      "name": "[🦃Cornucopia] BedWars"
-    },
-    {
-      "rank": 80,
       "universeId": 3240075297,
       "placeId": 8481844229,
       "name": "Berry Avenue 🏠 RP"
     },
     {
+      "rank": 80,
+      "universeId": 10740316645,
+      "placeId": 79389059854988,
+      "name": "⛏️ My Anime Mine"
+    },
+    {
       "rank": 81,
-      "universeId": 10775016983,
-      "placeId": 137036044759831,
-      "name": "Mechs vs Kaiju's Ragdoll | [MAJOR UPDATE]"
+      "universeId": 2619619496,
+      "placeId": 6872265039,
+      "name": "[🦃Cornucopia] BedWars"
     },
     {
       "rank": 82,
-      "universeId": 4049246711,
-      "placeId": 11379739543,
-      "name": "Timebomb Duels [Alpha]"
+      "universeId": 2936053166,
+      "placeId": 7554888362,
+      "name": "[🦑] Squid Game X"
     },
     {
       "rank": 83,
@@ -502,21 +502,21 @@
     },
     {
       "rank": 84,
-      "universeId": 9294074907,
-      "placeId": 90568084448279,
-      "name": "[FPS] One Tap"
+      "universeId": 10775016983,
+      "placeId": 137036044759831,
+      "name": "Mechs vs Kaiju's Ragdoll | [MAJOR UPDATE]"
     },
     {
       "rank": 85,
-      "universeId": 2936053166,
-      "placeId": 7554888362,
-      "name": "[🦑] Squid Game X"
-    },
-    {
-      "rank": 86,
       "universeId": 10774204862,
       "placeId": 98979169190595,
       "name": "Volley Bomb"
+    },
+    {
+      "rank": 86,
+      "universeId": 9294074907,
+      "placeId": 90568084448279,
+      "name": "[FPS] One Tap"
     },
     {
       "rank": 87,
@@ -526,39 +526,39 @@
     },
     {
       "rank": 88,
-      "universeId": 7554119808,
-      "placeId": 75387700043737,
-      "name": "🛍️ My Avatar!"
-    },
-    {
-      "rank": 89,
       "universeId": 10775166914,
       "placeId": 73517220164735,
       "name": "[REVAMP] Dummy Lab🩸"
     },
     {
-      "rank": 90,
+      "rank": 89,
       "universeId": 9469309118,
       "placeId": 113450637321433,
       "name": "Build a Bakery 🥐"
     },
     {
-      "rank": 91,
+      "rank": 90,
       "universeId": 10775965400,
       "placeId": 122281262593872,
       "name": "Wake Up An Animal"
     },
     {
+      "rank": 91,
+      "universeId": 7554119808,
+      "placeId": 75387700043737,
+      "name": "🛍️ My Avatar!"
+    },
+    {
       "rank": 92,
-      "universeId": 10733617110,
-      "placeId": 93660722909304,
-      "name": "[BE THE MONSTER] Fatal Baboons"
+      "universeId": 5595353122,
+      "placeId": 16205713724,
+      "name": "[🎃UPD + 🦃] Project Slayers 2"
     },
     {
       "rank": 93,
-      "universeId": 10774497765,
-      "placeId": 135753683017288,
-      "name": "[🏴‍☠️] Throw a Friend for Monsters"
+      "universeId": 10004244222,
+      "placeId": 89469502395769,
+      "name": "[🦃] Kick a Lucky Block"
     },
     {
       "rank": 94,
@@ -568,15 +568,15 @@
     },
     {
       "rank": 95,
-      "universeId": 5595353122,
-      "placeId": 16205713724,
-      "name": "[🎃UPD + 🦃] Project Slayers 2"
+      "universeId": 10733617110,
+      "placeId": 93660722909304,
+      "name": "[BE THE MONSTER] Fatal Baboons"
     },
     {
       "rank": 96,
-      "universeId": 10004244222,
-      "placeId": 89469502395769,
-      "name": "[🦃] Kick a Lucky Block"
+      "universeId": 10774497765,
+      "placeId": 135753683017288,
+      "name": "[🏴‍☠️] Throw a Friend for Monsters"
     },
     {
       "rank": 97,
@@ -586,15 +586,15 @@
     },
     {
       "rank": 98,
-      "universeId": 5283219861,
-      "placeId": 15318113891,
-      "name": "Fatal Apes"
-    },
-    {
-      "rank": 99,
       "universeId": 10057403337,
       "placeId": 84556640895285,
       "name": "[🦃] Deagle Arena"
+    },
+    {
+      "rank": 99,
+      "universeId": 5283219861,
+      "placeId": 15318113891,
+      "name": "Fatal Apes"
     }
   ]
 }
