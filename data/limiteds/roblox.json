@@ -81,7 +81,7 @@
     "price": 1500,
     "remaining": 0,
     "totalQuantity": 28035,
-    "lowestResale": 3050
+    "lowestResale": 3096
   },
   "22970114": {
     "id": 22970114,
@@ -310,18 +310,6 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8990
-  },
-  "152980504": {
-    "id": 152980504,
-    "name": "Aqua Fabergé Egg of Never-ending Winter",
-    "type": "Hat",
-    "created": "2014-04-11T04:54:20.26Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 20638,
-    "lowestResale": 465
   },
   "152980562": {
     "id": 152980562,
@@ -1173,7 +1161,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 1001,
-    "lowestResale": 8186
+    "lowestResale": 8184
   },
   "161265873": {
     "id": 161265873,
@@ -2613,7 +2601,7 @@
     "price": 101,
     "remaining": 0,
     "totalQuantity": 3483,
-    "lowestResale": 19397
+    "lowestResale": 19396
   },
   "225921650": {
     "id": 225921650,
@@ -3489,7 +3477,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 301,
-    "lowestResale": 221841
+    "lowestResale": 221840
   },
   "280896465": {
     "id": 280896465,
@@ -3585,7 +3573,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 5052
+    "lowestResale": 5105
   },
   "287424705": {
     "id": 287424705,
@@ -3741,7 +3729,7 @@
     "price": 500,
     "remaining": 0,
     "totalQuantity": 1001,
-    "lowestResale": 52000
+    "lowestResale": 22300
   },
   "295456141": {
     "id": 295456141,
@@ -4917,7 +4905,7 @@
     "price": 400,
     "remaining": 1,
     "totalQuantity": 72346,
-    "lowestResale": 11999
+    "lowestResale": 12000
   },
   "402302006": {
     "id": 402302006,
@@ -5949,7 +5937,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3300
+    "lowestResale": 3299
   },
   "562478132": {
     "id": 562478132,
@@ -6153,7 +6141,7 @@
     "price": 2000,
     "remaining": 0,
     "totalQuantity": 850,
-    "lowestResale": 4919
+    "lowestResale": 4918
   },
   "628769409": {
     "id": 628769409,
@@ -6681,7 +6669,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 10005,
-    "lowestResale": 1800
+    "lowestResale": 1931
   },
   "1180419124": {
     "id": 1180419124,
@@ -6777,7 +6765,7 @@
     "price": 10,
     "remaining": 0,
     "totalQuantity": 47649,
-    "lowestResale": 2290
+    "lowestResale": 2285
   },
   "1191119857": {
     "id": 1191119857,
@@ -6945,7 +6933,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 20033,
-    "lowestResale": 3050
+    "lowestResale": 3045
   },
   "1230404580": {
     "id": 1230404580,
@@ -6981,7 +6969,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 14345,
-    "lowestResale": 5200
+    "lowestResale": 5199
   },
   "1241182524": {
     "id": 1241182524,
@@ -7905,7 +7893,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 5239277,
-    "lowestResale": 200
+    "lowestResale": 258
   },
   "2528067691": {
     "id": 2528067691,
@@ -8337,7 +8325,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 6467908,
-    "lowestResale": 244
+    "lowestResale": 243
   },
   "3798231832": {
     "id": 3798231832,
@@ -8469,7 +8457,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 163207,
-    "lowestResale": 8550
+    "lowestResale": 8549
   },
   "10159622004": {
     "id": 10159622004,
@@ -8937,7 +8925,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 73124,
-    "lowestResale": 9997
+    "lowestResale": 9995
   },
   "11123556756": {
     "id": 11123556756,
@@ -9405,7 +9393,7 @@
     "price": 700,
     "remaining": 0,
     "totalQuantity": 19981,
-    "lowestResale": 608
+    "lowestResale": 610
   },
   "12716490360": {
     "id": 12716490360,
@@ -9439,7 +9427,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9470561,
+    "remaining": 9470560,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9489,7 +9477,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1203707,
-    "lowestResale": 3500
+    "lowestResale": 3305
   },
   "133968423526059": {
     "id": 133968423526059,
@@ -9585,7 +9573,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 50038,
-    "lowestResale": 1975
+    "lowestResale": 1994
   },
   "142690107235068": {
     "id": 142690107235068,
@@ -9741,7 +9729,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1591273,
-    "lowestResale": 578
+    "lowestResale": 570
   },
   "157682378774406": {
     "id": 157682378774406,
@@ -9897,7 +9885,7 @@
     "price": 40000,
     "remaining": 0,
     "totalQuantity": 1849,
-    "lowestResale": 8888
+    "lowestResale": 7500
   },
   "16744155285": {
     "id": 16744155285,
@@ -10041,7 +10029,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1526149,
-    "lowestResale": 1647
+    "lowestResale": 1590
   },
   "17756304457": {
     "id": 17756304457,
@@ -10727,6 +10715,18 @@
     "totalQuantity": 3729662,
     "lowestResale": 299
   },
+  "4773588762": {
+    "id": 4773588762,
+    "name": "Despacitegg",
+    "type": "Hat",
+    "created": "2020-03-12T23:04:05.09Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 2426313,
+    "lowestResale": 249
+  },
   "4773591735": {
     "id": 4773591735,
     "name": "Saber Boss Egg",
@@ -11097,7 +11097,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 43511,
-    "lowestResale": 616
+    "lowestResale": 615
   },
   "6807137300": {
     "id": 6807137300,
