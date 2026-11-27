@@ -69,7 +69,7 @@
     "price": 2500,
     "remaining": 1,
     "totalQuantity": 63541,
-    "lowestResale": 8150
+    "lowestResale": 8200
   },
   "20011925": {
     "id": 20011925,
@@ -311,6 +311,18 @@
     "totalQuantity": 3907,
     "lowestResale": 8990
   },
+  "152980504": {
+    "id": 152980504,
+    "name": "Aqua Fabergé Egg of Never-ending Winter",
+    "type": "Hat",
+    "created": "2014-04-11T04:54:20.26Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 20638,
+    "lowestResale": 471
+  },
   "152980562": {
     "id": 152980562,
     "name": "Elegant Fabergé Egg of Fancy Times",
@@ -417,7 +429,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 82309,
-    "lowestResale": 247
+    "lowestResale": 246
   },
   "152980777": {
     "id": 152980777,
@@ -3165,7 +3177,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 3641,
-    "lowestResale": 14053
+    "lowestResale": 14051
   },
   "253153907": {
     "id": 253153907,
@@ -3477,7 +3489,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 301,
-    "lowestResale": 221849
+    "lowestResale": 221848
   },
   "280896465": {
     "id": 280896465,
@@ -3573,7 +3585,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 5068
+    "lowestResale": 5063
   },
   "287424705": {
     "id": 287424705,
@@ -4173,7 +4185,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 137714,
-    "lowestResale": 275
+    "lowestResale": 273
   },
   "327318111": {
     "id": 327318111,
@@ -4905,7 +4917,7 @@
     "price": 400,
     "remaining": 1,
     "totalQuantity": 72346,
-    "lowestResale": 11800
+    "lowestResale": 11999
   },
   "402302006": {
     "id": 402302006,
@@ -5433,7 +5445,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 1938,
-    "lowestResale": 8872
+    "lowestResale": 8000
   },
   "483899424": {
     "id": 483899424,
@@ -5937,7 +5949,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 2000,
-    "lowestResale": 3310
+    "lowestResale": 3308
   },
   "562478132": {
     "id": 562478132,
@@ -6873,7 +6885,7 @@
     "price": 250,
     "remaining": 0,
     "totalQuantity": 12166,
-    "lowestResale": 2650
+    "lowestResale": 2750
   },
   "1223107595": {
     "id": 1223107595,
@@ -7509,7 +7521,7 @@
     "price": 10000,
     "remaining": 0,
     "totalQuantity": 3180,
-    "lowestResale": 1545389
+    "lowestResale": 1545388
   },
   "1744068357": {
     "id": 1744068357,
@@ -7545,7 +7557,7 @@
     "price": 75,
     "remaining": 0,
     "totalQuantity": 19995,
-    "lowestResale": 1350
+    "lowestResale": 1351
   },
   "1744094169": {
     "id": 1744094169,
@@ -7881,7 +7893,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 781668,
-    "lowestResale": 239
+    "lowestResale": 240
   },
   "2528066922": {
     "id": 2528066922,
@@ -7893,7 +7905,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 5239277,
-    "lowestResale": 245
+    "lowestResale": 246
   },
   "2528067691": {
     "id": 2528067691,
@@ -8253,7 +8265,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 3675,
-    "lowestResale": 10485
+    "lowestResale": 10484
   },
   "3210243135": {
     "id": 3210243135,
@@ -8349,7 +8361,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4120993,
-    "lowestResale": 235
+    "lowestResale": 236
   },
   "3798243238": {
     "id": 3798243238,
@@ -8421,7 +8433,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 251516,
-    "lowestResale": 38000
+    "lowestResale": 37500
   },
   "10159606132": {
     "id": 10159606132,
@@ -8925,7 +8937,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 73124,
-    "lowestResale": 9998
+    "lowestResale": 9900
   },
   "11123556756": {
     "id": 11123556756,
@@ -9333,7 +9345,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1116368,
-    "lowestResale": 297
+    "lowestResale": 296
   },
   "123621683179706": {
     "id": 123621683179706,
@@ -9573,7 +9585,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 50038,
-    "lowestResale": 1974
+    "lowestResale": 1975
   },
   "142690107235068": {
     "id": 142690107235068,
@@ -9633,7 +9645,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 311801,
-    "lowestResale": 7000
+    "lowestResale": 6700
   },
   "14524326503": {
     "id": 14524326503,
@@ -9801,7 +9813,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 140083,
-    "lowestResale": 2137
+    "lowestResale": 2140
   },
   "161273774968765": {
     "id": 161273774968765,
@@ -10041,7 +10053,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 388226,
-    "lowestResale": 5230
+    "lowestResale": 5000
   },
   "180840496952935": {
     "id": 180840496952935,
@@ -10101,7 +10113,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 5006,
-    "lowestResale": 4693
+    "lowestResale": 4690
   },
   "196108949920441": {
     "id": 196108949920441,
@@ -10691,18 +10703,6 @@
     "totalQuantity": 3520336,
     "lowestResale": 246
   },
-  "4773569689": {
-    "id": 4773569689,
-    "name": "Epic Egg",
-    "type": "Hat",
-    "created": "2020-03-12T22:55:46.31Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 4525697,
-    "lowestResale": 250
-  },
   "4773579034": {
     "id": 4773579034,
     "name": "Brainfreeze Egg",
@@ -10797,7 +10797,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 50027,
-    "lowestResale": 2857
+    "lowestResale": 2500
   },
   "504989506044": {
     "id": 504989506044,
@@ -11097,7 +11097,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 43511,
-    "lowestResale": 612
+    "lowestResale": 611
   },
   "6807137300": {
     "id": 6807137300,
@@ -11469,7 +11469,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 17268,
-    "lowestResale": 2100
+    "lowestResale": 1967
   },
   "83386772340225": {
     "id": 83386772340225,
