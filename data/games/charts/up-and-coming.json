@@ -10,15 +10,15 @@
     },
     {
       "rank": 2,
-      "universeId": 10773971368,
-      "placeId": 129516203408961,
-      "name": "[💈] Barber Empire"
-    },
-    {
-      "rank": 3,
       "universeId": 10774254581,
       "placeId": 104950695908342,
       "name": "[🚇] Find The Anomaly"
+    },
+    {
+      "rank": 3,
+      "universeId": 10773971368,
+      "placeId": 129516203408961,
+      "name": "[💈] Barber Empire"
     },
     {
       "rank": 4,
@@ -214,15 +214,15 @@
     },
     {
       "rank": 36,
-      "universeId": 10774632516,
-      "placeId": 135079017614182,
-      "name": "[UPD 3] HITBLOX"
-    },
-    {
-      "rank": 37,
       "universeId": 10773167150,
       "placeId": 95651261712519,
       "name": "evil crawling things"
+    },
+    {
+      "rank": 37,
+      "universeId": 10774632516,
+      "placeId": 135079017614182,
+      "name": "[UPD 3] HITBLOX"
     },
     {
       "rank": 38,
@@ -238,27 +238,27 @@
     },
     {
       "rank": 40,
-      "universeId": 10774066980,
-      "placeId": 116361821294893,
-      "name": "[TITANS] Cambria - Creature Survival"
-    },
-    {
-      "rank": 41,
       "universeId": 10773557013,
       "placeId": 105477723680912,
       "name": "Proof: Cryptid Cam [UPD2]"
     },
     {
-      "rank": 42,
-      "universeId": 10775447387,
-      "placeId": 111827416977109,
-      "name": "[SQUISHY!] Deep Clean ASMR 🧽"
+      "rank": 41,
+      "universeId": 10774066980,
+      "placeId": 116361821294893,
+      "name": "[TITANS] Cambria - Creature Survival"
     },
     {
-      "rank": 43,
+      "rank": 42,
       "universeId": 10773721222,
       "placeId": 107816398678973,
       "name": "Knockout Legends"
+    },
+    {
+      "rank": 43,
+      "universeId": 10775447387,
+      "placeId": 111827416977109,
+      "name": "[SQUISHY!] Deep Clean ASMR 🧽"
     },
     {
       "rank": 44,
@@ -286,21 +286,21 @@
     },
     {
       "rank": 48,
-      "universeId": 10774810800,
-      "placeId": 124780003623150,
-      "name": "Realistic Ragdoll MMA 🥊"
-    },
-    {
-      "rank": 49,
       "universeId": 10773551785,
       "placeId": 75205943460003,
       "name": "Aero"
     },
     {
-      "rank": 50,
+      "rank": 49,
       "universeId": 10775041696,
       "placeId": 138199295184592,
       "name": "[🦃] THE PHONE"
+    },
+    {
+      "rank": 50,
+      "universeId": 10774810800,
+      "placeId": 124780003623150,
+      "name": "Realistic Ragdoll MMA 🥊"
     },
     {
       "rank": 51,
@@ -316,21 +316,21 @@
     },
     {
       "rank": 53,
-      "universeId": 10773616048,
-      "placeId": 89727004942007,
-      "name": "Throw Food For Baddies"
-    },
-    {
-      "rank": 54,
       "universeId": 10777464027,
       "placeId": 86120014865160,
       "name": "[🩸CHOSO+MAHITO🤚] Jujutsu Ragdoll Sandbox"
     },
     {
+      "rank": 54,
+      "universeId": 10774789440,
+      "placeId": 94479384469367,
+      "name": "Don't Let Sheldon Be Late"
+    },
+    {
       "rank": 55,
-      "universeId": 10775361815,
-      "placeId": 136449853832751,
-      "name": "Realistic Hair"
+      "universeId": 10773616048,
+      "placeId": 89727004942007,
+      "name": "Throw Food For Baddies"
     },
     {
       "rank": 56,
@@ -340,27 +340,27 @@
     },
     {
       "rank": 57,
-      "universeId": 10774789440,
-      "placeId": 94479384469367,
-      "name": "Don't Let Sheldon Be Late"
-    },
-    {
-      "rank": 58,
       "universeId": 10769692599,
       "placeId": 127297299112141,
       "name": "AMPED"
     },
     {
-      "rank": 59,
-      "universeId": 10774994970,
-      "placeId": 80557686191437,
-      "name": "Backyard Power Tycoon"
+      "rank": 58,
+      "universeId": 10775361815,
+      "placeId": 136449853832751,
+      "name": "Realistic Hair"
     },
     {
-      "rank": 60,
+      "rank": 59,
       "universeId": 10775965400,
       "placeId": 122281262593872,
       "name": "Wake Up An Animal"
+    },
+    {
+      "rank": 60,
+      "universeId": 10774994970,
+      "placeId": 80557686191437,
+      "name": "Backyard Power Tycoon"
     },
     {
       "rank": 61,
@@ -382,21 +382,21 @@
     },
     {
       "rank": 64,
-      "universeId": 10775377114,
-      "placeId": 140059366102425,
-      "name": "[🥊] Tumble Dash"
-    },
-    {
-      "rank": 65,
       "universeId": 10774115938,
       "placeId": 116290597432314,
       "name": "[UPDATE] Oakland Psychiatric Facility"
     },
     {
-      "rank": 66,
+      "rank": 65,
       "universeId": 10773092464,
       "placeId": 109592006922775,
       "name": "[New Class 🧲👑] Unscrew Every Screw"
+    },
+    {
+      "rank": 66,
+      "universeId": 10775377114,
+      "placeId": 140059366102425,
+      "name": "[🥊] Tumble Dash"
     },
     {
       "rank": 67,
@@ -412,27 +412,27 @@
     },
     {
       "rank": 69,
-      "universeId": 10769411520,
-      "placeId": 84400214613857,
-      "name": "[UPD] AFK Sorting"
-    },
-    {
-      "rank": 70,
       "universeId": 10773059991,
       "placeId": 126810262789538,
       "name": "Clean The Bugs 🐜"
     },
     {
+      "rank": 70,
+      "universeId": 10769411520,
+      "placeId": 84400214613857,
+      "name": "[UPD] AFK Sorting"
+    },
+    {
       "rank": 71,
-      "universeId": 10774223573,
-      "placeId": 73435402573922,
-      "name": "[COSMETICS+QOL] +1 Leviathan Evolution"
+      "universeId": 10773589437,
+      "placeId": 133199356424852,
+      "name": "[🔵NEW!] Bloxy Feud!"
     },
     {
       "rank": 72,
-      "universeId": 10771620506,
-      "placeId": 76827275723724,
-      "name": "[⛄ UPD] Build a Bank"
+      "universeId": 10774223573,
+      "placeId": 73435402573922,
+      "name": "[COSMETICS+QOL] +1 Leviathan Evolution"
     },
     {
       "rank": 73,
@@ -454,9 +454,9 @@
     },
     {
       "rank": 76,
-      "universeId": 10773926254,
-      "placeId": 140431845542654,
-      "name": "Bloody Ragdoll Physics 🩸"
+      "universeId": 10771620506,
+      "placeId": 76827275723724,
+      "name": "[⛄ UPD] Build a Bank"
     },
     {
       "rank": 77,
@@ -466,9 +466,9 @@
     },
     {
       "rank": 78,
-      "universeId": 10773589437,
-      "placeId": 133199356424852,
-      "name": "[🔵NEW!] Bloxy Feud!"
+      "universeId": 10773926254,
+      "placeId": 140431845542654,
+      "name": "Bloody Ragdoll Physics 🩸"
     },
     {
       "rank": 79,
@@ -478,27 +478,27 @@
     },
     {
       "rank": 80,
-      "universeId": 10775690703,
-      "placeId": 77792272690728,
-      "name": "New York Taxi Simulator 🚕"
-    },
-    {
-      "rank": 81,
       "universeId": 10774497765,
       "placeId": 135753683017288,
       "name": "[🏴‍☠️] Throw a Friend for Monsters"
     },
     {
-      "rank": 82,
+      "rank": 81,
       "universeId": 10774987471,
       "placeId": 94106144703688,
       "name": "Lucky Block Race"
     },
     {
+      "rank": 82,
+      "universeId": 10775690703,
+      "placeId": 77792272690728,
+      "name": "New York Taxi Simulator 🚕"
+    },
+    {
       "rank": 83,
-      "universeId": 10771533429,
-      "placeId": 93349291960708,
-      "name": "Stay the Night"
+      "universeId": 10774580855,
+      "placeId": 121518208893583,
+      "name": "[🦃]She Is Listening.[HORROR]"
     },
     {
       "rank": 84,
@@ -508,15 +508,15 @@
     },
     {
       "rank": 85,
-      "universeId": 10774580855,
-      "placeId": 121518208893583,
-      "name": "[🦃]She Is Listening.[HORROR]"
+      "universeId": 10771533429,
+      "placeId": 93349291960708,
+      "name": "Stay the Night"
     },
     {
       "rank": 86,
-      "universeId": 10775452129,
-      "placeId": 127655305190243,
-      "name": "Raise a Mei Mei [WHISPERING WOODS🌲]"
+      "universeId": 10776327410,
+      "placeId": 120996129461918,
+      "name": "Solve the Case"
     },
     {
       "rank": 87,
@@ -526,33 +526,33 @@
     },
     {
       "rank": 88,
-      "universeId": 10776327410,
-      "placeId": 120996129461918,
-      "name": "Solve the Case"
+      "universeId": 10775452129,
+      "placeId": 127655305190243,
+      "name": "Raise a Mei Mei [WHISPERING WOODS🌲]"
     },
     {
       "rank": 89,
-      "universeId": 10774598130,
-      "placeId": 76220613434450,
-      "name": "Plane Crash Physics"
+      "universeId": 10775281234,
+      "placeId": 90504535298738,
+      "name": "Battle With Ideas"
     },
     {
       "rank": 90,
-      "universeId": 10776778943,
-      "placeId": 93605461718772,
-      "name": "Superpower Ragdoll Physics 🩸"
-    },
-    {
-      "rank": 91,
       "universeId": 10778535258,
       "placeId": 114871316665849,
       "name": "The Jupiter Incident 🔑"
     },
     {
+      "rank": 91,
+      "universeId": 10772661560,
+      "placeId": 113570827833323,
+      "name": "[UPD 3] Getaway Crew"
+    },
+    {
       "rank": 92,
-      "universeId": 10775281234,
-      "placeId": 90504535298738,
-      "name": "Battle With Ideas"
+      "universeId": 10774598130,
+      "placeId": 76220613434450,
+      "name": "Plane Crash Physics"
     },
     {
       "rank": 93,
@@ -562,21 +562,21 @@
     },
     {
       "rank": 94,
-      "universeId": 10772661560,
-      "placeId": 113570827833323,
-      "name": "[UPD 3] Getaway Crew"
+      "universeId": 10776778943,
+      "placeId": 93605461718772,
+      "name": "Superpower Ragdoll Physics 🩸"
     },
     {
       "rank": 95,
-      "universeId": 10774646539,
-      "placeId": 112146301142141,
-      "name": "Run a Christmas Tree Lot"
-    },
-    {
-      "rank": 96,
       "universeId": 10773908876,
       "placeId": 127218464212704,
       "name": "Conquer the Galaxy"
+    },
+    {
+      "rank": 96,
+      "universeId": 10774646539,
+      "placeId": 112146301142141,
+      "name": "Run a Christmas Tree Lot"
     },
     {
       "rank": 97,
