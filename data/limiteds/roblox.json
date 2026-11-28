@@ -69,7 +69,7 @@
     "price": 2500,
     "remaining": 1,
     "totalQuantity": 63541,
-    "lowestResale": 9799
+    "lowestResale": 9800
   },
   "20011925": {
     "id": 20011925,
@@ -81,7 +81,7 @@
     "price": 1500,
     "remaining": 0,
     "totalQuantity": 28035,
-    "lowestResale": 3499
+    "lowestResale": 3498
   },
   "22970114": {
     "id": 22970114,
@@ -310,18 +310,6 @@
     "remaining": 0,
     "totalQuantity": 3907,
     "lowestResale": 8500
-  },
-  "152980442": {
-    "id": 152980442,
-    "name": "Egg of Luck",
-    "type": "Hat",
-    "created": "2014-04-11T04:52:46.493Z",
-    "kind": "Limited",
-    "onSale": false,
-    "price": 0,
-    "remaining": 0,
-    "totalQuantity": 93465,
-    "lowestResale": 321
   },
   "152980450": {
     "id": 152980450,
@@ -849,7 +837,7 @@
     "price": 150,
     "remaining": 0,
     "totalQuantity": 1011,
-    "lowestResale": 6635
+    "lowestResale": 6633
   },
   "155504507": {
     "id": 155504507,
@@ -3189,7 +3177,7 @@
     "price": 1000,
     "remaining": 0,
     "totalQuantity": 3641,
-    "lowestResale": 13891
+    "lowestResale": 13889
   },
   "253153907": {
     "id": 253153907,
@@ -3597,7 +3585,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 2501,
-    "lowestResale": 5063
+    "lowestResale": 5052
   },
   "287424705": {
     "id": 287424705,
@@ -4761,7 +4749,7 @@
     "price": 25000,
     "remaining": 0,
     "totalQuantity": 1194,
-    "lowestResale": 29732
+    "lowestResale": 29731
   },
   "383507092": {
     "id": 383507092,
@@ -4929,7 +4917,7 @@
     "price": 400,
     "remaining": 1,
     "totalQuantity": 72346,
-    "lowestResale": 13399
+    "lowestResale": 13450
   },
   "402302006": {
     "id": 402302006,
@@ -5697,7 +5685,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 321672,
-    "lowestResale": 599
+    "lowestResale": 600
   },
   "532254782": {
     "id": 532254782,
@@ -7125,7 +7113,7 @@
     "price": 200,
     "remaining": 0,
     "totalQuantity": 8590,
-    "lowestResale": 1000
+    "lowestResale": 900
   },
   "1402319378": {
     "id": 1402319378,
@@ -7269,7 +7257,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 3702689,
-    "lowestResale": 214
+    "lowestResale": 248
   },
   "1556235379": {
     "id": 1556235379,
@@ -7917,7 +7905,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 5239277,
-    "lowestResale": 260
+    "lowestResale": 257
   },
   "2528067691": {
     "id": 2528067691,
@@ -8253,7 +8241,7 @@
     "price": 80,
     "remaining": 0,
     "totalQuantity": 186285,
-    "lowestResale": 595
+    "lowestResale": 594
   },
   "3210189360": {
     "id": 3210189360,
@@ -8361,7 +8349,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4203154,
-    "lowestResale": 247
+    "lowestResale": 246
   },
   "3798239844": {
     "id": 3798239844,
@@ -8373,7 +8361,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4120993,
-    "lowestResale": 249
+    "lowestResale": 250
   },
   "3798243238": {
     "id": 3798243238,
@@ -8397,7 +8385,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 4395927,
-    "lowestResale": 320
+    "lowestResale": 322
   },
   "3798251754": {
     "id": 3798251754,
@@ -8445,7 +8433,7 @@
     "price": 300,
     "remaining": 0,
     "totalQuantity": 251516,
-    "lowestResale": 37500
+    "lowestResale": 39599
   },
   "10159606132": {
     "id": 10159606132,
@@ -8493,7 +8481,7 @@
     "price": 800,
     "remaining": 0,
     "totalQuantity": 43577,
-    "lowestResale": 7250
+    "lowestResale": 7300
   },
   "10159872338": {
     "id": 10159872338,
@@ -9451,7 +9439,7 @@
     "kind": "Collectible",
     "onSale": true,
     "price": 105,
-    "remaining": 9470187,
+    "remaining": 9470182,
     "totalQuantity": 10000000,
     "lowestResale": 105
   },
@@ -9561,7 +9549,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1129269,
-    "lowestResale": 200
+    "lowestResale": 247
   },
   "13753760092": {
     "id": 13753760092,
@@ -9669,7 +9657,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1246054,
-    "lowestResale": 2150
+    "lowestResale": 2199
   },
   "148231230019774": {
     "id": 148231230019774,
@@ -9777,7 +9765,7 @@
     "price": 100,
     "remaining": 0,
     "totalQuantity": 31822,
-    "lowestResale": 88877
+    "lowestResale": 88865
   },
   "159143520773591": {
     "id": 159143520773591,
@@ -9873,7 +9861,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 24383,
-    "lowestResale": 26500
+    "lowestResale": 26499
   },
   "16491634419": {
     "id": 16491634419,
@@ -9959,6 +9947,18 @@
     "totalQuantity": 2505,
     "lowestResale": 26907
   },
+  "16972690019": {
+    "id": 16972690019,
+    "name": "Atomic Blue Hairdo",
+    "type": "Hair",
+    "created": "2024-04-01T17:18:59.593Z",
+    "kind": "Limited",
+    "onSale": false,
+    "price": 0,
+    "remaining": 0,
+    "totalQuantity": 238685,
+    "lowestResale": 3400
+  },
   "170591579555886": {
     "id": 170591579555886,
     "name": "Blizzard Beast Mode",
@@ -10041,7 +10041,7 @@
     "price": 0,
     "remaining": 0,
     "totalQuantity": 1526149,
-    "lowestResale": 1645
+    "lowestResale": 1650
   },
   "17756304457": {
     "id": 17756304457,
@@ -11349,7 +11349,7 @@
     "price": 400,
     "remaining": 0,
     "totalQuantity": 11303,
-    "lowestResale": 1500
+    "lowestResale": 1499
   },
   "76292007466829": {
     "id": 76292007466829,
@@ -11457,7 +11457,7 @@
     "price": 750,
     "remaining": 0,
     "totalQuantity": 2680,
-    "lowestResale": 15000
+    "lowestResale": 21999
   },
   "82601882965079": {
     "id": 82601882965079,
