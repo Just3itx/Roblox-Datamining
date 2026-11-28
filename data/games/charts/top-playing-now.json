@@ -64,15 +64,15 @@
     },
     {
       "rank": 11,
-      "universeId": 5361032378,
-      "placeId": 15532962292,
-      "name": "Sol's RNG x Ado"
-    },
-    {
-      "rank": 12,
       "universeId": 66654135,
       "placeId": 142823291,
       "name": "Murder Mystery 2"
+    },
+    {
+      "rank": 12,
+      "universeId": 5361032378,
+      "placeId": 15532962292,
+      "name": "Sol's RNG x Ado"
     },
     {
       "rank": 13,
@@ -82,15 +82,15 @@
     },
     {
       "rank": 14,
-      "universeId": 5750914919,
-      "placeId": 16732694052,
-      "name": "Fisch 🦃 [FISCHGIVING]"
-    },
-    {
-      "rank": 15,
       "universeId": 3508322461,
       "placeId": 9391468976,
       "name": "[🎃] Jujutsu Shenanigans"
+    },
+    {
+      "rank": 15,
+      "universeId": 5750914919,
+      "placeId": 16732694052,
+      "name": "Fisch 🦃 [FISCHGIVING]"
     },
     {
       "rank": 16,
@@ -184,27 +184,27 @@
     },
     {
       "rank": 31,
-      "universeId": 7709344486,
-      "placeId": 109983668079237,
-      "name": "Steal a Brainrot"
-    },
-    {
-      "rank": 32,
       "universeId": 10774051115,
       "placeId": 126221718321318,
       "name": "Clean The Ballpit!"
     },
     {
-      "rank": 33,
+      "rank": 32,
       "universeId": 10774784939,
       "placeId": 128749725449995,
       "name": "[🏹] Shoot Arrows For Animals!"
     },
     {
-      "rank": 34,
+      "rank": 33,
       "universeId": 4658598196,
       "placeId": 13379208636,
       "name": "Attack on Titan Revolution"
+    },
+    {
+      "rank": 34,
+      "universeId": 7709344486,
+      "placeId": 109983668079237,
+      "name": "Steal a Brainrot"
     },
     {
       "rank": 35,
@@ -220,33 +220,33 @@
     },
     {
       "rank": 37,
-      "universeId": 10770604649,
-      "placeId": 83784149502814,
-      "name": "BloxNG [CRASH PHYSICS] 💥"
-    },
-    {
-      "rank": 38,
       "universeId": 10770730129,
       "placeId": 106931373443671,
       "name": "Ragdoll Soccer"
     },
     {
-      "rank": 39,
+      "rank": 38,
       "universeId": 10629695169,
       "placeId": 72858262610964,
       "name": "🤠 Tap Simulator REBORN"
     },
     {
-      "rank": 40,
-      "universeId": 10768905764,
-      "placeId": 80392427444524,
-      "name": "Build Your World! 🔨"
+      "rank": 39,
+      "universeId": 10770604649,
+      "placeId": 83784149502814,
+      "name": "BloxNG [CRASH PHYSICS] 💥"
     },
     {
-      "rank": 41,
+      "rank": 40,
       "universeId": 6931042565,
       "placeId": 73956553001240,
       "name": "[UPD] Volleyball Legends"
+    },
+    {
+      "rank": 41,
+      "universeId": 10768905764,
+      "placeId": 80392427444524,
+      "name": "Build Your World! 🔨"
     },
     {
       "rank": 42,
@@ -280,21 +280,21 @@
     },
     {
       "rank": 47,
-      "universeId": 10774303559,
-      "placeId": 107192230357786,
-      "name": "Fish for Secret Animals!"
-    },
-    {
-      "rank": 48,
       "universeId": 10775166914,
       "placeId": 73517220164735,
       "name": "[ARENA] Dummy Lab 🐂"
     },
     {
-      "rank": 49,
+      "rank": 48,
       "universeId": 4839802560,
       "placeId": 13967668166,
       "name": "LifeTogether 🏠 RP [💃🏻 STEPS]"
+    },
+    {
+      "rank": 49,
+      "universeId": 10774303559,
+      "placeId": 107192230357786,
+      "name": "Fish for Secret Animals!"
     },
     {
       "rank": 50,
@@ -304,9 +304,9 @@
     },
     {
       "rank": 51,
-      "universeId": 9167377564,
-      "placeId": 70411440483149,
-      "name": "100 Days at Sea"
+      "universeId": 10773971368,
+      "placeId": 129516203408961,
+      "name": "[💈] Barber Empire"
     },
     {
       "rank": 52,
@@ -316,27 +316,27 @@
     },
     {
       "rank": 53,
-      "universeId": 10773971368,
-      "placeId": 129516203408961,
-      "name": "[💈] Barber Empire"
+      "universeId": 9167377564,
+      "placeId": 70411440483149,
+      "name": "100 Days at Sea"
     },
     {
       "rank": 54,
-      "universeId": 10762636904,
-      "placeId": 132929771812494,
-      "name": "[🦃UPD] Cameraman Tower Defense"
-    },
-    {
-      "rank": 55,
       "universeId": 10774497765,
       "placeId": 135753683017288,
       "name": "[🏴‍☠️] Throw a Friend for Monsters"
     },
     {
-      "rank": 56,
+      "rank": 55,
       "universeId": 8172250815,
       "placeId": 128828638194450,
       "name": "[UPD 1 🦃] STAND OUT"
+    },
+    {
+      "rank": 56,
+      "universeId": 10762636904,
+      "placeId": 132929771812494,
+      "name": "[🦃UPD] Cameraman Tower Defense"
     },
     {
       "rank": 57,
@@ -358,21 +358,21 @@
     },
     {
       "rank": 60,
-      "universeId": 10769851460,
-      "placeId": 83048653078891,
-      "name": "[🏦HEISTS] Criminal Simulator 💰"
-    },
-    {
-      "rank": 61,
       "universeId": 10773149360,
       "placeId": 73547227876007,
       "name": "Half Punch"
     },
     {
-      "rank": 62,
+      "rank": 61,
       "universeId": 703124385,
       "placeId": 1962086868,
       "name": "Tower of Hell"
+    },
+    {
+      "rank": 62,
+      "universeId": 10769851460,
+      "placeId": 83048653078891,
+      "name": "[🏦HEISTS] Criminal Simulator 💰"
     },
     {
       "rank": 63,
@@ -382,15 +382,15 @@
     },
     {
       "rank": 64,
-      "universeId": 9584852943,
-      "placeId": 95082159892680,
-      "name": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate"
-    },
-    {
-      "rank": 65,
       "universeId": 8178086002,
       "placeId": 117713779364528,
       "name": "[UPD] Lethal Ape Experience"
+    },
+    {
+      "rank": 65,
+      "universeId": 9584852943,
+      "placeId": 95082159892680,
+      "name": "[X2] +1 Speed Keyboard Escape | Candy & Chocolate"
     },
     {
       "rank": 66,
@@ -406,63 +406,63 @@
     },
     {
       "rank": 68,
-      "universeId": 10776408857,
-      "placeId": 120413462077800,
-      "name": "Steal with Spider Arms🕷️"
-    },
-    {
-      "rank": 69,
-      "universeId": 10778869268,
-      "placeId": 98487757108234,
-      "name": "The Great Build"
-    },
-    {
-      "rank": 70,
       "universeId": 1831550657,
       "placeId": 5233782396,
       "name": "🦖 Creatures of Sonaria ✨ Survive Kaiju Animals"
     },
     {
-      "rank": 71,
+      "rank": 69,
       "universeId": 9469309118,
       "placeId": 113450637321433,
       "name": "Build a Bakery 🥐"
     },
     {
-      "rank": 72,
+      "rank": 70,
       "universeId": 10769671316,
       "placeId": 77900175935766,
       "name": "🦃 Survive Your Ideas"
     },
     {
-      "rank": 73,
-      "universeId": 7529591378,
-      "placeId": 80681221431821,
-      "name": "[THANKSGIVING] Practical Basketball"
+      "rank": 71,
+      "universeId": 10776408857,
+      "placeId": 120413462077800,
+      "name": "Steal with Spider Arms🕷️"
     },
     {
-      "rank": 74,
+      "rank": 72,
+      "universeId": 10778869268,
+      "placeId": 98487757108234,
+      "name": "The Great Build"
+    },
+    {
+      "rank": 73,
       "universeId": 7018190066,
       "placeId": 116495829188952,
       "name": "Dead Rails"
     },
     {
-      "rank": 75,
-      "universeId": 7436755782,
-      "placeId": 126884695634066,
-      "name": "[⚖️] Grow a Garden 🌶️"
+      "rank": 74,
+      "universeId": 7529591378,
+      "placeId": 80681221431821,
+      "name": "[THANKSGIVING] Practical Basketball"
     },
     {
-      "rank": 76,
+      "rank": 75,
       "universeId": 7671049560,
       "placeId": 76558904092080,
       "name": "The Forge [🪽x👹]"
     },
     {
-      "rank": 77,
+      "rank": 76,
       "universeId": 10764627709,
       "placeId": 107535308163741,
       "name": "[🍗] Huss Valley"
+    },
+    {
+      "rank": 77,
+      "universeId": 10770703729,
+      "placeId": 129382295065915,
+      "name": "🎃 KRN: Crosshair"
     },
     {
       "rank": 78,
@@ -472,33 +472,33 @@
     },
     {
       "rank": 79,
-      "universeId": 10770703729,
-      "placeId": 129382295065915,
-      "name": "🎃 KRN: Crosshair"
-    },
-    {
-      "rank": 80,
       "universeId": 5995470825,
       "placeId": 17516596118,
       "name": "[🔥THANKSGIVING] Hypershot"
     },
     {
-      "rank": 81,
+      "rank": 80,
       "universeId": 4342047058,
       "placeId": 12334109280,
       "name": "[UPDATE] Guts & Blackpowder"
     },
     {
-      "rank": 82,
-      "universeId": 10771881861,
-      "placeId": 108901361810209,
-      "name": "[LION🦁] FERAL 🐺 Animal Survival"
+      "rank": 81,
+      "universeId": 7436755782,
+      "placeId": 126884695634066,
+      "name": "[⚖️] Grow a Garden 🌶️"
     },
     {
-      "rank": 83,
+      "rank": 82,
       "universeId": 10774753641,
       "placeId": 120256203702735,
       "name": "Silent Killer Simulator"
+    },
+    {
+      "rank": 83,
+      "universeId": 10771881861,
+      "placeId": 108901361810209,
+      "name": "[LION🦁] FERAL 🐺 Animal Survival"
     },
     {
       "rank": 84,
@@ -520,45 +520,45 @@
     },
     {
       "rank": 87,
-      "universeId": 3310460039,
-      "placeId": 8712817601,
-      "name": "🚨BARRY'S PRISON RUN! (OBBY)"
-    },
-    {
-      "rank": 88,
       "universeId": 2936053166,
       "placeId": 7554888362,
       "name": "[🦑] Squid Game X"
     },
     {
+      "rank": 88,
+      "universeId": 3310460039,
+      "placeId": 8712817601,
+      "name": "🚨BARRY'S PRISON RUN! (OBBY)"
+    },
+    {
       "rank": 89,
-      "universeId": 10769941703,
-      "placeId": 134117451433332,
-      "name": "13 Days to Escape [ALPHA]"
-    },
-    {
-      "rank": 90,
-      "universeId": 10775016983,
-      "placeId": 137036044759831,
-      "name": "Mechs vs Kaiju's Ragdoll | [MAJOR UPDATE]"
-    },
-    {
-      "rank": 91,
       "universeId": 10770463307,
       "placeId": 71586501620185,
       "name": "Stop The Tsunami!"
     },
     {
+      "rank": 90,
+      "universeId": 10769941703,
+      "placeId": 134117451433332,
+      "name": "13 Days to Escape [ALPHA]"
+    },
+    {
+      "rank": 91,
+      "universeId": 2992873140,
+      "placeId": 7711635737,
+      "name": "Emergency Hamburg"
+    },
+    {
       "rank": 92,
-      "universeId": 10435409529,
-      "placeId": 118004288206075,
-      "name": "My Cookie Factory 🍪"
+      "universeId": 10775016983,
+      "placeId": 137036044759831,
+      "name": "Mechs vs Kaiju's Ragdoll | [MAJOR UPDATE]"
     },
     {
       "rank": 93,
-      "universeId": 10771421858,
-      "placeId": 119958473240233,
-      "name": "DONT SPLASH"
+      "universeId": 10435409529,
+      "placeId": 118004288206075,
+      "name": "My Cookie Factory 🍪"
     },
     {
       "rank": 94,
@@ -568,9 +568,9 @@
     },
     {
       "rank": 95,
-      "universeId": 2992873140,
-      "placeId": 7711635737,
-      "name": "Emergency Hamburg"
+      "universeId": 10771421858,
+      "placeId": 119958473240233,
+      "name": "DONT SPLASH"
     },
     {
       "rank": 96,
